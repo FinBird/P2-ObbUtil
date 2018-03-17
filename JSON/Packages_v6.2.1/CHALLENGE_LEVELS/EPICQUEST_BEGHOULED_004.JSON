@@ -1,0 +1,229 @@
+{
+    "#comment": "Beghouled - Epic Quest 004",
+    "objects": [
+        {
+            "objclass": "LevelDefinition",
+            "objdata": {
+                "Description": "[PLAYERS_EPIC_QUEST_BEGHOULED_BLITZ_001]",
+                "Loot": "RTID(DefaultLoot@LevelModules)",
+                "LevelNumber": 4,
+                "LevelPowerupSet": "LevelPowerupsBeghouled",
+                "Modules": [
+                    "RTID(BeghouledIntro@LevelModules)",
+                    "RTID(DefaultZombieWinCondition@LevelModules)",
+                    "RTID(RandomSpawner@CurrentLevel)",
+                    "RTID(BeghouledSeedBank@CurrentLevel)",
+                    "RTID(BeghouledArcade@LevelModules)",
+                    "RTID(BeghouledProps@.)"
+                ],
+                "MusicType": "MiniGame_B",
+                "Name": "[EPIC_QUEST_BEGHOULED_BLITZ_001_LEVEL_NAME]",
+                "NormalPresentTable": "egypt_normal_01",
+                "ShinyPresentTable": "egypt_shiny_01",
+                "StageModule": "RTID(IceageStage@LevelModules)"
+            }
+        },
+        {
+            "objclass": "BeghouledSeedBankProperties",
+            "aliases": [
+                "BeghouledSeedBank"
+            ],
+            "objdata": {
+                "PresetPlantList": [
+                    {
+                        "PlantType": "citron",
+                        "Level": -1
+                    },
+                    {
+                        "PlantType": "starfruit",
+                        "Level": -1
+                    },
+                    {
+                        "PlantType": "chardguard",
+                        "Level": -1
+                    },
+                    {
+                        "PlantType": "fumeshroom",
+                        "Level": -1
+                    }
+                ],
+                "BeghouledUpgradeList": [
+                    "snapdragon"
+                ],
+                "SelectionMethod": "beghouled"
+            }
+        },
+        {
+            "objclass": "BeghouledPresetProperties",
+            "aliases": [
+                "BeghouledProps"
+            ],
+            "objdata": {
+                "MatchesToWin": 125,
+                "InitialPlants": [
+                    "peashooter",
+                    "xshot",
+                    "bloomerang",
+                    "wallnut",
+                    "puffshroom"
+                ],
+                "UpgradeMap": [
+                    {
+                        "BasePlant": "peashooter",
+                        "UpgradedPlant": "citron"
+                    },
+                    {
+                        "BasePlant": "xshot",
+                        "UpgradedPlant": "starfruit"
+                    },
+                    {
+                        "BasePlant": "wallnut",
+                        "UpgradedPlant": "chardguard"
+                    },
+                    {
+                        "BasePlant": "puffshroom",
+                        "UpgradedPlant": "fumeshroom"
+                    },
+                    {
+                        "BasePlant": "fumeshroom",
+                        "UpgradedPlant": "snapdragon"
+                    }
+                ]
+            }
+        },
+        {
+            "objclass": "BeghouledZombieSpawnerProperties",
+            "aliases": [
+                "RandomSpawner"
+            ],
+            "objdata": {
+                "MatchCountsToStageAdvance": [
+                    {
+                        "MatchCount": 25,
+                        "StageNumber": 1
+                    },
+                    {
+                        "MatchCount": 35,
+                        "StageNumber": 2
+                    },
+                    {
+                        "MatchCount": 50,
+                        "StageNumber": 3
+                    },
+                    {
+                        "MatchCount": 53,
+                        "StageNumber": 4
+                    },
+                    {
+                        "MatchCount": 80,
+                        "StageNumber": 5
+                    },
+                    {
+                        "MatchCount": 83,
+                        "StageNumber": 6
+                    },
+                    {
+                        "MatchCount": 110,
+                        "StageNumber": 7
+                    }
+                ],
+                "Stages": [
+                    {
+                        "#comment": "Stage 0",
+                        "Types": [
+                            {
+                                "ZombieType": "iceage"
+                            },
+                            {
+                                "ZombieType": "iceage_armor1"
+                            },
+                            {
+                                "ZombieType": "iceage_imp"
+                            }
+                        ],
+                        "SpawnDelay": 2.0
+                    },
+                    {
+                        "#comment": "Stage 1",
+                        "Types": [
+                            {
+                                "ZombieType": "iceage_troglobite_1block"
+                            }
+                        ],
+                        "SpawnDelay": 2.0
+                    },
+                    {
+                        "#comment": "Stage 2",
+                        "Types": [
+                            {
+                                "ZombieType": "iceage_weaselhoarder"
+                            },
+                            {
+                                "ZombieType": "iceage"
+                            },
+                            {
+                                "ZombieType": "iceage_armor1"
+                            }
+                        ],
+                        "SpawnDelay": 1.8
+                    },
+                    {
+                        "#comment": "Stage 3",
+                        "Types": [
+                            {
+                                "ZombieType": "iceage_gargantuar"
+                            }
+                        ],
+                        "SpawnDelay": 15.0
+                    },
+                    {
+                        "#comment": "Stage 4",
+                        "Types": [
+                            {
+                                "ZombieType": "iceage_dodo"
+                            },
+                            {
+                                "ZombieType": "iceage_armor1"
+                            }
+                        ],
+                        "SpawnDelay": 1.8
+                    },
+                    {
+                        "#comment": "Stage 5",
+                        "Types": [
+                            {
+                                "ZombieType": "iceage_gargantuar"
+                            }
+                        ],
+                        "SpawnDelay": 15.0
+                    },
+                    {
+                        "#comment": "Stage 6",
+                        "Types": [
+                            {
+                                "ZombieType": "iceage_dodo"
+                            },
+                            {
+                                "ZombieType": "iceage_imp"
+                            },
+                            {
+                                "ZombieType": "iceage_armor2"
+                            }
+                        ],
+                        "SpawnDelay": 1.8
+                    },
+                    {
+                        "#comment": "Stage 7",
+                        "Types": [
+                            {
+                                "ZombieType": "iceage_armor3"
+                            }
+                        ],
+                        "SpawnDelay": 1.8
+                    }
+                ]
+            }
+        }
+    ],
+    "version": 1
+}

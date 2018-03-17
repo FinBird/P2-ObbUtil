@@ -1,0 +1,183 @@
+{
+    "#comment": "Beghouled - Epic Quest 002",
+    "objects": [
+        {
+            "objclass": "LevelDefinition",
+            "objdata": {
+                "Description": "[PLAYERS_EPIC_QUEST_BEGHOULED_BLITZ_001]",
+                "FirstIntroNarrative": "EPIC_QUEST_BEGHOULED_BLITZ_001_2_INTRO",
+                "Loot": "RTID(DefaultLoot@LevelModules)",
+                "LevelNumber": 2,
+                "LevelPowerupSet": "LevelPowerupsBeghouled",
+                "Modules": [
+                    "RTID(BeghouledIntro@LevelModules)",
+                    "RTID(DefaultZombieWinCondition@LevelModules)",
+                    "RTID(RandomSpawner@CurrentLevel)",
+                    "RTID(BeghouledSeedBank@CurrentLevel)",
+                    "RTID(BeghouledArcade@LevelModules)",
+                    "RTID(BeghouledProps@.)"
+                ],
+                "MusicType": "MiniGame_B",
+                "Name": "[EPIC_QUEST_BEGHOULED_BLITZ_001_LEVEL_NAME]",
+                "NormalPresentTable": "egypt_normal_01",
+                "ShinyPresentTable": "egypt_shiny_01",
+                "StageModule": "RTID(DarkStage@LevelModules)"
+            }
+        },
+        {
+            "objclass": "BeghouledSeedBankProperties",
+            "aliases": [
+                "BeghouledSeedBank"
+            ],
+            "objdata": {
+                "PresetPlantList": [
+                    {
+                        "PlantType": "repeater",
+                        "Level": -1
+                    },
+                    {
+                        "PlantType": "endurian",
+                        "Level": -1
+                    },
+                    {
+                        "PlantType": "torchwood",
+                        "Level": -1
+                    },
+                    {
+                        "PlantType": "fumeshroom",
+                        "Level": -1
+                    }
+                ],
+                "BeghouledUpgradeList": [
+                    "peanut"
+                ],
+                "SelectionMethod": "beghouled"
+            }
+        },
+        {
+            "objclass": "BeghouledPresetProperties",
+            "aliases": [
+                "BeghouledProps"
+            ],
+            "objdata": {
+                "MatchesToWin": 100,
+                "InitialPlants": [
+                    "peashooter",
+                    "wallnut",
+                    "puffshroom",
+                    "sunbean"
+                ],
+                "UpgradeMap": [
+                    {
+                        "BasePlant": "peashooter",
+                        "UpgradedPlant": "repeater"
+                    },
+                    {
+                        "BasePlant": "wallnut",
+                        "UpgradedPlant": "endurian"
+                    },
+                    {
+                        "BasePlant": "endurian",
+                        "UpgradedPlant": "peanut"
+                    },
+                    {
+                        "BasePlant": "sunbean",
+                        "UpgradedPlant": "torchwood"
+                    },
+                    {
+                        "BasePlant": "puffshroom",
+                        "UpgradedPlant": "fumeshroom"
+                    }
+                ]
+            }
+        },
+        {
+            "objclass": "BeghouledZombieSpawnerProperties",
+            "aliases": [
+                "RandomSpawner"
+            ],
+            "objdata": {
+                "MatchCountsToStageAdvance": [
+                    {
+                        "MatchCount": 25,
+                        "StageNumber": 1
+                    },
+                    {
+                        "MatchCount": 50,
+                        "StageNumber": 2
+                    },
+                    {
+                        "MatchCount": 80,
+                        "StageNumber": 3
+                    }
+                ],
+                "Stages": [
+                    {
+                        "#comment": "Stage 0",
+                        "Types": [
+                            {
+                                "ZombieType": "beghouled_dark"
+                            },
+                            {
+                                "ZombieType": "beghouled_dark_armor1"
+                            },
+                            {
+                                "ZombieType": "dark_imp_dragon"
+                            }
+                        ],
+                        "SpawnDelay": 2.0
+                    },
+                    {
+                        "#comment": "Stage 1",
+                        "Types": [
+                            {
+                                "ZombieType": "dark_imp_dragon"
+                            },
+                            {
+                                "ZombieType": "dark"
+                            },
+                            {
+                                "ZombieType": "dark_armor1"
+                            }
+                        ],
+                        "SpawnDelay": 1.9
+                    },
+                    {
+                        "#comment": "Stage 2",
+                        "Types": [
+                            {
+                                "ZombieType": "dark_imp_dragon"
+                            },
+                            {
+                                "ZombieType": "dark_armor1"
+                            },
+                            {
+                                "ZombieType": "dark_armor2"
+                            }
+                        ],
+                        "SpawnDelay": 1.8
+                    },
+                    {
+                        "#comment": "Stage 3",
+                        "Types": [
+                            {
+                                "ZombieType": "dark_armor1"
+                            },
+                            {
+                                "ZombieType": "dark_armor2"
+                            },
+                            {
+                                "ZombieType": "dark_juggler"
+                            },
+                            {
+                                "ZombieType": "dark_juggler"
+                            }
+                        ],
+                        "SpawnDelay": 2.0
+                    }
+                ]
+            }
+        }
+    ],
+    "version": 1
+}

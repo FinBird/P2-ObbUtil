@@ -1,0 +1,183 @@
+{
+    "#comment": "Beghouled - Epic Quest 001",
+    "objects": [
+        {
+            "objclass": "LevelDefinition",
+            "objdata": {
+                "Description": "[PLAYERS_EPIC_QUEST_BEGHOULED_BLITZ_001]",
+                "FirstIntroNarrative": "EPIC_QUEST_BEGHOULED_BLITZ_001_1_INTRO",
+                "Loot": "RTID(DefaultLoot@LevelModules)",
+                "LevelNumber": 1,
+                "LevelPowerupSet": "LevelPowerupsBeghouled",
+                "Modules": [
+                    "RTID(BeghouledIntro@LevelModules)",
+                    "RTID(DefaultZombieWinCondition@LevelModules)",
+                    "RTID(RandomSpawner@CurrentLevel)",
+                    "RTID(BeghouledSeedBank@CurrentLevel)",
+                    "RTID(BeghouledArcade@LevelModules)",
+                    "RTID(BeghouledProps@.)"
+                ],
+                "MusicType": "MiniGame_B",
+                "Name": "[EPIC_QUEST_BEGHOULED_BLITZ_001_LEVEL_NAME]",
+                "NormalPresentTable": "egypt_normal_01",
+                "ShinyPresentTable": "egypt_shiny_01",
+                "StageModule": "RTID(EgyptStage@LevelModules)"
+            }
+        },
+        {
+            "objclass": "BeghouledSeedBankProperties",
+            "aliases": [
+                "BeghouledSeedBank"
+            ],
+            "objdata": {
+                "PresetPlantList": [
+                    {
+                        "PlantType": "snowpea",
+                        "Level": -1
+                    },
+                    {
+                        "PlantType": "bloomerang",
+                        "Level": -1
+                    },
+                    {
+                        "PlantType": "tallnut",
+                        "Level": -1
+                    },
+                    {
+                        "PlantType": "phatbeet",
+                        "Level": -1
+                    }
+                ],
+                "BeghouledUpgradeList": [
+                    "akee"
+                ],
+                "SelectionMethod": "beghouled"
+            }
+        },
+        {
+            "objclass": "BeghouledPresetProperties",
+            "aliases": [
+                "BeghouledProps"
+            ],
+            "objdata": {
+                "MatchesToWin": 125,
+                "InitialPlants": [
+                    "peashooter",
+                    "kernelpult",
+                    "wallnut",
+                    "bonkchoy"
+                ],
+                "UpgradeMap": [
+                    {
+                        "BasePlant": "peashooter",
+                        "UpgradedPlant": "snowpea"
+                    },
+                    {
+                        "BasePlant": "kernelpult",
+                        "UpgradedPlant": "bloomerang"
+                    },
+                    {
+                        "BasePlant": "bloomerang",
+                        "UpgradedPlant": "akee"
+                    },
+                    {
+                        "BasePlant": "wallnut",
+                        "UpgradedPlant": "tallnut"
+                    },
+                    {
+                        "BasePlant": "bonkchoy",
+                        "UpgradedPlant": "phatbeet"
+                    }
+                ]
+            }
+        },
+        {
+            "objclass": "BeghouledZombieSpawnerProperties",
+            "aliases": [
+                "RandomSpawner"
+            ],
+            "objdata": {
+                "MatchCountsToStageAdvance": [
+                    {
+                        "MatchCount": 25,
+                        "StageNumber": 1
+                    },
+                    {
+                        "MatchCount": 60,
+                        "StageNumber": 2
+                    },
+                    {
+                        "MatchCount": 100,
+                        "StageNumber": 3
+                    }
+                ],
+                "Stages": [
+                    {
+                        "#comment": "Stage 0",
+                        "Types": [
+                            {
+                                "ZombieType": "ra"
+                            },
+                            {
+                                "ZombieType": "egypt_imp"
+                            },
+                            {
+                                "ZombieType": "mummy"
+                            }
+                        ],
+                        "SpawnDelay": 2.0
+                    },
+                    {
+                        "#comment": "Stage 1",
+                        "Types": [
+                            {
+                                "ZombieType": "explorer"
+                            },
+                            {
+                                "ZombieType": "mummy"
+                            },
+                            {
+                                "ZombieType": "mummy_armor1"
+                            }
+                        ],
+                        "SpawnDelay": 2.0
+                    },
+                    {
+                        "#comment": "Stage 2",
+                        "Types": [
+                            {
+                                "ZombieType": "explorer"
+                            },
+                            {
+                                "ZombieType": "pharaoh"
+                            },
+                            {
+                                "ZombieType": "mummy"
+                            },
+                            {
+                                "ZombieType": "mummy_armor1"
+                            }
+                        ],
+                        "SpawnDelay": 1.9
+                    },
+                    {
+                        "#comment": "Stage 3",
+                        "Types": [
+                            {
+                                "ZombieType": "explorer"
+                            },
+                            {
+                                "ZombieType": "pharaoh"
+                            },
+                            {
+                                "ZombieType": "mummy_armor2"
+                            }
+                        ],
+                        "SpawnDelay": 1.8
+                    }
+                ]
+            }
+        }
+    ],
+    "version": 1
+}

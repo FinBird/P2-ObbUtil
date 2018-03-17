@@ -1,0 +1,83 @@
+{
+    "#comment": "PvZ2 Vasebreaker level 1",
+    "version": 1,
+    "objects": [
+        {
+            "objclass": "LevelDefinition",
+            "objdata": {
+                "LevelNumber": 1,
+                "Name": "[VASEBREAKER_PIRATE_LEVEL_NAME_1]",
+                "IsVasebreaker": true,
+                "LevelPowerupSet": "LevelPowerupsVasebreaker",
+                "Description": "",
+                "StageModule": "RTID(PirateStage@LevelModules)",
+                "Loot": "RTID(DefaultLoot@LevelModules)",
+                "FirstRewardParam": "big_moneybag",
+                "Modules": [
+                    "RTID(VaseBreakerArcade@LevelModules)",
+                    "RTID(VaseBreakerProps@.)",
+                    "RTID(ZombiesDeadWinCon@LevelModules)",
+                    "RTID(DefaultZombieWinCondition@LevelModules)",
+                    "RTID(PiratePlanks@CurrentLevel)"
+                ]
+            }
+        },
+        {
+            "aliases": [
+                "PiratePlanks"
+            ],
+            "objclass": "PiratePlankProperties",
+            "objdata": {
+                "PlankRows": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        },
+        {
+            "objclass": "VaseBreakerPresetProperties",
+            "aliases": [
+                "VaseBreakerProps"
+            ],
+            "objdata": {
+                "MinColumnIndex": 3,
+                "MaxColumnIndex": 8,
+                "Vases": [
+                    {
+                        "ZombieTypeName": "pirate",
+                        "Count": 8
+                    },
+                    {
+                        "ZombieTypeName": "pirate_armor1",
+                        "Count": 6
+                    },
+                    {
+                        "ZombieTypeName": "seagull",
+                        "Count": 4
+                    },
+                    {
+                        "PlantTypeName": "spikeweed",
+                        "Count": 5
+                    },
+                    {
+                        "PlantTypeName": "wallnut",
+                        "Count": 3
+                    },
+                    {
+                        "PlantTypeName": "threepeater",
+                        "Count": 3
+                    },
+                    {
+                        "CollectableTypeName": "plantfood",
+                        "Count": 1
+                    }
+                ],
+                "NumColoredPlantVases": 3,
+                "NumColoredZombieVases": 0
+            }
+        }
+    ]
+}

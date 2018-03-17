@@ -1,0 +1,237 @@
+{
+    "#comment": "VaseBreaker test!",
+    "version": 1,
+    "objects": [
+        {
+            "objclass": "LevelDefinition",
+            "objdata": {
+                "Name": "[VASEBREAKER_ENDLESS_LEVEL_NAME]",
+                "IsVasebreaker": true,
+                "LevelPowerupSet": "LevelPowerupsVasebreaker",
+                "Description": "",
+                "StageModule": "RTID(FrontLawnStage@LevelModules)",
+                "Loot": "RTID(DefaultLoot@LevelModules)",
+                "StartingSun": 0,
+                "AddBonusStartingSun": false,
+                "DisableRestart": true,
+                "Modules": [
+                    "RTID(VaseBreakerArcade@LevelModules)",
+                    "RTID(TestVaseBreaker@.)",
+                    "RTID(ZombiesDeadWinCon@LevelModules)",
+                    "RTID(DefaultZombieWinCondition@LevelModules)",
+                    "RTID(SeedBank@CurrentLevel)"
+                ]
+            }
+        },
+        {
+            "aliases": [
+                "SeedBank"
+            ],
+            "objclass": "SeedBankProperties",
+            "objdata": {
+                "PresetPlantList": [
+                    {
+                        "PlantType": "cherry_bomb",
+                        "Level": -1
+                    }
+                ],
+                "SelectionMethod": "preset"
+            }
+        },
+        {
+            "objclass": "VaseBreakerEndlessProperties",
+            "aliases": [
+                "TestVaseBreaker"
+            ],
+            "objdata": {
+                "VaseGridItemType": "vase",
+                "TestEndlessLevel": 0,
+                "Stages": [
+                    {
+                        "StartingLevel": 1,
+                        "MinColumnIndex": 3,
+                        "MaxColumnIndex": 8,
+                        "EscalationRate": 1,
+                        "NumberOfColoredPlants": 3,
+                        "PlantTypes": [
+                            {
+                                "Type": "splitpea",
+                                "Count": 5
+                            },
+                            {
+                                "Type": "repeater",
+                                "Count": 3
+                            },
+                            {
+                                "Type": "threepeater",
+                                "Count": 2
+                            },
+                            {
+                                "Type": "bonkchoy",
+                                "Count": 2
+                            },
+                            {
+                                "Type": "potatomine",
+                                "Count": 2
+                            },
+                            {
+                                "Type": "wallnut",
+                                "Count": 1
+                            }
+                        ],
+                        "CollectableTypes": [
+                            {
+                                "Type": "sun",
+                                "Count": 1
+                            },
+                            {
+                                "Type": "plantfood",
+                                "Count": 1
+                            }
+                        ],
+                        "FixedZombieTypes": [
+                            {
+                                "Type": "tutorial",
+                                "Count": 8
+                            },
+                            {
+                                "Type": "tutorial_armor1",
+                                "Count": 3
+                            },
+                            {
+                                "Type": "tutorial_armor2",
+                                "Count": 1
+                            },
+                            {
+                                "Type": "vase_gargantuar",
+                                "Count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "StartingLevel": 6,
+                        "MinColumnIndex": 2,
+                        "MaxColumnIndex": 8,
+                        "EscalationRate": 1,
+                        "NumberOfColoredPlants": 3,
+                        "PlantTypes": [
+                            {
+                                "Type": "splitpea",
+                                "Count": 5
+                            },
+                            {
+                                "Type": "threepeater",
+                                "Count": 2
+                            },
+                            {
+                                "Type": "repeater",
+                                "Count": 3
+                            },
+                            {
+                                "Type": "bonkchoy",
+                                "Count": 2
+                            },
+                            {
+                                "Type": "potatomine",
+                                "Count": 2
+                            },
+                            {
+                                "Type": "wallnut",
+                                "Count": 1
+                            }
+                        ],
+                        "CollectableTypes": [
+                            {
+                                "Type": "sun",
+                                "Count": 1
+                            },
+                            {
+                                "Type": "plantfood",
+                                "Count": 1
+                            }
+                        ],
+                        "FixedZombieTypes": [
+                            {
+                                "Type": "tutorial",
+                                "Count": 11
+                            },
+                            {
+                                "Type": "tutorial_armor1",
+                                "Count": 4
+                            },
+                            {
+                                "Type": "tutorial_armor2",
+                                "Count": 2
+                            },
+                            {
+                                "Type": "vase_gargantuar",
+                                "Count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "StartingLevel": 11,
+                        "EscalationRate": 10,
+                        "MinColumnIndex": 2,
+                        "MaxColumnIndex": 8,
+                        "NumberOfColoredPlants": 3,
+                        "PlantTypes": [
+                            {
+                                "Type": "splitpea",
+                                "Count": 5
+                            },
+                            {
+                                "Type": "threepeater",
+                                "Count": 2
+                            },
+                            {
+                                "Type": "repeater",
+                                "Count": 3
+                            },
+                            {
+                                "Type": "bonkchoy",
+                                "Count": 2
+                            },
+                            {
+                                "Type": "potatomine",
+                                "Count": 2
+                            },
+                            {
+                                "Type": "wallnut",
+                                "Count": 1
+                            }
+                        ],
+                        "CollectableTypes": [
+                            {
+                                "Type": "sun",
+                                "Count": 1
+                            },
+                            {
+                                "Type": "plantfood",
+                                "Count": 1
+                            }
+                        ],
+                        "EscalatingZombieTypes": [
+                            {
+                                "Type": "tutorial",
+                                "Count": 10
+                            },
+                            {
+                                "Type": "tutorial_armor1",
+                                "Count": 4
+                            },
+                            {
+                                "Type": "tutorial_armor2",
+                                "Count": 2
+                            },
+                            {
+                                "Type": "vase_gargantuar",
+                                "Count": 2
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}

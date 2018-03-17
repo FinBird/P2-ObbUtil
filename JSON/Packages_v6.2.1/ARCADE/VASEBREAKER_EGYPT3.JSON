@@ -1,0 +1,77 @@
+{
+    "#comment": "PvZ1 Vasebreaker level 1",
+    "version": 1,
+    "objects": [
+        {
+            "objclass": "LevelDefinition",
+            "objdata": {
+                "LevelNumber": 3,
+                "CompletionAchievement": "egypt_vasebreaker_pack",
+                "Name": "[VASEBREAKER_EGYPT_LEVEL_NAME_3]",
+                "IsVasebreaker": true,
+                "LevelPowerupSet": "LevelPowerupsVasebreaker",
+                "Description": "",
+                "FirstRewardType": "powerupgadget",
+                "FirstRewardParam": "powerupvasebreakerbutter",
+                "StageModule": "RTID(EgyptStage@LevelModules)",
+                "Loot": "RTID(DefaultLoot@LevelModules)",
+                "Modules": [
+                    "RTID(VaseBreakerArcade@LevelModules)",
+                    "RTID(VaseBreakerProps@.)",
+                    "RTID(ZombiesDeadWinCon@LevelModules)",
+                    "RTID(DefaultZombieWinCondition@LevelModules)"
+                ]
+            }
+        },
+        {
+            "objclass": "VaseBreakerPresetProperties",
+            "aliases": [
+                "VaseBreakerProps"
+            ],
+            "objdata": {
+                "MinColumnIndex": 3,
+                "MaxColumnIndex": 8,
+                "Vases": [
+                    {
+                        "ZombieTypeName": "mummy",
+                        "Count": 4
+                    },
+                    {
+                        "ZombieTypeName": "mummy_armor1",
+                        "Count": 3
+                    },
+                    {
+                        "ZombieTypeName": "mummy_armor2",
+                        "Count": 2
+                    },
+                    {
+                        "ZombieTypeName": "pharaoh",
+                        "Count": 6
+                    },
+                    {
+                        "PlantTypeName": "repeater",
+                        "Count": 5
+                    },
+                    {
+                        "PlantTypeName": "spikerock",
+                        "Count": 4
+                    },
+                    {
+                        "PlantTypeName": "wallnut",
+                        "Count": 4
+                    },
+                    {
+                        "PlantTypeName": "potatomine",
+                        "Count": 1
+                    },
+                    {
+                        "CollectableTypeName": "plantfood",
+                        "Count": 1
+                    }
+                ],
+                "NumColoredPlantVases": 3,
+                "NumColoredZombieVases": 0
+            }
+        }
+    ]
+}

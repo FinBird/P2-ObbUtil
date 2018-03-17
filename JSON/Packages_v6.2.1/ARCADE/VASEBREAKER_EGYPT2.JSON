@@ -1,0 +1,75 @@
+{
+    "#comment": "PvZ2 Vasebreaker level 1",
+    "version": 1,
+    "objects": [
+        {
+            "objclass": "LevelDefinition",
+            "objdata": {
+                "LevelNumber": 2,
+                "Name": "[VASEBREAKER_EGYPT_LEVEL_NAME_2]",
+                "IsVasebreaker": true,
+                "LevelPowerupSet": "LevelPowerupsVasebreaker",
+                "Description": "",
+                "StageModule": "RTID(EgyptStage@LevelModules)",
+                "Loot": "RTID(DefaultLoot@LevelModules)",
+                "FirstRewardParam": "big_moneybag",
+                "Modules": [
+                    "RTID(VaseBreakerArcade@LevelModules)",
+                    "RTID(VaseBreakerProps@.)",
+                    "RTID(ZombiesDeadWinCon@LevelModules)",
+                    "RTID(DefaultZombieWinCondition@LevelModules)"
+                ]
+            }
+        },
+        {
+            "objclass": "VaseBreakerPresetProperties",
+            "aliases": [
+                "VaseBreakerProps"
+            ],
+            "objdata": {
+                "MinColumnIndex": 3,
+                "MaxColumnIndex": 8,
+                "Vases": [
+                    {
+                        "ZombieTypeName": "mummy",
+                        "Count": 4
+                    },
+                    {
+                        "ZombieTypeName": "mummy_armor1",
+                        "Count": 2
+                    },
+                    {
+                        "ZombieTypeName": "mummy_armor2",
+                        "Count": 1
+                    },
+                    {
+                        "ZombieTypeName": "explorer",
+                        "Count": 7
+                    },
+                    {
+                        "PlantTypeName": "cabbagepult",
+                        "Count": 5
+                    },
+                    {
+                        "PlantTypeName": "iceburg",
+                        "Count": 5
+                    },
+                    {
+                        "PlantTypeName": "repeater",
+                        "Count": 3
+                    },
+                    {
+                        "PlantTypeName": "potatomine",
+                        "Count": 2
+                    },
+                    {
+                        "CollectableTypeName": "plantfood",
+                        "Count": 1
+                    }
+                ],
+                "NumColoredPlantVases": 3,
+                "NumColoredZombieVases": 0
+            }
+        }
+    ]
+}

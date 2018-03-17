@@ -1,0 +1,103 @@
+{
+    "#comment": "PvZ2 Vasebreaker level 3",
+    "version": 1,
+    "objects": [
+        {
+            "objclass": "LevelDefinition",
+            "objdata": {
+                "LevelNumber": 3,
+                "Name": "[VASEBREAKER_DARK_LEVEL_NAME_3]",
+                "IsVasebreaker": true,
+                "LevelPowerupSet": "LevelPowerupsVasebreaker",
+                "Description": "",
+                "StageModule": "RTID(DarkStage@LevelModules)",
+                "Loot": "RTID(DefaultLoot@LevelModules)",
+                "FirstRewardType": "giftbox",
+                "Modules": [
+                    "RTID(VaseBreakerArcade@LevelModules)",
+                    "RTID(VaseBreakerProps@.)",
+                    "RTID(Gravestones@CurrentLevel)",
+                    "RTID(ZombiesDeadWinCon@LevelModules)",
+                    "RTID(DefaultZombieWinCondition@LevelModules)"
+                ]
+            }
+        },
+        {
+            "aliases": [
+                "Gravestones"
+            ],
+            "objclass": "GravestoneProperties",
+            "objdata": {
+                "ForceSpawnData": [
+                    {
+                        "GridX": 3,
+                        "GridY": 0,
+                        "TypeName": "gravestone_dark"
+                    },
+                    {
+                        "GridX": 3,
+                        "GridY": 1,
+                        "TypeName": "gravestone_dark"
+                    },
+                    {
+                        "GridX": 3,
+                        "GridY": 2,
+                        "TypeName": "gravestonePlantfoodOnDestruction"
+                    },
+                    {
+                        "GridX": 3,
+                        "GridY": 3,
+                        "TypeName": "gravestone_dark"
+                    },
+                    {
+                        "GridX": 3,
+                        "GridY": 4,
+                        "TypeName": "gravestone_dark"
+                    }
+                ]
+            }
+        },
+        {
+            "objclass": "VaseBreakerPresetProperties",
+            "aliases": [
+                "VaseBreakerProps"
+            ],
+            "objdata": {
+                "MinColumnIndex": 4,
+                "MaxColumnIndex": 8,
+                "Vases": [
+                    {
+                        "ZombieTypeName": "dark",
+                        "Count": 5
+                    },
+                    {
+                        "ZombieTypeName": "dark_armor1",
+                        "Count": 2
+                    },
+                    {
+                        "ZombieTypeName": "dark_armor2",
+                        "Count": 7
+                    },
+                    {
+                        "PlantTypeName": "puffshroom",
+                        "Count": 7
+                    },
+                    {
+                        "PlantTypeName": "magnetshroom",
+                        "Count": 2
+                    },
+                    {
+                        "PlantTypeName": "wallnut",
+                        "Count": 2
+                    },
+                    {
+                        "CollectableTypeName": "plantfood",
+                        "Count": 0
+                    }
+                ],
+                "NumColoredPlantVases": 3,
+                "NumColoredZombieVases": 0
+            }
+        }
+    ]
+}

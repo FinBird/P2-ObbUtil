@@ -1,0 +1,116 @@
+{
+    "#comment": "PvZ2 Vasebreaker level 1",
+    "version": 1,
+    "objects": [
+        {
+            "objclass": "LevelDefinition",
+            "objdata": {
+                "LevelNumber": 3,
+                "CompletionAchievement": "cowboy_vasebreaker_pack",
+                "Name": "[VASEBREAKER_WEST_LEVEL_NAME_3]",
+                "IsVasebreaker": true,
+                "LevelPowerupSet": "LevelPowerupsVasebreaker",
+                "Description": "",
+                "StageModule": "RTID(WestStage@LevelModules)",
+                "Loot": "RTID(DefaultLoot@LevelModules)",
+                "FirstRewardType": "giftbox",
+                "Modules": [
+                    "RTID(VaseBreakerArcade@LevelModules)",
+                    "RTID(VaseBreakerProps@.)",
+                    "RTID(ZombiesDeadWinCon@LevelModules)",
+                    "RTID(DefaultZombieWinCondition@LevelModules)",
+                    "RTID(CowboyRails@CurrentLevel)"
+                ]
+            }
+        },
+        {
+            "aliases": [
+                "CowboyRails"
+            ],
+            "objclass": "RailcartProperties",
+            "objdata": {
+                "RailcartType": "railcart_cowboy",
+                "Railcarts": [
+                    {
+                        "Column": 0,
+                        "Row": 2
+                    },
+                    {
+                        "Column": 8,
+                        "Row": 2
+                    }
+                ],
+                "Rails": [
+                    {
+                        "Column": 0,
+                        "RowEnd": 4,
+                        "RowStart": 0
+                    },
+                    {
+                        "Column": 8,
+                        "RowEnd": 4,
+                        "RowStart": 0
+                    }
+                ]
+            }
+        },
+        {
+            "objclass": "VaseBreakerPresetProperties",
+            "aliases": [
+                "VaseBreakerProps"
+            ],
+            "objdata": {
+                "MinColumnIndex": 1,
+                "MaxColumnIndex": 7,
+                "Vases": [
+                    {
+                        "ZombieTypeName": "cowboy_armor1",
+                        "Count": 3
+                    },
+                    {
+                        "ZombieTypeName": "cowboy_armor2",
+                        "Count": 2
+                    },
+                    {
+                        "ZombieTypeName": "prospector",
+                        "Count": 3
+                    },
+                    {
+                        "ZombieTypeName": "poncho_plate",
+                        "Count": 6
+                    },
+                    {
+                        "ZombieTypeName": "poncho_no_plate",
+                        "Count": 3
+                    },
+                    {
+                        "ZombieTypeName": "west_bull",
+                        "Count": 1
+                    },
+                    {
+                        "PlantTypeName": "splitpea",
+                        "Count": 5
+                    },
+                    {
+                        "PlantTypeName": "peashooter",
+                        "Count": 2
+                    },
+                    {
+                        "PlantTypeName": "iceburg",
+                        "Count": 4
+                    },
+                    {
+                        "PlantTypeName": "potatomine",
+                        "Count": 5
+                    },
+                    {
+                        "CollectableTypeName": "plantfood",
+                        "Count": 1
+                    }
+                ],
+                "NumColoredPlantVases": 3,
+                "NumColoredZombieVases": 0
+            }
+        }
+    ]
+}

@@ -1,0 +1,119 @@
+{
+    "#comment": "PvZ2 Vasebreaker level 1",
+    "version": 1,
+    "objects": [
+        {
+            "objclass": "LevelDefinition",
+            "objdata": {
+                "LevelNumber": 1,
+                "Name": "[VASEBREAKER_BEACH_LEVEL_NAME_1]",
+                "IsVasebreaker": true,
+                "LevelPowerupSet": "LevelPowerupsVasebreaker",
+                "Description": "",
+                "StageModule": "RTID(BeachStage@LevelModules)",
+                "Loot": "RTID(DefaultLoot@LevelModules)",
+                "FirstRewardParam": "big_moneybag",
+                "Modules": [
+                    "RTID(VaseBreakerArcade@LevelModules)",
+                    "RTID(VaseBreakerProps@.)",
+                    "RTID(ZombiesDeadWinCon@LevelModules)",
+                    "RTID(DefaultZombieWinCondition@LevelModules)",
+                    "RTID(Tide@CurrentLevel)"
+                ]
+            }
+        },
+        {
+            "aliases": [
+                "Tide"
+            ],
+            "objclass": "TideProperties",
+            "objdata": {
+                "StartingWaveLocation": 4
+            }
+        },
+        {
+            "objclass": "VaseBreakerPresetProperties",
+            "aliases": [
+                "VaseBreakerProps"
+            ],
+            "objdata": {
+                "MinColumnIndex": 2,
+                "MaxColumnIndex": 8,
+                "GridSquareBlacklist": [
+                    {
+                        "mX": 4,
+                        "mY": 0
+                    },
+                    {
+                        "mX": 5,
+                        "mY": 1
+                    },
+                    {
+                        "mX": 6,
+                        "mY": 2
+                    },
+                    {
+                        "mX": 5,
+                        "mY": 3
+                    },
+                    {
+                        "mX": 4,
+                        "mY": 4
+                    }
+                ],
+                "Vases": [
+                    {
+                        "ZombieTypeName": "beach",
+                        "Count": 4
+                    },
+                    {
+                        "ZombieTypeName": "beach_armor1",
+                        "Count": 2
+                    },
+                    {
+                        "ZombieTypeName": "beach_armor2",
+                        "Count": 1
+                    },
+                    {
+                        "ZombieTypeName": "beach_fem",
+                        "Count": 4
+                    },
+                    {
+                        "ZombieTypeName": "beach_fem_armor1",
+                        "Count": 2
+                    },
+                    {
+                        "ZombieTypeName": "beach_fem_armor2",
+                        "Count": 1
+                    },
+                    {
+                        "ZombieTypeName": "beach_snorkel",
+                        "Count": 3
+                    },
+                    {
+                        "ZombieTypeName": "beach_imp",
+                        "Count": 4
+                    },
+                    {
+                        "PlantTypeName": "wallnut",
+                        "Count": 2
+                    },
+                    {
+                        "PlantTypeName": "bowlingbulb",
+                        "Count": 3
+                    },
+                    {
+                        "PlantTypeName": "homingthistle",
+                        "Count": 4
+                    },
+                    {
+                        "CollectableTypeName": "plantfood",
+                        "Count": 0
+                    }
+                ],
+                "NumColoredPlantVases": 3,
+                "NumColoredZombieVases": 2
+            }
+        }
+    ]
+}

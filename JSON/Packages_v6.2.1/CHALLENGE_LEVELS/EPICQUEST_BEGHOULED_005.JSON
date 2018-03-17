@@ -1,0 +1,281 @@
+{
+    "#comment": "Beghouled - Epic Quest 005",
+    "objects": [
+        {
+            "objclass": "LevelDefinition",
+            "objdata": {
+                "Description": "[PLAYERS_EPIC_QUEST_BEGHOULED_BLITZ_001]",
+                "FirstOutroNarrative": "EPIC_QUEST_BEGHOULED_BLITZ_001_5_OUTRO",
+                "Loot": "RTID(DefaultLoot@LevelModules)",
+                "LevelNumber": 5,
+                "LevelPowerupSet": "LevelPowerupsBeghouled",
+                "Modules": [
+                    "RTID(BeghouledIntro@LevelModules)",
+                    "RTID(DefaultZombieWinCondition@LevelModules)",
+                    "RTID(RandomSpawner@CurrentLevel)",
+                    "RTID(BeghouledSeedBank@CurrentLevel)",
+                    "RTID(BeghouledArcade@LevelModules)",
+                    "RTID(BeghouledProps@.)"
+                ],
+                "MusicType": "MiniGame_B",
+                "Name": "[EPIC_QUEST_BEGHOULED_BLITZ_001_LEVEL_NAME]",
+                "NormalPresentTable": "egypt_normal_01",
+                "ShinyPresentTable": "egypt_shiny_01",
+                "StageModule": "RTID(LostCityStage@LevelModules)"
+            }
+        },
+        {
+            "objclass": "BeghouledSeedBankProperties",
+            "aliases": [
+                "BeghouledSeedBank"
+            ],
+            "objdata": {
+                "PresetPlantList": [
+                    {
+                        "PlantType": "laser_bean",
+                        "Level": -1
+                    },
+                    {
+                        "PlantType": "melonpult",
+                        "Level": -1
+                    },
+                    {
+                        "PlantType": "chardguard",
+                        "Level": -1
+                    },
+                    {
+                        "PlantType": "phatbeet",
+                        "Level": -1
+                    },
+                    {
+                        "PlantType": "primalsunflower",
+                        "Level": -1
+                    }
+                ],
+                "BeghouledUpgradeList": [
+                    "twinsunflower",
+                    "wintermelon"
+                ],
+                "SelectionMethod": "beghouled"
+            }
+        },
+        {
+            "objclass": "BeghouledPresetProperties",
+            "aliases": [
+                "BeghouledProps"
+            ],
+            "objdata": {
+                "MatchesToWin": 150,
+                "InitialPlants": [
+                    "lightningreed",
+                    "cabbagepult",
+                    "bonkchoy",
+                    "endurian",
+                    "sunflower"
+                ],
+                "UpgradeMap": [
+                    {
+                        "BasePlant": "lightningreed",
+                        "UpgradedPlant": "laser_bean"
+                    },
+                    {
+                        "BasePlant": "cabbagepult",
+                        "UpgradedPlant": "melonpult"
+                    },
+                    {
+                        "BasePlant": "melonpult",
+                        "UpgradedPlant": "wintermelon"
+                    },
+                    {
+                        "BasePlant": "bonkchoy",
+                        "UpgradedPlant": "phatbeet"
+                    },
+                    {
+                        "BasePlant": "endurian",
+                        "UpgradedPlant": "chardguard"
+                    },
+                    {
+                        "BasePlant": "sunflower",
+                        "UpgradedPlant": "primalsunflower"
+                    },
+                    {
+                        "BasePlant": "primalsunflower",
+                        "UpgradedPlant": "twinsunflower"
+                    }
+                ]
+            }
+        },
+        {
+            "objclass": "BeghouledZombieSpawnerProperties",
+            "aliases": [
+                "RandomSpawner"
+            ],
+            "objdata": {
+                "MatchCountsToStageAdvance": [
+                    {
+                        "MatchCount": 25,
+                        "StageNumber": 1
+                    },
+                    {
+                        "MatchCount": 28,
+                        "StageNumber": 2
+                    },
+                    {
+                        "MatchCount": 50,
+                        "StageNumber": 3
+                    },
+                    {
+                        "MatchCount": 53,
+                        "StageNumber": 4
+                    },
+                    {
+                        "MatchCount": 75,
+                        "StageNumber": 5
+                    },
+                    {
+                        "MatchCount": 78,
+                        "StageNumber": 6
+                    },
+                    {
+                        "MatchCount": 100,
+                        "StageNumber": 7
+                    },
+                    {
+                        "MatchCount": 105,
+                        "StageNumber": 8
+                    },
+                    {
+                        "MatchCount": 135,
+                        "StageNumber": 9
+                    }
+                ],
+                "Stages": [
+                    {
+                        "#comment": "Stage 0",
+                        "Types": [
+                            {
+                                "ZombieType": "beghouled_lostcity"
+                            },
+                            {
+                                "ZombieType": "beghouled_lostcity_armor1"
+                            },
+                            {
+                                "ZombieType": "lostcity_imp"
+                            }
+                        ],
+                        "SpawnDelay": 2.0
+                    },
+                    {
+                        "#comment": "Stage 1",
+                        "Types": [
+                            {
+                                "ZombieType": "lostcity_relichunter"
+                            }
+                        ],
+                        "SpawnDelay": 4.0
+                    },
+                    {
+                        "#comment": "Stage 2",
+                        "Types": [
+                            {
+                                "ZombieType": "lostcity"
+                            },
+                            {
+                                "ZombieType": "lostcity_imp"
+                            },
+                            {
+                                "ZombieType": "lostcity_bug"
+                            }
+                        ],
+                        "SpawnDelay": 2.0
+                    },
+                    {
+                        "#comment": "Stage 3",
+                        "Types": [
+                            {
+                                "ZombieType": "lostcity_relichunter"
+                            }
+                        ],
+                        "SpawnDelay": 3.5
+                    },
+                    {
+                        "#comment": "Stage 4",
+                        "Types": [
+                            {
+                                "ZombieType": "lostcity"
+                            },
+                            {
+                                "ZombieType": "lostcity_armor1"
+                            },
+                            {
+                                "ZombieType": "lostcity_bug"
+                            }
+                        ],
+                        "SpawnDelay": 2.0
+                    },
+                    {
+                        "#comment": "Stage 5",
+                        "Types": [
+                            {
+                                "ZombieType": "lostcity_relichunter"
+                            }
+                        ],
+                        "SpawnDelay": 3.0
+                    },
+                    {
+                        "#comment": "Stage 6",
+                        "Types": [
+                            {
+                                "ZombieType": "lostcity"
+                            },
+                            {
+                                "ZombieType": "lostcity_imp"
+                            },
+                            {
+                                "ZombieType": "lostcity_jane"
+                            }
+                        ],
+                        "SpawnDelay": 1.8
+                    },
+                    {
+                        "#comment": "Stage 7",
+                        "Types": [
+                            {
+                                "ZombieType": "lostcity_relichunter"
+                            }
+                        ],
+                        "SpawnDelay": 2.0
+                    },
+                    {
+                        "#comment": "Stage 8",
+                        "Types": [
+                            {
+                                "ZombieType": "lostcity"
+                            },
+                            {
+                                "ZombieType": "lostcity_armor1"
+                            },
+                            {
+                                "ZombieType": "lostcity_armor2"
+                            },
+                            {
+                                "ZombieType": "lostcity_crystalskull"
+                            }
+                        ],
+                        "SpawnDelay": 1.9
+                    },
+                    {
+                        "#comment": "Stage 9",
+                        "Types": [
+                            {
+                                "ZombieType": "lostcity_gargantuar"
+                            }
+                        ],
+                        "SpawnDelay": 10.0
+                    }
+                ]
+            }
+        }
+    ],
+    "version": 1
+}

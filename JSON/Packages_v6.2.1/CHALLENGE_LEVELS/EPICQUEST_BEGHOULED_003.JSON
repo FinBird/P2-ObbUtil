@@ -1,0 +1,210 @@
+{
+    "#comment": "Beghouled - Epic Quest 003",
+    "objects": [
+        {
+            "objclass": "LevelDefinition",
+            "objdata": {
+                "Description": "[PLAYERS_EPIC_QUEST_BEGHOULED_BLITZ_001]",
+                "FirstIntroNarrative": "EPIC_QUEST_BEGHOULED_BLITZ_001_3_INTRO",
+                "Loot": "RTID(DefaultLoot@LevelModules)",
+                "LevelNumber": 3,
+                "LevelPowerupSet": "LevelPowerupsBeghouled",
+                "Modules": [
+                    "RTID(BeghouledIntro@LevelModules)",
+                    "RTID(DefaultZombieWinCondition@LevelModules)",
+                    "RTID(RandomSpawner@CurrentLevel)",
+                    "RTID(BeghouledSeedBank@CurrentLevel)",
+                    "RTID(BeghouledArcade@LevelModules)",
+                    "RTID(BeghouledProps@.)",
+                    "RTID(Tide@CurrentLevel)"
+                ],
+                "MusicType": "MiniGame_B",
+                "Name": "[EPIC_QUEST_BEGHOULED_BLITZ_001_LEVEL_NAME]",
+                "NormalPresentTable": "egypt_normal_01",
+                "ShinyPresentTable": "egypt_shiny_01",
+                "StageModule": "RTID(BeachStage@LevelModules)",
+                "SuppressSunSpawn": false
+            }
+        },
+        {
+            "aliases": [
+                "Tide"
+            ],
+            "objclass": "TideProperties",
+            "objdata": {
+                "StartingWaveLocation": 1
+            }
+        },
+        {
+            "objclass": "BeghouledSeedBankProperties",
+            "aliases": [
+                "BeghouledSeedBank"
+            ],
+            "objdata": {
+                "PresetPlantList": [
+                    {
+                        "PlantType": "dandelion",
+                        "Level": -1
+                    },
+                    {
+                        "PlantType": "coconutcannon",
+                        "Level": -1
+                    },
+                    {
+                        "PlantType": "melonpult",
+                        "Level": -1
+                    },
+                    {
+                        "PlantType": "tallnut",
+                        "Level": -1
+                    },
+                    {
+                        "PlantType": "twinsunflower",
+                        "Level": -1
+                    }
+                ],
+                "BeghouledUpgradeList": [],
+                "SelectionMethod": "beghouled"
+            }
+        },
+        {
+            "objclass": "BeghouledPresetProperties",
+            "aliases": [
+                "BeghouledProps"
+            ],
+            "objdata": {
+                "MatchesToWin": 110,
+                "InitialPlants": [
+                    "threepeater",
+                    "magnifyinggrass",
+                    "cabbagepult",
+                    "wallnut",
+                    "sunflower"
+                ],
+                "UpgradeMap": [
+                    {
+                        "BasePlant": "threepeater",
+                        "UpgradedPlant": "dandelion"
+                    },
+                    {
+                        "BasePlant": "magnifyinggrass",
+                        "UpgradedPlant": "coconutcannon"
+                    },
+                    {
+                        "BasePlant": "cabbagepult",
+                        "UpgradedPlant": "melonpult"
+                    },
+                    {
+                        "BasePlant": "wallnut",
+                        "UpgradedPlant": "tallnut"
+                    },
+                    {
+                        "BasePlant": "sunflower",
+                        "UpgradedPlant": "twinsunflower"
+                    }
+                ]
+            }
+        },
+        {
+            "objclass": "BeghouledZombieSpawnerProperties",
+            "aliases": [
+                "RandomSpawner"
+            ],
+            "objdata": {
+                "MatchCountsToStageAdvance": [
+                    {
+                        "MatchCount": 20,
+                        "StageNumber": 1
+                    },
+                    {
+                        "MatchCount": 40,
+                        "StageNumber": 2
+                    },
+                    {
+                        "MatchCount": 60,
+                        "StageNumber": 3
+                    },
+                    {
+                        "MatchCount": 90,
+                        "StageNumber": 4
+                    }
+                ],
+                "Stages": [
+                    {
+                        "#comment": "Stage 0",
+                        "Types": [
+                            {
+                                "ZombieType": "beach_imp"
+                            },
+                            {
+                                "ZombieType": "beach"
+                            },
+                            {
+                                "ZombieType": "beach_fem"
+                            }
+                        ],
+                        "SpawnDelay": 2.0
+                    },
+                    {
+                        "#comment": "Stage 1",
+                        "Types": [
+                            {
+                                "ZombieType": "beach_snorkel"
+                            },
+                            {
+                                "ZombieType": "beach_fem"
+                            },
+                            {
+                                "ZombieType": "beach_fem_armor1"
+                            }
+                        ],
+                        "SpawnDelay": 1.7
+                    },
+                    {
+                        "#comment": "Stage 2",
+                        "Types": [
+                            {
+                                "ZombieType": "beach_snorkel"
+                            },
+                            {
+                                "ZombieType": "beach_armor1"
+                            },
+                            {
+                                "ZombieType": "beach_fem_armor2"
+                            }
+                        ],
+                        "SpawnDelay": 1.6
+                    },
+                    {
+                        "#comment": "Stage 3",
+                        "Types": [
+                            {
+                                "ZombieType": "beach_octopus"
+                            },
+                            {
+                                "ZombieType": "beach_snorkel"
+                            },
+                            {
+                                "ZombieType": "beach_armor2"
+                            },
+                            {
+                                "ZombieType": "beach_fem_armor2"
+                            }
+                        ],
+                        "SpawnDelay": 1.5
+                    },
+                    {
+                        "#comment": "Stage 4",
+                        "Types": [
+                            {
+                                "ZombieType": "beach_octopus"
+                            }
+                        ],
+                        "SpawnDelay": 1.9
+                    }
+                ]
+            }
+        }
+    ],
+    "version": 1
+}

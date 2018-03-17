@@ -1,0 +1,126 @@
+{
+    "#comment": "PvZ2 Vasebreaker level 1",
+    "version": 1,
+    "objects": [
+        {
+            "objclass": "LevelDefinition",
+            "objdata": {
+                "LevelNumber": 2,
+                "Name": "[VASEBREAKER_FUTURE_LEVEL_NAME_2]",
+                "IsVasebreaker": true,
+                "LevelPowerupSet": "LevelPowerupsVasebreaker",
+                "Description": "",
+                "StageModule": "RTID(FutureStage@LevelModules)",
+                "Loot": "RTID(DefaultLoot@LevelModules)",
+                "FirstRewardParam": "big_moneybag",
+                "Modules": [
+                    "RTID(VaseBreakerArcade@LevelModules)",
+                    "RTID(VaseBreakerProps@.)",
+                    "RTID(ZombiesDeadWinCon@LevelModules)",
+                    "RTID(DefaultZombieWinCondition@LevelModules)",
+                    "RTID(FutureLinkedTileGroups@CurrentLevel)"
+                ]
+            }
+        },
+        {
+            "aliases": [
+                "FutureLinkedTileGroups"
+            ],
+            "objclass": "PowerTileProperties",
+            "objdata": {
+                "LinkedTiles": [
+                    {
+                        "Group": "delta",
+                        "Location": {
+                            "mX": 0,
+                            "mY": 2
+                        },
+                        "PropagationDelay": 0.25
+                    },
+                    {
+                        "Group": "delta",
+                        "Location": {
+                            "mX": 3,
+                            "mY": 1
+                        },
+                        "PropagationDelay": 0.5
+                    },
+                    {
+                        "Group": "delta",
+                        "Location": {
+                            "mX": 3,
+                            "mY": 3
+                        },
+                        "PropagationDelay": 0.5
+                    },
+                    {
+                        "Group": "alpha",
+                        "Location": {
+                            "mX": 0,
+                            "mY": 4
+                        },
+                        "PropagationDelay": 0.25
+                    },
+                    {
+                        "Group": "alpha",
+                        "Location": {
+                            "mX": 0,
+                            "mY": 0
+                        },
+                        "PropagationDelay": 0.25
+                    }
+                ]
+            }
+        },
+        {
+            "objclass": "VaseBreakerPresetProperties",
+            "aliases": [
+                "VaseBreakerProps"
+            ],
+            "objdata": {
+                "MinColumnIndex": 4,
+                "MaxColumnIndex": 8,
+                "Vases": [
+                    {
+                        "ZombieTypeName": "future_jetpack",
+                        "Count": 6
+                    },
+                    {
+                        "ZombieTypeName": "future_armor1",
+                        "Count": 2
+                    },
+                    {
+                        "ZombieTypeName": "future_armor2",
+                        "Count": 3
+                    },
+                    {
+                        "ZombieTypeName": "mech_cone",
+                        "Count": 1
+                    },
+                    {
+                        "PlantTypeName": "cabbagepult",
+                        "Count": 4
+                    },
+                    {
+                        "PlantTypeName": "holonut",
+                        "Count": 2
+                    },
+                    {
+                        "PlantTypeName": "citron",
+                        "Count": 2
+                    },
+                    {
+                        "PlantTypeName": "iceburg",
+                        "Count": 3
+                    },
+                    {
+                        "CollectableTypeName": "plantfood",
+                        "Count": 2
+                    }
+                ],
+                "NumColoredPlantVases": 3,
+                "NumColoredZombieVases": 0
+            }
+        }
+    ]
+}

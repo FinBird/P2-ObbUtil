@@ -1,0 +1,63 @@
+{
+    "#comment": "PvZ1 Vasebreaker level 1",
+    "version": 1,
+    "objects": [
+        {
+            "objclass": "LevelDefinition",
+            "objdata": {
+                "Name": "[VASEBREAKER_INTRO_LEVEL_NAME]",
+                "IsVasebreaker": true,
+                "LevelPowerupSet": "LevelPowerupsVasebreaker",
+                "Description": "",
+                "FirstRewardType": "powerupgadget",
+                "FirstRewardParam": "powerupvasebreakerreveal",
+                "StageModule": "RTID(FrontLawnStage@LevelModules)",
+                "Loot": "RTID(DefaultLoot@LevelModules)",
+                "Modules": [
+                    "RTID(VaseBreakerArcade@LevelModules)",
+                    "RTID(VaseBreakerProps@.)",
+                    "RTID(ZombiesDeadWinCon@LevelModules)",
+                    "RTID(DefaultZombieWinCondition@LevelModules)"
+                ]
+            }
+        },
+        {
+            "objclass": "VaseBreakerPresetProperties",
+            "aliases": [
+                "VaseBreakerProps"
+            ],
+            "objdata": {
+                "MinColumnIndex": 4,
+                "MaxColumnIndex": 7,
+                "Vases": [
+                    {
+                        "ZombieTypeName": "tutorial",
+                        "Count": 7
+                    },
+                    {
+                        "ZombieTypeName": "tutorial_armor1",
+                        "Count": 1
+                    },
+                    {
+                        "PlantTypeName": "peashooter",
+                        "Count": 7
+                    },
+                    {
+                        "PlantTypeName": "bonkchoy",
+                        "Count": 2
+                    },
+                    {
+                        "PlantTypeName": "wallnut",
+                        "Count": 2
+                    },
+                    {
+                        "PlantTypeName": "potatomine",
+                        "Count": 1
+                    }
+                ],
+                "NumColoredPlantVases": 0,
+                "NumColoredZombieVases": 0
+            }
+        }
+    ]
+}

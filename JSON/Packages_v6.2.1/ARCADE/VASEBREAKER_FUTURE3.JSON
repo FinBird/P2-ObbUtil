@@ -1,0 +1,71 @@
+{
+    "#comment": "PvZ2 Vasebreaker level 1",
+    "version": 1,
+    "objects": [
+        {
+            "objclass": "LevelDefinition",
+            "objdata": {
+                "LevelNumber": 3,
+                "Name": "[VASEBREAKER_FUTURE_LEVEL_NAME_3]",
+                "IsVasebreaker": true,
+                "LevelPowerupSet": "LevelPowerupsVasebreaker",
+                "Description": "",
+                "StageModule": "RTID(FutureStage@LevelModules)",
+                "Loot": "RTID(DefaultLoot@LevelModules)",
+                "FirstRewardType": "giftbox",
+                "Modules": [
+                    "RTID(VaseBreakerArcade@LevelModules)",
+                    "RTID(VaseBreakerProps@.)",
+                    "RTID(ZombiesDeadWinCon@LevelModules)",
+                    "RTID(DefaultZombieWinCondition@LevelModules)"
+                ]
+            }
+        },
+        {
+            "objclass": "VaseBreakerPresetProperties",
+            "aliases": [
+                "VaseBreakerProps"
+            ],
+            "objdata": {
+                "MinColumnIndex": 2,
+                "MaxColumnIndex": 7,
+                "Vases": [
+                    {
+                        "ZombieTypeName": "future_protector",
+                        "Count": 4
+                    },
+                    {
+                        "ZombieTypeName": "future_armor1",
+                        "Count": 6
+                    },
+                    {
+                        "ZombieTypeName": "football_mech",
+                        "Count": 1
+                    },
+                    {
+                        "PlantTypeName": "powerplant",
+                        "Count": 6
+                    },
+                    {
+                        "PlantTypeName": "spikeweed",
+                        "Count": 6
+                    },
+                    {
+                        "PlantTypeName": "laser_bean",
+                        "Count": 2
+                    },
+                    {
+                        "PlantTypeName": "potatomine",
+                        "Count": 2
+                    },
+                    {
+                        "CollectableTypeName": "plantfood",
+                        "Count": 3
+                    }
+                ],
+                "NumColoredPlantVases": 3,
+                "NumColoredZombieVases": 0
+            }
+        }
+    ]
+}

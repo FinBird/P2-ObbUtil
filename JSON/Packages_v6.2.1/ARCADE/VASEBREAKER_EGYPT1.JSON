@@ -1,0 +1,67 @@
+{
+    "#comment": "PvZ2 Vasebreaker level 1",
+    "version": 1,
+    "objects": [
+        {
+            "objclass": "LevelDefinition",
+            "objdata": {
+                "LevelNumber": 1,
+                "Name": "[VASEBREAKER_EGYPT_LEVEL_NAME_1]",
+                "IsVasebreaker": true,
+                "LevelPowerupSet": "LevelPowerupsVasebreaker",
+                "Description": "",
+                "StageModule": "RTID(EgyptStage@LevelModules)",
+                "Loot": "RTID(DefaultLoot@LevelModules)",
+                "FirstRewardParam": "big_moneybag",
+                "Modules": [
+                    "RTID(VaseBreakerArcade@LevelModules)",
+                    "RTID(VaseBreakerProps@.)",
+                    "RTID(ZombiesDeadWinCon@LevelModules)",
+                    "RTID(DefaultZombieWinCondition@LevelModules)"
+                ]
+            }
+        },
+        {
+            "objclass": "VaseBreakerPresetProperties",
+            "aliases": [
+                "VaseBreakerProps"
+            ],
+            "objdata": {
+                "MinColumnIndex": 3,
+                "MaxColumnIndex": 8,
+                "Vases": [
+                    {
+                        "ZombieTypeName": "mummy",
+                        "Count": 9
+                    },
+                    {
+                        "ZombieTypeName": "mummy_armor1",
+                        "Count": 2
+                    },
+                    {
+                        "ZombieTypeName": "camel_onehump",
+                        "Count": 7
+                    },
+                    {
+                        "PlantTypeName": "bloomerang",
+                        "Count": 7
+                    },
+                    {
+                        "PlantTypeName": "wallnut",
+                        "Count": 2
+                    },
+                    {
+                        "PlantTypeName": "potatomine",
+                        "Count": 2
+                    },
+                    {
+                        "CollectableTypeName": "plantfood",
+                        "Count": 1
+                    }
+                ],
+                "NumColoredPlantVases": 3,
+                "NumColoredZombieVases": 0
+            }
+        }
+    ]
+}
