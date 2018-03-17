@@ -1,0 +1,3839 @@
+{
+    "#comment": "Powers data for plants and more!  Beware ye all who enter here!",
+    "version": 1,
+    "objects": [
+        {
+            "objclass": "PowerPropsSunProducer",
+            "objdata": {
+                "TypeName": "SunProducer0",
+                "Amount": 0
+            }
+        },
+        {
+            "objclass": "PowerPropsSunProducer",
+            "objdata": {
+                "TypeName": "SunProducer10",
+                "Amount": 10
+            }
+        },
+        {
+            "objclass": "PowerPropsSunProducer",
+            "objdata": {
+                "TypeName": "SunProducer25",
+                "Amount": 25
+            }
+        },
+        {
+            "objclass": "PowerPropsSunProducer",
+            "objdata": {
+                "TypeName": "SunProducer50",
+                "Amount": 50
+            }
+        },
+        {
+            "objclass": "PowerPropsSunProducer",
+            "objdata": {
+                "TypeName": "SunProducer60",
+                "Amount": 60
+            }
+        },
+        {
+            "objclass": "PowerPropsSunProducer",
+            "objdata": {
+                "TypeName": "SunProducer75",
+                "Amount": 75
+            }
+        },
+        {
+            "objclass": "PowerPropsSunProducer",
+            "objdata": {
+                "TypeName": "SunProducer100",
+                "Amount": 100,
+                "MinSpread": 50
+            }
+        },
+        {
+            "objclass": "PowerPropsSunProducer",
+            "objdata": {
+                "TypeName": "SunProducer125",
+                "Amount": 125,
+                "MinSpread": 50
+            }
+        },
+        {
+            "objclass": "PowerPropsSunProducer",
+            "objdata": {
+                "TypeName": "SunProducer150",
+                "Amount": 150,
+                "MinSpread": 50
+            }
+        },
+        {
+            "objclass": "PowerPropsSunProducer",
+            "objdata": {
+                "TypeName": "SunProducer175",
+                "Amount": 175,
+                "MinSpread": 50
+            }
+        },
+        {
+            "objclass": "PowerPropsSunProducer",
+            "objdata": {
+                "TypeName": "SunProducer200",
+                "Amount": 200,
+                "MinSpread": 50
+            }
+        },
+        {
+            "objclass": "PowerPropsSunProducer",
+            "objdata": {
+                "TypeName": "SunProducer225",
+                "Amount": 225,
+                "MinSpread": 50
+            }
+        },
+        {
+            "objclass": "PowerPropsSunProducer",
+            "objdata": {
+                "TypeName": "SunProducer250",
+                "Amount": 250,
+                "MinSpread": 50
+            }
+        },
+        {
+            "objclass": "PowerPropsSunshroomGrowth",
+            "objdata": {
+                "TypeName": "SunshroomGrowthLevel1",
+                "GrowthStages": [
+                    {
+                        "TimeToGrowInSeconds": 18,
+                        "Amount": 25
+                    },
+                    {
+                        "TimeToGrowInSeconds": 72,
+                        "Amount": 50
+                    },
+                    {
+                        "TimeToGrowInSeconds": 72,
+                        "Amount": 75
+                    }
+                ]
+            }
+        },
+        {
+            "objclass": "PowerPropsSunshroomGrowth",
+            "objdata": {
+                "TypeName": "SunshroomGrowthLevel2",
+                "GrowthStages": [
+                    {
+                        "TimeToGrowInSeconds": 16,
+                        "Amount": 30
+                    },
+                    {
+                        "TimeToGrowInSeconds": 65,
+                        "Amount": 55,
+                        "MinSpread": 50
+                    },
+                    {
+                        "TimeToGrowInSeconds": 65,
+                        "Amount": 80,
+                        "MinSpread": 50
+                    }
+                ]
+            }
+        },
+        {
+            "objclass": "PowerPropsSunshroomGrowth",
+            "objdata": {
+                "TypeName": "SunshroomGrowthLevel3",
+                "GrowthStages": [
+                    {
+                        "TimeToGrowInSeconds": 15,
+                        "Amount": 35
+                    },
+                    {
+                        "TimeToGrowInSeconds": 60,
+                        "Amount": 60,
+                        "MinSpread": 50
+                    },
+                    {
+                        "TimeToGrowInSeconds": 60,
+                        "Amount": 85,
+                        "MinSpread": 50
+                    }
+                ]
+            }
+        },
+        {
+            "objclass": "PowerPropsSunshroomGrowth",
+            "objdata": {
+                "TypeName": "SunshroomGrowthLevel4",
+                "GrowthStages": [
+                    {
+                        "TimeToGrowInSeconds": 14,
+                        "Amount": 40
+                    },
+                    {
+                        "TimeToGrowInSeconds": 55,
+                        "Amount": 65,
+                        "MinSpread": 50
+                    },
+                    {
+                        "TimeToGrowInSeconds": 55,
+                        "Amount": 90,
+                        "MinSpread": 50
+                    }
+                ]
+            }
+        },
+        {
+            "objclass": "PowerPropsSunshroomGrowth",
+            "objdata": {
+                "TypeName": "SunshroomGrowthLevel5",
+                "GrowthStages": [
+                    {
+                        "TimeToGrowInSeconds": 13,
+                        "Amount": 45
+                    },
+                    {
+                        "TimeToGrowInSeconds": 50,
+                        "Amount": 70,
+                        "MinSpread": 50
+                    },
+                    {
+                        "TimeToGrowInSeconds": 50,
+                        "Amount": 90,
+                        "MinSpread": 50
+                    }
+                ]
+            }
+        },
+        {
+            "objclass": "PowerPropsSunshroomGrowth",
+            "objdata": {
+                "TypeName": "SunshroomGrowthLevel6",
+                "GrowthStages": [
+                    {
+                        "TimeToGrowInSeconds": 12,
+                        "Amount": 50
+                    },
+                    {
+                        "TimeToGrowInSeconds": 45,
+                        "Amount": 75,
+                        "MinSpread": 50
+                    },
+                    {
+                        "TimeToGrowInSeconds": 45,
+                        "Amount": 100,
+                        "MinSpread": 50
+                    }
+                ]
+            }
+        },
+        {
+            "objclass": "PowerPropsShield",
+            "objdata": {
+                "TypeName": "Shield1000",
+                "Health": 1000
+            }
+        },
+        {
+            "objclass": "PowerPropsShield",
+            "objdata": {
+                "TypeName": "Shield3000",
+                "Health": 3000
+            }
+        },
+        {
+            "objclass": "PowerPropsShield",
+            "objdata": {
+                "TypeName": "Shield4000",
+                "Health": 4000
+            }
+        },
+        {
+            "objclass": "PowerPropsShield",
+            "objdata": {
+                "TypeName": "Shield8000",
+                "Health": 8000
+            }
+        },
+        {
+            "objclass": "PowerPropsShield",
+            "objdata": {
+                "TypeName": "Shield12000",
+                "Health": 12000
+            }
+        },
+        {
+            "objclass": "PowerPropsShield",
+            "objdata": {
+                "TypeName": "Shield16000",
+                "Health": 16000
+            }
+        },
+        {
+            "objclass": "PowerPropsShield",
+            "objdata": {
+                "TypeName": "Shield20000",
+                "Health": 20000
+            }
+        },
+        {
+            "objclass": "PowerPropsShield",
+            "objdata": {
+                "TypeName": "Shield24000",
+                "Health": 24000
+            }
+        },
+        {
+            "objclass": "PowerPropsWarmingRadius",
+            "objdata": {
+                "TypeName": "PepperpultNormalWarmingRadiusLvl1",
+                "WarmingRadius": {
+                    "RadiusInGridSquareWidths": 1.5,
+                    "PulseInitialDelay": 0.5,
+                    "PulseCooldown": 6.0,
+                    "PulsePropagationTime": 1.0,
+                    "PopAnimEffectName": "POPANIM_EFFECTS_FROSTBITE_HEAT_PLANT",
+                    "GridItemDamageProps": {
+                        "BaseDamage": 200,
+                        "DamageFlags": [
+                            "fire"
+                        ]
+                    },
+                    "PlantDamageProps": {
+                        "BaseDamage": 0,
+                        "DamageFlags": [
+                            "thaw_whole_stage"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsWarmingRadius",
+            "objdata": {
+                "TypeName": "PepperpultPFWarmingRadiusLvl1",
+                "WarmingRadius": {
+                    "RadiusInGridSquareWidths": 1.5,
+                    "PulseInitialDelay": 0.5,
+                    "PulseCooldown": 1.5,
+                    "PulsePropagationTime": 1.0,
+                    "PopAnimEffectName": "POPANIM_EFFECTS_FROSTBITE_HEAT_PLANT",
+                    "GridItemDamageProps": {
+                        "BaseDamage": 100,
+                        "DamageFlags": [
+                            "fire",
+                            "plantfood_effect"
+                        ]
+                    },
+                    "PlantDamageProps": {
+                        "BaseDamage": 0,
+                        "DamageFlags": [
+                            "thaw_whole_stage"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsWarmingRadius",
+            "objdata": {
+                "TypeName": "PepperpultNormalWarmingRadiusLvl2",
+                "WarmingRadius": {
+                    "RadiusInGridSquareWidths": 2.5,
+                    "PulseInitialDelay": 0.5,
+                    "PulseCooldown": 6.0,
+                    "PulsePropagationTime": 1.0,
+                    "PopAnimEffectName": "POPANIM_EFFECTS_FROSTBITE_HEAT_PLANT",
+                    "GridItemDamageProps": {
+                        "BaseDamage": 200,
+                        "DamageFlags": [
+                            "fire"
+                        ]
+                    },
+                    "PlantDamageProps": {
+                        "BaseDamage": 0,
+                        "DamageFlags": [
+                            "thaw_whole_stage"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsWarmingRadius",
+            "objdata": {
+                "TypeName": "PepperpultPFWarmingRadiusLvl2",
+                "WarmingRadius": {
+                    "RadiusInGridSquareWidths": 2.5,
+                    "PulseInitialDelay": 0.5,
+                    "PulseCooldown": 1.5,
+                    "PulsePropagationTime": 1.0,
+                    "PopAnimEffectName": "POPANIM_EFFECTS_FROSTBITE_HEAT_PLANT",
+                    "GridItemDamageProps": {
+                        "BaseDamage": 100,
+                        "DamageFlags": [
+                            "fire",
+                            "plantfood_effect"
+                        ]
+                    },
+                    "PlantDamageProps": {
+                        "BaseDamage": 0,
+                        "DamageFlags": [
+                            "thaw_whole_stage"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsWarmingRadius",
+            "objdata": {
+                "TypeName": "PepperpultNormalWarmingRadiusLvl3",
+                "WarmingRadius": {
+                    "RadiusInGridSquareWidths": 3.5,
+                    "PulseInitialDelay": 0.5,
+                    "PulseCooldown": 6.0,
+                    "PulsePropagationTime": 1.0,
+                    "PopAnimEffectName": "POPANIM_EFFECTS_FROSTBITE_HEAT_PLANT",
+                    "GridItemDamageProps": {
+                        "BaseDamage": 200,
+                        "DamageFlags": [
+                            "fire"
+                        ]
+                    },
+                    "PlantDamageProps": {
+                        "BaseDamage": 0,
+                        "DamageFlags": [
+                            "thaw_whole_stage"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsWarmingRadius",
+            "objdata": {
+                "TypeName": "PepperpultPFWarmingRadiusLvl3",
+                "WarmingRadius": {
+                    "RadiusInGridSquareWidths": 3.5,
+                    "PulseInitialDelay": 0.5,
+                    "PulseCooldown": 1.5,
+                    "PulsePropagationTime": 1.0,
+                    "PopAnimEffectName": "POPANIM_EFFECTS_FROSTBITE_HEAT_PLANT",
+                    "GridItemDamageProps": {
+                        "BaseDamage": 100,
+                        "DamageFlags": [
+                            "fire",
+                            "plantfood_effect"
+                        ]
+                    },
+                    "PlantDamageProps": {
+                        "BaseDamage": 0,
+                        "DamageFlags": [
+                            "thaw_whole_stage"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsWarmingRadius",
+            "objdata": {
+                "TypeName": "PepperpultNormalWarmingRadiusLvl4",
+                "WarmingRadius": {
+                    "RadiusInGridSquareWidths": 4.5,
+                    "PulseInitialDelay": 0.5,
+                    "PulseCooldown": 6.0,
+                    "PulsePropagationTime": 1.0,
+                    "PopAnimEffectName": "POPANIM_EFFECTS_FROSTBITE_HEAT_PLANT",
+                    "GridItemDamageProps": {
+                        "BaseDamage": 200,
+                        "DamageFlags": [
+                            "fire"
+                        ]
+                    },
+                    "PlantDamageProps": {
+                        "BaseDamage": 0,
+                        "DamageFlags": [
+                            "thaw_whole_stage"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsWarmingRadius",
+            "objdata": {
+                "TypeName": "PepperpultPFWarmingRadiusLvl4",
+                "WarmingRadius": {
+                    "RadiusInGridSquareWidths": 4.5,
+                    "PulseInitialDelay": 0.5,
+                    "PulseCooldown": 1.5,
+                    "PulsePropagationTime": 1.0,
+                    "PopAnimEffectName": "POPANIM_EFFECTS_FROSTBITE_HEAT_PLANT",
+                    "GridItemDamageProps": {
+                        "BaseDamage": 100,
+                        "DamageFlags": [
+                            "fire",
+                            "plantfood_effect"
+                        ]
+                    },
+                    "PlantDamageProps": {
+                        "BaseDamage": 0,
+                        "DamageFlags": [
+                            "thaw_whole_stage"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsWarmingRadius",
+            "objdata": {
+                "TypeName": "PepperpultNormalWarmingRadiusLvl5",
+                "WarmingRadius": {
+                    "RadiusInGridSquareWidths": 5.5,
+                    "PulseInitialDelay": 0.5,
+                    "PulseCooldown": 6.0,
+                    "PulsePropagationTime": 1.0,
+                    "PopAnimEffectName": "POPANIM_EFFECTS_FROSTBITE_HEAT_PLANT",
+                    "GridItemDamageProps": {
+                        "BaseDamage": 200,
+                        "DamageFlags": [
+                            "fire"
+                        ]
+                    },
+                    "PlantDamageProps": {
+                        "BaseDamage": 0,
+                        "DamageFlags": [
+                            "thaw_whole_stage"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsWarmingRadius",
+            "objdata": {
+                "TypeName": "PepperpultPFWarmingRadiusLvl5",
+                "WarmingRadius": {
+                    "RadiusInGridSquareWidths": 5.5,
+                    "PulseInitialDelay": 0.5,
+                    "PulseCooldown": 1.5,
+                    "PulsePropagationTime": 1.0,
+                    "PopAnimEffectName": "POPANIM_EFFECTS_FROSTBITE_HEAT_PLANT",
+                    "GridItemDamageProps": {
+                        "BaseDamage": 100,
+                        "DamageFlags": [
+                            "fire",
+                            "plantfood_effect"
+                        ]
+                    },
+                    "PlantDamageProps": {
+                        "BaseDamage": 0,
+                        "DamageFlags": [
+                            "thaw_whole_stage"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsWarmingRadius",
+            "objdata": {
+                "TypeName": "PepperpultNormalWarmingRadiusLvl6",
+                "WarmingRadius": {
+                    "RadiusInGridSquareWidths": 6.5,
+                    "PulseInitialDelay": 0.5,
+                    "PulseCooldown": 6.0,
+                    "PulsePropagationTime": 1.0,
+                    "PopAnimEffectName": "POPANIM_EFFECTS_FROSTBITE_HEAT_PLANT",
+                    "GridItemDamageProps": {
+                        "BaseDamage": 200,
+                        "DamageFlags": [
+                            "fire"
+                        ]
+                    },
+                    "PlantDamageProps": {
+                        "BaseDamage": 0,
+                        "DamageFlags": [
+                            "thaw_whole_stage"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsWarmingRadius",
+            "objdata": {
+                "TypeName": "PepperpultPFWarmingRadiusLvl6",
+                "WarmingRadius": {
+                    "RadiusInGridSquareWidths": 6.5,
+                    "PulseInitialDelay": 0.5,
+                    "PulseCooldown": 1.5,
+                    "PulsePropagationTime": 1.0,
+                    "PopAnimEffectName": "POPANIM_EFFECTS_FROSTBITE_HEAT_PLANT",
+                    "GridItemDamageProps": {
+                        "BaseDamage": 100,
+                        "DamageFlags": [
+                            "fire",
+                            "plantfood_effect"
+                        ]
+                    },
+                    "PlantDamageProps": {
+                        "BaseDamage": 0,
+                        "DamageFlags": [
+                            "thaw_whole_stage"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsDamageRadius",
+            "objdata": {
+                "TypeName": "PotatoMineDamageLvl1",
+                "DamageRadius": {
+                    "RadiusInGridSquareWidths": 0.8789,
+                    "EffectObject": "RTID(PotatoMineExplosion@EffectObjectTypes)",
+                    "PopAnimEffectName": "POPANIM_EFFECTS_POTATOMINE_EXPLOSION",
+                    "ShakeBoard": {
+                        "mX": 3,
+                        "mY": 4
+                    },
+                    "RenderAtEffectLayer": true,
+                    "DamageProps": {
+                        "BaseDamage": 1800,
+                        "DamageFlags": [
+                            "hits_shield_and_body",
+                            "no_bleed_on_death"
+                        ]
+                    },
+                    "TargetProps": {
+                        "IgnoreZombiesFlagged": [
+                            "dying",
+                            "does_not_collide_with_plant",
+                            "same_team",
+                            "not_in_row"
+                        ],
+                        "IgnoreGridItemsFlagged": [
+                            "standard_plants_ignore",
+                            "not_in_row",
+                            "not_in_col"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsDamageRadius",
+            "objdata": {
+                "TypeName": "PotatoMineDamageLvl2",
+                "DamageRadius": {
+                    "RadiusInGridSquareWidths": 0.8789,
+                    "EffectObject": "RTID(PotatoMineExplosion@EffectObjectTypes)",
+                    "PopAnimEffectName": "POPANIM_EFFECTS_POTATOMINE_EXPLOSION",
+                    "ShakeBoard": {
+                        "mX": 3,
+                        "mY": 4
+                    },
+                    "RenderAtEffectLayer": true,
+                    "DamageProps": {
+                        "BaseDamage": 1900,
+                        "DamageFlags": [
+                            "hits_shield_and_body",
+                            "no_bleed_on_death"
+                        ]
+                    },
+                    "TargetProps": {
+                        "IgnoreZombiesFlagged": [
+                            "dying",
+                            "does_not_collide_with_plant",
+                            "same_team",
+                            "not_in_row"
+                        ],
+                        "IgnoreGridItemsFlagged": [
+                            "standard_plants_ignore",
+                            "not_in_row",
+                            "not_in_col"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsDamageRadius",
+            "objdata": {
+                "TypeName": "PotatoMineDamageLvl3",
+                "DamageRadius": {
+                    "RadiusInGridSquareWidths": 0.8789,
+                    "EffectObject": "RTID(PotatoMineExplosion@EffectObjectTypes)",
+                    "PopAnimEffectName": "POPANIM_EFFECTS_POTATOMINE_EXPLOSION",
+                    "ShakeBoard": {
+                        "mX": 3,
+                        "mY": 4
+                    },
+                    "RenderAtEffectLayer": true,
+                    "DamageProps": {
+                        "BaseDamage": 2000,
+                        "DamageFlags": [
+                            "hits_shield_and_body",
+                            "no_bleed_on_death"
+                        ]
+                    },
+                    "TargetProps": {
+                        "IgnoreZombiesFlagged": [
+                            "dying",
+                            "does_not_collide_with_plant",
+                            "same_team",
+                            "not_in_row"
+                        ],
+                        "IgnoreGridItemsFlagged": [
+                            "standard_plants_ignore",
+                            "not_in_row",
+                            "not_in_col"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsDamageRadius",
+            "objdata": {
+                "TypeName": "PotatoMineDamageLvl4",
+                "DamageRadius": {
+                    "RadiusInGridSquareWidths": 0.8789,
+                    "EffectObject": "RTID(PotatoMineExplosion@EffectObjectTypes)",
+                    "PopAnimEffectName": "POPANIM_EFFECTS_POTATOMINE_EXPLOSION",
+                    "ShakeBoard": {
+                        "mX": 3,
+                        "mY": 4
+                    },
+                    "RenderAtEffectLayer": true,
+                    "DamageProps": {
+                        "BaseDamage": 2100,
+                        "DamageFlags": [
+                            "hits_shield_and_body",
+                            "no_bleed_on_death"
+                        ]
+                    },
+                    "TargetProps": {
+                        "IgnoreZombiesFlagged": [
+                            "dying",
+                            "does_not_collide_with_plant",
+                            "same_team",
+                            "not_in_row"
+                        ],
+                        "IgnoreGridItemsFlagged": [
+                            "standard_plants_ignore",
+                            "not_in_row",
+                            "not_in_col"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsDamageRadius",
+            "objdata": {
+                "TypeName": "PotatoMineDamageLvl5",
+                "DamageRadius": {
+                    "RadiusInGridSquareWidths": 0.8789,
+                    "EffectObject": "RTID(PotatoMineExplosion@EffectObjectTypes)",
+                    "PopAnimEffectName": "POPANIM_EFFECTS_POTATOMINE_EXPLOSION",
+                    "ShakeBoard": {
+                        "mX": 3,
+                        "mY": 4
+                    },
+                    "RenderAtEffectLayer": true,
+                    "DamageProps": {
+                        "BaseDamage": 2175,
+                        "DamageFlags": [
+                            "hits_shield_and_body",
+                            "no_bleed_on_death"
+                        ]
+                    },
+                    "TargetProps": {
+                        "IgnoreZombiesFlagged": [
+                            "dying",
+                            "does_not_collide_with_plant",
+                            "same_team",
+                            "not_in_row"
+                        ],
+                        "IgnoreGridItemsFlagged": [
+                            "standard_plants_ignore",
+                            "not_in_row",
+                            "not_in_col"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsDamageRadius",
+            "objdata": {
+                "TypeName": "PotatoMineDamageLvl6",
+                "DamageRadius": {
+                    "RadiusInGridSquareWidths": 0.8789,
+                    "EffectObject": "RTID(PotatoMineExplosion@EffectObjectTypes)",
+                    "PopAnimEffectName": "POPANIM_EFFECTS_POTATOMINE_EXPLOSION",
+                    "ShakeBoard": {
+                        "mX": 3,
+                        "mY": 4
+                    },
+                    "RenderAtEffectLayer": true,
+                    "DamageProps": {
+                        "BaseDamage": 2250,
+                        "DamageFlags": [
+                            "hits_shield_and_body",
+                            "no_bleed_on_death"
+                        ]
+                    },
+                    "TargetProps": {
+                        "IgnoreZombiesFlagged": [
+                            "dying",
+                            "does_not_collide_with_plant",
+                            "same_team",
+                            "not_in_row"
+                        ],
+                        "IgnoreGridItemsFlagged": [
+                            "standard_plants_ignore",
+                            "not_in_row",
+                            "not_in_col"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsDamageRadius",
+            "objdata": {
+                "TypeName": "PotatoMineDamageLvl7",
+                "DamageRadius": {
+                    "RadiusInGridSquareWidths": 0.8789,
+                    "EffectObject": "RTID(PotatoMineExplosion@EffectObjectTypes)",
+                    "PopAnimEffectName": "POPANIM_EFFECTS_POTATOMINE_EXPLOSION",
+                    "ShakeBoard": {
+                        "mX": 3,
+                        "mY": 4
+                    },
+                    "RenderAtEffectLayer": true,
+                    "DamageProps": {
+                        "BaseDamage": 2325,
+                        "DamageFlags": [
+                            "hits_shield_and_body",
+                            "no_bleed_on_death"
+                        ]
+                    },
+                    "TargetProps": {
+                        "IgnoreZombiesFlagged": [
+                            "dying",
+                            "does_not_collide_with_plant",
+                            "same_team",
+                            "not_in_row"
+                        ],
+                        "IgnoreGridItemsFlagged": [
+                            "standard_plants_ignore",
+                            "not_in_row",
+                            "not_in_col"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsDamageRadius",
+            "objdata": {
+                "TypeName": "PotatoMineDamageLvl8",
+                "DamageRadius": {
+                    "RadiusInGridSquareWidths": 0.8789,
+                    "EffectObject": "RTID(PotatoMineExplosion@EffectObjectTypes)",
+                    "PopAnimEffectName": "POPANIM_EFFECTS_POTATOMINE_EXPLOSION",
+                    "ShakeBoard": {
+                        "mX": 3,
+                        "mY": 4
+                    },
+                    "RenderAtEffectLayer": true,
+                    "DamageProps": {
+                        "BaseDamage": 2400,
+                        "DamageFlags": [
+                            "hits_shield_and_body",
+                            "no_bleed_on_death"
+                        ]
+                    },
+                    "TargetProps": {
+                        "IgnoreZombiesFlagged": [
+                            "dying",
+                            "does_not_collide_with_plant",
+                            "same_team",
+                            "not_in_row"
+                        ],
+                        "IgnoreGridItemsFlagged": [
+                            "standard_plants_ignore",
+                            "not_in_row",
+                            "not_in_col"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsDamageRadius",
+            "objdata": {
+                "TypeName": "PrimalPotatoMineDamageLvl1",
+                "DamageRadius": {
+                    "RadiusInGridSquareWidths": 1.6,
+                    "EffectObject": "RTID(PrimalPotatoMineExplosion@EffectObjectTypes)",
+                    "PopAnimEffectName": "POPANIM_EFFECTS_PRIMAL_POTATOMINE_EXPLOSION",
+                    "ShakeBoard": {
+                        "mX": 3,
+                        "mY": 4
+                    },
+                    "RenderAtEffectLayer": true,
+                    "DamageProps": {
+                        "BaseDamage": 2400,
+                        "DamageFlags": [
+                            "hits_shield_and_body",
+                            "no_bleed_on_death"
+                        ]
+                    },
+                    "TargetProps": {
+                        "IgnoreZombiesFlagged": [
+                            "dying",
+                            "does_not_collide_with_plant",
+                            "same_team"
+                        ],
+                        "IgnoreGridItemsFlagged": [
+                            "standard_plants_ignore"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsDamageRadius",
+            "objdata": {
+                "TypeName": "PrimalPotatoMineDamageLvl2",
+                "DamageRadius": {
+                    "RadiusInGridSquareWidths": 1.8,
+                    "EffectObject": "RTID(PrimalPotatoMineExplosion@EffectObjectTypes)",
+                    "PopAnimEffectName": "POPANIM_EFFECTS_PRIMAL_POTATOMINE_EXPLOSION",
+                    "ShakeBoard": {
+                        "mX": 3,
+                        "mY": 4
+                    },
+                    "RenderAtEffectLayer": true,
+                    "DamageProps": {
+                        "BaseDamage": 2800,
+                        "DamageFlags": [
+                            "hits_shield_and_body",
+                            "no_bleed_on_death"
+                        ]
+                    },
+                    "TargetProps": {
+                        "IgnoreZombiesFlagged": [
+                            "dying",
+                            "does_not_collide_with_plant",
+                            "same_team"
+                        ],
+                        "IgnoreGridItemsFlagged": [
+                            "standard_plants_ignore"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsDamageRadius",
+            "objdata": {
+                "TypeName": "PrimalPotatoMineDamageLvl3",
+                "DamageRadius": {
+                    "RadiusInGridSquareWidths": 2.0,
+                    "EffectObject": "RTID(PrimalPotatoMineExplosion@EffectObjectTypes)",
+                    "PopAnimEffectName": "POPANIM_EFFECTS_PRIMAL_POTATOMINE_EXPLOSION",
+                    "ShakeBoard": {
+                        "mX": 3,
+                        "mY": 4
+                    },
+                    "RenderAtEffectLayer": true,
+                    "DamageProps": {
+                        "BaseDamage": 3200,
+                        "DamageFlags": [
+                            "hits_shield_and_body",
+                            "no_bleed_on_death"
+                        ]
+                    },
+                    "TargetProps": {
+                        "IgnoreZombiesFlagged": [
+                            "dying",
+                            "does_not_collide_with_plant",
+                            "same_team"
+                        ],
+                        "IgnoreGridItemsFlagged": [
+                            "standard_plants_ignore"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsDamageRadius",
+            "objdata": {
+                "TypeName": "ExplodeONutDamageLvl1",
+                "DamageRadius": {
+                    "RadiusInGridSquareWidths": 1.44,
+                    "EffectObject": "RTID(GenericExplosionFront@EffectObjectTypes)",
+                    "PopAnimEffectName": "POPANIM_EFFECTS_GENERIC_EXPLOSION_FRONT",
+                    "PopAnimScaleX": 1.5,
+                    "PopAnimScaleY": 1.5,
+                    "PopAnimOffset": {
+                        "mX": 0,
+                        "mY": -35
+                    },
+                    "ShakeBoard": {
+                        "mX": 3,
+                        "mY": -4
+                    },
+                    "RenderAtEffectLayer": true,
+                    "DamageProps": {
+                        "BaseDamage": 1800,
+                        "DamageFlags": [
+                            "hits_shield_and_body",
+                            "fire",
+                            "ash_death"
+                        ]
+                    },
+                    "TargetProps": {
+                        "IgnoreZombiesFlagged": [
+                            "dying",
+                            "same_team"
+                        ],
+                        "IgnoreGridItemsFlagged": [
+                            "standard_plants_ignore"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsDamageRadius",
+            "objdata": {
+                "TypeName": "ExplodeONutDamageLvl2",
+                "DamageRadius": {
+                    "RadiusInGridSquareWidths": 1.44,
+                    "EffectObject": "RTID(GenericExplosionFront@EffectObjectTypes)",
+                    "PopAnimEffectName": "POPANIM_EFFECTS_GENERIC_EXPLOSION_FRONT",
+                    "PopAnimScaleX": 1.5,
+                    "PopAnimScaleY": 1.5,
+                    "PopAnimOffset": {
+                        "mX": 0,
+                        "mY": -35
+                    },
+                    "ShakeBoard": {
+                        "mX": 3,
+                        "mY": -4
+                    },
+                    "RenderAtEffectLayer": true,
+                    "DamageProps": {
+                        "BaseDamage": 1900,
+                        "DamageFlags": [
+                            "hits_shield_and_body",
+                            "fire",
+                            "ash_death"
+                        ]
+                    },
+                    "TargetProps": {
+                        "IgnoreZombiesFlagged": [
+                            "dying",
+                            "same_team"
+                        ],
+                        "IgnoreGridItemsFlagged": [
+                            "standard_plants_ignore"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsDamageRadius",
+            "objdata": {
+                "TypeName": "ExplodeONutDamageLvl3",
+                "DamageRadius": {
+                    "RadiusInGridSquareWidths": 1.44,
+                    "EffectObject": "RTID(GenericExplosionFront@EffectObjectTypes)",
+                    "PopAnimEffectName": "POPANIM_EFFECTS_GENERIC_EXPLOSION_FRONT",
+                    "PopAnimScaleX": 1.5,
+                    "PopAnimScaleY": 1.5,
+                    "PopAnimOffset": {
+                        "mX": 0,
+                        "mY": -35
+                    },
+                    "ShakeBoard": {
+                        "mX": 3,
+                        "mY": -4
+                    },
+                    "RenderAtEffectLayer": true,
+                    "DamageProps": {
+                        "BaseDamage": 2000,
+                        "DamageFlags": [
+                            "hits_shield_and_body",
+                            "fire",
+                            "ash_death"
+                        ]
+                    },
+                    "TargetProps": {
+                        "IgnoreZombiesFlagged": [
+                            "dying",
+                            "same_team"
+                        ],
+                        "IgnoreGridItemsFlagged": [
+                            "standard_plants_ignore"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsDamageRadius",
+            "objdata": {
+                "TypeName": "ExplodeONutDamageLvl4",
+                "DamageRadius": {
+                    "RadiusInGridSquareWidths": 1.44,
+                    "EffectObject": "RTID(GenericExplosionFront@EffectObjectTypes)",
+                    "PopAnimEffectName": "POPANIM_EFFECTS_GENERIC_EXPLOSION_FRONT",
+                    "PopAnimScaleX": 1.5,
+                    "PopAnimScaleY": 1.5,
+                    "PopAnimOffset": {
+                        "mX": 0,
+                        "mY": -35
+                    },
+                    "ShakeBoard": {
+                        "mX": 3,
+                        "mY": -4
+                    },
+                    "RenderAtEffectLayer": true,
+                    "DamageProps": {
+                        "BaseDamage": 2100,
+                        "DamageFlags": [
+                            "hits_shield_and_body",
+                            "fire",
+                            "ash_death"
+                        ]
+                    },
+                    "TargetProps": {
+                        "IgnoreZombiesFlagged": [
+                            "dying",
+                            "same_team"
+                        ],
+                        "IgnoreGridItemsFlagged": [
+                            "standard_plants_ignore"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsDamageRadius",
+            "objdata": {
+                "TypeName": "ExplodeONutDamageLvl5",
+                "DamageRadius": {
+                    "RadiusInGridSquareWidths": 1.44,
+                    "EffectObject": "RTID(GenericExplosionFront@EffectObjectTypes)",
+                    "PopAnimEffectName": "POPANIM_EFFECTS_GENERIC_EXPLOSION_FRONT",
+                    "PopAnimScaleX": 1.5,
+                    "PopAnimScaleY": 1.5,
+                    "PopAnimOffset": {
+                        "mX": 0,
+                        "mY": -35
+                    },
+                    "ShakeBoard": {
+                        "mX": 3,
+                        "mY": -4
+                    },
+                    "RenderAtEffectLayer": true,
+                    "DamageProps": {
+                        "BaseDamage": 2200,
+                        "DamageFlags": [
+                            "hits_shield_and_body",
+                            "fire",
+                            "ash_death"
+                        ]
+                    },
+                    "TargetProps": {
+                        "IgnoreZombiesFlagged": [
+                            "dying",
+                            "same_team"
+                        ],
+                        "IgnoreGridItemsFlagged": [
+                            "standard_plants_ignore"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsDamageRadius",
+            "objdata": {
+                "TypeName": "ExplodeONutDamageLvl6",
+                "DamageRadius": {
+                    "RadiusInGridSquareWidths": 1.44,
+                    "EffectObject": "RTID(GenericExplosionFront@EffectObjectTypes)",
+                    "PopAnimEffectName": "POPANIM_EFFECTS_GENERIC_EXPLOSION_FRONT",
+                    "PopAnimScaleX": 1.5,
+                    "PopAnimScaleY": 1.5,
+                    "PopAnimOffset": {
+                        "mX": 0,
+                        "mY": -35
+                    },
+                    "ShakeBoard": {
+                        "mX": 3,
+                        "mY": -4
+                    },
+                    "RenderAtEffectLayer": true,
+                    "DamageProps": {
+                        "BaseDamage": 2400,
+                        "DamageFlags": [
+                            "hits_shield_and_body",
+                            "fire",
+                            "ash_death"
+                        ]
+                    },
+                    "TargetProps": {
+                        "IgnoreZombiesFlagged": [
+                            "dying",
+                            "same_team"
+                        ],
+                        "IgnoreGridItemsFlagged": [
+                            "standard_plants_ignore"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsDamageRadius",
+            "objdata": {
+                "TypeName": "NoExplosion",
+                "DamageRadius": {
+                    "RadiusInGridSquareWidths": 0,
+                    "DamageProps": {
+                        "BaseDamage": 0
+                    },
+                    "TargetProps": {
+                        "IgnoreZombiesFlagged": [
+                            "dying",
+                            "does_not_collide_with_plant",
+                            "same_team",
+                            "not_in_row"
+                        ],
+                        "IgnoreGridItemsFlagged": [
+                            "standard_plants_ignore",
+                            "not_in_row",
+                            "not_in_col"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsDamageRadius",
+            "objdata": {
+                "TypeName": "GravebusterDamageLvl15",
+                "DamageRadius": {
+                    "RadiusInGridSquareWidths": 1.44,
+                    "PopAnimEffectName": "POPANIM_EFFECTS_GENERIC_EXPLOSION_FRONT",
+                    "PopAnimOffset": {
+                        "mX": 0,
+                        "mY": -5
+                    },
+                    "ShakeBoard": {
+                        "mX": 3,
+                        "mY": -4
+                    },
+                    "RenderAtEffectLayer": true,
+                    "DamageProps": {
+                        "BaseDamage": 1800,
+                        "DamageFlags": [
+                            "hits_shield_and_body",
+                            "fire",
+                            "ash_death"
+                        ]
+                    },
+                    "TargetProps": {
+                        "IgnoreZombiesFlagged": [
+                            "dying",
+                            "same_team"
+                        ],
+                        "IgnoreGridItemsFlagged": [
+                            "standard_plants_ignore"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsDamageRadius",
+            "objdata": {
+                "TypeName": "PhatBeetNormalDamageLvl1",
+                "DamageRadius": {
+                    "RadiusInGridSquareWidths": 1.6,
+                    "PulsePropagationTime": 0.5,
+                    "PopAnimEffectStartDelay": 0.5,
+                    "PopAnimEffectName": "POPANIM_EFFECTS_PHATBEETS_IDLE_PULSE",
+                    "PopAnimHitEffectName": "POPANIM_EFFECTS_PHATBEETS_TILE_HIT_SMALL",
+                    "ImpactSound": "Play_Plant_PhatBeet_Zombie_Impact",
+                    "DamageProps": {
+                        "BaseDamage": 15
+                    },
+                    "TargetProps": {
+                        "IgnoreZombiesFlagged": [
+                            "standard_ignored"
+                        ],
+                        "IgnoreGridItemsFlagged": [
+                            "standard_plants_ignore"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsDamageRadius",
+            "objdata": {
+                "TypeName": "PhatBeetNormalDamageLvl2",
+                "DamageRadius": {
+                    "RadiusInGridSquareWidths": 1.6,
+                    "PulsePropagationTime": 0.5,
+                    "PopAnimEffectStartDelay": 0.5,
+                    "PopAnimEffectName": "POPANIM_EFFECTS_PHATBEETS_IDLE_PULSE",
+                    "PopAnimHitEffectName": "POPANIM_EFFECTS_PHATBEETS_TILE_HIT_SMALL",
+                    "ImpactSound": "Play_Plant_PhatBeet_Zombie_Impact",
+                    "DamageProps": {
+                        "BaseDamage": 25
+                    },
+                    "TargetProps": {
+                        "IgnoreZombiesFlagged": [
+                            "standard_ignored"
+                        ],
+                        "IgnoreGridItemsFlagged": [
+                            "standard_plants_ignore"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsDamageRadius",
+            "objdata": {
+                "TypeName": "PhatBeetNormalDamageLvl3",
+                "DamageRadius": {
+                    "RadiusInGridSquareWidths": 1.6,
+                    "PulsePropagationTime": 0.5,
+                    "PopAnimEffectStartDelay": 0.5,
+                    "PopAnimEffectName": "POPANIM_EFFECTS_PHATBEETS_IDLE_PULSE",
+                    "PopAnimHitEffectName": "POPANIM_EFFECTS_PHATBEETS_TILE_HIT_SMALL",
+                    "ImpactSound": "Play_Plant_PhatBeet_Zombie_Impact",
+                    "DamageProps": {
+                        "BaseDamage": 35
+                    },
+                    "TargetProps": {
+                        "IgnoreZombiesFlagged": [
+                            "standard_ignored"
+                        ],
+                        "IgnoreGridItemsFlagged": [
+                            "standard_plants_ignore"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsDamageRadius",
+            "objdata": {
+                "TypeName": "PhatBeetNormalDamageLvl4",
+                "DamageRadius": {
+                    "RadiusInGridSquareWidths": 1.6,
+                    "PulsePropagationTime": 0.5,
+                    "PopAnimEffectStartDelay": 0.5,
+                    "PopAnimEffectName": "POPANIM_EFFECTS_PHATBEETS_IDLE_PULSE",
+                    "PopAnimHitEffectName": "POPANIM_EFFECTS_PHATBEETS_TILE_HIT_SMALL",
+                    "ImpactSound": "Play_Plant_PhatBeet_Zombie_Impact",
+                    "DamageProps": {
+                        "BaseDamage": 40
+                    },
+                    "TargetProps": {
+                        "IgnoreZombiesFlagged": [
+                            "standard_ignored"
+                        ],
+                        "IgnoreGridItemsFlagged": [
+                            "standard_plants_ignore"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsDamageRadius",
+            "objdata": {
+                "TypeName": "PhatBeetNormalDamageLvl5",
+                "DamageRadius": {
+                    "RadiusInGridSquareWidths": 1.6,
+                    "PulsePropagationTime": 0.5,
+                    "PopAnimEffectStartDelay": 0.5,
+                    "PopAnimEffectName": "POPANIM_EFFECTS_PHATBEETS_IDLE_PULSE",
+                    "PopAnimHitEffectName": "POPANIM_EFFECTS_PHATBEETS_TILE_HIT_SMALL",
+                    "ImpactSound": "Play_Plant_PhatBeet_Zombie_Impact",
+                    "DamageProps": {
+                        "BaseDamage": 45
+                    },
+                    "TargetProps": {
+                        "IgnoreZombiesFlagged": [
+                            "standard_ignored"
+                        ],
+                        "IgnoreGridItemsFlagged": [
+                            "standard_plants_ignore"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsDamageRadius",
+            "objdata": {
+                "TypeName": "PhatBeetPowerfulDamageLvl1",
+                "DamageRadius": {
+                    "RadiusInGridSquareWidths": 1.6,
+                    "PulsePropagationTime": 0.5,
+                    "PopAnimEffectStartDelay": 0.5,
+                    "PopAnimEffectName": "POPANIM_EFFECTS_PHATBEETS_ATTACK_PULSE",
+                    "PopAnimHitEffectName": "POPANIM_EFFECTS_PHATBEETS_TILE_HIT",
+                    "ImpactSound": "Play_Plant_PhatBeet_Zombie_Impact",
+                    "DamageProps": {
+                        "BaseDamage": 45
+                    },
+                    "TargetProps": {
+                        "IgnoreZombiesFlagged": [
+                            "standard_ignored"
+                        ],
+                        "IgnoreGridItemsFlagged": [
+                            "standard_plants_ignore"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsDamageRadius",
+            "objdata": {
+                "TypeName": "PhatBeetPowerfulDamageLvl2",
+                "DamageRadius": {
+                    "RadiusInGridSquareWidths": 1.6,
+                    "PulsePropagationTime": 0.5,
+                    "PopAnimEffectStartDelay": 0.5,
+                    "PopAnimEffectName": "POPANIM_EFFECTS_PHATBEETS_ATTACK_PULSE",
+                    "PopAnimHitEffectName": "POPANIM_EFFECTS_PHATBEETS_TILE_HIT",
+                    "ImpactSound": "Play_Plant_PhatBeet_Zombie_Impact",
+                    "DamageProps": {
+                        "BaseDamage": 75
+                    },
+                    "TargetProps": {
+                        "IgnoreZombiesFlagged": [
+                            "standard_ignored"
+                        ],
+                        "IgnoreGridItemsFlagged": [
+                            "standard_plants_ignore"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsDamageRadius",
+            "objdata": {
+                "TypeName": "PhatBeetPowerfulDamageLvl3",
+                "DamageRadius": {
+                    "RadiusInGridSquareWidths": 1.6,
+                    "PulsePropagationTime": 0.5,
+                    "PopAnimEffectStartDelay": 0.5,
+                    "PopAnimEffectName": "POPANIM_EFFECTS_PHATBEETS_ATTACK_PULSE",
+                    "PopAnimHitEffectName": "POPANIM_EFFECTS_PHATBEETS_TILE_HIT",
+                    "ImpactSound": "Play_Plant_PhatBeet_Zombie_Impact",
+                    "DamageProps": {
+                        "BaseDamage": 105
+                    },
+                    "TargetProps": {
+                        "IgnoreZombiesFlagged": [
+                            "standard_ignored"
+                        ],
+                        "IgnoreGridItemsFlagged": [
+                            "standard_plants_ignore"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsDamageRadius",
+            "objdata": {
+                "TypeName": "PhatBeetPowerfulDamageLvl4",
+                "DamageRadius": {
+                    "RadiusInGridSquareWidths": 1.6,
+                    "PulsePropagationTime": 0.5,
+                    "PopAnimEffectStartDelay": 0.5,
+                    "PopAnimEffectName": "POPANIM_EFFECTS_PHATBEETS_ATTACK_PULSE",
+                    "PopAnimHitEffectName": "POPANIM_EFFECTS_PHATBEETS_TILE_HIT",
+                    "ImpactSound": "Play_Plant_PhatBeet_Zombie_Impact",
+                    "DamageProps": {
+                        "BaseDamage": 120
+                    },
+                    "TargetProps": {
+                        "IgnoreZombiesFlagged": [
+                            "standard_ignored"
+                        ],
+                        "IgnoreGridItemsFlagged": [
+                            "standard_plants_ignore"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsDamageRadius",
+            "objdata": {
+                "TypeName": "PhatBeetPowerfulDamageLvl5",
+                "DamageRadius": {
+                    "RadiusInGridSquareWidths": 1.6,
+                    "PulsePropagationTime": 0.5,
+                    "PopAnimEffectStartDelay": 0.5,
+                    "PopAnimEffectName": "POPANIM_EFFECTS_PHATBEETS_ATTACK_PULSE",
+                    "PopAnimHitEffectName": "POPANIM_EFFECTS_PHATBEETS_TILE_HIT",
+                    "ImpactSound": "Play_Plant_PhatBeet_Zombie_Impact",
+                    "DamageProps": {
+                        "BaseDamage": 135
+                    },
+                    "TargetProps": {
+                        "IgnoreZombiesFlagged": [
+                            "standard_ignored"
+                        ],
+                        "IgnoreGridItemsFlagged": [
+                            "standard_plants_ignore"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsDamageRadius",
+            "objdata": {
+                "TypeName": "PhatBeetInnerPFDamageLvl1",
+                "DamageRadius": {
+                    "RadiusInGridSquareWidths": 1.6,
+                    "PulsePropagationTime": 1.7,
+                    "PopAnimEffectStartDelay": 1.4,
+                    "PopAnimHitEffectName": "POPANIM_EFFECTS_PHATBEETS_TILE_HIT",
+                    "PopAnimEffectName": "POPANIM_EFFECTS_PHATBEETS_PF_PULSE",
+                    "DamageProps": {
+                        "BaseDamage": 400,
+                        "DamageFlags": [
+                            "plantfood_effect"
+                        ]
+                    },
+                    "TargetProps": {
+                        "IgnoreZombiesFlagged": [
+                            "standard_ignored"
+                        ],
+                        "IgnoreGridItemsFlagged": [
+                            "standard_plants_ignore"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsDamageRadius",
+            "objdata": {
+                "TypeName": "PhatBeetInnerPFDamageLvl2",
+                "DamageRadius": {
+                    "RadiusInGridSquareWidths": 1.6,
+                    "PulsePropagationTime": 1.7,
+                    "PopAnimEffectStartDelay": 1.4,
+                    "PopAnimHitEffectName": "POPANIM_EFFECTS_PHATBEETS_TILE_HIT",
+                    "PopAnimEffectName": "POPANIM_EFFECTS_PHATBEETS_PF_PULSE",
+                    "DamageProps": {
+                        "BaseDamage": 500,
+                        "DamageFlags": [
+                            "plantfood_effect"
+                        ]
+                    },
+                    "TargetProps": {
+                        "IgnoreZombiesFlagged": [
+                            "standard_ignored"
+                        ],
+                        "IgnoreGridItemsFlagged": [
+                            "standard_plants_ignore"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsDamageRadius",
+            "objdata": {
+                "TypeName": "PhatBeetInnerPFDamageLvl3",
+                "DamageRadius": {
+                    "RadiusInGridSquareWidths": 1.6,
+                    "PulsePropagationTime": 1.7,
+                    "PopAnimEffectStartDelay": 1.4,
+                    "PopAnimHitEffectName": "POPANIM_EFFECTS_PHATBEETS_TILE_HIT",
+                    "PopAnimEffectName": "POPANIM_EFFECTS_PHATBEETS_PF_PULSE",
+                    "DamageProps": {
+                        "BaseDamage": 600,
+                        "DamageFlags": [
+                            "plantfood_effect"
+                        ]
+                    },
+                    "TargetProps": {
+                        "IgnoreZombiesFlagged": [
+                            "standard_ignored"
+                        ],
+                        "IgnoreGridItemsFlagged": [
+                            "standard_plants_ignore"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsDamageRadius",
+            "objdata": {
+                "TypeName": "PhatBeetInnerPFDamageLvl4",
+                "DamageRadius": {
+                    "RadiusInGridSquareWidths": 1.6,
+                    "PulsePropagationTime": 1.7,
+                    "PopAnimEffectStartDelay": 1.4,
+                    "PopAnimHitEffectName": "POPANIM_EFFECTS_PHATBEETS_TILE_HIT",
+                    "PopAnimEffectName": "POPANIM_EFFECTS_PHATBEETS_PF_PULSE",
+                    "DamageProps": {
+                        "BaseDamage": 700,
+                        "DamageFlags": [
+                            "plantfood_effect"
+                        ]
+                    },
+                    "TargetProps": {
+                        "IgnoreZombiesFlagged": [
+                            "standard_ignored"
+                        ],
+                        "IgnoreGridItemsFlagged": [
+                            "standard_plants_ignore"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsDamageRadius",
+            "objdata": {
+                "TypeName": "PhatBeetInnerPFDamageLvl5",
+                "DamageRadius": {
+                    "RadiusInGridSquareWidths": 1.6,
+                    "PulsePropagationTime": 1.7,
+                    "PopAnimEffectStartDelay": 1.4,
+                    "PopAnimHitEffectName": "POPANIM_EFFECTS_PHATBEETS_TILE_HIT",
+                    "PopAnimEffectName": "POPANIM_EFFECTS_PHATBEETS_PF_PULSE",
+                    "DamageProps": {
+                        "BaseDamage": 800,
+                        "DamageFlags": [
+                            "plantfood_effect"
+                        ]
+                    },
+                    "TargetProps": {
+                        "IgnoreZombiesFlagged": [
+                            "standard_ignored"
+                        ],
+                        "IgnoreGridItemsFlagged": [
+                            "standard_plants_ignore"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsDamageRadius",
+            "objdata": {
+                "TypeName": "PhatBeetOuterPFDamageLvl1",
+                "DamageRadius": {
+                    "# This damage stacks with PlantfoodDamageRadiusInner": 0,
+                    "RadiusInGridSquareWidths": 2.7,
+                    "PulsePropagationTime": 1.9,
+                    "PopAnimEffectName": "",
+                    "PopAnimHitEffectName": "POPANIM_EFFECTS_PHATBEETS_TILE_HIT",
+                    "ImpactSound": "Play_Plant_PhatBeet_Zombie_Impact",
+                    "DamageProps": {
+                        "BaseDamage": 200,
+                        "DamageFlags": [
+                            "plantfood_effect"
+                        ]
+                    },
+                    "TargetProps": {
+                        "IgnoreZombiesFlagged": [
+                            "standard_ignored"
+                        ],
+                        "IgnoreGridItemsFlagged": [
+                            "standard_plants_ignore"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsDamageRadius",
+            "objdata": {
+                "TypeName": "PhatBeetOuterPFDamageLvl2",
+                "DamageRadius": {
+                    "# This damage stacks with PlantfoodDamageRadiusInner": 0,
+                    "RadiusInGridSquareWidths": 2.7,
+                    "PulsePropagationTime": 1.9,
+                    "PopAnimEffectName": "",
+                    "PopAnimHitEffectName": "POPANIM_EFFECTS_PHATBEETS_TILE_HIT",
+                    "ImpactSound": "Play_Plant_PhatBeet_Zombie_Impact",
+                    "DamageProps": {
+                        "BaseDamage": 250,
+                        "DamageFlags": [
+                            "plantfood_effect"
+                        ]
+                    },
+                    "TargetProps": {
+                        "IgnoreZombiesFlagged": [
+                            "standard_ignored"
+                        ],
+                        "IgnoreGridItemsFlagged": [
+                            "standard_plants_ignore"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsDamageRadius",
+            "objdata": {
+                "TypeName": "PhatBeetOuterPFDamageLvl3",
+                "DamageRadius": {
+                    "# This damage stacks with PlantfoodDamageRadiusInner": 0,
+                    "RadiusInGridSquareWidths": 2.7,
+                    "PulsePropagationTime": 1.9,
+                    "PopAnimEffectName": "",
+                    "PopAnimHitEffectName": "POPANIM_EFFECTS_PHATBEETS_TILE_HIT",
+                    "ImpactSound": "Play_Plant_PhatBeet_Zombie_Impact",
+                    "DamageProps": {
+                        "BaseDamage": 300,
+                        "DamageFlags": [
+                            "plantfood_effect"
+                        ]
+                    },
+                    "TargetProps": {
+                        "IgnoreZombiesFlagged": [
+                            "standard_ignored"
+                        ],
+                        "IgnoreGridItemsFlagged": [
+                            "standard_plants_ignore"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsDamageRadius",
+            "objdata": {
+                "TypeName": "PhatBeetOuterPFDamageLvl4",
+                "DamageRadius": {
+                    "# This damage stacks with PlantfoodDamageRadiusInner": 0,
+                    "RadiusInGridSquareWidths": 2.7,
+                    "PulsePropagationTime": 1.9,
+                    "PopAnimEffectName": "",
+                    "PopAnimHitEffectName": "POPANIM_EFFECTS_PHATBEETS_TILE_HIT",
+                    "ImpactSound": "Play_Plant_PhatBeet_Zombie_Impact",
+                    "DamageProps": {
+                        "BaseDamage": 350,
+                        "DamageFlags": [
+                            "plantfood_effect"
+                        ]
+                    },
+                    "TargetProps": {
+                        "IgnoreZombiesFlagged": [
+                            "standard_ignored"
+                        ],
+                        "IgnoreGridItemsFlagged": [
+                            "standard_plants_ignore"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsDamageRadius",
+            "objdata": {
+                "TypeName": "PhatBeetOuterPFDamageLvl5",
+                "DamageRadius": {
+                    "# This damage stacks with PlantfoodDamageRadiusInner": 0,
+                    "RadiusInGridSquareWidths": 2.7,
+                    "PulsePropagationTime": 1.9,
+                    "PopAnimEffectName": "",
+                    "PopAnimHitEffectName": "POPANIM_EFFECTS_PHATBEETS_TILE_HIT",
+                    "ImpactSound": "Play_Plant_PhatBeet_Zombie_Impact",
+                    "DamageProps": {
+                        "BaseDamage": 400,
+                        "DamageFlags": [
+                            "plantfood_effect"
+                        ]
+                    },
+                    "TargetProps": {
+                        "IgnoreZombiesFlagged": [
+                            "standard_ignored"
+                        ],
+                        "IgnoreGridItemsFlagged": [
+                            "standard_plants_ignore"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsDamageRadius",
+            "objdata": {
+                "TypeName": "EscapeRootPotatomineDamageLvl1",
+                "DamageRadius": {
+                    "RadiusInGridSquareWidths": 0.8789,
+                    "PopAnimEffectName": "POPANIM_EFFECTS_ESCAPEROOT_EXPLOSION_POTATOMINE",
+                    "ShakeBoard": {
+                        "mX": 3,
+                        "mY": -4
+                    },
+                    "RenderAtEffectLayer": true,
+                    "DamageProps": {
+                        "BaseDamage": 1800,
+                        "DamageFlags": [
+                            "hits_shield_and_body",
+                            "no_bleed_on_death"
+                        ]
+                    },
+                    "TargetProps": {
+                        "IgnoreZombiesFlagged": [
+                            "dying",
+                            "does_not_collide_with_plant",
+                            "same_team",
+                            "not_in_row"
+                        ],
+                        "IgnoreGridItemsFlagged": [
+                            "standard_plants_ignore",
+                            "not_in_row",
+                            "not_in_col"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsDamageRadius",
+            "objdata": {
+                "TypeName": "EscapeRootPrimalPotatomineDamageLvl1",
+                "DamageRadius": {
+                    "RadiusInGridSquareWidths": 1.6,
+                    "PopAnimEffectName": "POPANIM_EFFECTS_ESCAPEROOT_EXPLOSION_PRIMALPOTATOMINE",
+                    "ShakeBoard": {
+                        "mX": 3,
+                        "mY": -4
+                    },
+                    "RenderAtEffectLayer": true,
+                    "DamageProps": {
+                        "BaseDamage": 1800,
+                        "DamageFlags": [
+                            "hits_shield_and_body",
+                            "no_bleed_on_death"
+                        ]
+                    },
+                    "TargetProps": {
+                        "IgnoreZombiesFlagged": [
+                            "dying",
+                            "does_not_collide_with_plant",
+                            "same_team"
+                        ],
+                        "IgnoreGridItemsFlagged": [
+                            "standard_plants_ignore"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsDamageRadius",
+            "objdata": {
+                "TypeName": "EscapeRootCherrybombDamageLvl1",
+                "DamageRadius": {
+                    "RadiusInGridSquareWidths": 1.44,
+                    "PopAnimEffectName": "POPANIM_EFFECTS_ESCAPEROOT_EXPLOSION_CHERRYBOMB_TOP",
+                    "PopAnimScaleX": 1.5,
+                    "PopAnimScaleY": 1.5,
+                    "PopAnimOffset": {
+                        "mX": 0,
+                        "mY": -80
+                    },
+                    "ShakeBoard": {
+                        "mX": 3,
+                        "mY": -4
+                    },
+                    "RenderAtEffectLayer": true,
+                    "DamageProps": {
+                        "BaseDamage": 1800,
+                        "DamageFlags": [
+                            "hits_shield_and_body",
+                            "fire",
+                            "ash_death"
+                        ]
+                    },
+                    "TargetProps": {
+                        "IgnoreZombiesFlagged": [
+                            "dying",
+                            "same_team"
+                        ],
+                        "IgnoreGridItemsFlagged": [
+                            "standard_plants_ignore"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsDamageRadius",
+            "objdata": {
+                "TypeName": "EscapeRootCherrybombDamageLvl2",
+                "DamageRadius": {
+                    "RadiusInGridSquareWidths": 1.44,
+                    "PopAnimEffectName": "POPANIM_EFFECTS_ESCAPEROOT_EXPLOSION_CHERRYBOMB_TOP",
+                    "PopAnimScaleX": 1.5,
+                    "PopAnimScaleY": 1.5,
+                    "PopAnimOffset": {
+                        "mX": 0,
+                        "mY": -80
+                    },
+                    "ShakeBoard": {
+                        "mX": 3,
+                        "mY": -4
+                    },
+                    "RenderAtEffectLayer": true,
+                    "DamageProps": {
+                        "BaseDamage": 1900,
+                        "DamageFlags": [
+                            "hits_shield_and_body",
+                            "fire",
+                            "ash_death"
+                        ]
+                    },
+                    "TargetProps": {
+                        "IgnoreZombiesFlagged": [
+                            "dying",
+                            "same_team"
+                        ],
+                        "IgnoreGridItemsFlagged": [
+                            "standard_plants_ignore"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsDamageRadius",
+            "objdata": {
+                "TypeName": "EscapeRootCherrybombDamageLvl3",
+                "DamageRadius": {
+                    "RadiusInGridSquareWidths": 1.44,
+                    "PopAnimEffectName": "POPANIM_EFFECTS_ESCAPEROOT_EXPLOSION_CHERRYBOMB_TOP",
+                    "PopAnimScaleX": 1.5,
+                    "PopAnimScaleY": 1.5,
+                    "PopAnimOffset": {
+                        "mX": 0,
+                        "mY": -80
+                    },
+                    "ShakeBoard": {
+                        "mX": 3,
+                        "mY": -4
+                    },
+                    "RenderAtEffectLayer": true,
+                    "DamageProps": {
+                        "BaseDamage": 2000,
+                        "DamageFlags": [
+                            "hits_shield_and_body",
+                            "fire",
+                            "ash_death"
+                        ]
+                    },
+                    "TargetProps": {
+                        "IgnoreZombiesFlagged": [
+                            "dying",
+                            "same_team"
+                        ],
+                        "IgnoreGridItemsFlagged": [
+                            "standard_plants_ignore"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsDamageRadius",
+            "objdata": {
+                "TypeName": "EscapeRootCherrybombDamageLvl4",
+                "DamageRadius": {
+                    "RadiusInGridSquareWidths": 1.44,
+                    "PopAnimEffectName": "POPANIM_EFFECTS_ESCAPEROOT_EXPLOSION_CHERRYBOMB_TOP",
+                    "PopAnimScaleX": 1.5,
+                    "PopAnimScaleY": 1.5,
+                    "PopAnimOffset": {
+                        "mX": 0,
+                        "mY": -80
+                    },
+                    "ShakeBoard": {
+                        "mX": 3,
+                        "mY": -4
+                    },
+                    "RenderAtEffectLayer": true,
+                    "DamageProps": {
+                        "BaseDamage": 2100,
+                        "DamageFlags": [
+                            "hits_shield_and_body",
+                            "fire",
+                            "ash_death"
+                        ]
+                    },
+                    "TargetProps": {
+                        "IgnoreZombiesFlagged": [
+                            "dying",
+                            "same_team"
+                        ],
+                        "IgnoreGridItemsFlagged": [
+                            "standard_plants_ignore"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsDamageRadius",
+            "objdata": {
+                "TypeName": "EscapeRootCherrybombDamageLvl5",
+                "DamageRadius": {
+                    "RadiusInGridSquareWidths": 1.44,
+                    "PopAnimEffectName": "POPANIM_EFFECTS_ESCAPEROOT_EXPLOSION_CHERRYBOMB_TOP",
+                    "PopAnimScaleX": 1.5,
+                    "PopAnimScaleY": 1.5,
+                    "PopAnimOffset": {
+                        "mX": 0,
+                        "mY": -80
+                    },
+                    "ShakeBoard": {
+                        "mX": 3,
+                        "mY": -4
+                    },
+                    "RenderAtEffectLayer": true,
+                    "DamageProps": {
+                        "BaseDamage": 2200,
+                        "DamageFlags": [
+                            "hits_shield_and_body",
+                            "fire",
+                            "ash_death"
+                        ]
+                    },
+                    "TargetProps": {
+                        "IgnoreZombiesFlagged": [
+                            "dying",
+                            "same_team"
+                        ],
+                        "IgnoreGridItemsFlagged": [
+                            "standard_plants_ignore"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsDamageRadius",
+            "objdata": {
+                "TypeName": "EscapeRootCherrybombDamageLvl6",
+                "DamageRadius": {
+                    "RadiusInGridSquareWidths": 1.44,
+                    "PopAnimEffectName": "POPANIM_EFFECTS_ESCAPEROOT_EXPLOSION_CHERRYBOMB_TOP",
+                    "PopAnimScaleX": 1.5,
+                    "PopAnimScaleY": 1.5,
+                    "PopAnimOffset": {
+                        "mX": 0,
+                        "mY": -80
+                    },
+                    "ShakeBoard": {
+                        "mX": 3,
+                        "mY": -4
+                    },
+                    "RenderAtEffectLayer": true,
+                    "DamageProps": {
+                        "BaseDamage": 2300,
+                        "DamageFlags": [
+                            "hits_shield_and_body",
+                            "fire",
+                            "ash_death"
+                        ]
+                    },
+                    "TargetProps": {
+                        "IgnoreZombiesFlagged": [
+                            "dying",
+                            "same_team"
+                        ],
+                        "IgnoreGridItemsFlagged": [
+                            "standard_plants_ignore"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsDamageRadius",
+            "objdata": {
+                "TypeName": "EscapeRootCherrybombDamageLvl7",
+                "DamageRadius": {
+                    "RadiusInGridSquareWidths": 1.44,
+                    "PopAnimEffectName": "POPANIM_EFFECTS_ESCAPEROOT_EXPLOSION_CHERRYBOMB_TOP",
+                    "PopAnimScaleX": 1.5,
+                    "PopAnimScaleY": 1.5,
+                    "PopAnimOffset": {
+                        "mX": 0,
+                        "mY": -80
+                    },
+                    "ShakeBoard": {
+                        "mX": 3,
+                        "mY": -4
+                    },
+                    "RenderAtEffectLayer": true,
+                    "DamageProps": {
+                        "BaseDamage": 2400,
+                        "DamageFlags": [
+                            "hits_shield_and_body",
+                            "fire",
+                            "ash_death"
+                        ]
+                    },
+                    "TargetProps": {
+                        "IgnoreZombiesFlagged": [
+                            "dying",
+                            "same_team"
+                        ],
+                        "IgnoreGridItemsFlagged": [
+                            "standard_plants_ignore"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsDamageRadius",
+            "objdata": {
+                "TypeName": "EscapeRootGrapeshotDamageLvl1",
+                "DamageRadius": {
+                    "RadiusInGridSquareWidths": 1.44,
+                    "PopAnimEffectName": "POPANIM_EFFECTS_ESCAPEROOT_EXPLOSION_GRAPESHOT",
+                    "PopAnimScaleX": 1.5,
+                    "PopAnimScaleY": 1.5,
+                    "ShakeBoard": {
+                        "mX": 3,
+                        "mY": -4
+                    },
+                    "RenderAtEffectLayer": true,
+                    "DamageProps": {
+                        "BaseDamage": 1800,
+                        "DamageFlags": [
+                            "hits_shield_and_body",
+                            "fire",
+                            "ash_death"
+                        ]
+                    },
+                    "TargetProps": {
+                        "IgnoreZombiesFlagged": [
+                            "dying",
+                            "same_team"
+                        ],
+                        "IgnoreGridItemsFlagged": [
+                            "standard_plants_ignore"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsDamageRadius",
+            "objdata": {
+                "TypeName": "EscapeRootGrapeshotDamageLvl2",
+                "DamageRadius": {
+                    "RadiusInGridSquareWidths": 1.44,
+                    "PopAnimEffectName": "POPANIM_EFFECTS_ESCAPEROOT_EXPLOSION_GRAPESHOT",
+                    "PopAnimScaleX": 1.5,
+                    "PopAnimScaleY": 1.5,
+                    "ShakeBoard": {
+                        "mX": 3,
+                        "mY": -4
+                    },
+                    "RenderAtEffectLayer": true,
+                    "DamageProps": {
+                        "BaseDamage": 1900,
+                        "DamageFlags": [
+                            "hits_shield_and_body",
+                            "fire",
+                            "ash_death"
+                        ]
+                    },
+                    "TargetProps": {
+                        "IgnoreZombiesFlagged": [
+                            "dying",
+                            "same_team"
+                        ],
+                        "IgnoreGridItemsFlagged": [
+                            "standard_plants_ignore"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsDamageRadius",
+            "objdata": {
+                "TypeName": "EscapeRootGrapeshotDamageLvl3",
+                "DamageRadius": {
+                    "RadiusInGridSquareWidths": 1.44,
+                    "PopAnimEffectName": "POPANIM_EFFECTS_ESCAPEROOT_EXPLOSION_GRAPESHOT",
+                    "PopAnimScaleX": 1.5,
+                    "PopAnimScaleY": 1.5,
+                    "ShakeBoard": {
+                        "mX": 3,
+                        "mY": -4
+                    },
+                    "RenderAtEffectLayer": true,
+                    "DamageProps": {
+                        "BaseDamage": 2000,
+                        "DamageFlags": [
+                            "hits_shield_and_body",
+                            "fire",
+                            "ash_death"
+                        ]
+                    },
+                    "TargetProps": {
+                        "IgnoreZombiesFlagged": [
+                            "dying",
+                            "same_team"
+                        ],
+                        "IgnoreGridItemsFlagged": [
+                            "standard_plants_ignore"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsDamageRadius",
+            "objdata": {
+                "TypeName": "EscapeRootGrapeshotDamageLvl4",
+                "DamageRadius": {
+                    "RadiusInGridSquareWidths": 1.44,
+                    "PopAnimEffectName": "POPANIM_EFFECTS_ESCAPEROOT_EXPLOSION_GRAPESHOT",
+                    "PopAnimScaleX": 1.5,
+                    "PopAnimScaleY": 1.5,
+                    "ShakeBoard": {
+                        "mX": 3,
+                        "mY": -4
+                    },
+                    "RenderAtEffectLayer": true,
+                    "DamageProps": {
+                        "BaseDamage": 2100,
+                        "DamageFlags": [
+                            "hits_shield_and_body",
+                            "fire",
+                            "ash_death"
+                        ]
+                    },
+                    "TargetProps": {
+                        "IgnoreZombiesFlagged": [
+                            "dying",
+                            "same_team"
+                        ],
+                        "IgnoreGridItemsFlagged": [
+                            "standard_plants_ignore"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsDamageRadius",
+            "objdata": {
+                "TypeName": "EscapeRootGrapeshotDamageLvl5",
+                "DamageRadius": {
+                    "RadiusInGridSquareWidths": 1.44,
+                    "PopAnimEffectName": "POPANIM_EFFECTS_ESCAPEROOT_EXPLOSION_GRAPESHOT",
+                    "PopAnimScaleX": 1.5,
+                    "PopAnimScaleY": 1.5,
+                    "ShakeBoard": {
+                        "mX": 3,
+                        "mY": -4
+                    },
+                    "RenderAtEffectLayer": true,
+                    "DamageProps": {
+                        "BaseDamage": 2200,
+                        "DamageFlags": [
+                            "hits_shield_and_body",
+                            "fire",
+                            "ash_death"
+                        ]
+                    },
+                    "TargetProps": {
+                        "IgnoreZombiesFlagged": [
+                            "dying",
+                            "same_team"
+                        ],
+                        "IgnoreGridItemsFlagged": [
+                            "standard_plants_ignore"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsDamageRadius",
+            "objdata": {
+                "TypeName": "EscapeRootGrapeshotDamageLvl6",
+                "DamageRadius": {
+                    "RadiusInGridSquareWidths": 1.44,
+                    "PopAnimEffectName": "POPANIM_EFFECTS_ESCAPEROOT_EXPLOSION_GRAPESHOT",
+                    "PopAnimScaleX": 1.5,
+                    "PopAnimScaleY": 1.5,
+                    "ShakeBoard": {
+                        "mX": 3,
+                        "mY": -4
+                    },
+                    "RenderAtEffectLayer": true,
+                    "DamageProps": {
+                        "BaseDamage": 2300,
+                        "DamageFlags": [
+                            "hits_shield_and_body",
+                            "fire",
+                            "ash_death"
+                        ]
+                    },
+                    "TargetProps": {
+                        "IgnoreZombiesFlagged": [
+                            "dying",
+                            "same_team"
+                        ],
+                        "IgnoreGridItemsFlagged": [
+                            "standard_plants_ignore"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsDamageRadius",
+            "objdata": {
+                "TypeName": "EscapeRootGrapeshotDamageLvl7",
+                "DamageRadius": {
+                    "RadiusInGridSquareWidths": 1.44,
+                    "PopAnimEffectName": "POPANIM_EFFECTS_ESCAPEROOT_EXPLOSION_GRAPESHOT",
+                    "PopAnimScaleX": 1.5,
+                    "PopAnimScaleY": 1.5,
+                    "ShakeBoard": {
+                        "mX": 3,
+                        "mY": -4
+                    },
+                    "RenderAtEffectLayer": true,
+                    "DamageProps": {
+                        "BaseDamage": 2400,
+                        "DamageFlags": [
+                            "hits_shield_and_body",
+                            "fire",
+                            "ash_death"
+                        ]
+                    },
+                    "TargetProps": {
+                        "IgnoreZombiesFlagged": [
+                            "dying",
+                            "same_team"
+                        ],
+                        "IgnoreGridItemsFlagged": [
+                            "standard_plants_ignore"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsDamageRadius",
+            "objdata": {
+                "TypeName": "GraveBusterPotatomineDamageLvl1",
+                "DamageRadius": {
+                    "RadiusInGridSquareWidths": 0.8789,
+                    "PopAnimEffectName": "POPANIM_EFFECTS_GRAVEBUSTER_EXPLOSION_POTATOMINE",
+                    "ShakeBoard": {
+                        "mX": 3,
+                        "mY": -4
+                    },
+                    "RenderAtEffectLayer": true,
+                    "DamageProps": {
+                        "BaseDamage": 1800,
+                        "DamageFlags": [
+                            "hits_shield_and_body",
+                            "no_bleed_on_death"
+                        ]
+                    },
+                    "TargetProps": {
+                        "IgnoreZombiesFlagged": [
+                            "dying",
+                            "does_not_collide_with_plant",
+                            "same_team",
+                            "not_in_row"
+                        ],
+                        "IgnoreGridItemsFlagged": [
+                            "standard_plants_ignore",
+                            "not_in_row",
+                            "not_in_col"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsDamageRadius",
+            "objdata": {
+                "TypeName": "GraveBusterPotatomineDamageLvl2",
+                "DamageRadius": {
+                    "RadiusInGridSquareWidths": 0.8789,
+                    "PopAnimEffectName": "POPANIM_EFFECTS_GRAVEBUSTER_EXPLOSION_POTATOMINE",
+                    "ShakeBoard": {
+                        "mX": 3,
+                        "mY": -4
+                    },
+                    "RenderAtEffectLayer": true,
+                    "DamageProps": {
+                        "BaseDamage": 1900,
+                        "DamageFlags": [
+                            "hits_shield_and_body",
+                            "no_bleed_on_death"
+                        ]
+                    },
+                    "TargetProps": {
+                        "IgnoreZombiesFlagged": [
+                            "dying",
+                            "does_not_collide_with_plant",
+                            "same_team",
+                            "not_in_row"
+                        ],
+                        "IgnoreGridItemsFlagged": [
+                            "standard_plants_ignore",
+                            "not_in_row",
+                            "not_in_col"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsLinearBurst",
+            "objdata": {
+                "TypeName": "SnapdragonNormalAttackLvl1",
+                "LinearBurst": {
+                    "GridAreaForAnimation": {
+                        "mX": 0,
+                        "mY": -1,
+                        "mWidth": 2,
+                        "mHeight": 3
+                    },
+                    "BoardAreaForDamage": {
+                        "mX": 0,
+                        "mY": -125,
+                        "mWidth": 165,
+                        "mHeight": 220
+                    },
+                    "TimeBetweenGridHits": 0.2,
+                    "PopAnimLinearEffectName": "POPANIM_EFFECTS_SNAPDRAGON_FIRE",
+                    "DamageProps": {
+                        "BaseDamage": 30,
+                        "DamageFlags": [
+                            "fire"
+                        ]
+                    },
+                    "TargetProps": {
+                        "IgnoreZombiesFlagged": [
+                            "standard_ignored"
+                        ],
+                        "IgnoreGridItemsFlagged": [
+                            "standard_plants_ignore"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsLinearBurst",
+            "objdata": {
+                "TypeName": "SnapdragonNormalAttackLvl2",
+                "LinearBurst": {
+                    "GridAreaForAnimation": {
+                        "mX": 0,
+                        "mY": -1,
+                        "mWidth": 2,
+                        "mHeight": 3
+                    },
+                    "BoardAreaForDamage": {
+                        "mX": 0,
+                        "mY": -125,
+                        "mWidth": 165,
+                        "mHeight": 220
+                    },
+                    "TimeBetweenGridHits": 0.2,
+                    "PopAnimLinearEffectName": "POPANIM_EFFECTS_SNAPDRAGON_FIRE",
+                    "DamageProps": {
+                        "BaseDamage": 35,
+                        "DamageFlags": [
+                            "fire"
+                        ]
+                    },
+                    "TargetProps": {
+                        "IgnoreZombiesFlagged": [
+                            "standard_ignored"
+                        ],
+                        "IgnoreGridItemsFlagged": [
+                            "standard_plants_ignore"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsLinearBurst",
+            "objdata": {
+                "TypeName": "SnapdragonNormalAttackLvl3",
+                "LinearBurst": {
+                    "GridAreaForAnimation": {
+                        "mX": 0,
+                        "mY": -1,
+                        "mWidth": 2,
+                        "mHeight": 3
+                    },
+                    "BoardAreaForDamage": {
+                        "mX": 0,
+                        "mY": -125,
+                        "mWidth": 165,
+                        "mHeight": 220
+                    },
+                    "TimeBetweenGridHits": 0.2,
+                    "PopAnimLinearEffectName": "POPANIM_EFFECTS_SNAPDRAGON_FIRE",
+                    "DamageProps": {
+                        "BaseDamage": 40,
+                        "DamageFlags": [
+                            "fire"
+                        ]
+                    },
+                    "TargetProps": {
+                        "IgnoreZombiesFlagged": [
+                            "standard_ignored"
+                        ],
+                        "IgnoreGridItemsFlagged": [
+                            "standard_plants_ignore"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsLinearBurst",
+            "objdata": {
+                "TypeName": "SnapdragonNormalAttackLvl4",
+                "LinearBurst": {
+                    "GridAreaForAnimation": {
+                        "mX": 0,
+                        "mY": -1,
+                        "mWidth": 2,
+                        "mHeight": 3
+                    },
+                    "BoardAreaForDamage": {
+                        "mX": 0,
+                        "mY": -125,
+                        "mWidth": 165,
+                        "mHeight": 220
+                    },
+                    "TimeBetweenGridHits": 0.2,
+                    "PopAnimLinearEffectName": "POPANIM_EFFECTS_SNAPDRAGON_FIRE",
+                    "DamageProps": {
+                        "BaseDamage": 45,
+                        "DamageFlags": [
+                            "fire"
+                        ]
+                    },
+                    "TargetProps": {
+                        "IgnoreZombiesFlagged": [
+                            "standard_ignored"
+                        ],
+                        "IgnoreGridItemsFlagged": [
+                            "standard_plants_ignore"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsLinearBurst",
+            "objdata": {
+                "TypeName": "SnapdragonNormalAttackLvl5",
+                "LinearBurst": {
+                    "GridAreaForAnimation": {
+                        "mX": 0,
+                        "mY": -1,
+                        "mWidth": 2,
+                        "mHeight": 3
+                    },
+                    "BoardAreaForDamage": {
+                        "mX": 0,
+                        "mY": -125,
+                        "mWidth": 165,
+                        "mHeight": 220
+                    },
+                    "TimeBetweenGridHits": 0.2,
+                    "PopAnimLinearEffectName": "POPANIM_EFFECTS_SNAPDRAGON_FIRE",
+                    "DamageProps": {
+                        "BaseDamage": 50,
+                        "DamageFlags": [
+                            "fire"
+                        ]
+                    },
+                    "TargetProps": {
+                        "IgnoreZombiesFlagged": [
+                            "standard_ignored"
+                        ],
+                        "IgnoreGridItemsFlagged": [
+                            "standard_plants_ignore"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsLinearBurst",
+            "objdata": {
+                "TypeName": "SnapdragonNormalAttackLvl6",
+                "LinearBurst": {
+                    "GridAreaForAnimation": {
+                        "mX": 0,
+                        "mY": -1,
+                        "mWidth": 2,
+                        "mHeight": 3
+                    },
+                    "BoardAreaForDamage": {
+                        "mX": 0,
+                        "mY": -125,
+                        "mWidth": 165,
+                        "mHeight": 220
+                    },
+                    "TimeBetweenGridHits": 0.2,
+                    "PopAnimLinearEffectName": "POPANIM_EFFECTS_SNAPDRAGON_FIRE",
+                    "DamageProps": {
+                        "BaseDamage": 55,
+                        "DamageFlags": [
+                            "fire"
+                        ]
+                    },
+                    "TargetProps": {
+                        "IgnoreZombiesFlagged": [
+                            "standard_ignored"
+                        ],
+                        "IgnoreGridItemsFlagged": [
+                            "standard_plants_ignore"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsLinearBurst",
+            "objdata": {
+                "TypeName": "SnapdragonNormalAttackLvl7",
+                "LinearBurst": {
+                    "GridAreaForAnimation": {
+                        "mX": 0,
+                        "mY": -1,
+                        "mWidth": 2,
+                        "mHeight": 3
+                    },
+                    "BoardAreaForDamage": {
+                        "mX": 0,
+                        "mY": -125,
+                        "mWidth": 165,
+                        "mHeight": 220
+                    },
+                    "TimeBetweenGridHits": 0.2,
+                    "PopAnimLinearEffectName": "POPANIM_EFFECTS_SNAPDRAGON_FIRE",
+                    "DamageProps": {
+                        "BaseDamage": 60,
+                        "DamageFlags": [
+                            "fire"
+                        ]
+                    },
+                    "TargetProps": {
+                        "IgnoreZombiesFlagged": [
+                            "standard_ignored"
+                        ],
+                        "IgnoreGridItemsFlagged": [
+                            "standard_plants_ignore"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsLinearBurst",
+            "objdata": {
+                "TypeName": "SnapdragonNormalAttackLvl8",
+                "LinearBurst": {
+                    "GridAreaForAnimation": {
+                        "mX": 0,
+                        "mY": -1,
+                        "mWidth": 2,
+                        "mHeight": 3
+                    },
+                    "BoardAreaForDamage": {
+                        "mX": 0,
+                        "mY": -125,
+                        "mWidth": 165,
+                        "mHeight": 220
+                    },
+                    "TimeBetweenGridHits": 0.2,
+                    "PopAnimLinearEffectName": "POPANIM_EFFECTS_SNAPDRAGON_FIRE",
+                    "DamageProps": {
+                        "BaseDamage": 70,
+                        "DamageFlags": [
+                            "fire"
+                        ]
+                    },
+                    "TargetProps": {
+                        "IgnoreZombiesFlagged": [
+                            "standard_ignored"
+                        ],
+                        "IgnoreGridItemsFlagged": [
+                            "standard_plants_ignore"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsLinearBurst",
+            "objdata": {
+                "TypeName": "SnapdragonNormalAttackLvl9",
+                "LinearBurst": {
+                    "GridAreaForAnimation": {
+                        "mX": 0,
+                        "mY": -1,
+                        "mWidth": 2,
+                        "mHeight": 3
+                    },
+                    "BoardAreaForDamage": {
+                        "mX": 0,
+                        "mY": -125,
+                        "mWidth": 165,
+                        "mHeight": 220
+                    },
+                    "TimeBetweenGridHits": 0.2,
+                    "PopAnimLinearEffectName": "POPANIM_EFFECTS_SNAPDRAGON_FIRE",
+                    "DamageProps": {
+                        "BaseDamage": 80,
+                        "DamageFlags": [
+                            "fire"
+                        ]
+                    },
+                    "TargetProps": {
+                        "IgnoreZombiesFlagged": [
+                            "standard_ignored"
+                        ],
+                        "IgnoreGridItemsFlagged": [
+                            "standard_plants_ignore"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsLinearBurst",
+            "objdata": {
+                "TypeName": "SnapdragonNormalAttackLvl10",
+                "LinearBurst": {
+                    "GridAreaForAnimation": {
+                        "mX": 0,
+                        "mY": -1,
+                        "mWidth": 2,
+                        "mHeight": 3
+                    },
+                    "BoardAreaForDamage": {
+                        "mX": 0,
+                        "mY": -125,
+                        "mWidth": 165,
+                        "mHeight": 220
+                    },
+                    "TimeBetweenGridHits": 0.2,
+                    "PopAnimLinearEffectName": "POPANIM_EFFECTS_SNAPDRAGON_FIRE",
+                    "DamageProps": {
+                        "BaseDamage": 90,
+                        "DamageFlags": [
+                            "fire"
+                        ]
+                    },
+                    "TargetProps": {
+                        "IgnoreZombiesFlagged": [
+                            "standard_ignored"
+                        ],
+                        "IgnoreGridItemsFlagged": [
+                            "standard_plants_ignore"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsLinearBurst",
+            "objdata": {
+                "TypeName": "SnapdragonPFAttackLvl1",
+                "LinearBurst": {
+                    "GridAreaForAnimation": {
+                        "mX": 1,
+                        "mY": -1,
+                        "mWidth": 3,
+                        "mHeight": 3
+                    },
+                    "BoardAreaForDamage": {
+                        "mX": 0,
+                        "mY": -125,
+                        "mWidth": 225,
+                        "mHeight": 220
+                    },
+                    "InitialDelay": 1.0,
+                    "PopAnimSquareEffectName": "POPANIM_EFFECTS_SNAPDRAGON_PLANTFOOD_FIREBALLS",
+                    "DamageProps": {
+                        "BaseDamage": 1800,
+                        "DamageFlags": [
+                            "fire",
+                            "plantfood_effect"
+                        ]
+                    },
+                    "TargetProps": {
+                        "IgnoreZombiesFlagged": [
+                            "standard_ignored"
+                        ],
+                        "IgnoreGridItemsFlagged": [
+                            "standard_plants_ignore"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsLinearBurst",
+            "objdata": {
+                "TypeName": "SnapdragonPFAttackLvl2",
+                "LinearBurst": {
+                    "GridAreaForAnimation": {
+                        "mX": 1,
+                        "mY": -1,
+                        "mWidth": 3,
+                        "mHeight": 3
+                    },
+                    "BoardAreaForDamage": {
+                        "mX": 0,
+                        "mY": -125,
+                        "mWidth": 225,
+                        "mHeight": 220
+                    },
+                    "InitialDelay": 1.0,
+                    "PopAnimSquareEffectName": "POPANIM_EFFECTS_SNAPDRAGON_PLANTFOOD_FIREBALLS",
+                    "DamageProps": {
+                        "BaseDamage": 1900,
+                        "DamageFlags": [
+                            "fire",
+                            "plantfood_effect"
+                        ]
+                    },
+                    "TargetProps": {
+                        "IgnoreZombiesFlagged": [
+                            "standard_ignored"
+                        ],
+                        "IgnoreGridItemsFlagged": [
+                            "standard_plants_ignore"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsLinearBurst",
+            "objdata": {
+                "TypeName": "SnapdragonPFAttackLvl3",
+                "LinearBurst": {
+                    "GridAreaForAnimation": {
+                        "mX": 1,
+                        "mY": -1,
+                        "mWidth": 3,
+                        "mHeight": 3
+                    },
+                    "BoardAreaForDamage": {
+                        "mX": 0,
+                        "mY": -125,
+                        "mWidth": 225,
+                        "mHeight": 220
+                    },
+                    "InitialDelay": 1.0,
+                    "PopAnimSquareEffectName": "POPANIM_EFFECTS_SNAPDRAGON_PLANTFOOD_FIREBALLS",
+                    "DamageProps": {
+                        "BaseDamage": 2000,
+                        "DamageFlags": [
+                            "fire",
+                            "plantfood_effect"
+                        ]
+                    },
+                    "TargetProps": {
+                        "IgnoreZombiesFlagged": [
+                            "standard_ignored"
+                        ],
+                        "IgnoreGridItemsFlagged": [
+                            "standard_plants_ignore"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsLinearBurst",
+            "objdata": {
+                "TypeName": "SnapdragonPFAttackLvl4",
+                "LinearBurst": {
+                    "GridAreaForAnimation": {
+                        "mX": 1,
+                        "mY": -1,
+                        "mWidth": 3,
+                        "mHeight": 3
+                    },
+                    "BoardAreaForDamage": {
+                        "mX": 0,
+                        "mY": -125,
+                        "mWidth": 225,
+                        "mHeight": 220
+                    },
+                    "InitialDelay": 1.0,
+                    "PopAnimSquareEffectName": "POPANIM_EFFECTS_SNAPDRAGON_PLANTFOOD_FIREBALLS",
+                    "DamageProps": {
+                        "BaseDamage": 2100,
+                        "DamageFlags": [
+                            "fire",
+                            "plantfood_effect"
+                        ]
+                    },
+                    "TargetProps": {
+                        "IgnoreZombiesFlagged": [
+                            "standard_ignored"
+                        ],
+                        "IgnoreGridItemsFlagged": [
+                            "standard_plants_ignore"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsLinearBurst",
+            "objdata": {
+                "TypeName": "SnapdragonPFAttackLvl5",
+                "LinearBurst": {
+                    "GridAreaForAnimation": {
+                        "mX": 1,
+                        "mY": -1,
+                        "mWidth": 3,
+                        "mHeight": 3
+                    },
+                    "BoardAreaForDamage": {
+                        "mX": 0,
+                        "mY": -125,
+                        "mWidth": 225,
+                        "mHeight": 220
+                    },
+                    "InitialDelay": 1.0,
+                    "PopAnimSquareEffectName": "POPANIM_EFFECTS_SNAPDRAGON_PLANTFOOD_FIREBALLS",
+                    "DamageProps": {
+                        "BaseDamage": 2200,
+                        "DamageFlags": [
+                            "fire",
+                            "plantfood_effect"
+                        ]
+                    },
+                    "TargetProps": {
+                        "IgnoreZombiesFlagged": [
+                            "standard_ignored"
+                        ],
+                        "IgnoreGridItemsFlagged": [
+                            "standard_plants_ignore"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsLinearBurst",
+            "objdata": {
+                "TypeName": "ColdSnapdragonNormalAttackLvl1",
+                "LinearBurst": {
+                    "GridAreaForAnimation": {
+                        "mX": 1,
+                        "mY": -1,
+                        "mWidth": 2,
+                        "mHeight": 3
+                    },
+                    "BoardAreaForDamage": {
+                        "mX": 0,
+                        "mY": -125,
+                        "mWidth": 165,
+                        "mHeight": 220
+                    },
+                    "TimeBetweenGridHits": 0.2,
+                    "PopAnimSquareEffectName": "POPANIM_EFFECTS_COLD_SNAPDRAGON_ICE",
+                    "DamageProps": {
+                        "BaseDamage": 30,
+                        "Conditions": [
+                            {
+                                "Condition": "chill",
+                                "Duration": {
+                                    "Min": 10.0,
+                                    "Max": 10.0
+                                }
+                            }
+                        ]
+                    },
+                    "TargetProps": {
+                        "IgnoreZombiesFlagged": [
+                            "standard_ignored"
+                        ],
+                        "IgnoreGridItemsFlagged": [
+                            "standard_plants_ignore"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsLinearBurst",
+            "objdata": {
+                "TypeName": "ColdSnapdragonNormalAttackLvl2",
+                "LinearBurst": {
+                    "GridAreaForAnimation": {
+                        "mX": 1,
+                        "mY": -1,
+                        "mWidth": 2,
+                        "mHeight": 3
+                    },
+                    "BoardAreaForDamage": {
+                        "mX": 0,
+                        "mY": -125,
+                        "mWidth": 165,
+                        "mHeight": 220
+                    },
+                    "TimeBetweenGridHits": 0.2,
+                    "PopAnimSquareEffectName": "POPANIM_EFFECTS_COLD_SNAPDRAGON_ICE",
+                    "DamageProps": {
+                        "BaseDamage": 35,
+                        "Conditions": [
+                            {
+                                "Condition": "chill",
+                                "Duration": {
+                                    "Min": 10.0,
+                                    "Max": 10.0
+                                }
+                            }
+                        ]
+                    },
+                    "TargetProps": {
+                        "IgnoreZombiesFlagged": [
+                            "standard_ignored"
+                        ],
+                        "IgnoreGridItemsFlagged": [
+                            "standard_plants_ignore"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsLinearBurst",
+            "objdata": {
+                "TypeName": "ColdSnapdragonNormalAttackLvl3",
+                "LinearBurst": {
+                    "GridAreaForAnimation": {
+                        "mX": 1,
+                        "mY": -1,
+                        "mWidth": 2,
+                        "mHeight": 3
+                    },
+                    "BoardAreaForDamage": {
+                        "mX": 0,
+                        "mY": -125,
+                        "mWidth": 165,
+                        "mHeight": 220
+                    },
+                    "TimeBetweenGridHits": 0.2,
+                    "PopAnimSquareEffectName": "POPANIM_EFFECTS_COLD_SNAPDRAGON_ICE",
+                    "DamageProps": {
+                        "BaseDamage": 40,
+                        "Conditions": [
+                            {
+                                "Condition": "chill",
+                                "Duration": {
+                                    "Min": 10.0,
+                                    "Max": 10.0
+                                }
+                            }
+                        ]
+                    },
+                    "TargetProps": {
+                        "IgnoreZombiesFlagged": [
+                            "standard_ignored"
+                        ],
+                        "IgnoreGridItemsFlagged": [
+                            "standard_plants_ignore"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsLinearBurst",
+            "objdata": {
+                "TypeName": "ColdSnapdragonNormalAttackLvl4",
+                "LinearBurst": {
+                    "GridAreaForAnimation": {
+                        "mX": 1,
+                        "mY": -1,
+                        "mWidth": 2,
+                        "mHeight": 3
+                    },
+                    "BoardAreaForDamage": {
+                        "mX": 0,
+                        "mY": -125,
+                        "mWidth": 165,
+                        "mHeight": 220
+                    },
+                    "TimeBetweenGridHits": 0.2,
+                    "PopAnimSquareEffectName": "POPANIM_EFFECTS_COLD_SNAPDRAGON_ICE",
+                    "DamageProps": {
+                        "BaseDamage": 45,
+                        "Conditions": [
+                            {
+                                "Condition": "chill",
+                                "Duration": {
+                                    "Min": 10.0,
+                                    "Max": 10.0
+                                }
+                            }
+                        ]
+                    },
+                    "TargetProps": {
+                        "IgnoreZombiesFlagged": [
+                            "standard_ignored"
+                        ],
+                        "IgnoreGridItemsFlagged": [
+                            "standard_plants_ignore"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsLinearBurst",
+            "objdata": {
+                "TypeName": "ColdSnapdragonNormalAttackLvl5",
+                "LinearBurst": {
+                    "GridAreaForAnimation": {
+                        "mX": 1,
+                        "mY": -1,
+                        "mWidth": 2,
+                        "mHeight": 3
+                    },
+                    "BoardAreaForDamage": {
+                        "mX": 0,
+                        "mY": -125,
+                        "mWidth": 165,
+                        "mHeight": 220
+                    },
+                    "TimeBetweenGridHits": 0.2,
+                    "PopAnimSquareEffectName": "POPANIM_EFFECTS_COLD_SNAPDRAGON_ICE",
+                    "DamageProps": {
+                        "BaseDamage": 50,
+                        "Conditions": [
+                            {
+                                "Condition": "chill",
+                                "Duration": {
+                                    "Min": 10.0,
+                                    "Max": 10.0
+                                }
+                            }
+                        ]
+                    },
+                    "TargetProps": {
+                        "IgnoreZombiesFlagged": [
+                            "standard_ignored"
+                        ],
+                        "IgnoreGridItemsFlagged": [
+                            "standard_plants_ignore"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsLinearBurst",
+            "objdata": {
+                "TypeName": "ColdSnapdragonNormalAttackLvl6",
+                "LinearBurst": {
+                    "GridAreaForAnimation": {
+                        "mX": 1,
+                        "mY": -1,
+                        "mWidth": 2,
+                        "mHeight": 3
+                    },
+                    "BoardAreaForDamage": {
+                        "mX": 0,
+                        "mY": -125,
+                        "mWidth": 165,
+                        "mHeight": 220
+                    },
+                    "TimeBetweenGridHits": 0.2,
+                    "PopAnimSquareEffectName": "POPANIM_EFFECTS_COLD_SNAPDRAGON_ICE",
+                    "DamageProps": {
+                        "BaseDamage": 55,
+                        "Conditions": [
+                            {
+                                "Condition": "chill",
+                                "Duration": {
+                                    "Min": 10.0,
+                                    "Max": 10.0
+                                }
+                            }
+                        ]
+                    },
+                    "TargetProps": {
+                        "IgnoreZombiesFlagged": [
+                            "standard_ignored"
+                        ],
+                        "IgnoreGridItemsFlagged": [
+                            "standard_plants_ignore"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsLinearBurst",
+            "objdata": {
+                "TypeName": "ColdSnapdragonNormalAttackLvl7",
+                "LinearBurst": {
+                    "GridAreaForAnimation": {
+                        "mX": 1,
+                        "mY": -1,
+                        "mWidth": 2,
+                        "mHeight": 3
+                    },
+                    "BoardAreaForDamage": {
+                        "mX": 0,
+                        "mY": -125,
+                        "mWidth": 165,
+                        "mHeight": 220
+                    },
+                    "TimeBetweenGridHits": 0.2,
+                    "PopAnimSquareEffectName": "POPANIM_EFFECTS_COLD_SNAPDRAGON_ICE",
+                    "DamageProps": {
+                        "BaseDamage": 60,
+                        "Conditions": [
+                            {
+                                "Condition": "chill",
+                                "Duration": {
+                                    "Min": 10.0,
+                                    "Max": 10.0
+                                }
+                            }
+                        ]
+                    },
+                    "TargetProps": {
+                        "IgnoreZombiesFlagged": [
+                            "standard_ignored"
+                        ],
+                        "IgnoreGridItemsFlagged": [
+                            "standard_plants_ignore"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsLinearBurst",
+            "objdata": {
+                "TypeName": "ColdSnapdragonNormalAttackLvl8",
+                "LinearBurst": {
+                    "GridAreaForAnimation": {
+                        "mX": 1,
+                        "mY": -1,
+                        "mWidth": 2,
+                        "mHeight": 3
+                    },
+                    "BoardAreaForDamage": {
+                        "mX": 0,
+                        "mY": -125,
+                        "mWidth": 165,
+                        "mHeight": 220
+                    },
+                    "TimeBetweenGridHits": 0.2,
+                    "PopAnimSquareEffectName": "POPANIM_EFFECTS_COLD_SNAPDRAGON_ICE",
+                    "DamageProps": {
+                        "BaseDamage": 70,
+                        "Conditions": [
+                            {
+                                "Condition": "chill",
+                                "Duration": {
+                                    "Min": 10.0,
+                                    "Max": 10.0
+                                }
+                            }
+                        ]
+                    },
+                    "TargetProps": {
+                        "IgnoreZombiesFlagged": [
+                            "standard_ignored"
+                        ],
+                        "IgnoreGridItemsFlagged": [
+                            "standard_plants_ignore"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsLinearBurst",
+            "objdata": {
+                "TypeName": "ColdSnapdragonNormalAttackLvl9",
+                "LinearBurst": {
+                    "GridAreaForAnimation": {
+                        "mX": 1,
+                        "mY": -1,
+                        "mWidth": 2,
+                        "mHeight": 3
+                    },
+                    "BoardAreaForDamage": {
+                        "mX": 0,
+                        "mY": -125,
+                        "mWidth": 165,
+                        "mHeight": 220
+                    },
+                    "TimeBetweenGridHits": 0.2,
+                    "PopAnimSquareEffectName": "POPANIM_EFFECTS_COLD_SNAPDRAGON_ICE",
+                    "DamageProps": {
+                        "BaseDamage": 80,
+                        "Conditions": [
+                            {
+                                "Condition": "chill",
+                                "Duration": {
+                                    "Min": 10.0,
+                                    "Max": 10.0
+                                }
+                            }
+                        ]
+                    },
+                    "TargetProps": {
+                        "IgnoreZombiesFlagged": [
+                            "standard_ignored"
+                        ],
+                        "IgnoreGridItemsFlagged": [
+                            "standard_plants_ignore"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsLinearBurst",
+            "objdata": {
+                "TypeName": "ColdSnapdragonNormalAttackLvl10",
+                "LinearBurst": {
+                    "GridAreaForAnimation": {
+                        "mX": 1,
+                        "mY": -1,
+                        "mWidth": 2,
+                        "mHeight": 3
+                    },
+                    "BoardAreaForDamage": {
+                        "mX": 0,
+                        "mY": -125,
+                        "mWidth": 165,
+                        "mHeight": 220
+                    },
+                    "TimeBetweenGridHits": 0.2,
+                    "PopAnimSquareEffectName": "POPANIM_EFFECTS_COLD_SNAPDRAGON_ICE",
+                    "DamageProps": {
+                        "BaseDamage": 90,
+                        "Conditions": [
+                            {
+                                "Condition": "chill",
+                                "Duration": {
+                                    "Min": 10.0,
+                                    "Max": 10.0
+                                }
+                            }
+                        ]
+                    },
+                    "TargetProps": {
+                        "IgnoreZombiesFlagged": [
+                            "standard_ignored"
+                        ],
+                        "IgnoreGridItemsFlagged": [
+                            "standard_plants_ignore"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsLinearBurst",
+            "objdata": {
+                "TypeName": "ColdSnapdragonPFAttackLvl1",
+                "LinearBurst": {
+                    "GridAreaForAnimation": {
+                        "mX": 1,
+                        "mY": -1,
+                        "mWidth": 3,
+                        "mHeight": 3
+                    },
+                    "BoardAreaForDamage": {
+                        "mX": 0,
+                        "mY": -125,
+                        "mWidth": 225,
+                        "mHeight": 220
+                    },
+                    "TimeBetweenGridHits": 0.1,
+                    "PopAnimSquareEffectName": "POPANIM_EFFECTS_COLD_SNAPDRAGON_ICE_PF",
+                    "PopAnimLinearEffectName": "POPANIM_EFFECTS_COLD_SNAPDRAGON_ICE_PF_BOTTOM",
+                    "DamageProps": {
+                        "BaseDamage": 1200,
+                        "Conditions": [
+                            {
+                                "Condition": "freeze",
+                                "Duration": {
+                                    "Min": 10.0,
+                                    "Max": 10.0
+                                }
+                            }
+                        ],
+                        "DamageFlags": [
+                            "plantfood_effect"
+                        ]
+                    },
+                    "TargetProps": {
+                        "IgnoreZombiesFlagged": [
+                            "standard_ignored"
+                        ],
+                        "IgnoreGridItemsFlagged": [
+                            "standard_plants_ignore"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsLinearBurst",
+            "objdata": {
+                "TypeName": "ColdSnapdragonPFAttackLvl2",
+                "LinearBurst": {
+                    "GridAreaForAnimation": {
+                        "mX": 1,
+                        "mY": -1,
+                        "mWidth": 3,
+                        "mHeight": 3
+                    },
+                    "BoardAreaForDamage": {
+                        "mX": 0,
+                        "mY": -125,
+                        "mWidth": 225,
+                        "mHeight": 220
+                    },
+                    "TimeBetweenGridHits": 0.1,
+                    "PopAnimSquareEffectName": "POPANIM_EFFECTS_COLD_SNAPDRAGON_ICE_PF",
+                    "PopAnimLinearEffectName": "POPANIM_EFFECTS_COLD_SNAPDRAGON_ICE_PF_BOTTOM",
+                    "DamageProps": {
+                        "BaseDamage": 1400,
+                        "Conditions": [
+                            {
+                                "Condition": "freeze",
+                                "Duration": {
+                                    "Min": 10.0,
+                                    "Max": 10.0
+                                }
+                            }
+                        ],
+                        "DamageFlags": [
+                            "plantfood_effect"
+                        ]
+                    },
+                    "TargetProps": {
+                        "IgnoreZombiesFlagged": [
+                            "standard_ignored"
+                        ],
+                        "IgnoreGridItemsFlagged": [
+                            "standard_plants_ignore"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsLinearBurst",
+            "objdata": {
+                "TypeName": "ColdSnapdragonPFAttackLvl3",
+                "LinearBurst": {
+                    "GridAreaForAnimation": {
+                        "mX": 1,
+                        "mY": -1,
+                        "mWidth": 3,
+                        "mHeight": 3
+                    },
+                    "BoardAreaForDamage": {
+                        "mX": 0,
+                        "mY": -125,
+                        "mWidth": 225,
+                        "mHeight": 220
+                    },
+                    "TimeBetweenGridHits": 0.1,
+                    "PopAnimSquareEffectName": "POPANIM_EFFECTS_COLD_SNAPDRAGON_ICE_PF",
+                    "PopAnimLinearEffectName": "POPANIM_EFFECTS_COLD_SNAPDRAGON_ICE_PF_BOTTOM",
+                    "DamageProps": {
+                        "BaseDamage": 1600,
+                        "Conditions": [
+                            {
+                                "Condition": "freeze",
+                                "Duration": {
+                                    "Min": 10.0,
+                                    "Max": 10.0
+                                }
+                            }
+                        ],
+                        "DamageFlags": [
+                            "plantfood_effect"
+                        ]
+                    },
+                    "TargetProps": {
+                        "IgnoreZombiesFlagged": [
+                            "standard_ignored"
+                        ],
+                        "IgnoreGridItemsFlagged": [
+                            "standard_plants_ignore"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsLinearBurst",
+            "objdata": {
+                "TypeName": "ColdSnapdragonPFAttackLvl4",
+                "LinearBurst": {
+                    "GridAreaForAnimation": {
+                        "mX": 1,
+                        "mY": -1,
+                        "mWidth": 3,
+                        "mHeight": 3
+                    },
+                    "BoardAreaForDamage": {
+                        "mX": 0,
+                        "mY": -125,
+                        "mWidth": 225,
+                        "mHeight": 220
+                    },
+                    "TimeBetweenGridHits": 0.1,
+                    "PopAnimSquareEffectName": "POPANIM_EFFECTS_COLD_SNAPDRAGON_ICE_PF",
+                    "PopAnimLinearEffectName": "POPANIM_EFFECTS_COLD_SNAPDRAGON_ICE_PF_BOTTOM",
+                    "DamageProps": {
+                        "BaseDamage": 1800,
+                        "Conditions": [
+                            {
+                                "Condition": "freeze",
+                                "Duration": {
+                                    "Min": 10.0,
+                                    "Max": 10.0
+                                }
+                            }
+                        ],
+                        "DamageFlags": [
+                            "plantfood_effect"
+                        ]
+                    },
+                    "TargetProps": {
+                        "IgnoreZombiesFlagged": [
+                            "standard_ignored"
+                        ],
+                        "IgnoreGridItemsFlagged": [
+                            "standard_plants_ignore"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsLinearBurst",
+            "objdata": {
+                "TypeName": "ColdSnapdragonPFAttackLvl5",
+                "LinearBurst": {
+                    "GridAreaForAnimation": {
+                        "mX": 1,
+                        "mY": -1,
+                        "mWidth": 3,
+                        "mHeight": 3
+                    },
+                    "BoardAreaForDamage": {
+                        "mX": 0,
+                        "mY": -125,
+                        "mWidth": 225,
+                        "mHeight": 220
+                    },
+                    "TimeBetweenGridHits": 0.1,
+                    "PopAnimSquareEffectName": "POPANIM_EFFECTS_COLD_SNAPDRAGON_ICE_PF",
+                    "PopAnimLinearEffectName": "POPANIM_EFFECTS_COLD_SNAPDRAGON_ICE_PF_BOTTOM",
+                    "DamageProps": {
+                        "BaseDamage": 2000,
+                        "Conditions": [
+                            {
+                                "Condition": "freeze",
+                                "Duration": {
+                                    "Min": 10.0,
+                                    "Max": 10.0
+                                }
+                            }
+                        ],
+                        "DamageFlags": [
+                            "plantfood_effect"
+                        ]
+                    },
+                    "TargetProps": {
+                        "IgnoreZombiesFlagged": [
+                            "standard_ignored"
+                        ],
+                        "IgnoreGridItemsFlagged": [
+                            "standard_plants_ignore"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsDuplicator",
+            "objdata": {
+                "TypeName": "TwoDuplicates",
+                "DuplicationProps": {
+                    "NumberOfDuplicates": 2,
+                    "PlantingRanges": [
+                        {
+                            "leftColumn": 6,
+                            "rightColumn": 9
+                        },
+                        {
+                            "leftColumn": 0,
+                            "rightColumn": 5
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsDuplicator",
+            "objdata": {
+                "TypeName": "ThreeDuplicates",
+                "DuplicationProps": {
+                    "NumberOfDuplicates": 3,
+                    "PlantingRanges": [
+                        {
+                            "leftColumn": 6,
+                            "rightColumn": 9
+                        },
+                        {
+                            "leftColumn": 0,
+                            "rightColumn": 5
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsDuplicator",
+            "objdata": {
+                "TypeName": "FourDuplicates",
+                "DuplicationProps": {
+                    "NumberOfDuplicates": 4,
+                    "PlantingRanges": [
+                        {
+                            "leftColumn": 6,
+                            "rightColumn": 9
+                        },
+                        {
+                            "leftColumn": 0,
+                            "rightColumn": 5
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsDuplicator",
+            "objdata": {
+                "TypeName": "FiveDuplicates",
+                "DuplicationProps": {
+                    "NumberOfDuplicates": 5,
+                    "PlantingRanges": [
+                        {
+                            "leftColumn": 6,
+                            "rightColumn": 9
+                        },
+                        {
+                            "leftColumn": 0,
+                            "rightColumn": 5
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "objclass": "PowerPropsRedStingerLocationData",
+            "objdata": {
+                "TypeName": "RedStingerLocationDataLvl1",
+                "LocationData": [
+                    {
+                        "Location": "left",
+                        "RightmostColumn": 2,
+                        "Hitpoints": 300
+                    },
+                    {
+                        "Location": "middle",
+                        "RightmostColumn": 5,
+                        "Hitpoints": 900
+                    },
+                    {
+                        "Location": "right",
+                        "RightmostColumn": 8,
+                        "Hitpoints": 1500
+                    }
+                ]
+            }
+        },
+        {
+            "objclass": "PowerPropsRedStingerLocationData",
+            "objdata": {
+                "TypeName": "RedStingerLocationDataLvl2",
+                "LocationData": [
+                    {
+                        "Location": "left",
+                        "RightmostColumn": 2,
+                        "Hitpoints": 600
+                    },
+                    {
+                        "Location": "middle",
+                        "RightmostColumn": 5,
+                        "Hitpoints": 1200
+                    },
+                    {
+                        "Location": "right",
+                        "RightmostColumn": 8,
+                        "Hitpoints": 2000
+                    }
+                ]
+            }
+        },
+        {
+            "objclass": "PowerPropsRedStingerLocationData",
+            "objdata": {
+                "TypeName": "RedStingerLocationDataLvl3",
+                "LocationData": [
+                    {
+                        "Location": "left",
+                        "RightmostColumn": 2,
+                        "Hitpoints": 900
+                    },
+                    {
+                        "Location": "middle",
+                        "RightmostColumn": 5,
+                        "Hitpoints": 1500
+                    },
+                    {
+                        "Location": "right",
+                        "RightmostColumn": 8,
+                        "Hitpoints": 2500
+                    }
+                ]
+            }
+        },
+        {
+            "objclass": "PowerPropsStrawburstGrowth",
+            "objdata": {
+                "TypeName": "StrawburstGrowthLvl1",
+                "GrowthTimes": [
+                    10.0,
+                    15.0,
+                    15.0
+                ]
+            }
+        },
+        {
+            "objclass": "PowerPropsStrawburstGrowth",
+            "objdata": {
+                "TypeName": "StrawburstGrowthLvl2",
+                "GrowthTimes": [
+                    8.0,
+                    14.0,
+                    14.0
+                ]
+            }
+        },
+        {
+            "objclass": "PowerPropsStrawburstGrowth",
+            "objdata": {
+                "TypeName": "StrawburstGrowthLvl3",
+                "GrowthTimes": [
+                    7.0,
+                    12.0,
+                    12.0
+                ]
+            }
+        },
+        {
+            "objclass": "PowerPropsStrawburstGrowth",
+            "objdata": {
+                "TypeName": "StrawburstGrowthLvl4",
+                "GrowthTimes": [
+                    6.0,
+                    11.0,
+                    11.0
+                ]
+            }
+        },
+        {
+            "objclass": "PowerPropsStrawburstGrowth",
+            "objdata": {
+                "TypeName": "StrawburstGrowthLvl5",
+                "GrowthTimes": [
+                    5.0,
+                    10.0,
+                    10.0
+                ]
+            }
+        }
+    ]
+}

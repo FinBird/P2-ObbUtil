@@ -1,0 +1,23 @@
+{
+    "#comment": "EA^2 configuration",
+    "version": 1,
+    "objects": [
+        {
+            "objclass": "EASquaredPropertySheet",
+            "aliases": [
+                "EASquaredConfig"
+            ],
+            "objdata": {
+                "MonetizerType": "",
+                "MinimumDaysSinceInstall": 2,
+                "FreeCoinsAwarded": 500,
+                "MaximumCoinBalance": 2000000000,
+                "FreeGemsAwarded": 3,
+                "FreeGemsButtonMaxThrottle": 5,
+                "EnableIronSource": true,
+                "ShowButtonInFullStore": true,
+                "AutoplayOnQuickCoinStoreClosed": false
+            }
+        }
+    ]
+}

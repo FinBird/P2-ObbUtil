@@ -1,0 +1,11 @@
+{
+    "version": 1,
+    "objects": [
+        {
+            "objclass": "CDNConfigData",
+            "objdata": {
+                "PushKey": "0"
+            }
+        }
+    ]
+}

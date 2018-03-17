@@ -1,0 +1,54 @@
+{
+    "#comment": "RTFM: https://confluence.internal.popcap.com/display/PlantsVsZombies/Startup+Config",
+    "version": 1,
+    "objects": [
+        {
+            "objclass": "StartupConfig",
+            "aliases": [
+                "PaddedRoom"
+            ],
+            "objdata": {
+                "Level": "paddedroom",
+                "Cheats": [
+                    "FreePlanting"
+                ]
+            }
+        },
+        {
+            "objclass": "StartupConfig",
+            "aliases": [
+                "Olaf"
+            ],
+            "objdata": {
+                "Level": "chaosdimension",
+                "Cheats": []
+            }
+        },
+        {
+            "objclass": "StartupConfig",
+            "aliases": [
+                "LOD"
+            ],
+            "objdata": {
+                "Level": "lod_test_1",
+                "Cheats": [
+                    "LevelOfTheDay",
+                    "FreePlanting"
+                ]
+            }
+        },
+        {
+            "objclass": "StartupConfig",
+            "aliases": [
+                "EasyMode"
+            ],
+            "objdata": {
+                "Cheats": [
+                    "FreePlanting",
+                    "InvinciblePlants",
+                    "InvincibleBrains"
+                ]
+            }
+        }
+    ]
+}

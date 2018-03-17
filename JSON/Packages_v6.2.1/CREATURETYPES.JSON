@@ -1,0 +1,103 @@
+{
+    "#comment": "Make new plant types here!",
+    "version": 1,
+    "objects": [
+        {
+            "objclass": "CreatureType",
+            "aliases": [
+                "dinoraptor"
+            ],
+            "objdata": {
+                "TypeName": "dinoraptor",
+                "CreatureClass": "DinosaurRaptor",
+                "Properties": "RTID(DinoRaptor@PropertySheets)",
+                "ResourceGroups": [
+                    "CreatureDinoRaptorGroup",
+                    "ZombieDinoRaptorAudio"
+                ],
+                "AudioGroups": [],
+                "AnimRigClass": "DinosaurAnimRig_Raptor",
+                "PopAnim": "POPANIM_ZOMBIE_ZOMBIE_DINO_RAPTOR",
+                "HomeWorld": "dino"
+            }
+        },
+        {
+            "objclass": "CreatureType",
+            "aliases": [
+                "dinostego"
+            ],
+            "objdata": {
+                "TypeName": "dinostego",
+                "CreatureClass": "DinosaurStegosaurus",
+                "Properties": "RTID(DinoStego@PropertySheets)",
+                "ResourceGroups": [
+                    "CreatureDinoStegosaurusGroup",
+                    "ZombieDinoStegosaurusAudio"
+                ],
+                "AudioGroups": [],
+                "AnimRigClass": "DinosaurAnimRig_Stegosaurus",
+                "PopAnim": "POPANIM_ZOMBIE_ZOMBIE_DINO_STEGOSAURUS",
+                "HomeWorld": "dino"
+            }
+        },
+        {
+            "objclass": "CreatureType",
+            "aliases": [
+                "dinoptero"
+            ],
+            "objdata": {
+                "TypeName": "dinoptero",
+                "CreatureClass": "DinosaurPterodactyl",
+                "Properties": "RTID(DinoPtero@PropertySheets)",
+                "ResourceGroups": [
+                    "CreatureDinoPterodactylGroup",
+                    "ZombieDinoPterodactylAudio"
+                ],
+                "AudioGroups": [
+                    "ZombieIceAgeDodoAudio"
+                ],
+                "AnimRigClass": "DinosaurAnimRig_Pterodactyl",
+                "PopAnim": "POPANIM_ZOMBIE_ZOMBIE_DINO_PTERODACTYL",
+                "HomeWorld": "dino"
+            }
+        },
+        {
+            "objclass": "CreatureType",
+            "aliases": [
+                "dinoankylo"
+            ],
+            "objdata": {
+                "TypeName": "dinoankylo",
+                "CreatureClass": "DinosaurAnkylosaurus",
+                "Properties": "RTID(DinoAnkylo@PropertySheets)",
+                "ResourceGroups": [
+                    "CreatureDinoAnkylosaurusGroup",
+                    "ZombieDinoAnkylosaurusAudio"
+                ],
+                "AudioGroups": [],
+                "AnimRigClass": "DinosaurAnimRig_Ankylosaurus",
+                "PopAnim": "POPANIM_ZOMBIE_ZOMBIE_DINO_ANKYLOSAURUS",
+                "HomeWorld": "dino"
+            }
+        },
+        {
+            "objclass": "CreatureType",
+            "aliases": [
+                "dinotyranno"
+            ],
+            "objdata": {
+                "TypeName": "dinotyranno",
+                "CreatureClass": "DinosaurTyrannosaurus",
+                "Properties": "RTID(DinoTyrannosaurus@PropertySheets)",
+                "ResourceGroups": [
+                    "CreatureDinoRexGroup",
+                    "ZombieDinoRexAudio"
+                ],
+                "AudioGroups": [],
+                "AnimRigClass": "DinosaurAnimRig_Tyrannosaurus",
+                "PopAnim": "POPANIM_ZOMBIE_ZOMBIE_DINO_REX",
+                "HomeWorld": "dino"
+            }
+        }
+    ]
+}

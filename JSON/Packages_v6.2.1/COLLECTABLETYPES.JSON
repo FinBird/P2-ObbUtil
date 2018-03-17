@@ -1,0 +1,1808 @@
+{
+    "#comment": "Make new coin/sun types here!",
+    "version": 1,
+    "objects": [
+        {
+            "objclass": "CollectableCoinType",
+            "objdata": {
+                "TypeName": "coin_silver",
+                "CollectableClass": "CollectableCoin",
+                "PopAnim": "POPANIM_EFFECTS_COIN_SILVER",
+                "Scale": 0.78,
+                "Dimensions": {
+                    "x": 60,
+                    "y": 60
+                },
+                "GroundSound": "Play_MoneyFalls",
+                "CollectSound": "Play_UI_Game_Reward_Coin",
+                "ExpireDuration": 7.5,
+                "FadeOutDuration": 0.3,
+                "CoinValue": 10
+            }
+        },
+        {
+            "objclass": "CollectableCoinType",
+            "objdata": {
+                "TypeName": "coin_gold",
+                "CollectableClass": "CollectableCoin",
+                "PopAnim": "POPANIM_EFFECTS_COIN_GOLD",
+                "Scale": 0.78,
+                "Dimensions": {
+                    "x": 60,
+                    "y": 60
+                },
+                "GroundSound": "Play_MoneyFalls",
+                "CollectSound": "Play_UI_Game_Reward_Coin",
+                "ExpireDuration": 7.5,
+                "FadeOutDuration": 0.3,
+                "CoinValue": 100
+            }
+        },
+        {
+            "objclass": "CollectableGemType",
+            "objdata": {
+                "TypeName": "gem_diamond",
+                "CollectableClass": "CollectableGem",
+                "PopAnim": "POPANIM_EFFECTS_COIN_DIAMOND",
+                "Animation": "IDLE",
+                "Scale": 0.5,
+                "Dimensions": {
+                    "x": 70,
+                    "y": 70
+                },
+                "SpawnSound": "Play_Chime",
+                "GroundSound": "Play_GrassStep",
+                "CollectSound": "Play_UI_Game_Reward_Jewel",
+                "ExpireDuration": 7.5,
+                "FadeOutDuration": 0.3,
+                "GemValue": 1
+            }
+        },
+        {
+            "objclass": "CollectableCoinType",
+            "objdata": {
+                "TypeName": "coin_gold_fake",
+                "CollectableClass": "CollectableCoinFake",
+                "PopAnim": "POPANIM_EFFECTS_COIN_GOLD",
+                "Scale": 0.78,
+                "Dimensions": {
+                    "x": 60,
+                    "y": 60
+                },
+                "GroundSound": "Play_MoneyFalls",
+                "CollectSound": "Play_UI_Game_Reward_Coin",
+                "ExpireDuration": 7.5,
+                "FadeOutDuration": 0.3,
+                "CoinValue": 100
+            }
+        },
+        {
+            "objclass": "CollectableCoinType",
+            "objdata": {
+                "TypeName": "coin_treasure_chest",
+                "CollectableClass": "CollectableCoin",
+                "StandaloneImage": "IMAGE_ENDLEVEL_TREASURE_CHEST",
+                "StandaloneGroup": "CollectableUnique",
+                "Scale": 1.0,
+                "Dimensions": {
+                    "x": 100,
+                    "y": 100
+                },
+                "RewardDialogTitle": "[AWARD_SCREEN_TREASURE_CHEST_DESCRIPTION]",
+                "RewardDialogDescriptions": [
+                    "[AWARD_SCREEN_MONEYBAG_DESCRIPTION_01]",
+                    "[AWARD_SCREEN_MONEYBAG_DESCRIPTION_02]",
+                    "[AWARD_SCREEN_MONEYBAG_DESCRIPTION_03]",
+                    "[AWARD_SCREEN_MONEYBAG_DESCRIPTION_05]"
+                ],
+                "RewardDialogImage": "IMAGE_ENDLEVEL_TREASURE_CHEST",
+                "CoinValue": 10000
+            }
+        },
+        {
+            "objclass": "CollectableMoneyBagType",
+            "objdata": {
+                "TypeName": "moneybag",
+                "CollectableClass": "Collectable",
+                "StandaloneImage": "IMAGE_ENDLEVEL_MONEYBAG",
+                "StandaloneGroup": "CollectableUnique",
+                "Scale": 1.0,
+                "Dimensions": {
+                    "x": 100,
+                    "y": 100
+                },
+                "SpawnSound": "Play_Coin",
+                "GroundSound": "Play_UI_Game_Prize_MoneyBag_Drop",
+                "CollectSound": "Play_UI_Game_Reward_CoinBag",
+                "RewardDialogTitle": "[AWARD_SCREEN_MONEYBAG_TITLE]",
+                "RewardDialogDescriptions": [
+                    "[AWARD_SCREEN_MONEYBAG_DESCRIPTION_01]",
+                    "[AWARD_SCREEN_MONEYBAG_DESCRIPTION_02]",
+                    "[AWARD_SCREEN_MONEYBAG_DESCRIPTION_03]",
+                    "[AWARD_SCREEN_MONEYBAG_DESCRIPTION_05]"
+                ],
+                "RewardDialogImage": "IMAGE_ENDLEVEL_MONEYBAG",
+                "ContentsType": "coin_silver",
+                "ContentsCount": 5
+            }
+        },
+        {
+            "objclass": "CollectableMoneyBagType",
+            "objdata": {
+                "TypeName": "big_moneybag",
+                "CollectableClass": "Collectable",
+                "StandaloneImage": "IMAGE_ENDLEVEL_MONEYBAG",
+                "StandaloneGroup": "CollectableUnique",
+                "Scale": 1.0,
+                "Dimensions": {
+                    "x": 100,
+                    "y": 100
+                },
+                "SpawnSound": "Play_Coin",
+                "GroundSound": "Play_UI_Game_Prize_MoneyBag_Drop",
+                "CollectSound": "Play_UI_Game_Reward_CoinBag",
+                "RewardDialogTitle": "[AWARD_SCREEN_MONEYBAG_TITLE]",
+                "RewardDialogDescriptions": [
+                    "[AWARD_SCREEN_MONEYBAG_DESCRIPTION_01]",
+                    "[AWARD_SCREEN_MONEYBAG_DESCRIPTION_02]",
+                    "[AWARD_SCREEN_MONEYBAG_DESCRIPTION_03]",
+                    "[AWARD_SCREEN_MONEYBAG_DESCRIPTION_05]"
+                ],
+                "RewardDialogImage": "IMAGE_ENDLEVEL_MONEYBAG",
+                "ContentsType": "coin_silver",
+                "ContentsCount": 20
+            }
+        },
+        {
+            "objclass": "CollectableSunType",
+            "objdata": {
+                "TypeName": "sun",
+                "CollectableClass": "CollectableSun",
+                "PopAnim": "POPANIM_EFFECTS_SUN",
+                "Animation": "animation",
+                "CollectSound": "Play_Spawn_Sun",
+                "ExpireDuration": 7.5,
+                "FadeOutDuration": 0.3,
+                "Dimensions": {
+                    "x": 75,
+                    "y": 75
+                },
+                "SunValue": 50
+            }
+        },
+        {
+            "objclass": "CollectableSunBombType",
+            "objdata": {
+                "TypeName": "sun_bomb",
+                "CollectableClass": "CollectableSunBomb",
+                "PopAnim": "POPANIM_EFFECTS_SUN_BOMB",
+                "Animation": "animation",
+                "CollectSound": "Play_Spawn_Sun",
+                "ExpireDuration": 7.5,
+                "FadeOutDuration": 0.3,
+                "Dimensions": {
+                    "x": 40,
+                    "y": 40
+                },
+                "SunValue": 50
+            }
+        },
+        {
+            "objclass": "CollectableSunType",
+            "objdata": {
+                "TypeName": "sun_small",
+                "CollectableClass": "CollectableSun",
+                "PopAnim": "POPANIM_EFFECTS_SUN",
+                "Scale": 0.4,
+                "CollectSound": "Play_Spawn_Sun",
+                "ExpireDuration": 7.5,
+                "FadeOutDuration": 0.3,
+                "Dimensions": {
+                    "x": 50,
+                    "y": 50
+                },
+                "SunValue": 5
+            }
+        },
+        {
+            "objclass": "CollectableSunType",
+            "objdata": {
+                "TypeName": "sun_medium",
+                "CollectableClass": "CollectableSun",
+                "PopAnim": "POPANIM_EFFECTS_SUN",
+                "Scale": 0.7,
+                "CollectSound": "Play_Spawn_Sun",
+                "ExpireDuration": 7.5,
+                "FadeOutDuration": 0.3,
+                "Dimensions": {
+                    "x": 60,
+                    "y": 60
+                },
+                "SunValue": 25
+            }
+        },
+        {
+            "objclass": "CollectableSunType",
+            "objdata": {
+                "TypeName": "sun_large",
+                "CollectableClass": "CollectableSun",
+                "PopAnim": "POPANIM_EFFECTS_SUN",
+                "Scale": 1.3,
+                "CollectSound": "Play_Spawn_Sun",
+                "ExpireDuration": 7.5,
+                "FadeOutDuration": 0.3,
+                "Dimensions": {
+                    "x": 75,
+                    "y": 75
+                },
+                "SunValue": 75
+            }
+        },
+        {
+            "objclass": "CollectableNoteType",
+            "objdata": {
+                "TypeName": "note_egypt",
+                "CollectableClass": "Collectable",
+                "StandaloneImage": "IMAGE_NOTES_ZOMBIENOTE_EGYPT",
+                "StandaloneGroup": "CollectableNotes",
+                "Scale": 1.0,
+                "GroundSound": "Play_UI_Prize_Drop_General",
+                "CollectSound": "Play_UI_Game_Reward_Map",
+                "Dimensions": {
+                    "x": 75,
+                    "y": 75
+                },
+                "LoadGroup": "EgyptNoteGroup",
+                "BackgroundImage": "IMAGE_NOTES_ZNOTE_EGYPTBG",
+                "NoteNarrative": "EGYPT_ZOMBIENOTE",
+                "RewardDoFancyCollect": true
+            }
+        },
+        {
+            "objclass": "CollectableNoteType",
+            "objdata": {
+                "TypeName": "note_pirate",
+                "CollectableClass": "Collectable",
+                "StandaloneImage": "IMAGE_NOTES_ZOMBIENOTE_PIRATE",
+                "StandaloneGroup": "CollectableNotes",
+                "Scale": 1.0,
+                "GroundSound": "Play_UI_Prize_Drop_General",
+                "CollectSound": "Play_UI_Game_Reward_Map",
+                "Dimensions": {
+                    "x": 75,
+                    "y": 75
+                },
+                "LoadGroup": "PirateNoteGroup",
+                "BackgroundImage": "IMAGE_NOTES_ZNOTE_PIRATEBG",
+                "NoteNarrative": "PIRATE_ZOMBIENOTE",
+                "RewardDoFancyCollect": true
+            }
+        },
+        {
+            "objclass": "CollectableNoteType",
+            "objdata": {
+                "TypeName": "note_cowboy",
+                "CollectableClass": "Collectable",
+                "StandaloneImage": "IMAGE_NOTES_ZOMBIENOTE_COWBOY",
+                "StandaloneGroup": "CollectableNotes",
+                "Scale": 1.0,
+                "GroundSound": "Play_UI_Prize_Drop_General",
+                "CollectSound": "Play_UI_Game_Reward_Map",
+                "Dimensions": {
+                    "x": 75,
+                    "y": 75
+                },
+                "LoadGroup": "CowboyNoteGroup",
+                "BackgroundImage": "IMAGE_NOTES_ZNOTE_WESTBG",
+                "NoteNarrative": "COWBOY_ZOMBIENOTE",
+                "RewardDoFancyCollect": true
+            }
+        },
+        {
+            "objclass": "CollectableNoteType",
+            "objdata": {
+                "TypeName": "note_future",
+                "CollectableClass": "Collectable",
+                "StandaloneImage": "IMAGE_NOTES_ZOMBIENOTE_FUTURE",
+                "StandaloneGroup": "CollectableNotes",
+                "Scale": 1.0,
+                "GroundSound": "Play_UI_Prize_Drop_General",
+                "CollectSound": "Play_UI_Game_Reward_Map",
+                "Dimensions": {
+                    "x": 75,
+                    "y": 75
+                },
+                "LoadGroup": "FutureNoteGroup",
+                "BackgroundImage": "IMAGE_NOTES_ZNOTE_FUTUREBG",
+                "NoteNarrative": "FUTURE_ZOMBIENOTE",
+                "RewardDoFancyCollect": true
+            }
+        },
+        {
+            "objclass": "CollectableNoteType",
+            "objdata": {
+                "TypeName": "note_dark",
+                "CollectableClass": "Collectable",
+                "StandaloneImage": "IMAGE_NOTES_ZOMBIENOTE_DARK",
+                "StandaloneGroup": "CollectableNotes",
+                "Scale": 1.0,
+                "GroundSound": "Play_UI_Prize_Drop_General",
+                "CollectSound": "Play_UI_Game_Reward_Map",
+                "Dimensions": {
+                    "x": 75,
+                    "y": 75
+                },
+                "LoadGroup": "DarkNoteGroup",
+                "BackgroundImage": "IMAGE_NOTES_ZNOTE_DARKBG",
+                "NoteNarrative": "DARK_ZOMBIENOTE",
+                "RewardDoFancyCollect": true
+            }
+        },
+        {
+            "objclass": "CollectableNoteType",
+            "objdata": {
+                "TypeName": "note_beach",
+                "CollectableClass": "Collectable",
+                "StandaloneImage": "IMAGE_NOTES_ZOMBIENOTE_BEACH",
+                "StandaloneGroup": "CollectableNotes",
+                "Scale": 1.0,
+                "GroundSound": "Play_UI_Prize_Drop_General",
+                "CollectSound": "Play_UI_Game_Reward_Map",
+                "Dimensions": {
+                    "x": 75,
+                    "y": 75
+                },
+                "LoadGroup": "BeachNoteGroup",
+                "BackgroundImage": "IMAGE_NOTES_ZNOTE_BEACHBG",
+                "NoteNarrative": "BEACH_ZOMBIENOTE",
+                "RewardDoFancyCollect": true
+            }
+        },
+        {
+            "objclass": "CollectableNoteType",
+            "objdata": {
+                "TypeName": "note_iceage",
+                "CollectableClass": "Collectable",
+                "StandaloneImage": "IMAGE_NOTES_ZOMBIENOTE_ICEAGE",
+                "StandaloneGroup": "CollectableNotes",
+                "Scale": 1.0,
+                "GroundSound": "Play_UI_Prize_Drop_General",
+                "CollectSound": "Play_UI_Game_Reward_Map",
+                "Dimensions": {
+                    "x": 75,
+                    "y": 75
+                },
+                "LoadGroup": "IceageNoteGroup",
+                "BackgroundImage": "IMAGE_NOTES_ZNOTE_ICEAGEBG",
+                "NoteNarrative": "ICEAGE_ZOMBIENOTE",
+                "RewardDoFancyCollect": true
+            }
+        },
+        {
+            "objclass": "CollectableNoteType",
+            "objdata": {
+                "TypeName": "note_lostcity",
+                "CollectableClass": "Collectable",
+                "StandaloneImage": "IMAGE_NOTES_ZOMBIENOTE_LOSTCITY",
+                "StandaloneGroup": "CollectableNotes",
+                "Scale": 1.0,
+                "GroundSound": "Play_UI_Prize_Drop_General",
+                "CollectSound": "Play_UI_Game_Reward_Map",
+                "Dimensions": {
+                    "x": 75,
+                    "y": 75
+                },
+                "LoadGroup": "LostcityNoteGroup",
+                "BackgroundImage": "IMAGE_NOTES_ZNOTE_LOSTCITYBG",
+                "NoteNarrative": "LOSTCITY_ZOMBIENOTE",
+                "RewardDoFancyCollect": true
+            }
+        },
+        {
+            "objclass": "CollectableNoteType",
+            "objdata": {
+                "TypeName": "note_eighties",
+                "CollectableClass": "Collectable",
+                "StandaloneImage": "IMAGE_NOTES_ZOMBIENOTE_EIGHTIES",
+                "StandaloneGroup": "CollectableNotes",
+                "Scale": 1.0,
+                "GroundSound": "Play_UI_Prize_Drop_General",
+                "CollectSound": "Play_UI_Game_Reward_Map",
+                "Dimensions": {
+                    "x": 75,
+                    "y": 75
+                },
+                "LoadGroup": "EightiesNoteGroup",
+                "BackgroundImage": "IMAGE_NOTES_ZNOTE_EIGHTIESBG",
+                "NoteNarrative": "EIGHTIES_ZOMBIENOTE",
+                "RewardDoFancyCollect": true
+            }
+        },
+        {
+            "objclass": "CollectableNoteType",
+            "objdata": {
+                "TypeName": "note_dino",
+                "CollectableClass": "Collectable",
+                "GroundSound": "Play_UI_Prize_Drop_General",
+                "CollectSound": "Play_UI_Game_Reward_Taco",
+                "StandaloneImage": "IMAGE_NOTES_ZOMBIENOTE_DINO",
+                "StandaloneGroup": "CollectableNotes",
+                "Dimensions": {
+                    "x": 50,
+                    "y": 100
+                },
+                "RewardDoFancyCollect": true
+            }
+        },
+        {
+            "objclass": "CollectableNoteType",
+            "objdata": {
+                "TypeName": "note_modern",
+                "CollectableClass": "Collectable",
+                "StandaloneImage": "IMAGE_NOTES_ZOMBIENOTE_MODERN",
+                "StandaloneGroup": "CollectableNotes",
+                "Scale": 1.0,
+                "GroundSound": "Play_UI_Prize_Drop_General",
+                "CollectSound": "Play_UI_Game_Reward_Map",
+                "Dimensions": {
+                    "x": 75,
+                    "y": 75
+                },
+                "RewardDoFancyCollect": true
+            }
+        },
+        {
+            "objclass": "CollectablePlantfoodType",
+            "objdata": {
+                "TypeName": "plantfood",
+                "CollectableClass": "CollectablePlantfood",
+                "PopAnim": "POPANIM_EFFECTS_PLANTFOOD_PICKUP",
+                "Animation": "idle",
+                "SpawnSound": "Play_FoodDrop",
+                "CollectSound": "Play_FoodPickup",
+                "Dimensions": {
+                    "x": 60,
+                    "y": 60
+                },
+                "ExpireDuration": 11.5,
+                "FadeOutDuration": 1.0,
+                "BlinkOutDuration": 4.0
+            }
+        },
+        {
+            "objclass": "CollectableType",
+            "objdata": {
+                "TypeName": "endlevelreward",
+                "CollectableClass": "Collectable",
+                "GroundSound": "Play_GrassStep",
+                "StandaloneImage": "IMAGE_ENDLEVEL_TACO",
+                "Dimensions": {
+                    "x": 50,
+                    "y": 100
+                },
+                "RewardDoFancyCollect": true
+            }
+        },
+        {
+            "objclass": "CollectableType",
+            "objdata": {
+                "TypeName": "taco",
+                "CollectableClass": "Collectable",
+                "GroundSound": "Play_UI_Prize_Drop_General",
+                "CollectSound": "Play_UI_Game_Reward_Taco",
+                "StandaloneImage": "IMAGE_ENDLEVEL_TACO",
+                "StandaloneGroup": "CollectableUnique",
+                "Dimensions": {
+                    "x": 50,
+                    "y": 100
+                },
+                "RewardDoFancyCollect": true
+            }
+        },
+        {
+            "objclass": "CollectableType",
+            "objdata": {
+                "TypeName": "mapgadget",
+                "CollectableClass": "Collectable",
+                "GroundSound": "Play_UI_Prize_Drop_General",
+                "CollectSound": "Play_UI_Game_Reward_Map",
+                "StandaloneImage": "IMAGE_ENDLEVEL_MAPGADGET",
+                "StandaloneGroup": "CollectableUnique",
+                "Dimensions": {
+                    "x": 100,
+                    "y": 100
+                },
+                "RewardDialogTitle": "[AWARD_SCREEN_MAPGADGET_TITLE]",
+                "RewardDialogDescriptions": [
+                    "[AWARD_SCREEN_MAPGADGET_DESCRIPTION]"
+                ],
+                "RewardDialogImage": "IMAGE_ENDLEVEL_MAPGADGET",
+                "RewardDoFancyCollect": true
+            }
+        },
+        {
+            "objclass": "CollectableType",
+            "objdata": {
+                "TypeName": "powerupgadget",
+                "CollectableClass": "Collectable",
+                "GroundSound": "Play_UI_Game_Reward_PowerUp_Drop",
+                "CollectSound": "Play_UI_Game_Reward_PowerUp",
+                "StandaloneImage": "IMAGE_ENDLEVEL_POWERUPGADGET",
+                "StandaloneGroup": "CollectableUnique",
+                "Dimensions": {
+                    "x": 100,
+                    "y": 100
+                },
+                "RewardDialogTitle": "[AWARD_SCREEN_POWERUP_TITLE]",
+                "RewardDialogDescriptions": [
+                    "[AWARD_SCREEN_POWERUPGADGET_DESCRIPTION]"
+                ],
+                "RewardDialogImage": "IMAGE_ENDLEVEL_POWERUPGADGET",
+                "RewardDoFancyCollect": true
+            }
+        },
+        {
+            "objclass": "CollectableType",
+            "objdata": {
+                "TypeName": "powerupvasebreakerreveal",
+                "CollectableClass": "Collectable",
+                "GroundSound": "Play_UI_Game_Reward_PowerUp_Drop",
+                "CollectSound": "Play_UI_Game_Reward_PowerUp",
+                "StandaloneImage": "IMAGE_UI_POWERUPS_POWER_VASEBREAKERREVEAL",
+                "Dimensions": {
+                    "x": 100,
+                    "y": 100
+                },
+                "RewardDialogTitle": "[AWARD_SCREEN_POWERUP_VASEBREAKERREVEAL_TITLE]",
+                "RewardDialogDescriptions": [
+                    "[AWARD_SCREEN_POWERUP_VASEBREAKERREVEAL_DESCRIPTION]"
+                ],
+                "RewardDialogImage": "IMAGE_UI_POWERUPS_POWER_VASEBREAKERREVEAL",
+                "RewardDoFancyCollect": true
+            }
+        },
+        {
+            "objclass": "CollectableType",
+            "objdata": {
+                "TypeName": "powerupvasebreakerbutter",
+                "CollectableClass": "Collectable",
+                "GroundSound": "Play_UI_Game_Reward_PowerUp_Drop",
+                "CollectSound": "Play_UI_Game_Reward_PowerUp",
+                "StandaloneImage": "IMAGE_UI_POWERUPS_POWER_VASEBREAKERBUTTER",
+                "Dimensions": {
+                    "x": 100,
+                    "y": 100
+                },
+                "RewardDialogTitle": "[AWARD_SCREEN_POWERUP_VASEBREAKERBUTTER_TITLE]",
+                "RewardDialogDescriptions": [
+                    "[AWARD_SCREEN_POWERUP_VASEBREAKERBUTTER_DESCRIPTION]"
+                ],
+                "RewardDialogImage": "IMAGE_UI_POWERUPS_POWER_VASEBREAKERBUTTER",
+                "RewardDoFancyCollect": true
+            }
+        },
+        {
+            "objclass": "CollectableType",
+            "objdata": {
+                "TypeName": "powerupvasebreakermove",
+                "CollectableClass": "Collectable",
+                "GroundSound": "Play_UI_Game_Reward_PowerUp_Drop",
+                "CollectSound": "Play_UI_Game_Reward_PowerUp",
+                "StandaloneImage": "IMAGE_UI_POWERUPS_POWER_VASEBREAKERMOVE",
+                "Dimensions": {
+                    "x": 100,
+                    "y": 100
+                },
+                "RewardDialogTitle": "[AWARD_SCREEN_POWERUP_VASEBREAKERMOVE_TITLE]",
+                "RewardDialogDescriptions": [
+                    "[AWARD_SCREEN_POWERUP_VASEBREAKERMOVE_DESCRIPTION]"
+                ],
+                "RewardDialogImage": "IMAGE_UI_POWERUPS_POWER_VASEBREAKERMOVE",
+                "RewardDoFancyCollect": true
+            }
+        },
+        {
+            "objclass": "CollectableSeedPacketType",
+            "objdata": {
+                "TypeName": "seed_packet",
+                "CollectableClass": "CollectableSeedPacket",
+                "GroundSound": "Play_UI_Game_Reward_SeedPacket_Drop",
+                "CollectSound": "Play_UI_Game_Reward_SeedPacket",
+                "Dimensions": {
+                    "x": 100,
+                    "y": 80
+                },
+                "RewardDoFancyCollect": true
+            }
+        },
+        {
+            "objclass": "CollectableSeedPacketType",
+            "objdata": {
+                "TypeName": "vasebreaker_packet",
+                "CollectableClass": "CollectableSeedPacketPlantable",
+                "GroundSound": "Play_UI_Game_Reward_SeedPacket_Drop",
+                "CollectSound": "Play_UI_Game_Reward_SeedPacket",
+                "Dimensions": {
+                    "x": 70,
+                    "y": 50
+                },
+                "Scale": 0.8,
+                "ExpireDuration": 15.0,
+                "BlinkOutDuration": 4.0,
+                "FadeOutDuration": 1.0
+            }
+        },
+        {
+            "objclass": "CollectableSeedPacketType",
+            "objdata": {
+                "TypeName": "seed_packet_xp",
+                "CollectableClass": "CollectableSeedPacketXP",
+                "GroundSound": "Play_UI_Game_Reward_SeedPacket_Drop",
+                "CollectSound": "Play_UI_Game_Reward_SeedPacket",
+                "Dimensions": {
+                    "x": 100,
+                    "y": 80
+                },
+                "RewardDoFancyCollect": true
+            }
+        },
+        {
+            "objclass": "CollectablePresentType",
+            "objdata": {
+                "TypeName": "present",
+                "CollectableClass": "CollectablePresent",
+                "GroundSound": "Play_GrassStep",
+                "CollectSound": "Play_UI_Game_Reward_Lunchbox",
+                "PopAnim": "POPANIM_EFFECTS_LUNCHBOX",
+                "StandaloneGroup": "CollectableUnique",
+                "Scale": 1.25,
+                "Animation": "idle",
+                "SpawnSound": "Play_Chime",
+                "Dimensions": {
+                    "x": 75,
+                    "y": 75
+                },
+                "IsShiny": false,
+                "RewardDoFancyCollect": true
+            }
+        },
+        {
+            "objclass": "CollectableType",
+            "objdata": {
+                "TypeName": "giftbox",
+                "CollectableClass": "Collectable",
+                "GroundSound": "Play_GrassStep",
+                "CollectSound": "Play_UI_Game_Reward_MysteryGiftBox_Pickup",
+                "PopAnim": "POPANIM_GIFTBOX_GIFTBOX",
+                "Scale": 0.5,
+                "Animation": "idle",
+                "SpawnSound": "Play_Chime",
+                "Dimensions": {
+                    "x": 90,
+                    "y": 90
+                },
+                "RenderOffset": {
+                    "x": 0,
+                    "y": 50,
+                    "z": 0
+                },
+                "RewardDoFancyCollect": true
+            }
+        },
+        {
+            "objclass": "CollectablePresentType",
+            "objdata": {
+                "TypeName": "present_shiny",
+                "CollectableClass": "CollectablePresent",
+                "GroundSound": "Play_GrassStep",
+                "CollectSound": "Play_UI_Game_Reward_Lunchbox",
+                "PopAnim": "POPANIM_EFFECTS_LUNCHBOX_SPECIAL",
+                "StandaloneGroup": "CollectableUnique",
+                "Scale": 1.25,
+                "Animation": "idle",
+                "SpawnSound": "Play_Chime",
+                "Dimensions": {
+                    "x": 75,
+                    "y": 75
+                },
+                "IsShiny": true,
+                "RewardDoFancyCollect": true
+            }
+        },
+        {
+            "objclass": "CollectableType",
+            "objdata": {
+                "TypeName": "powerupwizardfinger",
+                "CollectableClass": "CollectablePowerup",
+                "GroundSound": "Play_GrassStep",
+                "StandaloneImage": "IMAGE_UI_POWERUPS_POWER_SHOCK",
+                "Dimensions": {
+                    "x": 75,
+                    "y": 75
+                },
+                "RewardDialogTitle": "[AWARD_SCREEN_POWERUP_TITLE]",
+                "RewardDialogDescriptions": [
+                    "[AWARD_SCREEN_POWERUP_WIZARDFINGER_DESCRIPTION]"
+                ],
+                "Scale": 0.5
+            }
+        },
+        {
+            "objclass": "CollectableType",
+            "objdata": {
+                "TypeName": "powerupflickzombie",
+                "CollectableClass": "CollectablePowerup",
+                "GroundSound": "Play_GrassStep",
+                "StandaloneImage": "IMAGE_UI_POWERUPS_POWER_SWEEP",
+                "Dimensions": {
+                    "x": 75,
+                    "y": 75
+                },
+                "Scale": 0.5
+            }
+        },
+        {
+            "objclass": "CollectableType",
+            "objdata": {
+                "TypeName": "poweruppinchzombie",
+                "CollectableClass": "CollectablePowerup",
+                "GroundSound": "Play_GrassStep",
+                "StandaloneImage": "IMAGE_UI_POWERUPS_POWERUP_BORDER",
+                "Dimensions": {
+                    "x": 75,
+                    "y": 75
+                },
+                "Scale": 0.5
+            }
+        },
+        {
+            "objclass": "CollectableType",
+            "objdata": {
+                "TypeName": "powerupsnowball",
+                "CollectableClass": "CollectablePowerup",
+                "GroundSound": "Play_GrassStep",
+                "StandaloneImage": "IMAGE_UI_POWERUPS_POWER_ICE",
+                "Dimensions": {
+                    "x": 75,
+                    "y": 75
+                },
+                "Scale": 0.5
+            }
+        },
+        {
+            "objclass": "CollectableType",
+            "objdata": {
+                "TypeName": "powerupflamethrower",
+                "CollectableClass": "CollectablePowerup",
+                "GroundSound": "Play_GrassStep",
+                "StandaloneImage": "IMAGE_UI_POWERUPS_POWER_FLAMETHROWER",
+                "Dimensions": {
+                    "x": 75,
+                    "y": 75
+                },
+                "Scale": 0.5
+            }
+        },
+        {
+            "objclass": "CollectableType",
+            "objdata": {
+                "TypeName": "lawn_mower",
+                "CollectableClass": "CollectableLawnMower",
+                "GroundSound": "Play_GrassStep",
+                "StandaloneImage": "IMAGE_EFFECTS_CARD_MOWER",
+                "Dimensions": {
+                    "x": 75,
+                    "y": 75
+                },
+                "Scale": 0.5
+            }
+        },
+        {
+            "objclass": "CollectableType",
+            "objdata": {
+                "TypeName": "sprout",
+                "CollectableClass": "CollectableSprout",
+                "GroundSound": "Play_UI_Game_Reward_Sprout_Drop",
+                "CollectSound": "Play_UI_Game_Reward_Sprout_PickUp",
+                "PopAnim": "POPANIM_ZEN_GARDEN_SPROUTDOOBER",
+                "Animation": "ANIMATION",
+                "Dimensions": {
+                    "x": 52,
+                    "y": 73
+                },
+                "Scale": 1.5,
+                "RewardDoFancyCollect": true
+            }
+        },
+        {
+            "objclass": "CollectableUpgradeType",
+            "objdata": {
+                "TypeName": "upgrade_7_slots",
+                "CollectableClass": "CollectableUpgrade",
+                "StandaloneGroup": "GameUpgrades",
+                "GroundSound": "Play_GrassStep",
+                "StandaloneImage": "IMAGE_WORLDMAP_COMMON_UPGRADE_SEEDBANK_SLOT",
+                "Dimensions": {
+                    "x": 75,
+                    "y": 75
+                },
+                "Upgrade": "7_slots",
+                "RewardDialogImage": "IMAGE_WORLDMAP_COMMON_UPGRADE_SEEDBANK_SLOT",
+                "RewardDoFancyCollect": true,
+                "RewardDialogTitle": "[UPGRADE_7_SLOTS]",
+                "RewardDialogDescriptions": [
+                    "[UPGRADE_SEEDSLOT_DESCRIPTION]"
+                ]
+            }
+        },
+        {
+            "objclass": "CollectableUpgradeType",
+            "objdata": {
+                "TypeName": "upgrade_sunshovel_lvl1",
+                "CollectableClass": "CollectableUpgrade",
+                "StandaloneGroup": "GameUpgrades",
+                "GroundSound": "Play_GrassStep",
+                "StandaloneImage": "IMAGE_WORLDMAP_COMMON_UPGRADE_SUN_SHOVEL",
+                "Dimensions": {
+                    "x": 75,
+                    "y": 75
+                },
+                "Upgrade": "sunshovel_lvl1",
+                "RewardDialogImage": "IMAGE_WORLDMAP_COMMON_UPGRADE_SUN_SHOVEL",
+                "RewardDoFancyCollect": true,
+                "RewardDialogTitle": "[UPGRADE_SHOVEL_2]",
+                "RewardDialogDescriptions": [
+                    "[UPGRADE_SHOVEL_DESCRIPTION]"
+                ]
+            }
+        },
+        {
+            "objclass": "CollectableUpgradeType",
+            "objdata": {
+                "TypeName": "upgrade_sunshovel_lvl2",
+                "CollectableClass": "CollectableUpgrade",
+                "StandaloneGroup": "GameUpgrades",
+                "GroundSound": "Play_GrassStep",
+                "StandaloneImage": "IMAGE_WORLDMAP_COMMON_UPGRADE_SUN_SHOVEL",
+                "Dimensions": {
+                    "x": 75,
+                    "y": 75
+                },
+                "Upgrade": "sunshovel_lvl2",
+                "RewardDialogImage": "IMAGE_WORLDMAP_COMMON_UPGRADE_SUN_SHOVEL",
+                "RewardDoFancyCollect": true,
+                "RewardDialogTitle": "[UPGRADE_SHOVEL_3]",
+                "RewardDialogDescriptions": [
+                    "[UPGRADE_SHOVEL_DESCRIPTION]"
+                ]
+            }
+        },
+        {
+            "objclass": "CollectableUpgradeType",
+            "objdata": {
+                "TypeName": "upgrade_pf_refresh",
+                "CollectableClass": "CollectableUpgrade",
+                "StandaloneGroup": "GameUpgrades",
+                "GroundSound": "Play_GrassStep",
+                "StandaloneImage": "IMAGE_WORLDMAP_COMMON_UPGRADE_PLANTFOOD_REFRESH",
+                "Dimensions": {
+                    "x": 75,
+                    "y": 75
+                },
+                "Upgrade": "pf_refresh",
+                "RewardDialogImage": "IMAGE_WORLDMAP_COMMON_UPGRADE_PLANTFOOD_REFRESH",
+                "RewardDoFancyCollect": true,
+                "RewardDialogTitle": "[UPGRADE_PF_REFRESH]",
+                "RewardDialogDescriptions": [
+                    "[UPGRADE_PF_REFRESH_INFO]"
+                ]
+            }
+        },
+        {
+            "objclass": "CollectableUpgradeType",
+            "objdata": {
+                "TypeName": "upgrade_pf_slots_lvl1",
+                "CollectableClass": "CollectableUpgrade",
+                "StandaloneGroup": "GameUpgrades",
+                "GroundSound": "Play_GrassStep",
+                "StandaloneImage": "IMAGE_WORLDMAP_COMMON_UPGRADE_PLANTFOOD_SLOT",
+                "Dimensions": {
+                    "x": 75,
+                    "y": 75
+                },
+                "Upgrade": "pf_slots_lvl1",
+                "RewardDialogImage": "IMAGE_WORLDMAP_COMMON_UPGRADE_PLANTFOOD_SLOT",
+                "RewardDoFancyCollect": true,
+                "RewardDialogTitle": "[UPGRADE_PLANTFOOD_EXTRA_SLOT_2]",
+                "RewardDialogDescriptions": [
+                    "[UPGRADE_PF_SLOT_DESCRIPTION]"
+                ]
+            }
+        },
+        {
+            "objclass": "CollectableUpgradeType",
+            "objdata": {
+                "TypeName": "upgrade_starting_sun_lvl1",
+                "CollectableClass": "CollectableUpgrade",
+                "StandaloneGroup": "GameUpgrades",
+                "GroundSound": "Play_GrassStep",
+                "StandaloneImage": "IMAGE_WORLDMAP_COMMON_UPGRADE_STARTING_SUN",
+                "Dimensions": {
+                    "x": 75,
+                    "y": 75
+                },
+                "Upgrade": "starting_sun_lvl1",
+                "RewardDialogImage": "IMAGE_WORLDMAP_COMMON_UPGRADE_STARTING_SUN",
+                "RewardDoFancyCollect": true,
+                "RewardDialogTitle": "[UPGRADE_STARTING_SUN_2]",
+                "RewardDialogDescriptions": [
+                    "[UPGRADE_STARTING_SUN_DESCRIPTION]"
+                ]
+            }
+        },
+        {
+            "objclass": "CollectableUpgradeType",
+            "objdata": {
+                "TypeName": "upgrade_wallnut_firstaid",
+                "CollectableClass": "CollectableUpgrade",
+                "StandaloneGroup": "GameUpgrades",
+                "GroundSound": "Play_GrassStep",
+                "StandaloneImage": "IMAGE_WORLDMAP_COMMON_UPGRADE_WALLNUT_FIRSTAID",
+                "Dimensions": {
+                    "x": 75,
+                    "y": 75
+                },
+                "Upgrade": "wallnut_firstaid",
+                "RewardDialogImage": "IMAGE_WORLDMAP_COMMON_UPGRADE_WALLNUT_FIRSTAID",
+                "RewardDoFancyCollect": true,
+                "RewardDialogTitle": "[UPGRADE_WALLNUT_FIRSTAID]",
+                "RewardDialogDescriptions": [
+                    "[UPGRADE_WALLNUT_FIRSTAID_INFO]"
+                ]
+            }
+        },
+        {
+            "objclass": "CollectableStarType",
+            "objdata": {
+                "TypeName": "star",
+                "CollectableClass": "CollectableStar",
+                "GroundSound": "Play_UI_Prize_Drop_General",
+                "CollectSound": "Play_UI_Game_Reward_StarprizePickUp",
+                "StandaloneImage": "IMAGE_ENDLEVEL_STAR_PICKUP",
+                "Dimensions": {
+                    "x": 75,
+                    "y": 75
+                },
+                "RewardDoFancyCollect": true
+            }
+        },
+        {
+            "objclass": "CollectableType",
+            "objdata": {
+                "TypeName": "worldtrophy_egypt",
+                "CollectableClass": "Collectable",
+                "GroundSound": "Play_UI_Game_Reward_Zomboss_Drop",
+                "CollectSound": "Play_UI_Game_Reward_Zomboss_PickUp",
+                "StandaloneImage": "IMAGE_ENDLEVEL_EGYPT_TROPHY",
+                "StandaloneGroup": "CollectableUnique",
+                "Dimensions": {
+                    "x": 75,
+                    "y": 75
+                },
+                "RewardRayScale": 0.5,
+                "RewardDialogImage": "IMAGE_ENDLEVEL_EGYPT_TROPHY",
+                "RewardDialogTitle": "[AWARD_SCREEN_WORLDTROPHY_EGYPT_TITLE]",
+                "RewardDialogDescriptions": [
+                    "[AWARD_SCREEN_WORLDTROPHY_EGYPT]"
+                ],
+                "RewardDoFancyCollect": true
+            }
+        },
+        {
+            "objclass": "CollectableType",
+            "objdata": {
+                "TypeName": "worldtrophy_pirate",
+                "CollectableClass": "Collectable",
+                "GroundSound": "Play_UI_Game_Reward_Zomboss_Drop",
+                "CollectSound": "Play_UI_Game_Reward_Zomboss_PickUp",
+                "StandaloneImage": "IMAGE_ENDLEVEL_PIRATE_TROPHY",
+                "StandaloneGroup": "CollectableUnique",
+                "Dimensions": {
+                    "x": 75,
+                    "y": 75
+                },
+                "RewardRayScale": 0.5,
+                "RewardDialogImage": "IMAGE_ENDLEVEL_PIRATE_TROPHY",
+                "RewardDialogTitle": "[AWARD_SCREEN_WORLDTROPHY_PIRATE_TITLE]",
+                "RewardDialogDescriptions": [
+                    "[AWARD_SCREEN_WORLDTROPHY_PIRATE]"
+                ],
+                "RewardDoFancyCollect": true
+            }
+        },
+        {
+            "objclass": "CollectableType",
+            "objdata": {
+                "TypeName": "worldtrophy_cowboy",
+                "CollectableClass": "Collectable",
+                "GroundSound": "Play_UI_Game_Reward_Zomboss_Drop",
+                "CollectSound": "Play_UI_Game_Reward_Zomboss_PickUp",
+                "StandaloneImage": "IMAGE_ENDLEVEL_COWBOY_TROPHY",
+                "StandaloneGroup": "CollectableUnique",
+                "Dimensions": {
+                    "x": 75,
+                    "y": 75
+                },
+                "RewardRayScale": 0.5,
+                "RewardDialogImage": "IMAGE_ENDLEVEL_COWBOY_TROPHY",
+                "RewardDialogTitle": "[AWARD_SCREEN_WORLDTROPHY_COWBOY_TITLE]",
+                "RewardDialogDescriptions": [
+                    "[AWARD_SCREEN_WORLDTROPHY_COWBOY]"
+                ],
+                "RewardDoFancyCollect": true
+            }
+        },
+        {
+            "objclass": "CollectableType",
+            "objdata": {
+                "TypeName": "worldtrophy_future",
+                "CollectableClass": "Collectable",
+                "GroundSound": "Play_UI_Game_Reward_Zomboss_Drop",
+                "CollectSound": "Play_UI_Game_Reward_Zomboss_PickUp",
+                "StandaloneImage": "IMAGE_ENDLEVEL_FUTURE_TROPHY",
+                "StandaloneGroup": "CollectableUnique",
+                "Dimensions": {
+                    "x": 75,
+                    "y": 75
+                },
+                "RewardRayScale": 0.5,
+                "RewardDialogImage": "IMAGE_ENDLEVEL_FUTURE_TROPHY",
+                "RewardDialogTitle": "[AWARD_SCREEN_WORLDTROPHY_FUTURE_TITLE]",
+                "RewardDialogDescriptions": [
+                    "[AWARD_SCREEN_WORLDTROPHY_FUTURE]"
+                ],
+                "RewardDoFancyCollect": false
+            }
+        },
+        {
+            "objclass": "CollectableType",
+            "objdata": {
+                "TypeName": "worldtrophy_dark",
+                "CollectableClass": "Collectable",
+                "GroundSound": "Play_UI_Game_Reward_Zomboss_Drop",
+                "CollectSound": "Play_UI_Game_Reward_Zomboss_PickUp",
+                "StandaloneImage": "IMAGE_ENDLEVEL_DARK_TROPHY",
+                "StandaloneGroup": "CollectableUnique",
+                "Dimensions": {
+                    "x": 75,
+                    "y": 75
+                },
+                "RewardRayScale": 0.5,
+                "RewardDialogImage": "IMAGE_ENDLEVEL_DARK_TROPHY",
+                "RewardDialogTitle": "[AWARD_SCREEN_WORLDTROPHY_DARK_TITLE]",
+                "RewardDialogDescriptions": [
+                    "[AWARD_SCREEN_WORLDTROPHY_DARK]"
+                ],
+                "RewardDoFancyCollect": false
+            }
+        },
+        {
+            "objclass": "CollectableType",
+            "objdata": {
+                "TypeName": "worldtrophy_beach",
+                "CollectableClass": "Collectable",
+                "GroundSound": "Play_UI_Game_Reward_Zomboss_Drop",
+                "CollectSound": "Play_UI_Game_Reward_Zomboss_PickUp",
+                "StandaloneImage": "IMAGE_ENDLEVEL_BEACH_TROPHY",
+                "StandaloneGroup": "CollectableUnique",
+                "Dimensions": {
+                    "x": 75,
+                    "y": 75
+                },
+                "RewardRayScale": 0.5,
+                "RewardDialogImage": "IMAGE_ENDLEVEL_BEACH_TROPHY",
+                "RewardDialogTitle": "[AWARD_SCREEN_WORLDTROPHY_BEACH_TITLE]",
+                "RewardDialogDescriptions": [
+                    "[AWARD_SCREEN_WORLDTROPHY_BEACH]"
+                ],
+                "RewardDoFancyCollect": false
+            }
+        },
+        {
+            "objclass": "CollectableType",
+            "objdata": {
+                "TypeName": "worldtrophy_iceage",
+                "CollectableClass": "Collectable",
+                "GroundSound": "Play_UI_Game_Reward_Zomboss_Drop",
+                "CollectSound": "Play_UI_Game_Reward_Zomboss_PickUp",
+                "StandaloneImage": "IMAGE_ENDLEVEL_ICEAGE_TROPHY",
+                "StandaloneGroup": "CollectableUnique",
+                "Dimensions": {
+                    "x": 75,
+                    "y": 75
+                },
+                "RewardRayScale": 0.5,
+                "RewardDialogImage": "IMAGE_ENDLEVEL_ICEAGE_TROPHY",
+                "RewardDialogTitle": "[AWARD_SCREEN_WORLDTROPHY_ICEAGE_TITLE]",
+                "RewardDialogDescriptions": [
+                    "[AWARD_SCREEN_WORLDTROPHY_ICEAGE]"
+                ],
+                "RewardDoFancyCollect": false
+            }
+        },
+        {
+            "objclass": "CollectableType",
+            "objdata": {
+                "TypeName": "worldtrophy_lostcity",
+                "CollectableClass": "Collectable",
+                "GroundSound": "Play_UI_Game_Reward_Zomboss_Drop",
+                "CollectSound": "Play_UI_Game_Reward_Zomboss_PickUp",
+                "StandaloneImage": "IMAGE_ENDLEVEL_LOSTCITY_TROPHY",
+                "StandaloneGroup": "CollectableUnique",
+                "Dimensions": {
+                    "x": 75,
+                    "y": 75
+                },
+                "RewardRayScale": 0.5,
+                "RewardDialogImage": "IMAGE_ENDLEVEL_LOSTCITY_TROPHY",
+                "RewardDialogTitle": "[AWARD_SCREEN_WORLDTROPHY_LOSTCITY_TITLE]",
+                "RewardDialogDescriptions": [
+                    "[AWARD_SCREEN_WORLDTROPHY_LOSTCITY]"
+                ],
+                "RewardDoFancyCollect": false
+            }
+        },
+        {
+            "objclass": "CollectableType",
+            "objdata": {
+                "TypeName": "worldtrophy_eighties",
+                "CollectableClass": "Collectable",
+                "GroundSound": "Play_UI_Game_Reward_Zomboss_Drop",
+                "CollectSound": "Play_UI_Game_Reward_Zomboss_PickUp",
+                "StandaloneImage": "IMAGE_ENDLEVEL_EIGHTIES_TROPHY",
+                "StandaloneGroup": "CollectableUnique",
+                "Dimensions": {
+                    "x": 75,
+                    "y": 75
+                },
+                "RewardRayScale": 0.5,
+                "RewardDialogImage": "IMAGE_ENDLEVEL_EIGHTIES_TROPHY",
+                "RewardDialogTitle": "[AWARD_SCREEN_WORLDTROPHY_EIGHTIES_TITLE]",
+                "RewardDialogDescriptions": [
+                    "[AWARD_SCREEN_WORLDTROPHY_EIGHTIES]"
+                ],
+                "RewardDoFancyCollect": false
+            }
+        },
+        {
+            "objclass": "CollectableType",
+            "objdata": {
+                "TypeName": "worldtrophy_dino",
+                "CollectableClass": "Collectable",
+                "GroundSound": "Play_UI_Game_Reward_Zomboss_Drop",
+                "CollectSound": "Play_UI_Game_Reward_Zomboss_PickUp",
+                "StandaloneImage": "IMAGE_ENDLEVEL_DINO_TROPHY",
+                "StandaloneGroup": "CollectableUnique",
+                "Dimensions": {
+                    "x": 75,
+                    "y": 75
+                },
+                "RewardRayScale": 0.5,
+                "RewardDialogImage": "IMAGE_ENDLEVEL_DINO_TROPHY",
+                "RewardDialogTitle": "[AWARD_SCREEN_WORLDTROPHY_DINO_TITLE]",
+                "RewardDialogDescriptions": [
+                    "[AWARD_SCREEN_WORLDTROPHY_DINO]"
+                ],
+                "RewardDoFancyCollect": false
+            }
+        },
+        {
+            "objclass": "CollectableType",
+            "objdata": {
+                "TypeName": "worldtrophy_modern",
+                "CollectableClass": "Collectable",
+                "GroundSound": "Play_UI_Game_Reward_Zomboss_Drop",
+                "CollectSound": "Play_UI_Game_Reward_Zomboss_PickUp",
+                "StandaloneImage": "IMAGE_ENDLEVEL_MODERN_TROPHY",
+                "StandaloneGroup": "CollectableUnique",
+                "Dimensions": {
+                    "x": 75,
+                    "y": 75
+                },
+                "RewardRayScale": 0.5,
+                "RewardDialogImage": "IMAGE_ENDLEVEL_MODERN_TROPHY",
+                "RewardDialogTitle": "[AWARD_SCREEN_WORLDTROPHY_MODERN_TITLE]",
+                "RewardDialogDescriptions": [
+                    "[AWARD_SCREEN_WORLDTROPHY_MODERN]"
+                ],
+                "RewardDoFancyCollect": false
+            }
+        },
+        {
+            "objclass": "CollectableType",
+            "objdata": {
+                "TypeName": "worldkey",
+                "CollectableClass": "CollectableWorldKey",
+                "SpawnSound": "Play_Coin",
+                "GroundSound": "Play_UI_Game_Reward_Key_World_Drop",
+                "CollectSound": "Play_UI_Game_Reward_Key_World_PickUp",
+                "StandaloneImage": "IMAGE_ENDLEVEL_WORLDKEYS",
+                "StandaloneGroup": "CollectableUnique",
+                "Dimensions": {
+                    "x": 75,
+                    "y": 75
+                },
+                "RewardDialogImage": "IMAGE_ENDLEVEL_WORLDKEYS",
+                "RewardDialogTitle": "[AWARD_SCREEN_WORLDKEY_TITLE]",
+                "RewardDialogDescriptions": [
+                    "[AWARD_SCREEN_WORLDKEY_DESCRIPTION]"
+                ],
+                "RewardDoFancyCollect": true
+            }
+        },
+        {
+            "objclass": "CollectableType",
+            "objdata": {
+                "TypeName": "dangerroom_egypt",
+                "CollectableClass": "Collectable",
+                "GroundSound": "Play_UI_Prize_Drop_General",
+                "CollectSound": "Play_UI_Game_Reward_Pyramid",
+                "StandaloneImage": "IMAGE_ENDLEVEL_EGYPT_ACTIVATOR",
+                "StandaloneGroup": "CollectableUnique",
+                "Dimensions": {
+                    "x": 75,
+                    "y": 75
+                },
+                "RewardRayScale": 0.5,
+                "RewardDialogImage": "IMAGE_ENDLEVEL_EGYPT_ACTIVATOR",
+                "RewardDialogTitle": "[EGYPT_DANGER_ROOM_NAME]",
+                "RewardDialogDescriptions": [
+                    "[AWARD_SCREEN_DANGER_ROOM_GENERIC]"
+                ],
+                "RewardDoFancyCollect": true
+            }
+        },
+        {
+            "objclass": "CollectableType",
+            "objdata": {
+                "TypeName": "dangerroom_pirate",
+                "CollectableClass": "Collectable",
+                "GroundSound": "Play_UI_Game_Reward_TreasureChest_Drop",
+                "CollectSound": "Play_UI_Game_Reward_TreasureChest",
+                "StandaloneImage": "IMAGE_ENDLEVEL_PIRATE_ACTIVATOR",
+                "StandaloneGroup": "CollectableUnique",
+                "Dimensions": {
+                    "x": 75,
+                    "y": 75
+                },
+                "RewardRayScale": 0.5,
+                "RewardDialogImage": "IMAGE_ENDLEVEL_PIRATE_ACTIVATOR",
+                "RewardDialogTitle": "[PIRATE_DANGER_ROOM_NAME]",
+                "RewardDialogDescriptions": [
+                    "[AWARD_SCREEN_DANGER_ROOM_GENERIC]"
+                ],
+                "RewardDoFancyCollect": true
+            }
+        },
+        {
+            "objclass": "CollectableType",
+            "objdata": {
+                "TypeName": "dangerroom_cowboy",
+                "CollectableClass": "Collectable",
+                "GroundSound": "Play_UI_Prize_Drop_General",
+                "CollectSound": "Play_UI_Game_Reward_CowboyPlunger",
+                "StandaloneImage": "IMAGE_ENDLEVEL_COWBOY_ACTIVATOR",
+                "StandaloneGroup": "CollectableUnique",
+                "Dimensions": {
+                    "x": 75,
+                    "y": 75
+                },
+                "RewardRayScale": 0.5,
+                "RewardDialogImage": "IMAGE_ENDLEVEL_COWBOY_ACTIVATOR",
+                "RewardDialogTitle": "[COWBOY_DANGER_ROOM_NAME]",
+                "RewardDialogDescriptions": [
+                    "[AWARD_SCREEN_DANGER_ROOM_GENERIC]"
+                ],
+                "RewardDoFancyCollect": true
+            }
+        },
+        {
+            "objclass": "CollectableType",
+            "objdata": {
+                "TypeName": "dangerroom_future",
+                "CollectableClass": "Collectable",
+                "GroundSound": "Play_UI_Prize_Drop_General",
+                "CollectSound": "Play_UI_Game_Reward_CowboyPlunger",
+                "StandaloneImage": "IMAGE_ENDLEVEL_FUTURE_ACTIVATOR",
+                "StandaloneGroup": "CollectableUnique",
+                "Dimensions": {
+                    "x": 75,
+                    "y": 75
+                },
+                "RewardRayScale": 0.5,
+                "RewardDialogImage": "IMAGE_ENDLEVEL_FUTURE_ACTIVATOR",
+                "RewardDialogTitle": "[FUTURE_DANGER_ROOM_NAME]",
+                "RewardDialogDescriptions": [
+                    "[AWARD_SCREEN_DANGER_ROOM_GENERIC]"
+                ],
+                "RewardDoFancyCollect": true
+            }
+        },
+        {
+            "objclass": "CollectableType",
+            "objdata": {
+                "TypeName": "dangerroom_dark",
+                "CollectableClass": "Collectable",
+                "GroundSound": "Play_UI_Prize_Drop_General",
+                "CollectSound": "Play_UI_Game_Reward_CowboyPlunger",
+                "StandaloneImage": "IMAGE_ENDLEVEL_DARK_ACTIVATOR",
+                "StandaloneGroup": "CollectableUnique",
+                "Dimensions": {
+                    "x": 75,
+                    "y": 75
+                },
+                "RewardRayScale": 0.5,
+                "RewardDialogImage": "IMAGE_ENDLEVEL_DARK_ACTIVATOR",
+                "RewardDialogTitle": "[DARK_DANGER_ROOM_NAME]",
+                "RewardDialogDescriptions": [
+                    "[AWARD_SCREEN_DANGER_ROOM_GENERIC]"
+                ],
+                "RewardDoFancyCollect": true
+            }
+        },
+        {
+            "objclass": "CollectableType",
+            "objdata": {
+                "TypeName": "dangerroom_beach",
+                "CollectableClass": "Collectable",
+                "GroundSound": "Play_UI_Prize_Drop_General",
+                "CollectSound": "Play_UI_Game_Reward_CowboyPlunger",
+                "StandaloneImage": "IMAGE_ENDLEVEL_BEACH_ACTIVATOR",
+                "StandaloneGroup": "CollectableUnique",
+                "Dimensions": {
+                    "x": 75,
+                    "y": 75
+                },
+                "RewardRayScale": 0.5,
+                "RewardDialogImage": "IMAGE_ENDLEVEL_BEACH_ACTIVATOR",
+                "RewardDialogTitle": "[BEACH_DANGER_ROOM_NAME]",
+                "RewardDialogDescriptions": [
+                    "[AWARD_SCREEN_DANGER_ROOM_GENERIC]"
+                ],
+                "RewardDoFancyCollect": true
+            }
+        },
+        {
+            "objclass": "CollectableType",
+            "objdata": {
+                "TypeName": "dangerroom_iceage",
+                "CollectableClass": "Collectable",
+                "GroundSound": "Play_UI_Prize_Drop_General",
+                "CollectSound": "Play_UI_Game_Reward_CowboyPlunger",
+                "StandaloneImage": "IMAGE_ENDLEVEL_ICEAGE_ACTIVATOR",
+                "StandaloneGroup": "CollectableUnique",
+                "Dimensions": {
+                    "x": 75,
+                    "y": 75
+                },
+                "RewardRayScale": 0.5,
+                "RewardDialogImage": "IMAGE_ENDLEVEL_ICEAGE_ACTIVATOR",
+                "RewardDialogTitle": "[ICEAGE_DANGER_ROOM_NAME]",
+                "RewardDialogDescriptions": [
+                    "[AWARD_SCREEN_DANGER_ROOM_GENERIC]"
+                ],
+                "RewardDoFancyCollect": true
+            }
+        },
+        {
+            "objclass": "CollectableType",
+            "objdata": {
+                "TypeName": "dangerroom_lostcity",
+                "CollectableClass": "Collectable",
+                "GroundSound": "Play_UI_Prize_Drop_General",
+                "CollectSound": "Play_UI_Game_Reward_CowboyPlunger",
+                "StandaloneImage": "IMAGE_ENDLEVEL_LOSTCITY_ACTIVATOR",
+                "StandaloneGroup": "CollectableUnique",
+                "Dimensions": {
+                    "x": 75,
+                    "y": 75
+                },
+                "RewardRayScale": 0.5,
+                "RewardDialogImage": "IMAGE_ENDLEVEL_LOSTCITY_ACTIVATOR",
+                "RewardDialogTitle": "[LOSTCITY_DANGER_ROOM_NAME]",
+                "RewardDialogDescriptions": [
+                    "[AWARD_SCREEN_DANGER_ROOM_GENERIC]"
+                ],
+                "RewardDoFancyCollect": true
+            }
+        },
+        {
+            "objclass": "CollectableType",
+            "objdata": {
+                "TypeName": "dangerroom_eighties",
+                "CollectableClass": "Collectable",
+                "GroundSound": "Play_UI_Prize_Drop_General",
+                "CollectSound": "Play_UI_Game_Reward_CowboyPlunger",
+                "StandaloneImage": "IMAGE_ENDLEVEL_EIGHTIES_ACTIVATOR",
+                "StandaloneGroup": "CollectableUnique",
+                "Dimensions": {
+                    "x": 75,
+                    "y": 75
+                },
+                "RewardRayScale": 0.5,
+                "RewardDialogImage": "IMAGE_ENDLEVEL_EIGHTIES_ACTIVATOR",
+                "RewardDialogTitle": "[EIGHTIES_DANGER_ROOM_NAME]",
+                "RewardDialogDescriptions": [
+                    "[AWARD_SCREEN_DANGER_ROOM_GENERIC]"
+                ],
+                "RewardDoFancyCollect": true
+            }
+        },
+        {
+            "objclass": "CollectableType",
+            "objdata": {
+                "TypeName": "dangerroom_dino",
+                "CollectableClass": "Collectable",
+                "GroundSound": "Play_UI_Prize_Drop_General",
+                "CollectSound": "Play_UI_Game_Reward_CowboyPlunger",
+                "StandaloneImage": "IMAGE_ENDLEVEL_DINO_ACTIVATOR",
+                "StandaloneGroup": "CollectableUnique",
+                "Dimensions": {
+                    "x": 75,
+                    "y": 75
+                },
+                "RewardRayScale": 0.5,
+                "RewardDialogImage": "IMAGE_ENDLEVEL_DINO_ACTIVATOR",
+                "RewardDialogTitle": "[DINO_DANGER_ROOM_NAME]",
+                "RewardDialogDescriptions": [
+                    "[AWARD_SCREEN_DANGER_ROOM_GENERIC]"
+                ],
+                "RewardDoFancyCollect": true
+            }
+        },
+        {
+            "objclass": "CollectableType",
+            "objdata": {
+                "TypeName": "dangerroom_modern",
+                "CollectableClass": "Collectable",
+                "GroundSound": "Play_UI_Prize_Drop_General",
+                "CollectSound": "Play_UI_Game_Reward_Pyramid",
+                "StandaloneImage": "IMAGE_ENDLEVEL_MODERN_ACTIVATOR",
+                "StandaloneGroup": "CollectableUnique",
+                "Dimensions": {
+                    "x": 75,
+                    "y": 75
+                },
+                "RewardRayScale": 0.5,
+                "RewardDialogImage": "IMAGE_ENDLEVEL_MODERN_ACTIVATOR",
+                "RewardDialogTitle": "[MODERN_DANGER_ROOM_NAME]",
+                "RewardDialogDescriptions": [
+                    "[AWARD_SCREEN_DANGER_ROOM_GENERIC]"
+                ],
+                "RewardDoFancyCollect": true
+            }
+        },
+        {
+            "objclass": "CollectableUpgradeType",
+            "objdata": {
+                "TypeName": "upgrade_valuable_mowers",
+                "CollectableClass": "CollectableUpgrade",
+                "GroundSound": "Play_GrassStep",
+                "StandaloneImage": "IMAGE_WORLDMAP_COMMON_UPGRADE_MANUAL_MOWERS",
+                "StandaloneGroup": "GameUpgrades",
+                "Dimensions": {
+                    "x": 75,
+                    "y": 75
+                },
+                "Upgrade": "valuable_mowers",
+                "RewardDialogImage": "IMAGE_WORLDMAP_COMMON_UPGRADE_MANUAL_MOWERS",
+                "RewardDoFancyCollect": true,
+                "RewardDialogTitle": "[UPGRADE_PF_REFRESH]",
+                "RewardDialogDescriptions": [
+                    "Lawnmowers drop two coins instead of just one"
+                ]
+            }
+        },
+        {
+            "objclass": "CollectableUpgradeType",
+            "objdata": {
+                "TypeName": "upgrade_manual_mowers_1",
+                "CollectableClass": "CollectableUpgrade",
+                "GroundSound": "Play_GrassStep",
+                "StandaloneImage": "IMAGE_WORLDMAP_COMMON_UPGRADE_MANUAL_MOWERS",
+                "StandaloneGroup": "GameUpgrades",
+                "Dimensions": {
+                    "x": 75,
+                    "y": 75
+                },
+                "Upgrade": "manual_mowers_1",
+                "RewardDialogImage": "IMAGE_WORLDMAP_COMMON_UPGRADE_MANUAL_MOWERS",
+                "RewardDoFancyCollect": true,
+                "RewardDialogTitle": "[UPGRADE_MANUAL_MOWERS_1]",
+                "RewardDialogDescriptions": [
+                    "[UPGRADE_MANUAL_MOWERS_DESCRIPTION_1]"
+                ]
+            }
+        },
+        {
+            "objclass": "CollectableType",
+            "objdata": {
+                "TypeName": "collectable_bacon",
+                "CollectableClass": "CollectableJunk",
+                "GroundSound": "Play_GrassStep",
+                "StandaloneImage": "IMAGE_ENDLEVEL_BACON",
+                "Dimensions": {
+                    "x": 50,
+                    "y": 100
+                },
+                "GroundSound": "Play_UI_PowerUp_Purchase_Bacon",
+                "CollectSound": "Play_UI_PowerUp_Purchase_Bacon",
+                "ExpireDuration": 7.5,
+                "FadeOutDuration": 0.3
+            }
+        },
+        {
+            "objclass": "CollectableType",
+            "objdata": {
+                "TypeName": "pinata",
+                "CollectableClass": "CollectablePinata",
+                "GroundSound": "Play_UI_Reward_PinataOnBoard_Drop",
+                "CollectSound": "Play_UI_Reward_PinataOnBoard_Collect",
+                "StandaloneImage": "IMAGE_UI_REWARD_PINATA_COLLECTABLE",
+                "RewardDialogImage": "IMAGE_UI_REWARD_PINATA_COLLECTABLE",
+                "RewardDoFancyCollect": true,
+                "RewardDialogTitle": "[AWARD_SCREEN_PINATA_TITLE]",
+                "RewardDialogDescriptions": [
+                    "[AWARD_SCREEN_PINATA_DESCRIPTION]"
+                ],
+                "Dimensions": {
+                    "x": 75,
+                    "y": 75
+                },
+                "Scale": 0.5
+            }
+        },
+        {
+            "objclass": "CollectableType",
+            "objdata": {
+                "TypeName": "pinata_egypt",
+                "CollectableClass": "CollectablePinata",
+                "GroundSound": "Play_UI_Reward_PinataOnBoard_Drop",
+                "CollectSound": "Play_UI_Reward_PinataOnBoard_Collect",
+                "PopAnim": "POPANIM_EFFECTS_PRIZE_PINATA_EGYPT",
+                "Animation": "idle",
+                "StandaloneGroup": "EgyptLootPinatas",
+                "RewardDoFancyCollect": true,
+                "RewardDialogTitle": "[AWARD_SCREEN_PINATA_TITLE]",
+                "RewardDialogDescriptions": [
+                    "[AWARD_SCREEN_PINATA_DESCRIPTION]"
+                ],
+                "Dimensions": {
+                    "x": 75,
+                    "y": 75
+                },
+                "Scale": 0.5
+            }
+        },
+        {
+            "objclass": "CollectableType",
+            "objdata": {
+                "TypeName": "pinata_pirate",
+                "CollectableClass": "CollectablePinata",
+                "GroundSound": "Play_UI_Reward_PinataOnBoard_Drop",
+                "CollectSound": "Play_UI_Reward_PinataOnBoard_Collect",
+                "PopAnim": "POPANIM_EFFECTS_PRIZE_PINATA_PIRATE",
+                "Animation": "idle",
+                "StandaloneGroup": "PirateLootPinatas",
+                "RewardDoFancyCollect": true,
+                "RewardDialogTitle": "[AWARD_SCREEN_PINATA_TITLE]",
+                "RewardDialogDescriptions": [
+                    "[AWARD_SCREEN_PINATA_DESCRIPTION]"
+                ],
+                "Dimensions": {
+                    "x": 75,
+                    "y": 75
+                },
+                "Scale": 0.5
+            }
+        },
+        {
+            "objclass": "CollectableType",
+            "objdata": {
+                "TypeName": "pinata_cowboy",
+                "CollectableClass": "CollectablePinata",
+                "GroundSound": "Play_UI_Reward_PinataOnBoard_Drop",
+                "CollectSound": "Play_UI_Reward_PinataOnBoard_Collect",
+                "PopAnim": "POPANIM_EFFECTS_PRIZE_PINATA_COWBOY",
+                "Animation": "idle",
+                "StandaloneGroup": "CowboyLootPinatas",
+                "RewardDoFancyCollect": true,
+                "RewardDialogTitle": "[AWARD_SCREEN_PINATA_TITLE]",
+                "RewardDialogDescriptions": [
+                    "[AWARD_SCREEN_PINATA_DESCRIPTION]"
+                ],
+                "Dimensions": {
+                    "x": 75,
+                    "y": 75
+                },
+                "Scale": 0.5
+            }
+        },
+        {
+            "objclass": "CollectableType",
+            "objdata": {
+                "TypeName": "pinata_eighties",
+                "CollectableClass": "CollectablePinata",
+                "GroundSound": "Play_UI_Reward_PinataOnBoard_Drop",
+                "CollectSound": "Play_UI_Reward_PinataOnBoard_Collect",
+                "PopAnim": "POPANIM_EFFECTS_PRIZE_PINATA_80S",
+                "Animation": "idle",
+                "StandaloneGroup": "EightiesLootPinatas",
+                "RewardDoFancyCollect": true,
+                "RewardDialogTitle": "[AWARD_SCREEN_PINATA_TITLE]",
+                "RewardDialogDescriptions": [
+                    "[AWARD_SCREEN_PINATA_DESCRIPTION]"
+                ],
+                "Dimensions": {
+                    "x": 75,
+                    "y": 75
+                },
+                "Scale": 0.5
+            }
+        },
+        {
+            "objclass": "CollectableType",
+            "objdata": {
+                "TypeName": "pinata_beach",
+                "CollectableClass": "CollectablePinata",
+                "GroundSound": "Play_UI_Reward_PinataOnBoard_Drop",
+                "CollectSound": "Play_UI_Reward_PinataOnBoard_Collect",
+                "PopAnim": "POPANIM_EFFECTS_PRIZE_PINATA_BEACH",
+                "Animation": "idle",
+                "StandaloneGroup": "BeachLootPinatas",
+                "RewardDoFancyCollect": true,
+                "RewardDialogTitle": "[AWARD_SCREEN_PINATA_TITLE]",
+                "RewardDialogDescriptions": [
+                    "[AWARD_SCREEN_PINATA_DESCRIPTION]"
+                ],
+                "Dimensions": {
+                    "x": 75,
+                    "y": 75
+                },
+                "Scale": 0.5
+            }
+        },
+        {
+            "objclass": "CollectableType",
+            "objdata": {
+                "TypeName": "pinata_dark",
+                "CollectableClass": "CollectablePinata",
+                "GroundSound": "Play_UI_Reward_PinataOnBoard_Drop",
+                "CollectSound": "Play_UI_Reward_PinataOnBoard_Collect",
+                "PopAnim": "POPANIM_EFFECTS_PRIZE_PINATA_DARK",
+                "Animation": "idle",
+                "StandaloneGroup": "DarkLootPinatas",
+                "RewardDoFancyCollect": true,
+                "RewardDialogTitle": "[AWARD_SCREEN_PINATA_TITLE]",
+                "RewardDialogDescriptions": [
+                    "[AWARD_SCREEN_PINATA_DESCRIPTION]"
+                ],
+                "Dimensions": {
+                    "x": 75,
+                    "y": 75
+                },
+                "Scale": 0.5
+            }
+        },
+        {
+            "objclass": "CollectableType",
+            "objdata": {
+                "TypeName": "pinata_dino",
+                "CollectableClass": "CollectablePinata",
+                "GroundSound": "Play_UI_Reward_PinataOnBoard_Drop",
+                "CollectSound": "Play_UI_Reward_PinataOnBoard_Collect",
+                "PopAnim": "POPANIM_EFFECTS_PRIZE_PINATA_DINO",
+                "Animation": "idle",
+                "StandaloneGroup": "DinoLootPinatas",
+                "RewardDoFancyCollect": true,
+                "RewardDialogTitle": "[AWARD_SCREEN_PINATA_TITLE]",
+                "RewardDialogDescriptions": [
+                    "[AWARD_SCREEN_PINATA_DESCRIPTION]"
+                ],
+                "Dimensions": {
+                    "x": 75,
+                    "y": 75
+                },
+                "Scale": 0.5
+            }
+        },
+        {
+            "objclass": "CollectableType",
+            "objdata": {
+                "TypeName": "pinata_future",
+                "CollectableClass": "CollectablePinata",
+                "GroundSound": "Play_UI_Reward_PinataOnBoard_Drop",
+                "CollectSound": "Play_UI_Reward_PinataOnBoard_Collect",
+                "PopAnim": "POPANIM_EFFECTS_PRIZE_PINATA_FUTURE",
+                "Animation": "idle",
+                "StandaloneGroup": "FutureLootPinatas",
+                "RewardDoFancyCollect": true,
+                "RewardDialogTitle": "[AWARD_SCREEN_PINATA_TITLE]",
+                "RewardDialogDescriptions": [
+                    "[AWARD_SCREEN_PINATA_DESCRIPTION]"
+                ],
+                "Dimensions": {
+                    "x": 75,
+                    "y": 75
+                },
+                "Scale": 0.5
+            }
+        },
+        {
+            "objclass": "CollectableType",
+            "objdata": {
+                "TypeName": "pinata_iceage",
+                "CollectableClass": "CollectablePinata",
+                "GroundSound": "Play_UI_Reward_PinataOnBoard_Drop",
+                "CollectSound": "Play_UI_Reward_PinataOnBoard_Collect",
+                "PopAnim": "POPANIM_EFFECTS_PRIZE_PINATA_ICEAGE",
+                "Animation": "idle",
+                "StandaloneGroup": "IceageLootPinatas",
+                "RewardDoFancyCollect": true,
+                "RewardDialogTitle": "[AWARD_SCREEN_PINATA_TITLE]",
+                "RewardDialogDescriptions": [
+                    "[AWARD_SCREEN_PINATA_DESCRIPTION]"
+                ],
+                "Dimensions": {
+                    "x": 75,
+                    "y": 75
+                },
+                "Scale": 0.5
+            }
+        },
+        {
+            "objclass": "CollectableType",
+            "objdata": {
+                "TypeName": "pinata_lostcity",
+                "CollectableClass": "CollectablePinata",
+                "GroundSound": "Play_UI_Reward_PinataOnBoard_Drop",
+                "CollectSound": "Play_UI_Reward_PinataOnBoard_Collect",
+                "PopAnim": "POPANIM_EFFECTS_PRIZE_PINATA_LOST",
+                "Animation": "idle",
+                "StandaloneGroup": "LostcityLootPinatas",
+                "RewardDoFancyCollect": true,
+                "RewardDialogTitle": "[AWARD_SCREEN_PINATA_TITLE]",
+                "RewardDialogDescriptions": [
+                    "[AWARD_SCREEN_PINATA_DESCRIPTION]"
+                ],
+                "Dimensions": {
+                    "x": 75,
+                    "y": 75
+                },
+                "Scale": 0.5
+            }
+        },
+        {
+            "objclass": "CollectableType",
+            "objdata": {
+                "TypeName": "pinata_modern",
+                "CollectableClass": "CollectablePinata",
+                "GroundSound": "Play_UI_Reward_PinataOnBoard_Drop",
+                "CollectSound": "Play_UI_Reward_PinataOnBoard_Collect",
+                "PopAnim": "POPANIM_EFFECTS_PRIZE_PINATA_MODERN",
+                "Animation": "idle",
+                "StandaloneGroup": "ModernLootPinatas",
+                "RewardDoFancyCollect": true,
+                "RewardDialogTitle": "[AWARD_SCREEN_PINATA_TITLE]",
+                "RewardDialogDescriptions": [
+                    "[AWARD_SCREEN_PINATA_DESCRIPTION]"
+                ],
+                "Dimensions": {
+                    "x": 75,
+                    "y": 75
+                },
+                "Scale": 0.5
+            }
+        }
+    ]
+}

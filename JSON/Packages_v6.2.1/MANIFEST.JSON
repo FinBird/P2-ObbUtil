@@ -1,0 +1,50 @@
+{
+    "version": 1,
+    "objects": [
+        {
+            "objdata": {
+                "Versions": [
+                    {
+                        "Reset": false,
+                        "Platform": [
+                            {
+                                "DiffSize": 0,
+                                "PlatformName": "ipad2",
+                                "RSBSize": 0,
+                                "patch_MD5": "",
+                                "full_MD5": ""
+                            },
+                            {
+                                "DiffSize": 0,
+                                "PlatformName": "ipad3",
+                                "RSBSize": 0,
+                                "patch_MD5": "",
+                                "full_MD5": ""
+                            },
+                            {
+                                "DiffSize": 0,
+                                "PlatformName": "iphone",
+                                "RSBSize": 0,
+                                "patch_MD5": "",
+                                "full_MD5": ""
+                            },
+                            {
+                                "DiffSize": 0,
+                                "PlatformName": "ipod4",
+                                "RSBSize": 0,
+                                "patch_MD5": "",
+                                "full_MD5": ""
+                            }
+                        ],
+                        "Version": {
+                            "content": 0,
+                            "major": 0,
+                            "minor": 0
+                        }
+                    }
+                ]
+            },
+            "objclass": "PVZManifest"
+        }
+    ]
+}

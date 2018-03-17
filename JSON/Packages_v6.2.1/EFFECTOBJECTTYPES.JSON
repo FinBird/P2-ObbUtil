@@ -1,0 +1,155 @@
+{
+    "#comment": "Make new effect object types here!",
+    "version": 1,
+    "objects": [
+        {
+            "####### ... ########": 0
+        },
+        {
+            "objclass": "EffectObjectType",
+            "aliases": [
+                "effectobject_frostwind"
+            ],
+            "objdata": {
+                "TypeName": "effectobject_frostwind",
+                "EffectObjectClass": "EffectObject_FrostWind",
+                "ResourceGroups": [
+                    "IceAgeFrostWindGroup",
+                    "FrostbiteIceBlockPlantGroup"
+                ],
+                "Properties": "RTID(EffectObjectFrostWind@PropertySheets)"
+            }
+        },
+        {
+            "objclass": "EffectObjectType",
+            "aliases": [
+                "effectobject_frostwind_zomboss"
+            ],
+            "objdata": {
+                "TypeName": "effectobject_frostwind_zomboss",
+                "EffectObjectClass": "EffectObject_FrostWind",
+                "ResourceGroups": [
+                    "IceAgeFrostWindGroup",
+                    "FrostbiteIceBlockPlantGroup"
+                ],
+                "Properties": "RTID(EffectObjectIceAgeZombossFrostWind@PropertySheets)"
+            }
+        },
+        {
+            "objclass": "EffectObjectType",
+            "aliases": [
+                "effectobject_trapfire"
+            ],
+            "objdata": {
+                "TypeName": "effectobject_trapfire",
+                "EffectObjectClass": "EffectObject_DamageOverTime",
+                "ResourceGroups": [
+                    "LevelCommon",
+                    "ZombieLostCityZombossGroup"
+                ],
+                "Properties": "RTID(EffectObjectTrapFire@PropertySheets)"
+            }
+        },
+        {
+            "objclass": "EffectObjectType",
+            "aliases": [
+                "effectobject_planeshadow"
+            ],
+            "objdata": {
+                "TypeName": "effectobject_planeshadow",
+                "EffectObjectClass": "EffectObject_StretchedScrollingImage",
+                "ResourceGroups": [
+                    "LevelCommon",
+                    "ZombieLostCityZombossGroup"
+                ],
+                "Properties": "RTID(EffectObjectPlaneShadow@PropertySheets)"
+            }
+        },
+        {
+            "objclass": "EffectObjectType",
+            "aliases": [
+                "strawburst_plantfood"
+            ],
+            "objdata": {
+                "TypeName": "strawburst_plantfood",
+                "EffectObjectClass": "EffectObject_StrawburstPlantfood",
+                "ResourceGroups": [
+                    "PlantStrawburst",
+                    "PlantStrawburstAudio"
+                ],
+                "Properties": "RTID(EffectObjectStrawburstPlantfood@PropertySheets)"
+            }
+        },
+        {
+            "objclass": "EffectObjectType",
+            "aliases": [
+                "escaperoot_targetplant"
+            ],
+            "objdata": {
+                "TypeName": "escaperoot_targetplant",
+                "EffectObjectClass": "EffectObject_TargetPlant",
+                "ResourceGroups": [
+                    "PlantEscapeRoot",
+                    "PlantEscapeRootAudio"
+                ],
+                "Properties": "RTID(EffectObjectTargetPlant@PropertySheets)"
+            }
+        },
+        {
+            "objclass": "EffectObjectType",
+            "aliases": [
+                "level_planting"
+            ],
+            "objdata": {
+                "TypeName": "level_planting",
+                "EffectObjectClass": "EffectObject_LevelPlanting",
+                "ResourceGroups": [
+                    "LevelCommon"
+                ],
+                "Properties": "RTID(EffectObjectLevelPlanting@PropertySheets)"
+            }
+        },
+        {
+            "objclass": "EffectObjectType",
+            "aliases": [
+                "GenericExplosionFront"
+            ],
+            "objdata": {
+                "TypeName": "lookups_by_string_name_are_a_mistake",
+                "EffectObjectClass": "EffectObject",
+                "ResourceGroups": [
+                    "LevelCommon"
+                ],
+                "Properties": "RTID(EffectObjectGenericExplosionFront@PropertySheets)"
+            }
+        },
+        {
+            "objclass": "EffectObjectType",
+            "aliases": [
+                "PotatoMineExplosion"
+            ],
+            "objdata": {
+                "TypeName": "lookups_by_string_name_are_a_mistake",
+                "EffectObjectClass": "EffectObject",
+                "ResourceGroups": [
+                    "PlantPotatomine"
+                ],
+                "Properties": "RTID(EffectObjectPotatoMineExplosion@PropertySheets)"
+            }
+        },
+        {
+            "objclass": "EffectObjectType",
+            "aliases": [
+                "PrimalPotatoMineExplosion"
+            ],
+            "objdata": {
+                "TypeName": "lookups_by_string_name_are_a_mistake",
+                "EffectObjectClass": "EffectObject",
+                "ResourceGroups": [
+                    "PlantPrimalPotatomine"
+                ],
+                "Properties": "RTID(EffectObjectPrimalPotatoMineExplosion@PropertySheets)"
+            }
+        }
+    ]
+}

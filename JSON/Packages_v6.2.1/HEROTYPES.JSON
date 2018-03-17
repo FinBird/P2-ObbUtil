@@ -1,0 +1,32 @@
+{
+    "#comment": "All Hero related objects should go here",
+    "version": 1,
+    "objects": [
+        {
+            "objclass": "ZombieHeroSpawnerProps",
+            "aliases": [
+                "CleopatraDefaultSpawn"
+            ],
+            "objdata": {
+                "TriggerAtTime": 5.0,
+                "TriggerInterval": 0.0,
+                "TriggerMax": 1,
+                "ZombieSpawnType": "mummy",
+                "SpawnPattern": "diamond"
+            }
+        },
+        {
+            "objclass": "ZombieHeroSpawnerProps",
+            "aliases": [
+                "CleopatraOverrideSpawn"
+            ],
+            "objdata": {
+                "TriggerAtTime": 5.0,
+                "TriggerInterval": 0.0,
+                "TriggerMax": 1,
+                "ZombieSpawnType": "mummy",
+                "SpawnPattern": "square"
+            }
+        }
+    ]
+}

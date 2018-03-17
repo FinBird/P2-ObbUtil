@@ -1,0 +1,153 @@
+{
+    "#comment": "All Tool Packet related objects should go here",
+    "#comment": "Hardcoded comparisons require a tool_ prefix to your type",
+    "#comment": "Remember to add an image for each tool for the conveyor/packet display: IMAGE_UI_PACKETS_TOOLS_XXXX",
+    "version": 1,
+    "objects": [
+        {
+            "objclass": "ToolPacketProps",
+            "objdata": {
+                "TypeName": "tool_powertile_alpha",
+                "ToolPacketClass": "ToolPacketData_PowerTile",
+                "ResourceGroup": "PowerTileModule",
+                "PowerTileType": "alpha"
+            }
+        },
+        {
+            "objclass": "ToolPacketProps",
+            "objdata": {
+                "TypeName": "tool_powertile_beta",
+                "ToolPacketClass": "ToolPacketData_PowerTile",
+                "ResourceGroup": "PowerTileModule",
+                "PowerTileType": "beta"
+            }
+        },
+        {
+            "objclass": "ToolPacketProps",
+            "objdata": {
+                "TypeName": "tool_powertile_gamma",
+                "ToolPacketClass": "ToolPacketData_PowerTile",
+                "ResourceGroup": "PowerTileModule",
+                "PowerTileType": "gamma"
+            }
+        },
+        {
+            "objclass": "ToolPacketProps",
+            "objdata": {
+                "TypeName": "tool_powertile_delta",
+                "ToolPacketClass": "ToolPacketData_PowerTile",
+                "ResourceGroup": "PowerTileModule",
+                "PowerTileType": "delta"
+            }
+        },
+        {
+            "objclass": "ToolPacketProps",
+            "objdata": {
+                "TypeName": "tool_powertile_epsilon",
+                "ToolPacketClass": "ToolPacketData_PowerTile",
+                "ResourceGroup": "PowerTileModule",
+                "PowerTileType": "epsilon"
+            }
+        },
+        {
+            "objclass": "ToolPacketProps",
+            "objdata": {
+                "TypeName": "tool_projectile_bowlingbulb1",
+                "ToolPacketClass": "ToolPacketData_Projectile",
+                "ResourceGroup": "PlantBowlingBulb",
+                "TypeToSpawn": "BowlingBulbDefault",
+                "SpawnOffset": {
+                    "x": -15.0,
+                    "y": -16.0
+                },
+                "SpawnSound": "Play_Plant_BowlingBulb_Attack_Fire_Minigame",
+                "CursorPopAnim": "POPANIM_EFFECTS_BOWLINGBULB_PROJECTILE1",
+                "CursorAnim": "animation",
+                "CursorOffset": {
+                    "x": -100,
+                    "y": -97
+                }
+            }
+        },
+        {
+            "objclass": "ToolPacketProps",
+            "objdata": {
+                "TypeName": "tool_projectile_bowlingbulb2",
+                "ToolPacketClass": "ToolPacketData_Projectile",
+                "ResourceGroup": "PlantBowlingBulb",
+                "TypeToSpawn": "BowlingBulbDefault2",
+                "SpawnOffset": {
+                    "x": -15.0,
+                    "y": -20.0
+                },
+                "SpawnSound": "Play_Plant_BowlingBulb_Attack_Fire_Minigame",
+                "CursorPopAnim": "POPANIM_EFFECTS_BOWLINGBULB_PROJECTILE2",
+                "CursorAnim": "animation",
+                "CursorOffset": {
+                    "x": -100,
+                    "y": -97
+                }
+            }
+        },
+        {
+            "objclass": "ToolPacketProps",
+            "objdata": {
+                "TypeName": "tool_projectile_bowlingbulb3",
+                "ToolPacketClass": "ToolPacketData_Projectile",
+                "ResourceGroup": "PlantBowlingBulb",
+                "TypeToSpawn": "BowlingBulbDefault3",
+                "SpawnOffset": {
+                    "x": -15.0,
+                    "y": -25.0
+                },
+                "SpawnSound": "Play_Plant_BowlingBulb_Attack_Fire_Minigame",
+                "CursorPopAnim": "POPANIM_EFFECTS_BOWLINGBULB_PROJECTILE3",
+                "CursorAnim": "animation",
+                "CursorOffset": {
+                    "x": -100,
+                    "y": -97
+                }
+            }
+        },
+        {
+            "objclass": "ToolPacketProps",
+            "objdata": {
+                "TypeName": "tool_projectile_bowlingbulb_explode",
+                "ToolPacketClass": "ToolPacketData_Projectile",
+                "ResourceGroup": "PlantBowlingBulb",
+                "TypeToSpawn": "PlantfoodBowlerDefault",
+                "SpawnOffset": {
+                    "x": -10.0,
+                    "y": -27.0
+                },
+                "SpawnSound": "Play_Plant_BowlingBulb_Plantfood_Fire_Minigame",
+                "CursorPopAnim": "POPANIM_EFFECTS_BOWLINGBULB_PLANTFOOD_PROJECTILE",
+                "CursorAnim": "animation",
+                "CursorOffset": {
+                    "x": -100,
+                    "y": -97
+                }
+            }
+        },
+        {
+            "objclass": "ToolPacketProps",
+            "objdata": {
+                "TypeName": "tool_projectile_bowlingbulb_mega",
+                "ToolPacketClass": "ToolPacketData_Projectile",
+                "ResourceGroup": "PlantBowlingBulb",
+                "TypeToSpawn": "BowlingBulbMegaDefault",
+                "SpawnOffset": {
+                    "x": -5.0,
+                    "y": -25.0
+                },
+                "SpawnSound": "Play_Plant_BowlingBulb_Plantfood_Fire_Minigame",
+                "CursorPopAnim": "POPANIM_EFFECTS_BOWLINGBULB_PROJECTILE1",
+                "CursorAnim": "animation",
+                "CursorOffset": {
+                    "x": -100,
+                    "y": -97
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,106 @@
+{
+    "#comment": "Make new present types here!",
+    "version": 1,
+    "objects": [
+        {
+            "uid": "1.1.1",
+            "objclass": "PresentTypeCoin",
+            "objdata": {
+                "TypeName": "coinpack_small",
+                "PopAnim": "POPANIM_EFFECTS_COIN_SILVER",
+                "Animation": "animation",
+                "CoinValue": "10"
+            }
+        },
+        {
+            "uid": "1.2.1",
+            "objclass": "PresentTypeCoin",
+            "objdata": {
+                "TypeName": "coinpack_medium",
+                "PopAnim": "POPANIM_EFFECTS_COIN_GOLD",
+                "Animation": "animation",
+                "CoinValue": "100"
+            }
+        },
+        {
+            "uid": "1.3.1",
+            "objclass": "PresentTypeCoin",
+            "objdata": {
+                "TypeName": "coinpack_large",
+                "PopAnim": "POPANIM_EFFECTS_COIN_STACK",
+                "Animation": "IDLE",
+                "Scale": 0.5,
+                "CoinValue": "1000"
+            }
+        },
+        {
+            "uid": "1.16.1",
+            "objclass": "PresentTypePowerupUse",
+            "objdata": {
+                "TypeName": "powerupwizardfinger",
+                "Image": "IMAGE_UI_POWERUPS_POWER_SHOCK",
+                "PowerupName": "powerupwizardfinger",
+                "NumUses": 1
+            }
+        },
+        {
+            "uid": "1.17.1",
+            "objclass": "PresentTypePowerupUse",
+            "objdata": {
+                "TypeName": "powerupflickzombie",
+                "Image": "IMAGE_UI_POWERUPS_POWER_SWEEP",
+                "PowerupName": "powerupflickzombie",
+                "NumUses": 1
+            }
+        },
+        {
+            "uid": "1.18.1",
+            "objclass": "PresentTypePowerupUse",
+            "objdata": {
+                "TypeName": "poweruppinchzombie",
+                "Image": "IMAGE_UI_POWERUPS_POWERUP_BORDER",
+                "PowerupName": "poweruppinchzombie",
+                "NumUses": 1
+            }
+        },
+        {
+            "uid": "1.20.1",
+            "objclass": "PresentTypePowerupUse",
+            "objdata": {
+                "TypeName": "powerupsnowball",
+                "Image": "IMAGE_UI_POWERUPS_POWER_ICE",
+                "PowerupName": "powerupsnowball",
+                "NumUses": 1
+            }
+        },
+        {
+            "uid": "1.22.1",
+            "objclass": "PresentTypePowerupUse",
+            "objdata": {
+                "TypeName": "powerupflamethrower",
+                "Image": "IMAGE_UI_POWERUPS_POWER_FLAMETHROWER",
+                "PowerupName": "powerupflamethrower",
+                "NumUses": 1
+            }
+        },
+        {
+            "uid": "1.19.1",
+            "objclass": "PresentTypeJunk",
+            "objdata": {
+                "TypeName": "bacon_one",
+                "Image": "IMAGE_ENDLEVEL_BACON",
+                "JunkName": "bacon"
+            }
+        },
+        {
+            "uid": "1.21.1",
+            "objclass": "PresentTypeSprout",
+            "objdata": {
+                "TypeName": "sprout",
+                "PopAnim": "POPANIM_ENDLEVEL_SPROUT",
+                "Animation": "IDLE",
+                "Scale": 1.0
+            }
+        }
+    ]
+}

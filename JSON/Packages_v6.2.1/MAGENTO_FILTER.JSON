@@ -1,0 +1,126 @@
+{
+    "#comment": "Magento Filter objects",
+    "#comment": "This is a whitelist that allows items included in this list - any item not in this list should be excluded",
+    "version": 1,
+    "objects": [
+        {
+            "objclass": "ProductFilterPropertySheet",
+            "aliases": [
+                "MagentoFilter"
+            ],
+            "objdata": {
+                "#comment": "Covers entire object Type categories - use only for types that will never fail in the future such as currencies",
+                "ObjectTypeFilters": [
+                    {
+                        "Type": "coin",
+                        "WarnEnsureRealMoneyOnly": true
+                    },
+                    {
+                        "Type": "gem",
+                        "WarnEnsureRealMoneyOnly": true
+                    },
+                    {
+                        "Type": "bundle",
+                        "WarnEnsureRealMoneyOnly": true
+                    },
+                    {
+                        "Type": "keygate",
+                        "WarnEnsureRealMoneyOnly": true
+                    },
+                    {
+                        "Type": "stargate",
+                        "WarnEnsureRealMoneyOnly": true
+                    },
+                    {
+                        "Type": "sprout",
+                        "WarnEnsureGemsOnly": true
+                    },
+                    {
+                        "Type": "plant",
+                        "#comment": "Individual allowed object Item entries",
+                        "SubTypeFilters": [
+                            "powerlily",
+                            "jalapeno",
+                            "imitater",
+                            "snowpea",
+                            "torchwood",
+                            "imitater",
+                            "squash",
+                            "starfruit",
+                            "hypnoshroom",
+                            "peanut",
+                            "chomper",
+                            "homingthistle",
+                            "ghostpepper",
+                            "sweetpotato",
+                            "sapfling",
+                            "hurrikale",
+                            "firepeashooter",
+                            "dandelion",
+                            "lavaguava",
+                            "toadstool",
+                            "strawburst",
+                            "cactus",
+                            "electricblueberry",
+                            "jackolantern",
+                            "grapeshot",
+                            "coldsnapdragon",
+                            "shrinkingviolet",
+                            "bloominghearts",
+                            "escaperoot",
+                            "wasabiwhip",
+                            "explodeonut",
+                            "applemortar",
+                            "kiwibeast",
+                            "bombegranate",
+                            "missiletoe",
+                            "witchhazel",
+                            "parsnip",
+                            "hotdate",
+                            "caulipower",
+                            "electricpeashooter"
+                        ]
+                    },
+                    {
+                        "Type": "gameupgrade",
+                        "WarnEnsureRealMoneyOnly": true,
+                        "#comment": "Individual allowed object Item entries",
+                        "SubTypeFilters": [
+                            "seedslot2",
+                            "startingsun2",
+                            "pf_slots_lvl2",
+                            "sunshovel3",
+                            "feature_quest_pinata_hunt_slot_1",
+                            "feature_quest_pinata_hunt_slot_2"
+                        ]
+                    },
+                    {
+                        "Type": "costume",
+                        "#comment": "Individual allowed object Item entries",
+                        "SubTypeFilters": [
+                            "1",
+                            "2",
+                            "140",
+                            "141",
+                            "199",
+                            "200",
+                            "201",
+                            "202",
+                            "205",
+                            "206",
+                            "207",
+                            "208",
+                            "209",
+                            "210"
+                        ]
+                    },
+                    {
+                        "Type": "pinata",
+                        "WarnEnsureGemsOnly": false,
+                        "WarnEnsureRealMoneyOnly": false
+                    }
+                ]
+            }
+        }
+    ]
+}

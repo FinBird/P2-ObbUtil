@@ -1,0 +1,14 @@
+{
+    "#comment": "Embedded RSB Version",
+    "version": 1,
+    "objects": [
+        {
+            "objclass": "PVZVersion",
+            "objdata": {
+                "major": 0,
+                "minor": 0,
+                "content": 0
+            }
+        }
+    ]
+}

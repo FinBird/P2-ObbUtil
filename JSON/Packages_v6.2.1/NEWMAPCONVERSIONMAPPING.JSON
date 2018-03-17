@@ -1,0 +1,506 @@
+{
+    "version": 1,
+    "objects": [
+        {
+            "objclass": "NewWorldMapConversionMapping",
+            "objdata": {
+                "Mapping": [
+                    {
+                        "OldMapWorldId": 1,
+                        "OldMapEventId": 1,
+                        "OldMapStarIndex": 0,
+                        "NewMapLevel": "tutorial1"
+                    },
+                    {
+                        "OldMapWorldId": 1,
+                        "OldMapEventId": 2,
+                        "OldMapStarIndex": 0,
+                        "NewMapLevel": "tutorial2"
+                    },
+                    {
+                        "OldMapWorldId": 1,
+                        "OldMapEventId": 3,
+                        "OldMapStarIndex": 0,
+                        "NewMapLevel": "tutorial3"
+                    },
+                    {
+                        "OldMapWorldId": 1,
+                        "OldMapEventId": 4,
+                        "OldMapStarIndex": 0,
+                        "NewMapLevel": "tutorial4"
+                    },
+                    {
+                        "OldMapWorldId": 1,
+                        "OldMapEventId": 6,
+                        "OldMapStarIndex": 0,
+                        "NewMapLevel": "intro1"
+                    },
+                    {
+                        "OldMapWorldId": 2,
+                        "OldMapEventId": 1,
+                        "OldMapStarIndex": 0,
+                        "NewMapLevel": "egypt1"
+                    },
+                    {
+                        "OldMapWorldId": 2,
+                        "OldMapEventId": 2,
+                        "OldMapStarIndex": 0,
+                        "NewMapLevel": "egypt2"
+                    },
+                    {
+                        "OldMapWorldId": 2,
+                        "OldMapEventId": 3,
+                        "OldMapStarIndex": 0,
+                        "NewMapLevel": "egypt3"
+                    },
+                    {
+                        "OldMapWorldId": 2,
+                        "OldMapEventId": 40,
+                        "OldMapStarIndex": 1,
+                        "NewMapLevel": "egypt4"
+                    },
+                    {
+                        "OldMapWorldId": 2,
+                        "OldMapEventId": 7,
+                        "OldMapStarIndex": 0,
+                        "NewMapLevel": "egypt5"
+                    },
+                    {
+                        "OldMapWorldId": 2,
+                        "OldMapEventId": 4,
+                        "OldMapStarIndex": 0,
+                        "NewMapLevel": "egypt6"
+                    },
+                    {
+                        "OldMapWorldId": 2,
+                        "OldMapEventId": 35,
+                        "OldMapStarIndex": 0,
+                        "NewMapLevel": "egypt7"
+                    },
+                    {
+                        "OldMapWorldId": 2,
+                        "OldMapEventId": 6,
+                        "OldMapStarIndex": 0,
+                        "NewMapLevel": "egypt9"
+                    },
+                    {
+                        "OldMapWorldId": 2,
+                        "OldMapEventId": 5,
+                        "OldMapStarIndex": 0,
+                        "NewMapLevel": "egypt10"
+                    },
+                    {
+                        "OldMapWorldId": 2,
+                        "OldMapEventId": 24,
+                        "OldMapStarIndex": 1,
+                        "NewMapLevel": "egypt11"
+                    },
+                    {
+                        "OldMapWorldId": 2,
+                        "OldMapEventId": 8,
+                        "OldMapStarIndex": 0,
+                        "NewMapLevel": "egypt12"
+                    },
+                    {
+                        "OldMapWorldId": 2,
+                        "OldMapEventId": 4,
+                        "OldMapStarIndex": 1,
+                        "NewMapLevel": "egypt13"
+                    },
+                    {
+                        "OldMapWorldId": 2,
+                        "OldMapEventId": 9,
+                        "OldMapStarIndex": 0,
+                        "NewMapLevel": "egypt14"
+                    },
+                    {
+                        "OldMapWorldId": 2,
+                        "OldMapEventId": 22,
+                        "OldMapStarIndex": 1,
+                        "NewMapLevel": "egypt15"
+                    },
+                    {
+                        "OldMapWorldId": 2,
+                        "OldMapEventId": 37,
+                        "OldMapStarIndex": 1,
+                        "NewMapLevel": "egypt16"
+                    },
+                    {
+                        "OldMapWorldId": 2,
+                        "OldMapEventId": 6,
+                        "OldMapStarIndex": 1,
+                        "NewMapLevel": "egypt17"
+                    },
+                    {
+                        "OldMapWorldId": 2,
+                        "OldMapEventId": 29,
+                        "OldMapStarIndex": 1,
+                        "NewMapLevel": "egypt18"
+                    },
+                    {
+                        "OldMapWorldId": 2,
+                        "OldMapEventId": 1,
+                        "OldMapStarIndex": 2,
+                        "NewMapLevel": "egypt19"
+                    },
+                    {
+                        "OldMapWorldId": 2,
+                        "OldMapEventId": 19,
+                        "OldMapStarIndex": 1,
+                        "NewMapLevel": "egypt20"
+                    },
+                    {
+                        "OldMapWorldId": 2,
+                        "OldMapEventId": 26,
+                        "OldMapStarIndex": 1,
+                        "NewMapLevel": "egypt21"
+                    },
+                    {
+                        "OldMapWorldId": 2,
+                        "OldMapEventId": 8,
+                        "OldMapStarIndex": 2,
+                        "NewMapLevel": "egypt22"
+                    },
+                    {
+                        "OldMapWorldId": 2,
+                        "OldMapEventId": 42,
+                        "OldMapStarIndex": 1,
+                        "NewMapLevel": "egypt23"
+                    },
+                    {
+                        "OldMapWorldId": 2,
+                        "OldMapEventId": 31,
+                        "OldMapStarIndex": 1,
+                        "NewMapLevel": "egypt24"
+                    },
+                    {
+                        "OldMapWorldId": 3,
+                        "OldMapEventId": 1,
+                        "OldMapStarIndex": 0,
+                        "NewMapLevel": "pirate1"
+                    },
+                    {
+                        "OldMapWorldId": 3,
+                        "OldMapEventId": 2,
+                        "OldMapStarIndex": 0,
+                        "NewMapLevel": "pirate2"
+                    },
+                    {
+                        "OldMapWorldId": 3,
+                        "OldMapEventId": 5,
+                        "OldMapStarIndex": 0,
+                        "NewMapLevel": "pirate3"
+                    },
+                    {
+                        "OldMapWorldId": 3,
+                        "OldMapEventId": 3,
+                        "OldMapStarIndex": 0,
+                        "NewMapLevel": "pirate4"
+                    },
+                    {
+                        "OldMapWorldId": 3,
+                        "OldMapEventId": 24,
+                        "OldMapStarIndex": 1,
+                        "NewMapLevel": "pirate5"
+                    },
+                    {
+                        "OldMapWorldId": 3,
+                        "OldMapEventId": 6,
+                        "OldMapStarIndex": 0,
+                        "NewMapLevel": "pirate6"
+                    },
+                    {
+                        "OldMapWorldId": 3,
+                        "OldMapEventId": 4,
+                        "OldMapStarIndex": 0,
+                        "NewMapLevel": "pirate7"
+                    },
+                    {
+                        "OldMapWorldId": 3,
+                        "OldMapEventId": 7,
+                        "OldMapStarIndex": 0,
+                        "NewMapLevel": "pirate9"
+                    },
+                    {
+                        "OldMapWorldId": 3,
+                        "OldMapEventId": 8,
+                        "OldMapStarIndex": 0,
+                        "NewMapLevel": "pirate10"
+                    },
+                    {
+                        "OldMapWorldId": 3,
+                        "OldMapEventId": 29,
+                        "OldMapStarIndex": 1,
+                        "NewMapLevel": "pirate11"
+                    },
+                    {
+                        "OldMapWorldId": 3,
+                        "OldMapEventId": 9,
+                        "OldMapStarIndex": 0,
+                        "NewMapLevel": "pirate12"
+                    },
+                    {
+                        "OldMapWorldId": 3,
+                        "OldMapEventId": 7,
+                        "OldMapStarIndex": 1,
+                        "NewMapLevel": "pirate13"
+                    },
+                    {
+                        "OldMapWorldId": 3,
+                        "OldMapEventId": 33,
+                        "OldMapStarIndex": 1,
+                        "NewMapLevel": "pirate14"
+                    },
+                    {
+                        "OldMapWorldId": 3,
+                        "OldMapEventId": 6,
+                        "OldMapStarIndex": 1,
+                        "NewMapLevel": "pirate15"
+                    },
+                    {
+                        "OldMapWorldId": 3,
+                        "OldMapEventId": 19,
+                        "OldMapStarIndex": 1,
+                        "NewMapLevel": "pirate16"
+                    },
+                    {
+                        "OldMapWorldId": 3,
+                        "OldMapEventId": 9,
+                        "OldMapStarIndex": 1,
+                        "NewMapLevel": "pirate17"
+                    },
+                    {
+                        "OldMapWorldId": 3,
+                        "OldMapEventId": 26,
+                        "OldMapStarIndex": 1,
+                        "NewMapLevel": "pirate18"
+                    },
+                    {
+                        "OldMapWorldId": 3,
+                        "OldMapEventId": 1,
+                        "OldMapStarIndex": 2,
+                        "NewMapLevel": "pirate19"
+                    },
+                    {
+                        "OldMapWorldId": 3,
+                        "OldMapEventId": 30,
+                        "OldMapStarIndex": 1,
+                        "NewMapLevel": "pirate20"
+                    },
+                    {
+                        "OldMapWorldId": 3,
+                        "OldMapEventId": 6,
+                        "OldMapStarIndex": 2,
+                        "NewMapLevel": "pirate21"
+                    },
+                    {
+                        "OldMapWorldId": 3,
+                        "OldMapEventId": 35,
+                        "OldMapStarIndex": 1,
+                        "NewMapLevel": "pirate22"
+                    },
+                    {
+                        "OldMapWorldId": 3,
+                        "OldMapEventId": 2,
+                        "OldMapStarIndex": 3,
+                        "NewMapLevel": "pirate23"
+                    },
+                    {
+                        "OldMapWorldId": 3,
+                        "OldMapEventId": 20,
+                        "OldMapStarIndex": 1,
+                        "NewMapLevel": "pirate24"
+                    },
+                    {
+                        "OldMapWorldId": 4,
+                        "OldMapEventId": 1,
+                        "OldMapStarIndex": 0,
+                        "NewMapLevel": "cowboy1"
+                    },
+                    {
+                        "OldMapWorldId": 4,
+                        "OldMapEventId": 2,
+                        "OldMapStarIndex": 0,
+                        "NewMapLevel": "cowboy2"
+                    },
+                    {
+                        "OldMapWorldId": 4,
+                        "OldMapEventId": 3,
+                        "OldMapStarIndex": 0,
+                        "NewMapLevel": "cowboy3"
+                    },
+                    {
+                        "OldMapWorldId": 4,
+                        "OldMapEventId": 5,
+                        "OldMapStarIndex": 0,
+                        "NewMapLevel": "cowboy4"
+                    },
+                    {
+                        "OldMapWorldId": 4,
+                        "OldMapEventId": 4,
+                        "OldMapStarIndex": 0,
+                        "NewMapLevel": "cowboy5"
+                    },
+                    {
+                        "OldMapWorldId": 4,
+                        "OldMapEventId": 29,
+                        "OldMapStarIndex": 1,
+                        "NewMapLevel": "cowboy6"
+                    },
+                    {
+                        "OldMapWorldId": 4,
+                        "OldMapEventId": 7,
+                        "OldMapStarIndex": 0,
+                        "NewMapLevel": "cowboy7"
+                    },
+                    {
+                        "OldMapWorldId": 4,
+                        "OldMapEventId": 23,
+                        "OldMapStarIndex": 1,
+                        "NewMapLevel": "cowboy9"
+                    },
+                    {
+                        "OldMapWorldId": 4,
+                        "OldMapEventId": 6,
+                        "OldMapStarIndex": 0,
+                        "NewMapLevel": "cowboy10"
+                    },
+                    {
+                        "OldMapWorldId": 4,
+                        "OldMapEventId": 1,
+                        "OldMapStarIndex": 1,
+                        "NewMapLevel": "cowboy11"
+                    },
+                    {
+                        "OldMapWorldId": 4,
+                        "OldMapEventId": 32,
+                        "OldMapStarIndex": 1,
+                        "NewMapLevel": "cowboy12"
+                    },
+                    {
+                        "OldMapWorldId": 4,
+                        "OldMapEventId": 9,
+                        "OldMapStarIndex": 0,
+                        "NewMapLevel": "cowboy13"
+                    },
+                    {
+                        "OldMapWorldId": 4,
+                        "OldMapEventId": 8,
+                        "OldMapStarIndex": 0,
+                        "NewMapLevel": "cowboy14"
+                    },
+                    {
+                        "OldMapWorldId": 4,
+                        "OldMapEventId": 3,
+                        "OldMapStarIndex": 1,
+                        "NewMapLevel": "cowboy15"
+                    },
+                    {
+                        "OldMapWorldId": 4,
+                        "OldMapEventId": 17,
+                        "OldMapStarIndex": 1,
+                        "NewMapLevel": "cowboy16"
+                    },
+                    {
+                        "OldMapWorldId": 4,
+                        "OldMapEventId": 7,
+                        "OldMapStarIndex": 1,
+                        "NewMapLevel": "cowboy17"
+                    },
+                    {
+                        "OldMapWorldId": 4,
+                        "OldMapEventId": 30,
+                        "OldMapStarIndex": 1,
+                        "NewMapLevel": "cowboy18"
+                    },
+                    {
+                        "OldMapWorldId": 4,
+                        "OldMapEventId": 4,
+                        "OldMapStarIndex": 2,
+                        "NewMapLevel": "cowboy19"
+                    },
+                    {
+                        "OldMapWorldId": 4,
+                        "OldMapEventId": 34,
+                        "OldMapStarIndex": 1,
+                        "NewMapLevel": "cowboy20"
+                    },
+                    {
+                        "OldMapWorldId": 4,
+                        "OldMapEventId": 2,
+                        "OldMapStarIndex": 3,
+                        "NewMapLevel": "cowboy21"
+                    },
+                    {
+                        "OldMapWorldId": 4,
+                        "OldMapEventId": 25,
+                        "OldMapStarIndex": 1,
+                        "NewMapLevel": "cowboy22"
+                    },
+                    {
+                        "OldMapWorldId": 4,
+                        "OldMapEventId": 8,
+                        "OldMapStarIndex": 3,
+                        "NewMapLevel": "cowboy23"
+                    },
+                    {
+                        "OldMapWorldId": 4,
+                        "OldMapEventId": 18,
+                        "OldMapStarIndex": 1,
+                        "NewMapLevel": "cowboy24"
+                    }
+                ],
+                "KeygateRewardMapping": [
+                    {
+                        "OldKeygateName": "egypt_keygate_chal_protect",
+                        "RewardName": "gravebuster"
+                    },
+                    {
+                        "OldKeygateName": "egypt_keygate_chal_preset",
+                        "RewardName": "twinsunflower"
+                    },
+                    {
+                        "OldKeygateName": "egypt_keygate_chal_laststand",
+                        "RewardName": "starting_sun_lvl1"
+                    },
+                    {
+                        "OldKeygateName": "egypt_keygate_chal_minigame",
+                        "RewardName": "pf_slots_lvl1"
+                    },
+                    {
+                        "OldKeygateName": "pirate_keygate_chal_protect",
+                        "RewardName": "spikerock"
+                    },
+                    {
+                        "OldKeygateName": "pirate_keygate_chal_preset",
+                        "RewardName": "cherry_bomb"
+                    },
+                    {
+                        "OldKeygateName": "pirate_keygate_chal_minigame",
+                        "RewardName": "sunshovel_lvl1"
+                    },
+                    {
+                        "OldKeygateName": "pirate_keygate_chal_laststand",
+                        "RewardName": "7_slots"
+                    },
+                    {
+                        "OldKeygateName": "cowboy_keygate_chal_protect",
+                        "RewardName": "wallnut_firstaid"
+                    },
+                    {
+                        "OldKeygateName": "cowboy_keygate_chal_preset",
+                        "RewardName": "wintermelon"
+                    },
+                    {
+                        "OldKeygateName": "cowboy_keygate_chal_laststand",
+                        "RewardName": "sunshovel_lvl2"
+                    },
+                    {
+                        "OldKeygateName": "cowboy_keygate_chal_minigame",
+                        "RewardName": "pf_refresh"
+                    }
+                ]
+            }
+        }
+    ]
+}

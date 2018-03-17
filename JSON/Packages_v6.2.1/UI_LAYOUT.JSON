@@ -1,0 +1,1081 @@
+{
+    "#comment": "All UI Sheet objects should go here",
+    "version": 1,
+    "objects": [
+        {
+            "#comment": "######################################################################\n\t\t\n\t\t\tName\t\t\t\t Data Type   Default   Description\n\t\t\t===================================================================================================\n\t\t\tClass\t\t\t\t- (string) - UIWidget\tClass to spawn when the property sheet is loaded.\n \n\t\t\tParent\t\t\t\t- (string) - null       Parent UIWidget to attach to\n \n\t\t\tParentAnchor\t\t- (string) - TopLeft    Location on parent we anchor to. Values:\n\t\t\t[TopLeft, Top, TopRight, Left, Center, Right, BottomLeft, Bottom, BottomRight]\n \n\t\t\tAnchor\t\t\t\t- (string) - TopLeft    Location on parent we anchor to. Values:\n\t\t\t[TopLeft, Top, TopRight, Left, Center, Right, BottomLeft, Bottom, BottomRight]\n \n\t\t\tResourceGroup\t\t- (string) - null       Resource group name that has our art resources\n \n\t\t\tWidth\t\t\t\t- (uint16) - 0          Set the SCREEN width of the widget. Values:\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t0\t\t: Auto-fit to the max size it can be in regards to all widgets\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t> 0\t\t: Size to use\n \n\t\t\tHeight\t\t\t\t- (uint16)  - 0          Set the SCREEN height of the widget. Values:\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t0\t\t: Auto-fit to the max size it can be in regards to all widgets\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t> 0\t\t: Size to use\n\n\t\t\tVirtualWidth\t\t- (uint16) - 0          Set the virtual width of the widget (will be SCALED to the SCREEN with UI_S). Values:\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t0\t\t: Auto-fit to the max size it can be in regards to all widgets\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t> 0\t\t: Size to use\n \n\t\t\tVirtualHeight\t\t- (uint16)  - 0         Set the virtual height of the widget (will be SCALED to the SCREEN with UI_S). Values:\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t0\t\t: Auto-fit to the max size it can be in regards to all widgets\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t> 0\t\t: Size to use\n \n\t\t\tSizeFromImage\t\t- (string) - null       Sets the width and height of the widget based upon the size of the specified image.\n \n\t\t\tSizeFromScreen\t\t- (bool)   - false      Sets the width and height of the widget based upon the size of the device screen.\n \n\t\t\tWidthFromImage\t\t- (string) - null       Sets the width of the widget based upon the size of the specified image.\n \n\t\t\tHeightFromImage\t\t- (string) - null       Sets the height of the widget based upon the size of the specified image.\n \n\t\t\tInputPriority\t\t- (int8)   - 0          Specify the priority that the widget receives mouse input. Values:\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t0      : Receives no Input\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t1 - 4  : Lower numbers have higher priority\n \n\t\t\tVirtualHitInsets\t- (array)\t\t\t\tSpecify the virtual insets for the hit detection (will be SCALED to the SCREEN with UI_S).\n\t\t\t\t\tmLeft\t\t- (int16)  - 0\t\t\tleft inset\n\t\t\t\t\tmTop\t\t- (int16)  - 0\t\t\ttop inset\n\t\t\t\t\tmRight\t\t- (int16)  - 0\t\t\tright inset\n\t\t\t\t\tmBottom\t\t- (int16)  - 0\t\t\tbottom inset\n\t \n\t\t\tPositionOffset\t\t- (array)\t\t\t\tLocation offset from our anchor location. NOTE: This is assumed to be in SCREEN SPACE. If you want it scaled, set ScalePositionOffset\n\t\t\t\t\tx\t\t\t- (int)\t   - 0\t\t\tx offset\n\t\t\t\t\ty\t\t\t- (int)\t   - 0\t\t\ty offset\n\n\t\t\tScalePositionOffset\t- (bool)   - false      Specify if we scale the position offset with the UI_S macro\n \n\t\t\tRenderOrder\t\t\t- (int16)  - 0\t\t\tRender order of the widget, lower numbers are drawn first.\n \n\t\t\t######################################################################",
+            "objclass": "UIWidgetSheet",
+            "aliases": [
+                "UIScreen"
+            ],
+            "objdata": {
+                "SizeFromScreen": true,
+                "InputPriority": 0
+            }
+        },
+        {
+            "objclass": "UIWidgetSheet",
+            "aliases": [
+                "UISunBank"
+            ],
+            "objdata": {
+                "Class": "SunBank",
+                "Parent": "UITopBar",
+                "ParentAnchor": "TopLeft",
+                "Anchor": "TopLeft",
+                "ResourceGroup": "",
+                "VirtualWidth": 94,
+                "HeightFromImage": "IMAGE_UI_HUD_INGAME_BACKGROUND_3SLICE",
+                "InputPriority": 0,
+                "PositionOffset": {
+                    "x": 35,
+                    "y": 8
+                },
+                "ScalePositionOffset": true
+            }
+        },
+        {
+            "objclass": "UIWidgetSheet",
+            "aliases": [
+                "UICoinBank"
+            ],
+            "objdata": {
+                "Class": "CoinBank",
+                "Parent": "UITopBar",
+                "ParentAnchor": "TopRight",
+                "Anchor": "TopRight",
+                "ResourceGroup": "",
+                "SizeFromImage": "IMAGE_UI_GENERIC_BUTTONS_COIN_BUY_NORMAL",
+                "InputPriority": 1,
+                "PositionOffset": {
+                    "x": -75,
+                    "y": 8
+                },
+                "ScalePositionOffset": true
+            }
+        },
+        {
+            "objclass": "UIWidgetSheet",
+            "aliases": [
+                "UIGemBank"
+            ],
+            "objdata": {
+                "Class": "GemBank",
+                "Parent": "UICoinBank",
+                "ParentAnchor": "TopLeft",
+                "Anchor": "TopRight",
+                "ResourceGroup": "",
+                "SizeFromImage": "IMAGE_UI_GENERIC_BUTTONS_PREMIUM_NORMAL",
+                "InputPriority": 1,
+                "PositionOffset": {
+                    "x": 0,
+                    "y": -2
+                },
+                "ScalePositionOffset": true
+            }
+        },
+        {
+            "objclass": "UIWidgetSheet",
+            "aliases": [
+                "UIAlmanac"
+            ],
+            "objdata": {
+                "Class": "WorldMap_AlmanacButton",
+                "Parent": "UIZenGarden",
+                "ParentAnchor": "TopRight",
+                "Anchor": "TopLeft",
+                "ResourceGroup": "",
+                "SizeFromImage": "IMAGE_UI_HUD_ALMANACBUTTON_BUTTONS_HUD_ALMANAC_SELECTED",
+                "InputPriority": 1,
+                "PositionOffset": {
+                    "x": 5,
+                    "y": 0
+                },
+                "ScalePositionOffset": true,
+                "WhitelistID": "UIAlmanac"
+            }
+        },
+        {
+            "objclass": "UIWidgetSheet",
+            "aliases": [
+                "UIZenGarden"
+            ],
+            "objdata": {
+                "Class": "WorldMap_ZenGardenButton",
+                "Parent": "UITopBar",
+                "ParentAnchor": "TopLeft",
+                "Anchor": "TopLeft",
+                "ResourceGroup": "",
+                "SizeFromImage": "IMAGE_UI_GENERIC_BUTTONS_HUD_ZG_SELECTED",
+                "InputPriority": 1,
+                "PositionOffset": {
+                    "x": 5,
+                    "y": 5
+                },
+                "ScalePositionOffset": true,
+                "WhitelistID": "UIZenGarden"
+            }
+        },
+        {
+            "objclass": "UIWidgetSheet",
+            "aliases": [
+                "UITutorialDemoBar"
+            ],
+            "objdata": {
+                "Class": "TutorialDemoBarUI",
+                "Parent": "UITopBar",
+                "ParentAnchor": "Top",
+                "Anchor": "Top",
+                "ResourceGroup": "",
+                "SizeFromImage": "IMAGE_UI_HUD_INGAME_DEMO",
+                "PositionOffset": {
+                    "x": -200,
+                    "y": 0
+                },
+                "InputPriority": 0
+            }
+        },
+        {
+            "objclass": "UIWidgetSheet",
+            "aliases": [
+                "UIViewBoardOrZombies"
+            ],
+            "objdata": {
+                "Class": "ViewBoardOrZombiesButton",
+                "Parent": "UIPauseButton",
+                "ParentAnchor": "BottomRight",
+                "Anchor": "TopRight",
+                "ResourceGroup": "",
+                "SizeFromImage": "IMAGE_UI_HUD_INGAME_VIEWZOMBIES_BUTTON",
+                "InputPriority": 1,
+                "PositionOffset": {
+                    "x": 0,
+                    "y": 8
+                },
+                "ScalePositionOffset": true
+            }
+        },
+        {
+            "objclass": "UIWidgetSheet",
+            "aliases": [
+                "UIStartGameButton"
+            ],
+            "objdata": {
+                "Class": "StartGameButton",
+                "Parent": "UICoinBank",
+                "ParentAnchor": "TopLeft",
+                "Anchor": "TopRight",
+                "ResourceGroup": "",
+                "VirtualWidth": 140,
+                "HeightFromImage": "IMAGE_UI_GENERIC_PURPLEBUTTON",
+                "InputPriority": 1,
+                "PositionOffset": {
+                    "x": -14,
+                    "y": 0
+                }
+            }
+        },
+        {
+            "objclass": "UIWidgetSheet",
+            "aliases": [
+                "UIPauseButton"
+            ],
+            "objdata": {
+                "Class": "PauseButton",
+                "Parent": "UITopBar",
+                "ParentAnchor": "TopRight",
+                "Anchor": "TopRight",
+                "ResourceGroup": "",
+                "SizeFromImage": "IMAGE_UI_HUD_INGAME_PAUSE_BUTTON",
+                "InputPriority": 1,
+                "PositionOffset": {
+                    "x": -8,
+                    "y": 8
+                },
+                "VirtualHitInsets": {
+                    "mLeft": -5,
+                    "mTop": -5,
+                    "mRight": 5,
+                    "mBottom": 5
+                },
+                "ScalePositionOffset": true
+            }
+        },
+        {
+            "objclass": "UIWidgetSheet",
+            "aliases": [
+                "UIFastForwardButton"
+            ],
+            "objdata": {
+                "Class": "FastForwardButton",
+                "Parent": "UIPauseButton",
+                "ParentAnchor": "TopLeft",
+                "Anchor": "TopRight",
+                "ResourceGroup": "",
+                "SizeFromImage": "IMAGE_UI_HUD_INGAME_2X",
+                "InputPriority": 2,
+                "PositionOffset": {
+                    "x": -8,
+                    "y": 0
+                },
+                "VirtualHitInsets": {
+                    "mLeft": -5,
+                    "mTop": -5,
+                    "mRight": 5,
+                    "mBottom": 5
+                },
+                "ScalePositionOffset": true
+            }
+        },
+        {
+            "objclass": "UIWidgetSheet",
+            "aliases": [
+                "UISeedBank"
+            ],
+            "objdata": {
+                "Class": "SeedBankNew",
+                "Parent": "UIScreen",
+                "ParentAnchor": "Left",
+                "Anchor": "Left",
+                "ResourceGroup": "",
+                "Width": 200,
+                "VirtualHeight": 540,
+                "InputPriority": 0,
+                "PositionOffset": {
+                    "x": 0,
+                    "y": 40
+                },
+                "RenderOrder": -1,
+                "ScalePositionOffset": true,
+                "ImmuneToDeviceScaling": true
+            }
+        },
+        {
+            "objclass": "UIWidgetSheet",
+            "aliases": [
+                "UIConveyorSeedBank"
+            ],
+            "objdata": {
+                "Class": "ConveyorSeedBank",
+                "Parent": "UIScreen",
+                "ParentAnchor": "BottomLeft",
+                "Anchor": "BottomLeft",
+                "ResourceGroup": "",
+                "Width": 200,
+                "VirtualHeight": 600,
+                "InputPriority": 0,
+                "PositionOffset": {
+                    "x": 0,
+                    "y": 0
+                },
+                "RenderOrder": -1,
+                "ImmuneToDeviceScaling": true
+            }
+        },
+        {
+            "objclass": "UIWidgetSheet",
+            "aliases": [
+                "UISeedBankPacket"
+            ],
+            "objdata": {
+                "Class": "SeedPacket",
+                "ParentAnchor": "TopLeft",
+                "Anchor": "TopLeft",
+                "ResourceGroup": "",
+                "SizeFromImage": "IMAGE_UI_PACKETS_READY",
+                "InputPriority": 2,
+                "PositionOffset": {
+                    "x": 0,
+                    "y": 0
+                },
+                "ImmuneToDeviceScaling": true
+            }
+        },
+        {
+            "objclass": "UIWidgetSheet",
+            "aliases": [
+                "UIHarvestableBoostPacket"
+            ],
+            "objdata": {
+                "Class": "HarvestableBoostPacket",
+                "ParentAnchor": "TopLeft",
+                "Anchor": "TopLeft",
+                "ResourceGroup": "",
+                "SizeFromImage": "IMAGE_UI_PACKETS_READY",
+                "InputPriority": 2,
+                "PositionOffset": {
+                    "x": 0,
+                    "y": 0
+                },
+                "ImmuneToDeviceScaling": true,
+                "WhitelistID": "UI_HARVESTABLE_BOOST_PACKET"
+            }
+        },
+        {
+            "objclass": "UIWidgetSheet",
+            "aliases": [
+                "UISeedBankToolPacket"
+            ],
+            "objdata": {
+                "Class": "SeedPacket_Tool",
+                "ParentAnchor": "TopLeft",
+                "Anchor": "TopLeft",
+                "ResourceGroup": "",
+                "SizeFromImage": "IMAGE_UI_PACKETS_READY",
+                "InputPriority": 2,
+                "PositionOffset": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        },
+        {
+            "objclass": "UIWidgetSheet",
+            "aliases": [
+                "UISeedBankPowerupPacket"
+            ],
+            "objdata": {
+                "Class": "SeedPacket_Powerup",
+                "ParentAnchor": "TopLeft",
+                "Anchor": "TopLeft",
+                "ResourceGroup": "",
+                "SizeFromImage": "IMAGE_UI_PACKETS_TOOLS_TOP",
+                "InputPriority": 2,
+                "PositionOffset": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        },
+        {
+            "objclass": "UIWidgetSheet",
+            "aliases": [
+                "UITopBar"
+            ],
+            "objdata": {
+                "Parent": "UIScreen",
+                "ParentAnchor": "TopRight",
+                "Anchor": "TopRight",
+                "WidthFromScreen": true,
+                "Height": 60,
+                "InputPriority": 0,
+                "PositionOffset": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        },
+        {
+            "objclass": "UIWidgetSheet",
+            "aliases": [
+                "UIBottomBar"
+            ],
+            "objdata": {
+                "Parent": "UIScreen",
+                "ParentAnchor": "BottomRight",
+                "Anchor": "BottomRight",
+                "BoardScaledVirtualWidth": 567,
+                "Height": 78,
+                "InputPriority": 0,
+                "PositionOffset": {
+                    "x": -33,
+                    "y": 0
+                }
+            }
+        },
+        {
+            "objclass": "UIWidgetSheet",
+            "aliases": [
+                "UIPlantfood"
+            ],
+            "objdata": {
+                "Class": "PlantfoodUI",
+                "Parent": "UIBottomBar",
+                "ParentAnchor": "BottomLeft",
+                "Anchor": "BottomLeft",
+                "ResourceGroup": "",
+                "SizeFromImage": "IMAGE_UI_HUD_INGAME_PLANTFOOD_BANK",
+                "InputPriority": 2,
+                "PositionOffset": {
+                    "x": 0,
+                    "y": 2.34
+                },
+                "ScalePositionOffset": true
+            }
+        },
+        {
+            "objclass": "UIWidgetSheet",
+            "aliases": [
+                "UIShovel"
+            ],
+            "objdata": {
+                "Class": "ShovelUI",
+                "Parent": "UIBottomBar",
+                "ParentAnchor": "BottomRight",
+                "Anchor": "BottomRight",
+                "ResourceGroup": "",
+                "SizeFromImage": "IMAGE_UI_HUD_INGAME_SHOVEL_BUTTON",
+                "InputPriority": 2,
+                "VirtualHitInsets": {
+                    "mLeft": -5,
+                    "mTop": -5,
+                    "mRight": 5,
+                    "mBottom": 5
+                },
+                "PositionOffset": {
+                    "x": 0,
+                    "y": -2
+                },
+                "ScalePositionOffset": true
+            }
+        },
+        {
+            "objclass": "UIWidgetSheet",
+            "aliases": [
+                "UIWhackHammer"
+            ],
+            "objdata": {
+                "Class": "WhackHammerUI",
+                "Parent": "UIBottomBar",
+                "ParentAnchor": "BottomRight",
+                "Anchor": "BottomRight",
+                "ResourceGroup": "",
+                "SizeFromImage": "IMAGE_UI_HUD_INGAME_SHOVEL_BUTTON",
+                "InputPriority": 2,
+                "VirtualHitInsets": {
+                    "mLeft": -5,
+                    "mTop": -5,
+                    "mRight": 5,
+                    "mBottom": 5
+                },
+                "PositionOffset": {
+                    "x": 0,
+                    "y": -2
+                },
+                "ScalePositionOffset": true
+            }
+        },
+        {
+            "objclass": "UIWidgetSheet",
+            "aliases": [
+                "UIPowerup"
+            ],
+            "objdata": {
+                "Class": "PowerupTimeUI",
+                "SizeFromImage": "IMAGE_UI_POWERUPS_POWERUP_BORDER",
+                "RenderOrder": 2,
+                "InputPriority": 2
+            }
+        },
+        {
+            "objclass": "UIWidgetSheet",
+            "aliases": [
+                "UIPowerupHolder"
+            ],
+            "objdata": {
+                "Class": "PowerupHolderUI",
+                "Parent": "UIShovel",
+                "ParentAnchor": "BottomLeft",
+                "Anchor": "BottomRight",
+                "ResourceGroup": "",
+                "SizeFromImage": "IMAGE_UI_POWERUPS_POWERUP_FRAME",
+                "InputPriority": 1,
+                "PositionOffset": {
+                    "x": -40,
+                    "y": 14
+                },
+                "ScalePositionOffset": true
+            }
+        },
+        {
+            "objclass": "UIWidgetSheet",
+            "aliases": [
+                "UIProgressBar"
+            ],
+            "objdata": {
+                "#comment": "This widget is AUTO POSITIONED on the X AXIS by Board's ArrangeChallengeUI",
+                "Class": "WaveProgressMeter",
+                "Parent": "UITopBar",
+                "ParentAnchor": "TopLeft",
+                "Anchor": "TopLeft",
+                "ResourceGroup": "",
+                "VirtualWidth": 210,
+                "VirtualHeight": 35,
+                "InputPriority": 0,
+                "PositionOffset": {
+                    "x": -15.625,
+                    "y": 11.125
+                },
+                "ScalePositionOffset": true
+            }
+        },
+        {
+            "objclass": "UIWidgetSheet",
+            "aliases": [
+                "UIBeghouledProgressBar"
+            ],
+            "objdata": {
+                "#comment": "This widget is AUTO POSITIONED on the X AXIS by Board's ArrangeChallengeUI",
+                "Class": "BeghouledWaveProgressMeter",
+                "Parent": "UITopBar",
+                "ParentAnchor": "TopLeft",
+                "Anchor": "TopLeft",
+                "ResourceGroup": "",
+                "VirtualWidth": 210,
+                "VirtualHeight": 35,
+                "InputPriority": 0,
+                "PositionOffset": {
+                    "x": -15.625,
+                    "y": 11.125
+                },
+                "ScalePositionOffset": true
+            }
+        },
+        {
+            "objclass": "UIWidgetSheet",
+            "aliases": [
+                "UIBossProgressBar"
+            ],
+            "objdata": {
+                "#comment": "This widget is AUTO POSITIONED on the X AXIS by Board's ArrangeChallengeUI",
+                "Class": "BossProgressMeter",
+                "Parent": "UITopBar",
+                "ParentAnchor": "TopLeft",
+                "Anchor": "TopLeft",
+                "ResourceGroup": "",
+                "VirtualWidth": 210,
+                "VirtualHeight": 35,
+                "InputPriority": 0,
+                "PositionOffset": {
+                    "x": -15.625,
+                    "y": 11.125
+                },
+                "ScalePositionOffset": true
+            }
+        },
+        {
+            "objclass": "UIWidgetSheet",
+            "aliases": [
+                "UIChallengeSunCounter"
+            ],
+            "objdata": {
+                "#comment": "This widget is AUTO POSITIONED on the X AXIS by Board's ArrangeChallengeUI",
+                "Class": "ChallengeSunCounterUI",
+                "Parent": "UITopBar",
+                "ParentAnchor": "TopLeft",
+                "Anchor": "TopLeft",
+                "VirtualWidth": 117,
+                "HeightFromImage": "IMAGE_UI_HUD_INGAME_BACKGROUND_3SLICE",
+                "InputPriority": 0,
+                "PositionOffset": {
+                    "x": 0,
+                    "y": 8
+                },
+                "ScalePositionOffset": true
+            }
+        },
+        {
+            "objclass": "UIWidgetSheet",
+            "aliases": [
+                "UIChallengePlantCounter"
+            ],
+            "objdata": {
+                "#comment": "This widget is AUTO POSITIONED on the X AXIS by Board's ArrangeChallengeUI",
+                "Class": "ChallengePlantCounterUI",
+                "Parent": "UITopBar",
+                "ParentAnchor": "TopLeft",
+                "Anchor": "TopLeft",
+                "VirtualWidth": 80,
+                "HeightFromImage": "IMAGE_UI_HUD_INGAME_BACKGROUND_3SLICE",
+                "InputPriority": 0,
+                "PositionOffset": {
+                    "x": 0,
+                    "y": 8
+                },
+                "ScalePositionOffset": true
+            }
+        },
+        {
+            "objclass": "UIWidgetSheet",
+            "aliases": [
+                "UIChallengeSunTimer"
+            ],
+            "objdata": {
+                "#comment": "This widget is AUTO POSITIONED on the X AXIS by Board's ArrangeChallengeUI",
+                "Class": "ChallengeSunTimerUI",
+                "Parent": "UITopBar",
+                "ParentAnchor": "TopLeft",
+                "Anchor": "TopLeft",
+                "VirtualWidth": 80,
+                "HeightFromImage": "IMAGE_UI_HUD_INGAME_BACKGROUND_3SLICE",
+                "InputPriority": 0,
+                "PositionOffset": {
+                    "x": 0,
+                    "y": 8
+                },
+                "ScalePositionOffset": true
+            }
+        },
+        {
+            "objclass": "UIWidgetSheet",
+            "aliases": [
+                "UIChallengeZombieCombo"
+            ],
+            "objdata": {
+                "#comment": "This widget is AUTO POSITIONED on the X AXIS by Board's ArrangeChallengeUI",
+                "Class": "ChallengeZombieComboUI",
+                "Parent": "UITopBar",
+                "ParentAnchor": "TopLeft",
+                "Anchor": "TopLeft",
+                "VirtualWidth": 80,
+                "HeightFromImage": "IMAGE_UI_HUD_INGAME_BACKGROUND_3SLICE",
+                "InputPriority": 0,
+                "PositionOffset": {
+                    "x": 0,
+                    "y": 8
+                },
+                "ScalePositionOffset": true
+            }
+        },
+        {
+            "objclass": "UIWidgetSheet",
+            "aliases": [
+                "UIChallengeScoringSubsystem"
+            ],
+            "objdata": {
+                "#comment": "This widget is AUTO POSITIONED on the X AXIS by Board's ArrangeChallengeUI",
+                "Class": "ChallengeScoringUI",
+                "Parent": "UITopBar",
+                "ParentAnchor": "TopLeft",
+                "Anchor": "TopLeft",
+                "VirtualWidth": 190,
+                "HeightFromImage": "IMAGE_UI_HUD_INGAME_BACKGROUND_3SLICE",
+                "InputPriority": 0,
+                "PositionOffset": {
+                    "x": 0,
+                    "y": 8
+                },
+                "ScalePositionOffset": true
+            }
+        },
+        {
+            "objclass": "UIWidgetSheet",
+            "aliases": [
+                "UISeedChooser"
+            ],
+            "objdata": {
+                "Class": "SeedChooser",
+                "Parent": "UIScreen",
+                "ParentAnchor": "BottomLeft",
+                "Anchor": "BottomLeft",
+                "ResourceGroup": "",
+                "SizeFromScreen": true,
+                "InputPriority": 1,
+                "PositionOffset": {
+                    "x": 0,
+                    "y": 0
+                },
+                "RenderOrder": 2,
+                "##### Properties END #####": 0
+            }
+        },
+        {
+            "objclass": "UIWidgetSheet",
+            "aliases": [
+                "UIWorldMapTopBar"
+            ],
+            "objdata": {
+                "Class": "WorldMap_TopBar",
+                "Parent": "UIScreen",
+                "ParentAnchor": "Top",
+                "Anchor": "Top",
+                "WidthFromScreen": true,
+                "HeightFromImage": "IMAGE_UI_HUD_WORLDMAP_TOP_BAR_FADE",
+                "InputPriority": 0,
+                "RenderOrder": -1,
+                "PositionOffset": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        },
+        {
+            "objclass": "UIWidgetSheet",
+            "aliases": [
+                "UIWorldMapQuestButton"
+            ],
+            "objdata": {
+                "Class": "WorldMap_QuestButton",
+                "Parent": "UIWorldMapTopBar",
+                "ParentAnchor": "BottomLeft",
+                "Anchor": "TopLeft",
+                "VirtualWidth": 115,
+                "VirtualHeight": 115,
+                "InputPriority": 1,
+                "PositionOffset": {
+                    "x": 4,
+                    "y": 45
+                }
+            }
+        },
+        {
+            "objclass": "UIWidgetSheet",
+            "aliases": [
+                "UIWorldMapBackButton"
+            ],
+            "objdata": {
+                "Class": "WorldMap_BackButton",
+                "Parent": "UIWorldMapTopBar",
+                "ParentAnchor": "TopLeft",
+                "Anchor": "TopLeft",
+                "ResourceGroup": "UI_WorldMap",
+                "SizeFromImage": "IMAGE_UI_HUD_WORLDMAP_BUTTONS_HUD_BACK_NORMAL",
+                "InputPriority": 1,
+                "PositionOffset": {
+                    "x": 10,
+                    "y": 10
+                },
+                "VirtualHitInsets": {
+                    "mLeft": -5,
+                    "mTop": -5,
+                    "mRight": 5,
+                    "mBottom": 5
+                },
+                "ScalePositionOffset": true
+            }
+        },
+        {
+            "objclass": "UIWidgetSheet",
+            "aliases": [
+                "UIWorldMapAlmanacButton"
+            ],
+            "objdata": {
+                "Class": "WorldMap_AlmanacButton",
+                "Parent": "UIWorldMapBackButton",
+                "ParentAnchor": "TopRight",
+                "Anchor": "TopLeft",
+                "ResourceGroup": "UI_AlmanacButton",
+                "SizeFromImage": "IMAGE_UI_HUD_ALMANACBUTTON_BUTTONS_HUD_ALMANAC_NORMAL",
+                "InputPriority": 1,
+                "PositionOffset": {
+                    "x": 15,
+                    "y": 0
+                },
+                "VirtualHitInsets": {
+                    "mLeft": -5,
+                    "mTop": -5,
+                    "mRight": 5,
+                    "mBottom": 5
+                }
+            }
+        },
+        {
+            "objclass": "UIWidgetSheet",
+            "aliases": [
+                "UIWorldMapZenGardenButton"
+            ],
+            "objdata": {
+                "Class": "WorldMap_ZenGardenButton",
+                "Parent": "UIWorldMapMiniGameButton",
+                "ParentAnchor": "TopRight",
+                "Anchor": "TopLeft",
+                "ResourceGroup": "",
+                "SizeFromImage": "IMAGE_UI_GENERIC_BUTTONS_HUD_ZG_NORMAL",
+                "InputPriority": 1,
+                "PositionOffset": {
+                    "x": 15,
+                    "y": 0
+                }
+            }
+        },
+        {
+            "objclass": "UIWidgetSheet",
+            "aliases": [
+                "UIWorldMapMiniGameButton"
+            ],
+            "objdata": {
+                "Class": "WorldMap_MiniGameButton",
+                "Parent": "UIWorldMapAlmanacButton",
+                "ParentAnchor": "TopRight",
+                "Anchor": "TopLeft",
+                "ResourceGroup": "",
+                "SizeFromImage": "IMAGE_UI_GENERIC_BUTTONS_HUD_ZG_NORMAL",
+                "InputPriority": 1,
+                "PositionOffset": {
+                    "x": 15,
+                    "y": 0
+                }
+            }
+        },
+        {
+            "objclass": "UIWidgetSheet",
+            "aliases": [
+                "UIWorldMapWorldKeyBank"
+            ],
+            "objdata": {
+                "Class": "WorldMap_WorldKeyBank",
+                "Parent": "UIWorldMapGemBank",
+                "ParentAnchor": "TopLeft",
+                "Anchor": "TopRight",
+                "ResourceGroup": "",
+                "SizeFromImage": "IMAGE_UI_HUD_WORLDMAP_WORLDKEY_HUD",
+                "InputPriority": 0,
+                "PositionOffset": {
+                    "x": -13,
+                    "y": -3
+                }
+            }
+        },
+        {
+            "objclass": "UIWidgetSheet",
+            "aliases": [
+                "UISproutBank"
+            ],
+            "objdata": {
+                "Class": "SproutBank",
+                "Parent": "UIWorldMapGemBank",
+                "ParentAnchor": "TopLeft",
+                "Anchor": "TopRight",
+                "ResourceGroup": "",
+                "SizeFromImage": "IMAGE_UI_HUD_INGAME_SPROUT_ICON",
+                "InputPriority": 1,
+                "PositionOffset": {
+                    "x": -13,
+                    "y": -2
+                }
+            }
+        },
+        {
+            "objclass": "UIWidgetSheet",
+            "aliases": [
+                "UIWorldMapGemBank"
+            ],
+            "objdata": {
+                "Class": "WorldMap_GemBank",
+                "Parent": "UIWorldMapCoinBank",
+                "ParentAnchor": "TopLeft",
+                "Anchor": "TopRight",
+                "ResourceGroup": "",
+                "SizeFromImage": "IMAGE_UI_GENERIC_BUTTONS_PREMIUM_NORMAL",
+                "InputPriority": 1,
+                "PositionOffset": {
+                    "x": -9,
+                    "y": -3
+                },
+                "VirtualHitInsets": {
+                    "mLeft": -5,
+                    "mTop": -5,
+                    "mRight": 5,
+                    "mBottom": 5
+                }
+            }
+        },
+        {
+            "objclass": "UIWidgetSheet",
+            "aliases": [
+                "UIWorldMapCoinBank"
+            ],
+            "objdata": {
+                "Class": "WorldMap_CoinBank",
+                "Parent": "UIWorldMapStoreButton",
+                "ParentAnchor": "TopLeft",
+                "Anchor": "TopRight",
+                "ResourceGroup": "",
+                "SizeFromImage": "IMAGE_UI_GENERIC_BUTTONS_COIN_BUY_NORMAL",
+                "InputPriority": 1,
+                "PositionOffset": {
+                    "x": -9,
+                    "y": 3
+                },
+                "RenderOrder": 2,
+                "VirtualHitInsets": {
+                    "mLeft": -5,
+                    "mTop": -5,
+                    "mRight": 5,
+                    "mBottom": 5
+                }
+            }
+        },
+        {
+            "objclass": "UIWidgetSheet",
+            "aliases": [
+                "EASquaredCoinBankButton"
+            ],
+            "objdata": {
+                "Class": "EASquaredCoinBankButton",
+                "Parent": "UIWorldMapCoinBank",
+                "ParentAnchor": "Bottom",
+                "Anchor": "Top",
+                "ResourceGroup": "",
+                "VirtualWidth": 115,
+                "VirtualHeight": 50,
+                "InputPriority": 1,
+                "PositionOffset": {
+                    "x": 0,
+                    "y": -12
+                },
+                "RenderOrder": 1,
+                "VirtualHitInsets": {
+                    "mLeft": 0,
+                    "mTop": 20,
+                    "mRight": 0,
+                    "mBottom": 0
+                }
+            }
+        },
+        {
+            "objclass": "UIWidgetSheet",
+            "aliases": [
+                "EASquaredGemBankButton"
+            ],
+            "objdata": {
+                "Class": "EASquaredGemBankButton",
+                "Parent": "UIWorldMapGemBank",
+                "ParentAnchor": "Bottom",
+                "Anchor": "Top",
+                "ResourceGroup": "",
+                "VirtualWidth": 115,
+                "VirtualHeight": 50,
+                "InputPriority": 1,
+                "PositionOffset": {
+                    "x": 0,
+                    "y": -12
+                },
+                "RenderOrder": 1,
+                "VirtualHitInsets": {
+                    "mLeft": 0,
+                    "mTop": 20,
+                    "mRight": 0,
+                    "mBottom": 0
+                }
+            }
+        },
+        {
+            "objclass": "UIWidgetSheet",
+            "aliases": [
+                "UIWorldMapStoreButton"
+            ],
+            "objdata": {
+                "Class": "WorldMap_StoreButton",
+                "Parent": "UIScreen",
+                "ParentAnchor": "TopRight",
+                "Anchor": "TopRight",
+                "ResourceGroup": "UI_WorldMap",
+                "SizeFromImage": "IMAGE_UI_HUD_WORLDMAP_BUTTONS_HUD_STORE_NORMAL",
+                "InputPriority": 1,
+                "PositionOffset": {
+                    "x": -10,
+                    "y": 3
+                },
+                "VirtualHitInsets": {
+                    "mLeft": -5,
+                    "mTop": -5,
+                    "mRight": 5,
+                    "mBottom": 5
+                }
+            }
+        },
+        {
+            "objclass": "UIWidgetSheet",
+            "aliases": [
+                "UIWorldMapEventBar"
+            ],
+            "objdata": {
+                "Class": "WorldMap_EventBar",
+                "Parent": "UIScreen",
+                "ParentAnchor": "Bottom",
+                "Anchor": "Bottom",
+                "ResourceGroup": "",
+                "WidthFromScreen": true,
+                "HeightFromImage": "IMAGE_UI_HUD_WORLDMAP_LOD_MINI_STRETCH",
+                "InputPriority": 1,
+                "PositionOffset": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        },
+        {
+            "objclass": "UIWidgetSheet",
+            "aliases": [
+                "UIMainMenuQuestButton"
+            ],
+            "objdata": {
+                "Class": "WorldMap_QuestButton",
+                "Parent": "UITopBar",
+                "ParentAnchor": "TopLeft",
+                "Anchor": "TopLeft",
+                "ResourceGroup": "UI_AlwaysLoaded",
+                "VirtualWidth": 115,
+                "VirtualHeight": 115,
+                "InputPriority": 1,
+                "PositionOffset": {
+                    "x": 20,
+                    "y": 10
+                }
+            }
+        },
+        {
+            "objclass": "UIWidgetSheet",
+            "aliases": [
+                "StoreUISproutBank"
+            ],
+            "objdata": {
+                "Class": "SproutBank",
+                "Parent": "StoreUIGemBank",
+                "ParentAnchor": "TopLeft",
+                "Anchor": "TopRight",
+                "ResourceGroup": "",
+                "SizeFromImage": "IMAGE_UI_HUD_INGAME_SPROUT_ICON",
+                "InputPriority": 1,
+                "PositionOffset": {
+                    "x": -83,
+                    "y": -2
+                }
+            }
+        },
+        {
+            "objclass": "UIWidgetSheet",
+            "aliases": [
+                "StoreUICoinBank"
+            ],
+            "objdata": {
+                "Class": "CoinBank",
+                "Parent": "UITopBar",
+                "ParentAnchor": "TopRight",
+                "Anchor": "TopRight",
+                "ResourceGroup": "",
+                "SizeFromImage": "IMAGE_UI_GENERIC_BUTTONS_COIN_BUY_NORMAL",
+                "InputPriority": 1,
+                "PositionOffset": {
+                    "x": -15,
+                    "y": 8
+                },
+                "ScalePositionOffset": true
+            }
+        },
+        {
+            "objclass": "UIWidgetSheet",
+            "aliases": [
+                "StoreUIGemBank"
+            ],
+            "objdata": {
+                "Class": "GemBank",
+                "Parent": "StoreUICoinBank",
+                "ParentAnchor": "TopLeft",
+                "Anchor": "TopRight",
+                "ResourceGroup": "",
+                "SizeFromImage": "IMAGE_UI_GENERIC_BUTTONS_PREMIUM_NORMAL",
+                "InputPriority": 1,
+                "PositionOffset": {
+                    "x": 30,
+                    "y": -2
+                },
+                "ScalePositionOffset": true
+            }
+        },
+        {
+            "############ UI END ############": 0
+        }
+    ]
+}

@@ -1,0 +1,626 @@
+{
+    "date": "2017-06-29 11:07:36.984817626 -0700 PDT",
+    "objects": [
+        {
+            "aliases": [
+                "iOS PvZ2 Store"
+            ],
+            "objclass": "StoreCategoryProps",
+            "objdata": {
+                "ChildCategories": [
+                    "iOS QA Test",
+                    "iOS Hot Deals",
+                    "iOS Pinatas",
+                    "iOS Plants",
+                    "iOS Coins",
+                    "iOS Gems",
+                    "iOS Bundles",
+                    "iOS Upgrades"
+                ],
+                "Name": "iOS PvZ2 Store"
+            }
+        },
+        {
+            "aliases": [
+                "android PvZ2 Store"
+            ],
+            "objclass": "StoreCategoryProps",
+            "objdata": {
+                "ChildCategories": [
+                    "android QA Test",
+                    "android Hot Deals",
+                    "android Pinatas",
+                    "android Plants",
+                    "android Coins",
+                    "android Gems",
+                    "android Bundles",
+                    "android Upgrades"
+                ],
+                "Name": "android PvZ2 Store"
+            }
+        },
+        {
+            "aliases": [
+                "iOS QA Test"
+            ],
+            "objclass": "StoreCategoryProps",
+            "objdata": {
+                "Name": "QA Test",
+                "Products": [
+                    "com.popcap.pvz2.bundle.hurrikale.nonconsume.g150",
+                    "com.popcap.pvz2.bundle.qatest1.nonconsume.g250",
+                    "com.popcap.pvz2.bundle.qatest2.nonconsume.g250",
+                    "com.popcap.pvz2.bundle.qatest3.nonconsume.g250",
+                    "com.popcap.pvz2.bundle.qatest1.consume.g250",
+                    "com.popcap.pvz2.bundle.qatest1.onetime.consume.g250"
+                ]
+            }
+        },
+        {
+            "aliases": [
+                "android QA Test"
+            ],
+            "objclass": "StoreCategoryProps",
+            "objdata": {
+                "Name": "QA Test",
+                "Products": [
+                    "com.popcap.pvz2.android.bundle.hurrikale.nonconsume.g150",
+                    "com.popcap.pvz2.android.bundle.qatest1.nonconsume.g250",
+                    "com.popcap.pvz2.android.bundle.qatest2.nonconsume.g250",
+                    "com.popcap.pvz2.android.bundle.qatest3.nonconsume.g250",
+                    "com.popcap.pvz2.android.bundle.qatest1.consume.g250",
+                    "com.popcap.pvz2.android.bundle.qatest1.onetime.consume.g250"
+                ]
+            }
+        },
+        {
+            "aliases": [
+                "iOS Hot Deals"
+            ],
+            "objclass": "StoreCategoryProps",
+            "objdata": {
+                "FilteredSkus": [
+                    {
+                        "Buckets": [
+                            "test_nonmon_late"
+                        ],
+                        "Sku": "com.popcap.pvz2.bundle.flashstarter.nonconsume.t2"
+                    },
+                    {
+                        "Buckets": [
+                            "test_monetizers"
+                        ],
+                        "Sku": "com.popcap.pvz2.bundle.legendary.nonconsume.t100"
+                    }
+                ],
+                "Name": "Hot Deals",
+                "Products": [
+                    "com.popcap.pvz2.bundle.flashstarter.nonconsume.t2",
+                    "com.popcap.pvz2.bundle.starter.nonconsume",
+                    "com.popcap.pvz2.bundle.super.nonconsume.t20",
+                    "com.popcap.pvz2.bundle.legendary.nonconsume.t100"
+                ]
+            }
+        },
+        {
+            "aliases": [
+                "android Hot Deals"
+            ],
+            "objclass": "StoreCategoryProps",
+            "objdata": {
+                "FilteredSkus": [
+                    {
+                        "Buckets": [
+                            "test_nonmon_late"
+                        ],
+                        "Sku": "com.popcap.pvz2.android.bundle.flashstarter.nonconsume.t2"
+                    },
+                    {
+                        "Buckets": [
+                            "test_monetizers"
+                        ],
+                        "Sku": "com.popcap.pvz2.android.bundle.legendary.nonconsume.t100"
+                    }
+                ],
+                "Name": "Hot Deals",
+                "Products": [
+                    "com.popcap.pvz2.android.bundle.flashstarter.nonconsume.t2",
+                    "com.popcap.pvz2.android.bundle.starter.nonconsume",
+                    "com.popcap.pvz2.android.bundle.super.nonconsume.t20",
+                    "com.popcap.pvz2.android.bundle.legendary.nonconsume.t100"
+                ]
+            }
+        },
+        {
+            "aliases": [
+                "iOS Pinatas"
+            ],
+            "objclass": "StoreCategoryProps",
+            "objdata": {
+                "Name": "Pinatas"
+            }
+        },
+        {
+            "aliases": [
+                "android Pinatas"
+            ],
+            "objclass": "StoreCategoryProps",
+            "objdata": {
+                "Name": "Pinatas"
+            }
+        },
+        {
+            "aliases": [
+                "iOS Plants"
+            ],
+            "objclass": "StoreCategoryProps",
+            "objdata": {
+                "Name": "Plants",
+                "Products": [
+                    "com.popcap.pvz2.plant.electricpeashooter.nonconsume.t7",
+                    "com.popcap.pvz2.plant.caulipower.nonconsume.t5",
+                    "com.popcap.pvz2.plant.coldsnapdragon.nonconsume.t5",
+                    "com.popcap.pvz2.plant.snowpea.nonconsume.t5",
+                    "com.popcap.pvz2.plant.wasabiwhip.nonconsume.t5",
+                    "com.popcap.pvz2.plant.parsnip.nonconsume.t5",
+                    "com.popcap.pvz2.plant.applemortar.nonconsume.t5",
+                    "com.popcap.pvz2.plant.electricblueberry.nonconsume.t5",
+                    "com.popcap.pvz2.plant.grapeshot.nonconsume.t5",
+                    "com.popcap.pvz2.plant.bombegranate.nonconsume.t5",
+                    "com.popcap.pvz2.plant.kiwibeast.nonconsume.t5",
+                    "com.popcap.pvz2.plant.cactus.nonconsume",
+                    "com.popcap.pvz2.plant.torchwood.nonconsume.t5",
+                    "com.popcap.pvz2.plant.toadstool.nonconsume",
+                    "com.popcap.pvz2.plant.chomper.nonconsume.t5",
+                    "com.popcap.pvz2.plant.explodeonut.nonconsume.t5",
+                    "com.popcap.pvz2.plant.powerlily.nonconsume.t5",
+                    "com.popcap.pvz2.plant.imitater.nonconsume.t5",
+                    "com.popcap.pvz2.plant.escaperoot.nonconsume.t5",
+                    "com.popcap.pvz2.plant.starfruit.nonconsume.t5",
+                    "com.popcap.pvz2.plant.squash.nonconsume.g100",
+                    "com.popcap.pvz2.plant.jalapeno.nonconsume.g100",
+                    "com.popcap.pvz2.plant.hypnoshroom.nonconsume.g100",
+                    "com.popcap.pvz2.plant.peanut.nonconsume.g100",
+                    "com.popcap.pvz2.plant.firepeashooter.nonconsume.g100",
+                    "com.popcap.pvz2.plant.lavaguava.nonconsume.g100",
+                    "com.popcap.pvz2.plant.hurrikale.nonconsume.g100",
+                    "com.popcap.pvz2.plant.homingthistle.nonconsume.g100",
+                    "com.popcap.pvz2.plant.shrinkingviolet.nonconsume.g100"
+                ]
+            }
+        },
+        {
+            "aliases": [
+                "android Plants"
+            ],
+            "objclass": "StoreCategoryProps",
+            "objdata": {
+                "Name": "Plants",
+                "Products": [
+                    "com.popcap.pvz2.android.plant.electricpeashooter.nonconsume.t7",
+                    "com.popcap.pvz2.android.plant.caulipower.nonconsume.t5",
+                    "com.popcap.pvz2.android.plant.coldsnapdragon.nonconsume.t5",
+                    "com.popcap.pvz2.android.plant.snowpea.nonconsume.t5",
+                    "com.popcap.pvz2.android.plant.wasabiwhip.nonconsume.t5",
+                    "com.popcap.pvz2.android.plant.parsnip.nonconsume.t5",
+                    "com.popcap.pvz2.android.plant.applemortar.nonconsume.t5",
+                    "com.popcap.pvz2.android.plant.electricblueberry.nonconsume.t5",
+                    "com.popcap.pvz2.android.plant.grapeshot.nonconsume.t5",
+                    "com.popcap.pvz2.android.plant.bombegranate.nonconsume.t5",
+                    "com.popcap.pvz2.android.plant.kiwibeast.nonconsume.t5",
+                    "com.popcap.pvz2.android.plant.cactus.nonconsume",
+                    "com.popcap.pvz2.android.plant.torchwood.nonconsume.t5",
+                    "com.popcap.pvz2.android.plant.toadstool.nonconsumet5",
+                    "com.popcap.pvz2.android.plant.chomper.nonconsume.t5",
+                    "com.popcap.pvz2.android.plant.explodeonut.nonconsume.t5",
+                    "com.popcap.pvz2.android.plant.powerlily.nonconsume.t5",
+                    "com.popcap.pvz2.android.plant.imitater.nonconsume.t5",
+                    "com.popcap.pvz2.android.plant.escaperoot.nonconsume.t5",
+                    "com.popcap.pvz2.android.plant.starfruit.nonconsume.t5",
+                    "com.popcap.pvz2.android.plant.squash.nonconsume.g100",
+                    "com.popcap.pvz2.android.plant.jalapeno.nonconsume.g100",
+                    "com.popcap.pvz2.android.plant.hypnoshroom.nonconsume.g100",
+                    "com.popcap.pvz2.android.plant.peanut.nonconsume.g100",
+                    "com.popcap.pvz2.android.plant.firepeashooter.nonconsume.g100",
+                    "com.popcap.pvz2.android.plant.lavaguava.nonconsume.g100",
+                    "com.popcap.pvz2.android.plant.hurrikale.nonconsume.g100",
+                    "com.popcap.pvz2.android.plant.homingthistle.nonconsume.g100",
+                    "com.popcap.pvz2.android.plant.shrinkingviolet.nonconsume.g100"
+                ]
+            }
+        },
+        {
+            "aliases": [
+                "iOS Costumes"
+            ],
+            "objclass": "StoreCategoryProps",
+            "objdata": {
+                "Name": "iOS Costumes",
+                "Products": [
+                    "com.popcap.pvz2.costume.primalpotato.glasses.nonconsume",
+                    "com.popcap.pvz2.costume.primalpotato.caution.nonconsume",
+                    "com.popcap.pvz2.costume.primalsunflower.lizard.nonconsume",
+                    "com.popcap.pvz2.costume.primalsunflower.moose.nonconsume",
+                    "com.popcap.pvz2.costume.coldsnap.icecream.nonconsume",
+                    "com.popcap.pvz2.costume.coldsnap.icecube.nonconsume",
+                    "com.popcap.pvz2.costume.primalpeashooter.shower.nonconsume",
+                    "com.popcap.pvz2.costume.primalwallnut.overalls.nonconsume",
+                    "com.popcap.pvz2.costume.primalwallnut.swim.nonconsume",
+                    "com.popcap.pvz2.costume.primalpeashooter.hunter.nonconsume"
+                ]
+            }
+        },
+        {
+            "aliases": [
+                "android Costumes"
+            ],
+            "objclass": "StoreCategoryProps",
+            "objdata": {
+                "Name": "android Costumes",
+                "Products": [
+                    "com.popcap.pvz2.android.costume.primalpotato.glasses.nonconsume",
+                    "com.popcap.pvz2.android.costume.primalpotato.caution.nonconsume",
+                    "com.popcap.pvz2.android.costume.primalsun.lizard.nonconsume",
+                    "com.popcap.pvz2.android.costume.primalsun.moose.nonconsume",
+                    "com.popcap.pvz2.android.costume.coldsnap.icecream.nonconsume",
+                    "com.popcap.pvz2.android.costume.coldsnap.icecube.nonconsume",
+                    "com.popcap.pvz2.android.costume.primalpea.shower.nonconsume",
+                    "com.popcap.pvz2.android.costume.primalwall.overalls.nonconsume",
+                    "com.popcap.pvz2.android.costume.primalwall.swim.nonconsume",
+                    "com.popcap.pvz2.android.costume.primalpea.hunter.nonconsume"
+                ]
+            }
+        },
+        {
+            "aliases": [
+                "iOS Bundles"
+            ],
+            "objclass": "StoreCategoryProps",
+            "objdata": {
+                "FilteredSkus": [
+                    {
+                        "Buckets": [
+                            "test_nonmon_late"
+                        ],
+                        "Sku": "com.popcap.pvz2.bundle.flashstarter.nonconsume.t2"
+                    },
+                    {
+                        "Buckets": [
+                            "test_monetizers"
+                        ],
+                        "Sku": "com.popcap.pvz2.bundle.legendary.nonconsume.t100"
+                    }
+                ],
+                "Name": "Bundles",
+                "Products": [
+                    "com.popcap.pvz2.bundle.flashstarter.nonconsume.t2",
+                    "com.popcap.pvz2.bundle.starter.nonconsume",
+                    "com.popcap.pvz2.bundle.super.nonconsume.t20",
+                    "com.popcap.pvz2.bundle.legendary.nonconsume.t100",
+                    "com.popcap.pvz2.bundle.starter2.nonconsume.t5",
+                    "com.popcap.pvz2.bundle.pinatahuntall.nonconsume.t12"
+                ]
+            }
+        },
+        {
+            "aliases": [
+                "android Bundles"
+            ],
+            "objclass": "StoreCategoryProps",
+            "objdata": {
+                "FilteredSkus": [
+                    {
+                        "Buckets": [
+                            "test_nonmon_late"
+                        ],
+                        "Sku": "com.popcap.pvz2.android.bundle.flashstarter.nonconsume.t2"
+                    },
+                    {
+                        "Buckets": [
+                            "test_monetizers"
+                        ],
+                        "Sku": "com.popcap.pvz2.android.bundle.legendary.nonconsume.t100"
+                    }
+                ],
+                "Name": "Bundles",
+                "Products": [
+                    "com.popcap.pvz2.android.bundle.flashstarter.nonconsume.t2",
+                    "com.popcap.pvz2.android.bundle.starter.nonconsume",
+                    "com.popcap.pvz2.android.bundle.super.nonconsume.t20",
+                    "com.popcap.pvz2.android.bundle.legendary.nonconsume.t100",
+                    "com.popcap.pvz2.android.bundle.starter2.nonconsume.t5",
+                    "com.popcap.pvz2.android.bundle.pinatahuntall.nonconsume.t12"
+                ]
+            }
+        },
+        {
+            "aliases": [
+                "iOS Upgrades"
+            ],
+            "objclass": "StoreCategoryProps",
+            "objdata": {
+                "Name": "Upgrades",
+                "Products": [
+                    "com.popcap.pvz2.bundle.starter2.nonconsume.t5",
+                    "com.popcap.pvz2.gameupgrade.pinatahunt1.nonconsume.t5",
+                    "com.popcap.pvz2.gameupgrade.pinatahunt2.nonconsume.t10",
+                    "com.popcap.pvz2.bundle.pinatahuntall.nonconsume.t12",
+                    "com.popcap.pvz2.gameupgrade.pfslot2.nonconsume.t1",
+                    "com.popcap.pvz2.gameupgrade.startingsun2.nonconsume.t1",
+                    "com.popcap.pvz2.gameupgrade.seedslot2.nonconsume.t1",
+                    "com.popcap.pvz2.gameupgrade.sunshovel3.nonconsume.t1"
+                ]
+            }
+        },
+        {
+            "aliases": [
+                "android Upgrades"
+            ],
+            "objclass": "StoreCategoryProps",
+            "objdata": {
+                "Name": "Upgrades",
+                "Products": [
+                    "com.popcap.pvz2.android.bundle.starter2.nonconsume.t5",
+                    "com.popcap.pvz2.android.gameupgrade.pinatahunt1.nonconsume.t5",
+                    "com.popcap.pvz2.android.gameupgrade.pinatahunt2.nonconsume.t10",
+                    "com.popcap.pvz2.android.bundle.pinatahuntall.nonconsume.t12",
+                    "com.popcap.pvz2.android.gameupgrade.pfslot2.nonconsume.t1",
+                    "com.popcap.pvz2.android.gameupgrade.startingsun2.nonconsume.t1",
+                    "com.popcap.pvz2.android.gameupgrade.seedslot2.nonconsume.t1",
+                    "com.popcap.pvz2.android.gameupgrade.sunshovel3.nonconsume.t1"
+                ]
+            }
+        },
+        {
+            "aliases": [
+                "iOS Gems"
+            ],
+            "objclass": "StoreCategoryProps",
+            "objdata": {
+                "Name": "Gems",
+                "Products": [
+                    "com.popcap.pvz2.gems.1800.consume.t100",
+                    "com.popcap.pvz2.gems.700.consume",
+                    "com.popcap.pvz2.gems.250.consume",
+                    "com.popcap.pvz2.gems.110.consume",
+                    "com.popcap.pvz2.gems.50.consume",
+                    "com.popcap.pvz2.gems.20.consume"
+                ]
+            }
+        },
+        {
+            "aliases": [
+                "android Gems"
+            ],
+            "objclass": "StoreCategoryProps",
+            "objdata": {
+                "Name": "Gems",
+                "Products": [
+                    "com.popcap.pvz2.android.gems.1800.consume",
+                    "com.popcap.pvz2.android.gems.700.consume",
+                    "com.popcap.pvz2.android.gems.250.consume",
+                    "com.popcap.pvz2.android.gems.110.consume",
+                    "com.popcap.pvz2.android.gems.50.consume",
+                    "com.popcap.pvz2.android.gems.20.consume"
+                ]
+            }
+        },
+        {
+            "aliases": [
+                "iOS Coins"
+            ],
+            "objclass": "StoreCategoryProps",
+            "objdata": {
+                "Name": "Coins",
+                "Products": [
+                    "com.popcap.pvz2.coins.350000.consume.t100",
+                    "com.popcap.pvz2.coins.150000.consume.t50",
+                    "com.popcap.pvz2.coins.50000.consume.t20",
+                    "com.popcap.pvz2.coins.22000.consume.t10",
+                    "com.popcap.pvz2.coins.10000.consume",
+                    "com.popcap.pvz2.coins.5000.consume"
+                ]
+            }
+        },
+        {
+            "aliases": [
+                "android Coins"
+            ],
+            "objclass": "StoreCategoryProps",
+            "objdata": {
+                "Name": "Coins",
+                "Products": [
+                    "com.popcap.pvz2.android.coins.350000.consume.t100",
+                    "com.popcap.pvz2.android.coins.150000.consume.t50",
+                    "com.popcap.pvz2.android.coins.50000.consume.t20",
+                    "com.popcap.pvz2.android.coins.22000.consume.t10",
+                    "com.popcap.pvz2.android.coins.10000.consume",
+                    "com.popcap.pvz2.android.coins.5000.consume"
+                ]
+            }
+        },
+        {
+            "aliases": [
+                "iOS Sprouts"
+            ],
+            "objclass": "StoreCategoryProps",
+            "objdata": {
+                "Name": "iOS Sprouts",
+                "Products": [
+                    "com.popcap.pvz2.sprout.3.consume",
+                    "com.popcap.pvz2.sprout.5.consume",
+                    "com.popcap.pvz2.sprout.10.consume",
+                    "com.popcap.pvz2.sprout.25.consume",
+                    "com.popcap.pvz2.sprout.50.consume"
+                ]
+            }
+        },
+        {
+            "aliases": [
+                "android Sprouts"
+            ],
+            "objclass": "StoreCategoryProps",
+            "objdata": {
+                "Name": "android Sprouts",
+                "Products": [
+                    "com.popcap.pvz2.android.sprout.3.consume",
+                    "com.popcap.pvz2.android.sprout.5.consume",
+                    "com.popcap.pvz2.android.sprout.10.consume",
+                    "com.popcap.pvz2.android.sprout.25.consume",
+                    "com.popcap.pvz2.android.sprout.50.consume"
+                ]
+            }
+        },
+        {
+            "aliases": [
+                "iOS PvZ2 Map Store"
+            ],
+            "objclass": "StoreCategoryProps",
+            "objdata": {
+                "Name": "iOS PvZ2 Map Store",
+                "Products": [
+                    "com.popcap.pvz2.gate.egypt.protect.nonconsume",
+                    "com.popcap.pvz2.gate.egypt.minigame.nonconsume",
+                    "com.popcap.pvz2.gate.egypt.laststand.nonconsume",
+                    "com.popcap.pvz2.gate.pirate.laststand.nonconsume",
+                    "com.popcap.pvz2.gate.pirate.minigame.nonconsume",
+                    "com.popcap.pvz2.gate.pirate.preset.nonconsume",
+                    "com.popcap.pvz2.gate.pirate.protect.nonconsume",
+                    "com.popcap.pvz2.gate.cowboy.laststand.nonconsume",
+                    "com.popcap.pvz2.gate.cowboy.minigame.nonconsume",
+                    "com.popcap.pvz2.gate.cowboy.preset.nonconsume",
+                    "com.popcap.pvz2.gate.cowboy.protect.nonconsume",
+                    "com.popcap.pvz2.gate.egypt.preset.nonconsume",
+                    "com.popcap.pvz2.stargate.cowboy.nonconsume ",
+                    "com.popcap.pvz2.stargate.pirate.nonconsume",
+                    "com.popcap.pvz2.stargate.future.nonconsume",
+                    "com.popcap.pvz2.stargate.darkages.nonconsume ",
+                    "com.popcap.pvz2.stargate.beach.nonconsume",
+                    "com.popcap.pvz2.stargate.iceage.nonconsume",
+                    "com.popcap.pvz2.stargate.lostcity.nonconsume",
+                    "com.popcap.pvz2.stargate.eighties.nonconsume",
+                    "com.popcap.pvz2.stargate.jurassicmarsh.nonconsume.t5",
+                    "com.popcap.pvz2.stargate.modernworld.nonconsume"
+                ]
+            }
+        },
+        {
+            "aliases": [
+                "android PvZ2 Map Store"
+            ],
+            "objclass": "StoreCategoryProps",
+            "objdata": {
+                "Name": "android PvZ2 Map Store",
+                "Products": [
+                    "com.popcap.pvz2.android.gate.egypt.protect.nonconsume",
+                    "com.popcap.pvz2.android.gate.egypt.minigame.nonconsume",
+                    "com.popcap.pvz2.android.gate.egypt.laststand.nonconsume",
+                    "com.popcap.pvz2.android.gate.pirate.laststand.nonconsume",
+                    "com.popcap.pvz2.android.gate.pirate.minigame.nonconsume",
+                    "com.popcap.pvz2.android.gate.pirate.preset.nonconsume",
+                    "com.popcap.pvz2.android.gate.pirate.protect.nonconsume",
+                    "com.popcap.pvz2.android.gate.cowboy.laststand.nonconsume",
+                    "com.popcap.pvz2.android.gate.cowboy.minigame.nonconsume",
+                    "com.popcap.pvz2.android.gate.cowboy.preset.nonconsume",
+                    "com.popcap.pvz2.android.gate.cowboy.protect.nonconsume",
+                    "com.popcap.pvz2.android.gate.egypt.preset.nonconsume",
+                    "com.popcap.pvz2.android.stargate.cowboy.nonconsume ",
+                    "com.popcap.pvz2.android.stargate.pirate.nonconsume",
+                    "com.popcap.pvz2.android.stargate.future.nonconsume",
+                    "com.popcap.pvz2.android.stargate.darkages.nonconsume ",
+                    "com.popcap.pvz2.android.stargate.beach.nonconsume",
+                    "com.popcap.pvz2.android.stargate.iceage.nonconsume",
+                    "com.popcap.pvz2.android.stargate.lostcity.nonconsume",
+                    "com.popcap.pvz2.android.stargate.eighties.nonconsume",
+                    "com.popcap.pvz2.android.stargate.jurassicmarsh.nonconsume.t5",
+                    "com.popcap.pvz2.android.stargate.modernworld.nonconsume"
+                ]
+            }
+        },
+        {
+            "aliases": [
+                "iOS PvZ2 Coin Store"
+            ],
+            "objclass": "StoreCategoryProps",
+            "objdata": {
+                "Name": "iOS PvZ2 Coin Store",
+                "Products": [
+                    "com.popcap.pvz2.coins.5000.consume",
+                    "com.popcap.pvz2.coins.20000.consume",
+                    "com.popcap.pvz2.coins.10000.consume"
+                ]
+            }
+        },
+        {
+            "aliases": [
+                "android PvZ2 Coin Store"
+            ],
+            "objclass": "StoreCategoryProps",
+            "objdata": {
+                "Name": "android PvZ2 Coin Store",
+                "Products": [
+                    "com.popcap.pvz2.android.coins.5000.consume",
+                    "com.popcap.pvz2.android.coins.20000.consume",
+                    "com.popcap.pvz2.android.coins.10000.consume"
+                ]
+            }
+        },
+        {
+            "aliases": [
+                "iOS PvZ2 Gem Store"
+            ],
+            "objclass": "StoreCategoryProps",
+            "objdata": {
+                "Name": "iOS PvZ2 Gem Store",
+                "Products": [
+                    "com.popcap.pvz2.gems.110.consume",
+                    "com.popcap.pvz2.gems.20.consume",
+                    "com.popcap.pvz2.gems.50.consume"
+                ]
+            }
+        },
+        {
+            "aliases": [
+                "android PvZ2 Gem Store"
+            ],
+            "objclass": "StoreCategoryProps",
+            "objdata": {
+                "Name": "android PvZ2 Gem Store",
+                "Products": [
+                    "com.popcap.pvz2.android.gems.110.consume",
+                    "com.popcap.pvz2.android.gems.20.consume",
+                    "com.popcap.pvz2.android.gems.50.consume"
+                ]
+            }
+        },
+        {
+            "aliases": [
+                "iOS PvZ2 Sprout Store"
+            ],
+            "objclass": "StoreCategoryProps",
+            "objdata": {
+                "Name": "iOS PvZ2 Sprout Store",
+                "Products": [
+                    "com.popcap.pvz2.sprout.5.consume",
+                    "com.popcap.pvz2.sprout.10.consume",
+                    "com.popcap.pvz2.sprout.25.consume"
+                ]
+            }
+        },
+        {
+            "aliases": [
+                "android PvZ2 Sprout Store"
+            ],
+            "objclass": "StoreCategoryProps",
+            "objdata": {
+                "Name": "android PvZ2 Sprout Store",
+                "Products": [
+                    "com.popcap.pvz2.android.sprout.5.consume",
+                    "com.popcap.pvz2.android.sprout.10.consume",
+                    "com.popcap.pvz2.android.sprout.25.consume"
+                ]
+            }
+        }
+    ],
+    "version": 1
+}

@@ -1,0 +1,40 @@
+{
+    "#comment": "News and patch notes, etc!",
+    "version": 1,
+    "objects": [
+        {
+            "aliases": [
+                "NewsData"
+            ],
+            "objclass": "SettingsNewsData",
+            "objdata": {
+                "NewsDataEntries": [
+                    {
+                        "Date": 1499101200,
+                        "LocalizedData": {
+                            "en": {
+                                "Text": "Electric Peashooter Bolts into PvZ2\n\nWhile it might be familiar to you Plants vs. Zombies Garden Warfare 2 players, Electric Peashooter is an all new plant to Plants vs. Zombies 2, and it brings some awesome and unique abilities along! Electric Peashooters fire pea-like orbs that pass through zombies and crackle with electrical power, doing damage all the while. While on their own, these powerful orbs are great at taking out small enemies like Chickens, when used in clusters they can make clearing out groups of Zombies much easier. When leveling up Electric Peashooter, the orbs will gain a wider radius in which they do damage, and start zapping Zombies even harder!",
+                                "DownloadableBanner": ""
+                            },
+                            "es": {
+                                "Text": "Lanzaguisantes eléctrico chispea en PvZ2\n\nPuede que los jugadores de Plants vs. Zombies Garden Warfare 2 ya lo conozcan, pero Lanzaguisantes eléctrico es una nueva planta en Plants vs. Zombies 2, ¡y trae consigo habilidades alucinantes y únicas! Los Lanzaguisantes eléctricos disparan orbes con forma de guisantes que atraviesan zombis y chisporrotean con energía eléctrica, infligiendo daño en el proceso. Por sí solos, estos orbes potentes son muy útiles para acabar con enemigos pequeños como las Gallinas, pero en grupos son capaces de eliminar grupos de Zombis con mayor facilidad. Al subir de nivel el Lanzaguisantes eléctricos, los orbes ganarán un radio más amplio de daño, ¡y comenzarán a electrocutar zombis con mayor potencia!"
+                            },
+                            "de": {
+                                "Text": "Donnerschlag – die Elektro-Erbsenkanone erobert PvZ2\n\nWer Plants vs. Zombies Garden Warfare 2 gespielt hat, kennt sie vielleicht schon. Jetzt geht die Elektro-Erbsenkanone mit ihren einzigartigen Spezialkräften auch bei Plants vs. Zombies 2 an den Start! Elektro-Erbsenkanonen verschießen erbsenartige Kugeln, die Zombies durchschlagen und vor schädlicher Elektrizität nur so knistern. Die Kugeln eignen sich allein schon gut, um kleine Gegner wie Hühner auszuschalten. Im Verbund verschossen, entfalten sie aber erst ihre volle Wirkung gegen größere Zombiegruppen. Wenn ihr die Elektro-Erbsenkanone hochstuft, vergrößert sich der Schadensradius der Kugeln, und die Schockwirkung bei Zombies steigt."
+                            },
+                            "fr": {
+                                "Text": "L’Électro-pisto-pois débarque à la vitesse de l’éclair dans PvZ2\n\nVous le connaissez sûrement si vous jouez à Plants vs. Zombies Garden Warfare 2. Il fait aujourd'hui ses débuts dans Plants vs. Zombies 2 avec des capacités inédites absolument incroyables ! L'Électro-pisto-pois tire des pois électriques qui traversent les zombies en infligeant des dégâts considérables. À l'unité, ses pois électriques sont parfaits pour se débarrasser d’un petit ennemi comme le poulet. En grappe, ils éliminent des groupes entiers de zombies à la vitesse de l’éclair. Plus l’Électro-pisto-pois gagne des niveaux, plus l'intensité et la portée des dégâts de ses pois sont importantes !"
+                            },
+                            "it": {
+                                "Text": "La sparasemi elettrica arriva veloce come un fulmine su PvZ2.\n\nAnche se potrebbe risultare familiare ai giocatori di Plants vs. Zombies Garden Warfare 2, la sparasemi elettrica è una nuova arrivata su Plants vs. Zombies 2, e porta alcune fantastiche abilità uniche con sé! La sparasemi elettrica spara sfere simili a semi che attraversano gli zombi e li fulminano con scariche elettriche, infliggendo danni tutto il tempo. Se usate singolarmente, queste potenti sfere sono perfette per eliminare piccoli nemici come i polli, mentre se si usano raggruppate riescono a sconfiggere gruppi di zombi molto più facilmente. Se viene aumentato il livello della sparasemi elettrica, le sfere ampliano il raggio d'azione dei danni inflitti e fulminano gli zombi senza pietà!"
+                            },
+                            "pt": {
+                                "Text": "A Disparervilha Elétrica chegou em PvZ2\n\nEmbora ela possa ser familiar para os jogadores de Plants vs. Zombies Garden Warfare 2, a Disparervilha Elétrica é uma nova planta em Plants vs. Zombies 2, trazendo habilidades únicas e incríveis. As Disparervilhas Elétricas lançam esferas transbordando eletricidade que causam dano quando passam pelos zumbis. Sozinhas, essas poderosas esferas são ótimas para eliminar pequenos inimigos, como Galinhas, mas, em grupos, podem facilitar bastante a eliminação de grupos de zumbis. Ao subir a Disparervilha Elétrica de nível, o raio das esferas aumenta, e elas começam a eletrocutar os zumbis com ainda mais força!"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

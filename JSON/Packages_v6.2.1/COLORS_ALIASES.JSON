@@ -1,0 +1,69 @@
+{
+    "#comment": "Make new color aliases here!",
+    "version": 1,
+    "objects": [
+        {
+            "objclass": "HotUIColorAlias",
+            "objdata": {
+                "TypeName": "Dialog_Header_Color",
+                "Color": "White"
+            }
+        },
+        {
+            "objclass": "HotUIColorAlias",
+            "objdata": {
+                "TypeName": "Dialog_Contents_Color",
+                "Color": "Black"
+            }
+        },
+        {
+            "objclass": "HotUIColorAlias",
+            "objdata": {
+                "TypeName": "Dialog_Message_Color",
+                "Color": "White"
+            }
+        },
+        {
+            "objclass": "HotUIColorAlias",
+            "objdata": {
+                "TypeName": "Dialog_Button_Label_Color",
+                "Color": "White"
+            }
+        },
+        {
+            "objclass": "HotUIColorAlias",
+            "objdata": {
+                "TypeName": "Dialog_Button_Label_Brown_Color",
+                "Color": "Brown"
+            }
+        },
+        {
+            "objclass": "HotUIColorAlias",
+            "objdata": {
+                "TypeName": "Preview_Button_Label_Color",
+                "Color": "White"
+            }
+        },
+        {
+            "objclass": "HotUIColorAlias",
+            "objdata": {
+                "TypeName": "Zen_Garden_Chooser_Packet_Count_Color",
+                "Color": "White"
+            }
+        },
+        {
+            "objclass": "HotUIColorAlias",
+            "objdata": {
+                "TypeName": "Zen_Garden_Chooser_Duration_Color",
+                "Color": "Magenta"
+            }
+        },
+        {
+            "objclass": "HotUIColorAlias",
+            "objdata": {
+                "TypeName": "Yellow_Dialog_Header_Color",
+                "Color": "Dialog_Header_Yellow"
+            }
+        }
+    ]
+}

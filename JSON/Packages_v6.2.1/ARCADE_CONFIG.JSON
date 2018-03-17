@@ -1,0 +1,565 @@
+{
+    "#comment": "Mini-Game level select configuration",
+    "version": 1,
+    "objects": [
+        {
+            "objclass": "ArcadePropertySheet",
+            "aliases": [
+                "ArcadeConfig"
+            ],
+            "objdata": {
+                "ArcadeModes": [
+                    {
+                        "ID": "vasebreaker",
+                        "ModeNameLocalizationKey": "[MODE_NAME_VASEBREAKER]",
+                        "PowerUpCollectionID": "vasebreaker_powerups",
+                        "ArcadeMenuImage": "IMAGE_UI_GAME_ROOM_GAME_ROOM_VASEBREAKER_ICON",
+                        "DisplayInArcadeMenu": true,
+                        "EndlessLevel": {
+                            "Level": {
+                                "ID": "arcade/vasebreaker_endless"
+                            },
+                            "RewardPowerUp": "powerupvasebreakermove",
+                            "RewardPowerUpAfterWave": 15
+                        },
+                        "UnlockEndlessAfter": "vasebreaker_tutorial",
+                        "LevelPacks": [
+                            {
+                                "ID": "vasebreaker_tutorial",
+                                "PackNameLocalizationKey": "[VASEBREAKER_PACK_01_DESCRIPTION]",
+                                "LayoutFile": "MiniGameLevelPack",
+                                "BackdropImage": "IMAGE_UI_ARCADEMENU_BG_TUTORIAL",
+                                "Levels": [
+                                    {
+                                        "ID": "arcade/vasebreaker_tutorial1"
+                                    },
+                                    {
+                                        "ID": "arcade/vasebreaker_tutorial2"
+                                    },
+                                    {
+                                        "ID": "arcade/vasebreaker_tutorial3"
+                                    }
+                                ],
+                                "Reward": {
+                                    "Type": "PowerUp",
+                                    "ID": "powerupvasebreakerreveal"
+                                }
+                            },
+                            {
+                                "ID": "vasebreaker_egypt",
+                                "PackNameLocalizationKey": "[VASEBREAKER_PACK_02_DESCRIPTION]",
+                                "LayoutFile": "MiniGameLevelPack",
+                                "BackdropImage": "IMAGE_UI_ARCADEMENU_BG_EGYPT",
+                                "UnlockAfter": "vasebreaker_tutorial",
+                                "Levels": [
+                                    {
+                                        "ID": "arcade/vasebreaker_egypt1"
+                                    },
+                                    {
+                                        "ID": "arcade/vasebreaker_egypt2"
+                                    },
+                                    {
+                                        "ID": "arcade/vasebreaker_egypt3"
+                                    }
+                                ],
+                                "Reward": {
+                                    "Type": "PowerUp",
+                                    "ID": "powerupvasebreakerbutter"
+                                }
+                            },
+                            {
+                                "ID": "vasebreaker_pirate",
+                                "Toggles": [
+                                    "VasebreakerPirate"
+                                ],
+                                "PackNameLocalizationKey": "[VASEBREAKER_PACK_03_DESCRIPTION]",
+                                "LayoutFile": "MiniGameLevelPack",
+                                "BackdropImage": "IMAGE_UI_ARCADEMENU_BG_PIRATE",
+                                "UnlockAfter": "vasebreaker_egypt",
+                                "Levels": [
+                                    {
+                                        "ID": "arcade/vasebreaker_pirate1"
+                                    },
+                                    {
+                                        "ID": "arcade/vasebreaker_pirate2"
+                                    },
+                                    {
+                                        "ID": "arcade/vasebreaker_pirate3"
+                                    }
+                                ],
+                                "Reward": {
+                                    "Type": "GiftBox"
+                                }
+                            },
+                            {
+                                "ID": "vasebreaker_cowboy",
+                                "Toggles": [
+                                    "VasebreakerCowboy"
+                                ],
+                                "PackNameLocalizationKey": "[VASEBREAKER_PACK_04_DESCRIPTION]",
+                                "LayoutFile": "MiniGameLevelPack",
+                                "BackdropImage": "IMAGE_UI_ARCADEMENU_BG_WEST",
+                                "UnlockAfter": "vasebreaker_egypt",
+                                "Levels": [
+                                    {
+                                        "ID": "arcade/vasebreaker_cowboy1"
+                                    },
+                                    {
+                                        "ID": "arcade/vasebreaker_cowboy2"
+                                    },
+                                    {
+                                        "ID": "arcade/vasebreaker_cowboy3"
+                                    }
+                                ],
+                                "Reward": {
+                                    "Type": "GiftBox"
+                                }
+                            },
+                            {
+                                "ID": "vasebreaker_future",
+                                "Toggles": [
+                                    "VasebreakerFuture"
+                                ],
+                                "PackNameLocalizationKey": "[VASEBREAKER_PACK_05_DESCRIPTION]",
+                                "LayoutFile": "MiniGameLevelPack",
+                                "BackdropImage": "IMAGE_UI_ARCADEMENU_BG_FUTURE",
+                                "UnlockAfter": "vasebreaker_egypt",
+                                "Levels": [
+                                    {
+                                        "ID": "arcade/vasebreaker_future1"
+                                    },
+                                    {
+                                        "ID": "arcade/vasebreaker_future2"
+                                    },
+                                    {
+                                        "ID": "arcade/vasebreaker_future3"
+                                    }
+                                ],
+                                "Reward": {
+                                    "Type": "GiftBox"
+                                }
+                            },
+                            {
+                                "ID": "vasebreaker_dark",
+                                "Toggles": [
+                                    "VasebreakerDark"
+                                ],
+                                "PackNameLocalizationKey": "[VASEBREAKER_PACK_06_DESCRIPTION]",
+                                "LayoutFile": "MiniGameLevelPack",
+                                "BackdropImage": "IMAGE_UI_ARCADEMENU_BG_DARKAGES",
+                                "UnlockAfter": "vasebreaker_egypt",
+                                "Levels": [
+                                    {
+                                        "ID": "arcade/vasebreaker_dark1"
+                                    },
+                                    {
+                                        "ID": "arcade/vasebreaker_dark2"
+                                    },
+                                    {
+                                        "ID": "arcade/vasebreaker_dark3"
+                                    }
+                                ],
+                                "Reward": {
+                                    "Type": "GiftBox"
+                                }
+                            },
+                            {
+                                "ID": "vasebreaker_beach",
+                                "Toggles": [
+                                    "VasebreakerBeach"
+                                ],
+                                "PackNameLocalizationKey": "[VASEBREAKER_PACK_07_DESCRIPTION]",
+                                "LayoutFile": "MiniGameLevelPack",
+                                "BackdropImage": "IMAGE_UI_ARCADEMENU_BG_DARKAGES",
+                                "UnlockAfter": "vasebreaker_egypt",
+                                "Levels": [
+                                    {
+                                        "ID": "arcade/vasebreaker_beach1"
+                                    },
+                                    {
+                                        "ID": "arcade/vasebreaker_beach2"
+                                    },
+                                    {
+                                        "ID": "arcade/vasebreaker_beach3"
+                                    }
+                                ],
+                                "Reward": {
+                                    "Type": "GiftBox"
+                                }
+                            },
+                            {
+                                "ID": "vasebreaker_sandbox",
+                                "Toggles": [
+                                    "ArcadeTestPacks"
+                                ],
+                                "PackNameLocalizationKey": "Vasebreaker Sandbox",
+                                "LayoutFile": "MiniGameLevelPack",
+                                "BackdropImage": "IMAGE_UI_ARCADEMENU_BG_TUTORIAL",
+                                "Levels": [
+                                    {
+                                        "ID": "dev/vasebreaker_peapodtest"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "ID": "eggbreaker",
+                        "ModeNameLocalizationKey": "[MODE_NAME_EGGBREAKER]",
+                        "PowerUpCollectionID": "vasebreaker_powerups",
+                        "ArcadeMenuImage": "IMAGE_UI_GAME_ROOM_GAME_ROOM_VASEBREAKER_ICON",
+                        "DisplayInArcadeMenu": false,
+                        "EndlessLevel": {
+                            "Level": {
+                                "ID": "eggbreaker_endless"
+                            },
+                            "RewardPowerUp": "powerupvasebreakermove",
+                            "RewardPowerUpAfterWave": 15
+                        },
+                        "UnlockEndlessAfter": "eggbreaker_set1",
+                        "LevelPacks": [
+                            {
+                                "ID": "eggbreaker_set1",
+                                "PackNameLocalizationKey": "Eggbreaker",
+                                "LayoutFile": "MiniGameLevelPack",
+                                "BackdropImage": "IMAGE_UI_ARCADEMENU_BG_TUTORIAL",
+                                "Levels": [
+                                    {
+                                        "ID": "lod_vase_egg_001"
+                                    },
+                                    {
+                                        "ID": "lod_vase_egg_002"
+                                    },
+                                    {
+                                        "ID": "lod_vase_egg_003"
+                                    },
+                                    {
+                                        "ID": "lod_vase_egg_004"
+                                    },
+                                    {
+                                        "ID": "lod_vase_egg_005"
+                                    },
+                                    {
+                                        "ID": "lod_vase_egg_006"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "ID": "firebreaker",
+                        "ModeNameLocalizationKey": "[MODE_NAME_FIREBREAKER]",
+                        "PowerUpCollectionID": "vasebreaker_powerups",
+                        "ArcadeMenuImage": "IMAGE_UI_GAME_ROOM_GAME_ROOM_VASEBREAKER_ICON",
+                        "DisplayInArcadeMenu": false,
+                        "EndlessLevel": {
+                            "Level": {
+                                "ID": "firebreaker_endless"
+                            },
+                            "RewardPowerUp": "powerupvasebreakermove",
+                            "RewardPowerUpAfterWave": 15
+                        },
+                        "UnlockEndlessAfter": "firebreaker_set1",
+                        "LevelPacks": [
+                            {
+                                "ID": "firebreaker_set1",
+                                "PackNameLocalizationKey": "Firebreaker",
+                                "LayoutFile": "MiniGameLevelPack",
+                                "BackdropImage": "IMAGE_UI_ARCADEMENU_BG_TUTORIAL",
+                                "Levels": [
+                                    {
+                                        "ID": "lod_vase_fire_007"
+                                    },
+                                    {
+                                        "ID": "lod_vase_fire_008"
+                                    },
+                                    {
+                                        "ID": "lod_vase_fire_009"
+                                    },
+                                    {
+                                        "ID": "lod_vase_fire_010"
+                                    },
+                                    {
+                                        "ID": "lod_vase_fire_011"
+                                    },
+                                    {
+                                        "ID": "lod_vase_fire_012"
+                                    },
+                                    {
+                                        "ID": "lod_vase_fire_013"
+                                    },
+                                    {
+                                        "ID": "lod_vase_fire_014"
+                                    },
+                                    {
+                                        "ID": "lod_vase_fire_015"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "ID": "wasabiwhip",
+                        "ModeNameLocalizationKey": "[MODE_NAME_VASEREAKER]",
+                        "PowerUpCollectionID": "vasebreaker_powerups",
+                        "ArcadeMenuImage": "IMAGE_UI_GAME_ROOM_GAME_ROOM_VASEBREAKER_ICON",
+                        "DisplayInArcadeMenu": false,
+                        "EndlessLevel": {
+                            "Level": {
+                                "ID": "wasabi_endless"
+                            },
+                            "RewardPowerUp": "powerupvasebreakermove",
+                            "RewardPowerUpAfterWave": 15
+                        },
+                        "UnlockEndlessAfter": "wasabi_whip_set1",
+                        "LevelPacks": [
+                            {
+                                "ID": "wasabi_whip_set1",
+                                "PackNameLocalizationKey": "Wasabi Whip",
+                                "LayoutFile": "MiniGameLevelPack",
+                                "BackdropImage": "IMAGE_UI_ARCADEMENU_BG_TUTORIAL",
+                                "Levels": [
+                                    {
+                                        "ID": "lod_224"
+                                    },
+                                    {
+                                        "ID": "lod_225"
+                                    },
+                                    {
+                                        "ID": "lod_226"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "ID": "beghouled",
+                        "ModeNameLocalizationKey": "[MODE_NAME_BEGHOULED]",
+                        "PowerUpCollectionID": "beghouled_powerups",
+                        "ArcadeMenuImage": "IMAGE_UI_GAME_ROOM_GAME_ROOM_BEGHOULED_ICON",
+                        "DisplayInArcadeMenu": true,
+                        "EndlessLevel": {
+                            "Comment": "THIS IS NOT ACTUALLY A THING",
+                            "Level": {
+                                "ID": "dev/beghouled_endless"
+                            },
+                            "RewardPowerUp": "powerupvasebreakermove",
+                            "RewardPowerUpAfterWave": 15
+                        },
+                        "UnlockEndlessAfter": "beghouled_set1",
+                        "LevelPacks": [
+                            {
+                                "ID": "beghouled_modern",
+                                "Toggles": [
+                                    "BeghouledSpine"
+                                ],
+                                "#comment": "TODO:  Rework Enabled logic for arcade vs. spine levels.  This must be toggled ON for spine but OFF for hub.",
+                                "PackNameLocalizationKey": "Beghouled",
+                                "LayoutFile": "MiniGameLevelPack",
+                                "BackdropImage": "IMAGE_UI_ARCADEMENU_BG_TUTORIAL",
+                                "Levels": [
+                                    {
+                                        "ID": "modern8"
+                                    },
+                                    {
+                                        "ID": "modern13"
+                                    },
+                                    {
+                                        "ID": "modern22"
+                                    },
+                                    {
+                                        "ID": "modern27"
+                                    }
+                                ]
+                            },
+                            {
+                                "ID": "beghouled_set1",
+                                "PackNameLocalizationKey": "Beghouled Pack 1",
+                                "LayoutFile": "MiniGameLevelPack",
+                                "BackdropImage": "IMAGE_UI_ARCADEMENU_BG_TUTORIAL",
+                                "Levels": [
+                                    {
+                                        "ID": "dev/beghouled1"
+                                    },
+                                    {
+                                        "ID": "dev/beghouled2"
+                                    },
+                                    {
+                                        "ID": "dev/beghouled3"
+                                    }
+                                ],
+                                "Reward": {
+                                    "Type": "GiftBox"
+                                }
+                            },
+                            {
+                                "ID": "epicquest_beghouled_set1",
+                                "PackNameLocalizationKey": "Epic Quest Beghouled 1",
+                                "LayoutFile": "MiniGameLevelPack",
+                                "BackdropImage": "IMAGE_UI_ARCADEMENU_BG_TUTORIAL",
+                                "Levels": [
+                                    {
+                                        "ID": "challenge_levels/epicquest_beghouled_001"
+                                    },
+                                    {
+                                        "ID": "challenge_levels/epicquest_beghouled_002"
+                                    },
+                                    {
+                                        "ID": "challenge_levels/epicquest_beghouled_003"
+                                    },
+                                    {
+                                        "ID": "challenge_levels/epicquest_beghouled_004"
+                                    },
+                                    {
+                                        "ID": "challenge_levels/epicquest_beghouled_005"
+                                    }
+                                ]
+                            },
+                            {
+                                "ID": "epicquest_aloe",
+                                "PackNameLocalizationKey": "Epic Quest Aloe 8",
+                                "LayoutFile": "MiniGameLevelPack",
+                                "BackdropImage": "IMAGE_UI_ARCADEMENU_BG_TUTORIAL",
+                                "Levels": [
+                                    {
+                                        "ID": "epicquest_aloe_08"
+                                    }
+                                ]
+                            },
+                            {
+                                "ID": "lod_beghouled",
+                                "PackNameLocalizationKey": "Beghouled Beyond",
+                                "LayoutFile": "MiniGameLevelPack",
+                                "BackdropImage": "IMAGE_UI_ARCADEMENU_BG_TUTORIAL",
+                                "Levels": [
+                                    {
+                                        "ID": "lod_273"
+                                    },
+                                    {
+                                        "ID": "lod_274"
+                                    },
+                                    {
+                                        "ID": "lod_275"
+                                    },
+                                    {
+                                        "ID": "lod_276"
+                                    },
+                                    {
+                                        "ID": "lod_277"
+                                    },
+                                    {
+                                        "ID": "lod_278"
+                                    },
+                                    {
+                                        "ID": "lod_279"
+                                    },
+                                    {
+                                        "ID": "lod_280"
+                                    },
+                                    {
+                                        "ID": "lod_281"
+                                    },
+                                    {
+                                        "ID": "lod_282"
+                                    },
+                                    {
+                                        "ID": "lod_283"
+                                    },
+                                    {
+                                        "ID": "lod_284"
+                                    },
+                                    {
+                                        "ID": "lod_285"
+                                    },
+                                    {
+                                        "ID": "lod_286"
+                                    }
+                                ]
+                            },
+                            {
+                                "ID": "wasabi_whip_event_221",
+                                "PackNameLocalizationKey": "Wasabi Whip Event 221",
+                                "LayoutFile": "MiniGameLevelPack",
+                                "BackdropImage": "IMAGE_UI_ARCADEMENU_BG_TUTORIAL",
+                                "Levels": [
+                                    {
+                                        "ID": "lod_221"
+                                    },
+                                    {
+                                        "ID": "lod_222"
+                                    },
+                                    {
+                                        "ID": "lod_223"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "PowerUpCollections": [
+                    {
+                        "ID": "vasebreaker_powerups",
+                        "PowerUps": [
+                            {
+                                "ID": "powerupvasebreakerreveal",
+                                "UpImage": "IMAGE_UI_POWERUPS_POWER_VASEBREAKERREVEAL",
+                                "DownImage": "IMAGE_UI_POWERUPS_POWER_VASEBREAKERREVEAL_DOWN",
+                                "GameFeature": "feature_powerup_vasebreaker_reveal",
+                                "NameLocalizationKey": "[POWERUP_VASEBREAKER_REVEAL]",
+                                "DescriptionLocalizationKey": "[POWERUP_VASEBREAKER_REVEAL_DESCRIPTION]",
+                                "UnlockHintLocalizationKey": "[POWERUP_VASEBREAKER_REVEAL_UNLOCK]"
+                            },
+                            {
+                                "ID": "powerupvasebreakerbutter",
+                                "UpImage": "IMAGE_UI_POWERUPS_POWER_VASEBREAKERBUTTER",
+                                "DownImage": "IMAGE_UI_POWERUPS_POWER_VASEBREAKERBUTTER_DOWN",
+                                "GameFeature": "feature_powerup_vasebreaker_butter",
+                                "NameLocalizationKey": "[POWERUP_VASEBREAKER_BUTTER]",
+                                "DescriptionLocalizationKey": "[POWERUP_VASEBREAKER_BUTTER_DESCRIPTION]",
+                                "UnlockHintLocalizationKey": "[POWERUP_VASEBREAKER_BUTTER_UNLOCK]"
+                            },
+                            {
+                                "ID": "powerupvasebreakermove",
+                                "UpImage": "IMAGE_UI_POWERUPS_POWER_VASEBREAKERMOVE",
+                                "DownImage": "IMAGE_UI_POWERUPS_POWER_VASEBREAKERMOVE_DOWN",
+                                "GameFeature": "feature_powerup_vasebreaker_move",
+                                "NameLocalizationKey": "[POWERUP_VASEBREAKER_MOVE]",
+                                "DescriptionLocalizationKey": "[POWERUP_VASEBREAKER_MOVE_DESCRIPTION]",
+                                "UnlockHintLocalizationKey": "[POWERUP_VASEBREAKER_MOVE_UNLOCK]"
+                            }
+                        ]
+                    },
+                    {
+                        "ID": "beghouled_powerups",
+                        "PowerUps": [
+                            {
+                                "ID": "powerupbeghouledshuffle",
+                                "UpImage": "IMAGE_UI_POWERUPS_POWER_BEGHOULEDSHUFFLE",
+                                "DownImage": "IMAGE_UI_POWERUPS_POWER_BEGHOULEDSHUFFLE_DOWN",
+                                "GameFeature": "feature_powerup_beghouled_shuffle",
+                                "NameLocalizationKey": "[POWERUP_BEGHOULED_SHUFFLE]",
+                                "DescriptionLocalizationKey": "[POWERUP_BEGHOULED_SHUFFLE_DESCRIPTION]"
+                            },
+                            {
+                                "ID": "powerupbeghouledshovel",
+                                "UpImage": "IMAGE_UI_POWERUPS_POWER_BEGHOULEDSHOVEL",
+                                "DownImage": "IMAGE_UI_POWERUPS_POWER_BEGHOULEDSHOVEL_DOWN",
+                                "GameFeature": "feature_powerup_beghouled_shovel",
+                                "NameLocalizationKey": "[POWERUP_BEGHOULED_SHOVEL]",
+                                "DescriptionLocalizationKey": "[POWERUP_BEGHOULED_SHOVEL_DESCRIPTION]"
+                            },
+                            {
+                                "ID": "powerupbeghouledwizardfinger",
+                                "UpImage": "IMAGE_UI_POWERUPS_POWERUP_BEGHOULED_SHOCK",
+                                "DownImage": "IMAGE_UI_POWERUPS_POWERUP_BEGHOULED_SHOCK_DOWN",
+                                "GameFeature": "feature_powerup_beghouled_wizardfinger",
+                                "NameLocalizationKey": "[POWERUP_WIZARDFINGER]",
+                                "DescriptionLocalizationKey": "[POWERUP_WIZARDFINGER_DESCRIPTION]"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,200 @@
+{
+    "#comment": "Make new colors here!",
+    "version": 1,
+    "objects": [
+        {
+            "objclass": "HotUIColor",
+            "objdata": {
+                "TypeName": "Black",
+                "ColorValue": {
+                    "mRed": 0,
+                    "mGreen": 0,
+                    "mBlue": 0
+                }
+            }
+        },
+        {
+            "objclass": "HotUIColor",
+            "objdata": {
+                "TypeName": "White",
+                "ColorValue": {
+                    "mRed": 255,
+                    "mGreen": 255,
+                    "mBlue": 255
+                }
+            }
+        },
+        {
+            "objclass": "HotUIColor",
+            "objdata": {
+                "TypeName": "Red",
+                "ColorValue": {
+                    "R": 255,
+                    "mGreen": 0,
+                    "mBlue": 0
+                }
+            }
+        },
+        {
+            "objclass": "HotUIColor",
+            "objdata": {
+                "TypeName": "Green",
+                "ColorValue": {
+                    "R": 0,
+                    "mGreen": 255,
+                    "mBlue": 0
+                }
+            }
+        },
+        {
+            "objclass": "HotUIColor",
+            "objdata": {
+                "TypeName": "Blue",
+                "ColorValue": {
+                    "mRed": 0,
+                    "mGreen": 0,
+                    "B": 255
+                }
+            }
+        },
+        {
+            "objclass": "HotUIColor",
+            "objdata": {
+                "TypeName": "Orange",
+                "ColorValue": {
+                    "mRed": 255,
+                    "mGreen": 173,
+                    "mBlue": 0
+                }
+            }
+        },
+        {
+            "objclass": "HotUIColor",
+            "objdata": {
+                "TypeName": "Yellow",
+                "ColorValue": {
+                    "mRed": 255,
+                    "mGreen": 255,
+                    "mBlue": 0
+                }
+            }
+        },
+        {
+            "objclass": "HotUIColor",
+            "objdata": {
+                "TypeName": "Purple",
+                "ColorValue": {
+                    "mRed": 160,
+                    "mGreen": 32,
+                    "mBlue": 240
+                }
+            }
+        },
+        {
+            "objclass": "HotUIColor",
+            "objdata": {
+                "TypeName": "Cyan",
+                "ColorValue": {
+                    "mRed": 0,
+                    "mGreen": 255,
+                    "mBlue": 255
+                }
+            }
+        },
+        {
+            "objclass": "HotUIColor",
+            "objdata": {
+                "TypeName": "Magenta",
+                "ColorValue": {
+                    "mRed": 255,
+                    "mGreen": 0,
+                    "mBlue": 255
+                }
+            }
+        },
+        {
+            "objclass": "HotUIColor",
+            "objdata": {
+                "TypeName": "FullTransparent",
+                "ColorValue": {
+                    "mRed": 255,
+                    "mGreen": 255,
+                    "mBlue": 255,
+                    "mAlpha": 0
+                }
+            }
+        },
+        {
+            "objclass": "HotUIColor",
+            "objdata": {
+                "TypeName": "Brown",
+                "ColorValue": {
+                    "mRed": 72,
+                    "mGreen": 62,
+                    "mBlue": 0,
+                    "mAlpha": 255
+                }
+            }
+        },
+        {
+            "objclass": "HotUIColor",
+            "objdata": {
+                "TypeName": "Dialog_Header_Yellow",
+                "ColorValue": {
+                    "mRed": 253,
+                    "mGreen": 220,
+                    "mBlue": 103,
+                    "mAlpha": 255
+                }
+            }
+        },
+        {
+            "objclass": "HotUIColor",
+            "objdata": {
+                "TypeName": "PinataPartyHeadingTextColor",
+                "ColorValue": {
+                    "mRed": 184,
+                    "mGreen": 43,
+                    "mBlue": 67,
+                    "mAlpha": 255
+                }
+            }
+        },
+        {
+            "objclass": "HotUIColor",
+            "objdata": {
+                "TypeName": "ProgressivePromoPinataPartyHeadingTextColor",
+                "ColorValue": {
+                    "mRed": 0,
+                    "mGreen": 86,
+                    "mBlue": 183,
+                    "mAlpha": 255
+                }
+            }
+        },
+        {
+            "objclass": "HotUIColor",
+            "objdata": {
+                "TypeName": "LogGlassesPink",
+                "ColorValue": {
+                    "mRed": 240,
+                    "mGreen": 165,
+                    "mBlue": 241,
+                    "mAlpha": 255
+                }
+            }
+        },
+        {
+            "objclass": "HotUIColor",
+            "objdata": {
+                "TypeName": "Dialog_Header_TimeTwister",
+                "ColorValue": {
+                    "mRed": 255,
+                    "mGreen": 220,
+                    "mBlue": 23,
+                    "mAlpha": 255
+                }
+            }
+        }
+    ]
+}

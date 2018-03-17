@@ -1,0 +1,72 @@
+{
+    "#comment": "Make new grid item types here!",
+    "version": 1,
+    "objects": [
+        {
+            "aliases": [
+                "Difficulties"
+            ],
+            "objclass": "DifficultyTableProps",
+            "objdata": {
+                "Tables": [
+                    {
+                        "Level": 1,
+                        "GridMaps": [
+                            {
+                                "Grid": "Column0_To_Column0",
+                                "Type": "mold"
+                            },
+                            {
+                                "Grid": "Column0_To_Column0",
+                                "Type": "griditems",
+                                "Subtype": "gravestone_beach"
+                            }
+                        ]
+                    },
+                    {
+                        "Level": 2,
+                        "GridMaps": [
+                            {
+                                "Grid": "Column0_To_Column1",
+                                "Type": "mold"
+                            },
+                            {
+                                "Grid": "Column0_To_Column1",
+                                "Type": "griditems",
+                                "Subtype": "gravestone_beach"
+                            }
+                        ]
+                    },
+                    {
+                        "Level": 3,
+                        "GridMaps": [
+                            {
+                                "Grid": "Column0_To_Column2",
+                                "Type": "mold"
+                            },
+                            {
+                                "Grid": "Column0_To_Column2",
+                                "Type": "griditems",
+                                "Subtype": "gravestone_beach"
+                            }
+                        ]
+                    },
+                    {
+                        "Level": 4,
+                        "GridMaps": [
+                            {
+                                "Grid": "Column0_To_Column3",
+                                "Type": "mold"
+                            },
+                            {
+                                "Grid": "Column0_To_Column3",
+                                "Type": "griditems",
+                                "Subtype": "gravestone_beach"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}

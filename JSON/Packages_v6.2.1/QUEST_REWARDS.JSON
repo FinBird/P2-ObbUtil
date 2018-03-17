@@ -1,0 +1,87 @@
+{
+    "version": 1,
+    "objects": [
+        {
+            "objclass": "QuestRewardTablesProps",
+            "aliases": [
+                "quest_rewards"
+            ],
+            "objdata": {
+                "TablesConfig": [
+                    {
+                        "Difficulty": 0,
+                        "Awards": [
+                            {
+                                "Type": "pinata",
+                                "SubType": "egypt1",
+                                "MinAmount": 1,
+                                "MaxAmount": 1,
+                                "Weight": 1
+                            }
+                        ]
+                    },
+                    {
+                        "Difficulty": 1,
+                        "Awards": [
+                            {
+                                "Type": "pinata",
+                                "SubType": "pirate1",
+                                "MinAmount": 1,
+                                "MaxAmount": 1,
+                                "Weight": 1
+                            }
+                        ]
+                    },
+                    {
+                        "Difficulty": 2,
+                        "Awards": [
+                            {
+                                "Type": "pinata",
+                                "SubType": "future1",
+                                "MinAmount": 1,
+                                "MaxAmount": 1,
+                                "Weight": 1
+                            }
+                        ]
+                    },
+                    {
+                        "Difficulty": 3,
+                        "Awards": [
+                            {
+                                "Type": "pinata",
+                                "SubType": "future1",
+                                "MinAmount": 1,
+                                "MaxAmount": 1,
+                                "Weight": 1
+                            }
+                        ]
+                    },
+                    {
+                        "Difficulty": 4,
+                        "Awards": [
+                            {
+                                "Type": "pinata",
+                                "SubType": "dark1",
+                                "MinAmount": 1,
+                                "MaxAmount": 1,
+                                "Weight": 1
+                            }
+                        ]
+                    },
+                    {
+                        "Difficulty": 5,
+                        "Awards": [
+                            {
+                                "Type": "pinata",
+                                "SubType": "beach1",
+                                "MinAmount": 1,
+                                "MaxAmount": 1,
+                                "Weight": 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}

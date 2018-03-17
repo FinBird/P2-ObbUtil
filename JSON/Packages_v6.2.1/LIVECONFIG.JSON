@@ -1,0 +1,624 @@
+{
+    "version": 1,
+    "objects": [
+        {
+            "objclass": "PVZLiveConfig",
+            "objdata": {
+                "CDNRefreshMinutes": 60,
+                "CDNDownloadTimeoutSeconds": 90,
+                "FacebookOpenGraphEnabled": true,
+                "#comment": "Valid values: custom_halloween, custom_holiday [xmas], custom_valentines, custom_thingsandstuff",
+                "SeasonalCostumeLayers": "custom_thingsandstuff",
+                "EASquaredAwaitAdRewardTimeout": 0.5,
+                "DraperAdNetworkTimeout": 5,
+                "DraperAdDisplayTimeout": 3,
+                "DraperEnabledLogging": {
+                    "AdRequested": false,
+                    "AdReceived": true,
+                    "ImageRequested": true,
+                    "ImageReceived": true,
+                    "AdRequestCleanedUp": false,
+                    "AdDisplayed": true,
+                    "ActionTaken": true,
+                    "AdClosed": true,
+                    "EmptyAssetURL": false,
+                    "FailedRequest": true,
+                    "UnexpectedResponse": true,
+                    "RequestTimedOut": true
+                },
+                "SwrveThrottleSeedKey": "sausages",
+                "SwrveThrottleSliceMinPct": 10,
+                "SwrveThrottleSliceMaxPct": 15,
+                "TestIdSeedKey": "bangersandmash",
+                "AdConfig": {
+                    "FlamethrowerOfferProbability": 0.75,
+                    "FlamethrowerOfferCooldown": 30.0
+                },
+                "Toggles": [
+                    {
+                        "Key": "ArcadeTestPacks",
+                        "Enabled": false,
+                        "DisplayName": "Arcade Test Levels",
+                        "Category": "camp"
+                    },
+                    {
+                        "Key": "ArcadeShowRootDialog",
+                        "Enabled": false,
+                        "DisplayName": "Arcade Show Root Dialog",
+                        "Category": "camp"
+                    },
+                    {
+                        "Key": "DangerRoomContinue",
+                        "Enabled": false,
+                        "DisplayName": "Pay To Continue The Danger Room ",
+                        "Category": "camp"
+                    },
+                    {
+                        "Key": "TryPlantPreview",
+                        "Enabled": false,
+                        "DisplayName": "Try Plant Preview Button",
+                        "Category": "camp"
+                    },
+                    {
+                        "Key": "PetZombie",
+                        "Enabled": false,
+                        "DisplayName": "Pet Zombie",
+                        "Category": "camp"
+                    },
+                    {
+                        "Key": "SortPromoPlantsToTop",
+                        "Enabled": false,
+                        "DisplayName": "Seed Chooser Promo First",
+                        "Category": "camp"
+                    },
+                    {
+                        "Key": "SortWorldPlantsToTop",
+                        "Enabled": false,
+                        "DisplayName": "Seed Chooser Sort World",
+                        "Category": "camp"
+                    },
+                    {
+                        "Key": "SeedChooserRentASlot",
+                        "Enabled": true,
+                        "DisplayName": "Seed Chooser Rent Slot",
+                        "Category": "live"
+                    },
+                    {
+                        "Key": "SeedChooserPreferPurchasable",
+                        "Enabled": false,
+                        "DisplayName": "Seed Chooser Prefers Purchasabe",
+                        "Category": "camp"
+                    },
+                    {
+                        "Key": "SeedChooserSuggestPlants",
+                        "Enabled": false,
+                        "DisplayName": "Seed Chooser Suggest Plants",
+                        "Category": "camp"
+                    },
+                    {
+                        "Key": "SeedChooserAutoSelectSlot",
+                        "Enabled": false,
+                        "DisplayName": "Auto select seed slot",
+                        "Category": "camp"
+                    },
+                    {
+                        "Key": "SeedChooserFavorites",
+                        "Enabled": false,
+                        "DisplayName": "Select favorite seeds",
+                        "Category": "camp"
+                    },
+                    {
+                        "Key": "SeedChooserRentPlant",
+                        "Enabled": false,
+                        "DisplayName": "Seed Chooser Rent Plant",
+                        "Category": "camp"
+                    },
+                    {
+                        "Key": "SeasonalCostumes",
+                        "Enabled": false,
+                        "DisplayName": "Seasonal Costumes",
+                        "Category": "live"
+                    },
+                    {
+                        "Key": "PurchasablePlantCostumes",
+                        "Enabled": true,
+                        "DisplayName": "Buy Plant Costumes",
+                        "Category": "live"
+                    },
+                    {
+                        "Key": "LoDCostumes",
+                        "Enabled": true,
+                        "DisplayName": "LoD Costumes",
+                        "Category": "live"
+                    },
+                    {
+                        "Key": "LevelOfTheDay",
+                        "Enabled": true,
+                        "DisplayName": "Level of the Day",
+                        "Category": "live"
+                    },
+                    {
+                        "Key": "LoDNarratives",
+                        "Enabled": false,
+                        "DisplayName": "Show the LoD Narratives",
+                        "Category": "live"
+                    },
+                    {
+                        "Key": "LoDCountdownToNext",
+                        "Enabled": true,
+                        "DisplayName": "LoD Show Next Countdown",
+                        "Category": "live"
+                    },
+                    {
+                        "Key": "ReplayLODForCoins",
+                        "Enabled": true,
+                        "DisplayName": "Replay LOD for COINS",
+                        "Category": "live"
+                    },
+                    {
+                        "Key": "DraperThirdPartyAds",
+                        "Enabled": true,
+                        "DisplayName": "Enable Draper Third Party Ads",
+                        "Category": "live"
+                    },
+                    {
+                        "Key": "DraperLocalNotes",
+                        "Enabled": true,
+                        "DisplayName": "Enable Draper Local Notes",
+                        "Category": "live"
+                    },
+                    {
+                        "Key": "ClientLocalNotes",
+                        "Enabled": true,
+                        "DisplayName": "Enable Client Local Notes",
+                        "Category": "live"
+                    },
+                    {
+                        "Key": "NotificationsVasebreaker",
+                        "Enabled": false,
+                        "DisplayName": "Notes Vasebreaker",
+                        "Category": "live"
+                    },
+                    {
+                        "Key": "NotificationsQuestMainline",
+                        "Enabled": false,
+                        "DisplayName": "Notes Quest Mainline",
+                        "Category": "live"
+                    },
+                    {
+                        "Key": "NotificationsZenGardenGrowth",
+                        "Enabled": true,
+                        "DisplayName": "Notes Zen Grown",
+                        "Category": "live"
+                    },
+                    {
+                        "Key": "NotificationsZenGardenGrowthLong",
+                        "Enabled": false,
+                        "DisplayName": "Notes Zen 3day Grow",
+                        "Category": "live"
+                    },
+                    {
+                        "Key": "NotificationsZenGardenEngage",
+                        "Enabled": false,
+                        "DisplayName": "Notes Zen Engage",
+                        "Category": "live"
+                    },
+                    {
+                        "Key": "ZenGarden",
+                        "Enabled": true,
+                        "DisplayName": "Enable Zen Garden",
+                        "Category": "live"
+                    },
+                    {
+                        "Key": "EnableOnlineSaving",
+                        "Enabled": true,
+                        "DisplayName": "Enable Online Saving",
+                        "Category": "live"
+                    },
+                    {
+                        "Key": "DynamicDifficulty",
+                        "Enabled": true,
+                        "DisplayName": "Dynamic Difficulty in Wave Manager",
+                        "Category": "live"
+                    },
+                    {
+                        "Key": "DynamicDifficultyNormalize",
+                        "Enabled": true,
+                        "DisplayName": "Force Difficulty to Median",
+                        "Category": "live"
+                    },
+                    {
+                        "Key": "SeedChooserSellsSlots",
+                        "Enabled": true,
+                        "DisplayName": "Sell slot upgrade in seed chooser",
+                        "Category": "live"
+                    },
+                    {
+                        "Key": "SproutStore",
+                        "Enabled": true,
+                        "DisplayName": "Sprout Store",
+                        "Category": "live"
+                    },
+                    {
+                        "Key": "BadgeStoreOnNewItem",
+                        "Enabled": false,
+                        "DisplayName": "Store Tabs: Alert New items.",
+                        "Category": "dev"
+                    },
+                    {
+                        "Key": "BadgeStoreScheduleChanges",
+                        "Enabled": true,
+                        "DisplayName": "Store: Alert New Schedule.",
+                        "Category": "live"
+                    },
+                    {
+                        "Key": "FreeCoinsInQuickStore",
+                        "Enabled": false,
+                        "DisplayName": "Free Coins In Quick Store",
+                        "Category": "camp"
+                    },
+                    {
+                        "Key": "PlantQuestQuickstore",
+                        "Enabled": true,
+                        "DisplayName": "Plant Quest Quickstore",
+                        "Category": "live"
+                    },
+                    {
+                        "Key": "StoreQATestTab",
+                        "Enabled": true,
+                        "DisplayName": "QA Test Tab",
+                        "Category": "dev"
+                    },
+                    {
+                        "Key": "YetiAtUnlockedNode",
+                        "Enabled": false,
+                        "DisplayName": "Yeti spawns at uncompleted level",
+                        "Category": "dev"
+                    },
+                    {
+                        "Key": "YetiEvent",
+                        "Enabled": false,
+                        "DisplayName": "Yeti Event Is Active",
+                        "Category": "dev"
+                    },
+                    {
+                        "Key": "PowerupSnowball",
+                        "Enabled": true,
+                        "DisplayName": "Snowball Powerup",
+                        "Category": "live"
+                    },
+                    {
+                        "Key": "PurchasableDangerRoomCard",
+                        "Enabled": true,
+                        "DisplayName": "Purchasable Danger Room Card",
+                        "Category": "live"
+                    },
+                    {
+                        "Key": "AgeGate",
+                        "Enabled": true,
+                        "DisplayName": "Age Gating",
+                        "Category": "live"
+                    },
+                    {
+                        "Key": "UnloadResourcesForAds",
+                        "Enabled": true,
+                        "DisplayName": "Unload Resources For Ads",
+                        "Category": "live"
+                    },
+                    {
+                        "Key": "EASquared",
+                        "Enabled": true,
+                        "DisplayName": "EA Squared",
+                        "Category": "live"
+                    },
+                    {
+                        "Key": "EA2GemsButtonAvailable",
+                        "Enabled": true,
+                        "DisplayName": "EA2 Gems Button Available",
+                        "Category": "live"
+                    },
+                    {
+                        "Key": "EA2GemsButtonPrioritized",
+                        "Enabled": false,
+                        "DisplayName": "EA2 Gems Button Prioritized",
+                        "Category": "live"
+                    },
+                    {
+                        "Key": "SwrveThrottle",
+                        "Enabled": false,
+                        "DisplayName": "Throttle Swrve Users",
+                        "Category": "live"
+                    },
+                    {
+                        "Key": "SwrveAllow",
+                        "Enabled": true,
+                        "DisplayName": "Allow Swrve At All",
+                        "Category": "live"
+                    },
+                    {
+                        "Key": "MiniGameWorldMapButton",
+                        "Enabled": true,
+                        "DisplayName": "Mini-Game World Map Button",
+                        "Category": "live"
+                    },
+                    {
+                        "Key": "AllowPlantfoodPurchaseInVaseBreaker",
+                        "Enabled": false,
+                        "DisplayName": "Allow VB PF Purchase",
+                        "Category": "live"
+                    },
+                    {
+                        "Key": "AllowPlantfoodPurchaseInLODVaseBreaker",
+                        "Enabled": true,
+                        "DisplayName": "Allow VB LOD PF Purchase",
+                        "Category": "live"
+                    },
+                    {
+                        "Key": "VasebreakerPirate",
+                        "Enabled": true,
+                        "DisplayName": "Vasebreaker Pirate Pack",
+                        "Category": "live"
+                    },
+                    {
+                        "Key": "VasebreakerCowboy",
+                        "Enabled": true,
+                        "DisplayName": "Vasebreaker Cowboy Pack",
+                        "Category": "live"
+                    },
+                    {
+                        "Key": "VasebreakerFuture",
+                        "Enabled": false,
+                        "DisplayName": "Vasebreaker Future Pack",
+                        "Category": "dev"
+                    },
+                    {
+                        "Key": "VasebreakerDark",
+                        "Enabled": false,
+                        "DisplayName": "Vasebreaker Dark Pack",
+                        "Category": "dev"
+                    },
+                    {
+                        "Key": "VasebreakerBeach",
+                        "Enabled": false,
+                        "DisplayName": "Vasebreaker Beach Pack",
+                        "Category": "dev"
+                    },
+                    {
+                        "Key": "BeghouledSpine",
+                        "Enabled": true,
+                        "DisplayName": "Beghouled Spine Pack",
+                        "Category": "live"
+                    },
+                    {
+                        "Key": "Millennial",
+                        "Enabled": true,
+                        "DisplayName": "Millennial Ads",
+                        "Category": "live"
+                    },
+                    {
+                        "Key": "WWFPROMO",
+                        "Enabled": false,
+                        "DisplayName": "WWF Promo",
+                        "Category": "live"
+                    },
+                    {
+                        "Key": "ReplayForAds",
+                        "Enabled": true,
+                        "DisplayName": "Replay LOD for Ads",
+                        "Category": "live"
+                    },
+                    {
+                        "Key": "Quests",
+                        "Enabled": true,
+                        "DisplayName": "Quests",
+                        "Category": "live"
+                    },
+                    {
+                        "Key": "BirthdayWorldKeyGiftOne",
+                        "Enabled": true,
+                        "DisplayName": "Birthday World Key One",
+                        "Category": "live"
+                    },
+                    {
+                        "Key": "OutroQuestButtons",
+                        "Enabled": true,
+                        "DisplayName": "Show Quest Button in Outro",
+                        "Category": "live"
+                    },
+                    {
+                        "Key": "UniverseIsDenser",
+                        "Enabled": true,
+                        "DisplayName": "Universe Denser",
+                        "Category": "live"
+                    },
+                    {
+                        "Key": "MagentoSchedule",
+                        "Enabled": true,
+                        "DisplayName": "Use Magento Schedule",
+                        "Category": "live"
+                    },
+                    {
+                        "Key": "DraperThirdPartyDFP",
+                        "Enabled": true,
+                        "DisplayName": "Allow Draper DFP Ads",
+                        "Category": "live"
+                    },
+                    {
+                        "Key": "DraperThirdPartyIMA",
+                        "Enabled": true,
+                        "DisplayName": "Allow Draper IMA Ads",
+                        "Category": "live"
+                    },
+                    {
+                        "Key": "DraperFeaturePlacement",
+                        "Enabled": true,
+                        "DisplayName": "Draper Feature Place",
+                        "Category": "live"
+                    },
+                    {
+                        "Key": "IronsourceUnityAds",
+                        "Enabled": true,
+                        "DisplayName": "Ironsource Unity Ads",
+                        "Category": "live"
+                    },
+                    {
+                        "Key": "LinkToPopcapWebsite",
+                        "Enabled": true,
+                        "DisplayName": "Link To Popcap Website",
+                        "Category": "live"
+                    },
+                    {
+                        "Key": "LinkToMerchandiseWebsite",
+                        "Enabled": false,
+                        "DisplayName": "Link To Merchandise Website",
+                        "Category": "live"
+                    },
+                    {
+                        "Key": "GeneratePromoFromMetrics",
+                        "Enabled": false,
+                        "DisplayName": "Generate Promo From Metrics",
+                        "Category": "dev"
+                    },
+                    {
+                        "Key": "EnableEpicQuests",
+                        "Enabled": true,
+                        "DisplayName": "Enable Epic Quests",
+                        "Category": "live"
+                    },
+                    {
+                        "Key": "EnableQuestRecycling",
+                        "Enabled": false,
+                        "DisplayName": "Enable Quest Recycling",
+                        "Category": "live"
+                    },
+                    {
+                        "Key": "LevelScoring",
+                        "Enabled": false,
+                        "DisplayName": "Level Scoring",
+                        "Category": "camp"
+                    },
+                    {
+                        "Key": "UniversalMap",
+                        "Enabled": false,
+                        "DisplayName": "Universal Map",
+                        "Category": "dev"
+                    },
+                    {
+                        "Key": "PlantLeveling",
+                        "Enabled": true,
+                        "DisplayName": "Plant Leveling",
+                        "Category": "live"
+                    },
+                    {
+                        "Key": "EnableScheduledQuests",
+                        "Enabled": true,
+                        "DisplayName": "Enable Scheduled Quests",
+                        "Category": "live"
+                    },
+                    {
+                        "Key": "EnableInfluxDB",
+                        "Enabled": true,
+                        "DisplayName": "Enabled InfluxDB",
+                        "Category": "dev"
+                    },
+                    {
+                        "Key": "GrantWorldKeys",
+                        "Enabled": true,
+                        "DisplayName": "Grant World Keys",
+                        "Category": "live"
+                    },
+                    {
+                        "Key": "UseIOSDevServerForRTS",
+                        "Enabled": false,
+                        "DisplayName": "USE Dev RTS Server for iOS",
+                        "Category": "dev"
+                    },
+                    {
+                        "Key": "SgcMetrics",
+                        "Enabled": true,
+                        "DisplayName": "SGC Churn Metrics",
+                        "Category": "live"
+                    },
+                    {
+                        "Key": "LevelCap",
+                        "Enabled": true,
+                        "DisplayName": "Level Cap",
+                        "Category": "live"
+                    },
+                    {
+                        "Key": "EnablePinataHuntQuests",
+                        "Enabled": true,
+                        "DisplayName": "Pinata Hunt",
+                        "Category": "live"
+                    },
+                    {
+                        "Key": "CDNVersionGuard",
+                        "Enabled": true,
+                        "DisplayName": "CDN Version Test",
+                        "Category": "live"
+                    },
+                    {
+                        "Key": "CDNTarPackages",
+                        "Enabled": true,
+                        "DisplayName": "CDN Level Packages",
+                        "Category": "live"
+                    },
+                    {
+                        "Key": "TieredExplosions",
+                        "Enabled": true,
+                        "DisplayName": "Tiered Explosions",
+                        "Category": "dev"
+                    },
+                    {
+                        "Key": "PinataPartyDailyNotes",
+                        "Enabled": true,
+                        "DisplayName": "Notes LOD Daily",
+                        "Category": "live"
+                    },
+                    {
+                        "Key": "AlmanacAlwaysShowNextLevel",
+                        "Enabled": true,
+                        "DisplayName": "Almanac Show Next Level",
+                        "Category": "dev"
+                    },
+                    {
+                        "Key": "RemoveLevelDefaultCollectible",
+                        "Enabled": false,
+                        "DisplayName": "Remove Level Default Collectible",
+                        "Category": "live"
+                    },
+                    {
+                        "Key": "DisableLootCoins",
+                        "Enabled": false,
+                        "DisplayName": "Disable Level Coin Drops",
+                        "Category": "live"
+                    },
+                    {
+                        "Key": "DisableDangerLootCoins",
+                        "Enabled": false,
+                        "DisplayName": "Disable Danger Room Coin Drops",
+                        "Category": "live"
+                    },
+                    {
+                        "Key": "DisableLootGems",
+                        "Enabled": true,
+                        "DisplayName": "Disable Level Gem Drops",
+                        "Category": "live"
+                    },
+                    {
+                        "Key": "InboxReleaseNotesInSettings",
+                        "Enabled": true,
+                        "DisplayName": "Settings Simple Inbox",
+                        "Category": "live"
+                    },
+                    {
+                        "Key": "AllowPinatasOnSpine",
+                        "Enabled": true,
+                        "DisplayName": "Allow Pinatas on Spine",
+                        "Category": "camp"
+                    }
+                ]
+            }
+        }
+    ]
+}

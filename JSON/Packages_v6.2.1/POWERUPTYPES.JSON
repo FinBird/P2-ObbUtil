@@ -1,0 +1,262 @@
+{
+    "#comment": "Make new powerup types here!",
+    "version": 1,
+    "objects": [
+        {
+            "objclass": "PowerupType",
+            "objdata": {
+                "TypeName": "powerupwizardfinger",
+                "ClassName": "PowerupWizardFinger",
+                "UIImageName": "IMAGE_UI_POWERUPS_POWER_SHOCK",
+                "BoardTimerColor": {
+                    "mRed": 255,
+                    "mGreen": 145,
+                    "mBlue": 250,
+                    "mAlpha": 125
+                },
+                "Cost": 800,
+                "MetricName": "WizardFinger",
+                "TotalTime": 2.0,
+                "TimePerUse": 0.001
+            }
+        },
+        {
+            "objclass": "PowerupType",
+            "objdata": {
+                "TypeName": "powerupflickzombie",
+                "ClassName": "PowerupFlickZombie",
+                "UIImageName": "IMAGE_UI_POWERUPS_POWER_SWEEP",
+                "BoardTimerColor": {
+                    "mRed": 255,
+                    "mGreen": 230,
+                    "mBlue": 60,
+                    "mAlpha": 125
+                },
+                "Cost": 950,
+                "MetricName": "Flick",
+                "TotalTime": 3.5,
+                "TimePerUse": 0.01
+            }
+        },
+        {
+            "objclass": "PowerupType",
+            "objdata": {
+                "TypeName": "poweruppinchzombie",
+                "ClassName": "PowerupPinchZombie",
+                "UIImageName": "IMAGE_UI_POWERUPS_POWERUP_BORDER",
+                "BoardTimerColor": {
+                    "mRed": 150,
+                    "mGreen": 250,
+                    "mBlue": 120,
+                    "mAlpha": 125
+                },
+                "Cost": 650,
+                "MetricName": "Pinch",
+                "TotalTime": 3.5,
+                "TimePerUse": 0.01,
+                "Enabled": false
+            }
+        },
+        {
+            "objclass": "PowerupType",
+            "objdata": {
+                "TypeName": "powerupsnowball",
+                "ClassName": "PowerupSnowball",
+                "UIImageName": "IMAGE_UI_POWERUPS_POWER_ICE",
+                "BoardTimerColor": {
+                    "mRed": 150,
+                    "mGreen": 250,
+                    "mBlue": 250,
+                    "mAlpha": 125
+                },
+                "Cost": 1150,
+                "MetricName": "Snowball",
+                "TotalTime": 4.0,
+                "TimePerUse": 0.1
+            }
+        },
+        {
+            "objclass": "PowerupTypeFlamethrower",
+            "objdata": {
+                "TypeName": "powerupflamethrower",
+                "ClassName": "PowerupFlamethrower",
+                "UIImageName": "IMAGE_UI_POWERUPS_POWER_FLAMETHROWER",
+                "BoardTimerColor": {
+                    "mRed": 250,
+                    "mGreen": 50,
+                    "mBlue": 20,
+                    "mAlpha": 125
+                },
+                "Cost": 1200,
+                "MetricName": "Flamethrower",
+                "TotalTime": 2.0,
+                "TimePerUse": 0.0001,
+                "FlamethrowerRadiusInGridSquareWidths": 1.75,
+                "FlamethrowerNormalDPS": 600,
+                "//": "Damage rate to zombies and normal griditems",
+                "FlamethrowerWarmingDPS": 300,
+                "//": "Damage rate to iceblocks",
+                "GroundFlameDuration": 4.5,
+                "GroundFlameMaxCount": 12,
+                "GroundFlameNormalDPS": 60.0,
+                "GroundFlameNormalDPS": 60.0,
+                "GroundFlameWarmingDamageType": "thaw_whole_stage",
+                "//": "Controls thawing speed for non-iceblocked plants.  Use thaw_whole_stage, thaw_moderate, or thaw_tiny",
+                "WarmingDamageType": "thaw_whole_stage",
+                "//": "Sets which griditems the flamethrower does normal, physical damage to",
+                "TargetableGridItems": {
+                    "ListType": "blacklist",
+                    "List": [
+                        "planttarget_iceblock",
+                        "zombietarget_iceblock",
+                        "zombietarget_birthday_present"
+                    ]
+                },
+                "//": "Sets which griditems the flamethrower treats as iceblocks",
+                "WarmableGridItems": {
+                    "ListType": "whitelist",
+                    "List": [
+                        "planttarget_iceblock",
+                        "zombietarget_iceblock",
+                        "zomboss_iceage_glacier_block"
+                    ]
+                }
+            }
+        },
+        {
+            "objclass": "PowerupType",
+            "objdata": {
+                "TypeName": "powerupvasebreakerreveal",
+                "ClassName": "PowerupVaseBreakerReveal",
+                "UIImageName": "IMAGE_UI_POWERUPS_POWER_VASEBREAKERREVEAL",
+                "BoardTimerColor": {
+                    "mRed": 166,
+                    "mGreen": 252,
+                    "mBlue": 126,
+                    "mAlpha": 125
+                },
+                "Cost": 200,
+                "AudioOnPowerupSelected": "Play_UI_MiniGame_VaseBreak_TapActivate",
+                "MetricName": "RevealVase",
+                "TotalTime": 0.5,
+                "TimePerUse": 0.5,
+                "TutorialEventName": "nar_powerup_tutorial_vasebreaker_reveal",
+                "IgnoresThreats": true
+            }
+        },
+        {
+            "objclass": "PowerupTypeVaseBreakerButter",
+            "objdata": {
+                "TypeName": "powerupvasebreakerbutter",
+                "ClassName": "PowerupVaseBreakerButter",
+                "UIImageName": "IMAGE_UI_POWERUPS_POWER_VASEBREAKERBUTTER",
+                "BoardTimerColor": {
+                    "mRed": 252,
+                    "mGreen": 236,
+                    "mBlue": 126,
+                    "mAlpha": 125
+                },
+                "Cost": 300,
+                "AudioOnPowerupSelected": "Play_UI_MiniGame_VaseBreak_ButterActivate",
+                "MetricName": "ButterZombie",
+                "TotalTime": 0.5,
+                "TimePerUse": 0.5,
+                "ButterDuration": 8.0,
+                "TutorialEventName": "nar_powerup_tutorial_vasebreaker_butter"
+            }
+        },
+        {
+            "objclass": "PowerupTypeVaseBreakerMove",
+            "objdata": {
+                "TypeName": "powerupvasebreakermove",
+                "ClassName": "PowerupVaseBreakerMove",
+                "UIImageName": "IMAGE_UI_POWERUPS_POWER_VASEBREAKERMOVE",
+                "BoardTimerColor": {
+                    "mRed": 221,
+                    "mGreen": 198,
+                    "mBlue": 255,
+                    "mAlpha": 125
+                },
+                "Cost": 400,
+                "AudioOnPowerupSelected": "Play_UI_MiniGame_VaseBreak_MoveActivate",
+                "MetricName": "MoveVase",
+                "TotalTime": 0.5,
+                "TimePerUse": 0.5,
+                "TutorialEventName": "nar_powerup_tutorial_vasebreaker_move",
+                "IgnoresThreats": true,
+                "//": "Sets which griditems will block the vase from being moved onto a square.",
+                "//": "Populate with aliases from GridItemTypes.json.",
+                "GridItemsWhichBlockMove": {
+                    "ListType": "whitelist",
+                    "List": [
+                        "vase",
+                        "vase_egg",
+                        "vase_firework",
+                        "railcart_cowboy",
+                        "surfboard",
+                        "planttarget_iceblock",
+                        "zombietarget_iceblock",
+                        "zombietarget_birthday_present"
+                    ]
+                }
+            }
+        },
+        {
+            "objclass": "PowerupType",
+            "objdata": {
+                "TypeName": "powerupbeghouledshuffle",
+                "ClassName": "PowerupBeghouledShuffle",
+                "UIImageName": "IMAGE_UI_POWERUPS_POWER_BEGHOULEDSHUFFLE",
+                "BoardTimerColor": {
+                    "mRed": 0,
+                    "mGreen": 0,
+                    "mBlue": 0,
+                    "mAlpha": 0
+                },
+                "Cost": 200,
+                "AudioOnPowerupSelected": "Play_UI_MiniGame_Beghouled_Click",
+                "MetricName": "BeghouledShuffle",
+                "CooldownTime": 0.1,
+                "IgnoresThreats": true
+            }
+        },
+        {
+            "objclass": "PowerupType",
+            "objdata": {
+                "TypeName": "powerupbeghouledshovel",
+                "ClassName": "PowerupBeghouledShovel",
+                "UIImageName": "IMAGE_UI_POWERUPS_POWER_BEGHOULEDSHOVEL",
+                "BoardTimerColor": {
+                    "mRed": 0,
+                    "mGreen": 0,
+                    "mBlue": 0,
+                    "mAlpha": 0
+                },
+                "Cost": 100,
+                "AudioOnPowerupSelected": "Play_UI_MiniGame_Beghouled_Click",
+                "MetricName": "BeghouledShovel",
+                "TotalTime": 0.5,
+                "TimePerUse": 0.5,
+                "IgnoresThreats": true
+            }
+        },
+        {
+            "objclass": "PowerupType",
+            "objdata": {
+                "TypeName": "powerupbeghouledwizardfinger",
+                "ClassName": "PowerupWizardFinger",
+                "UIImageName": "IMAGE_UI_POWERUPS_POWERUP_BEGHOULED_SHOCK",
+                "BoardTimerColor": {
+                    "mRed": 255,
+                    "mGreen": 145,
+                    "mBlue": 250,
+                    "mAlpha": 125
+                },
+                "Cost": 800,
+                "MetricName": "WizardFinger",
+                "TotalTime": 2.0,
+                "TimePerUse": 0.001
+            }
+        }
+    ]
+}

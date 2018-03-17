@@ -1,0 +1,468 @@
+{
+    "#comment": "Make new pinata types here!",
+    "version": 1,
+    "objects": [
+        {
+            "objclass": "PinataType",
+            "aliases": [
+                "tutorial_store"
+            ],
+            "objdata": {
+                "TypeName": "store_tutorial",
+                "PinataPopAnim": "POPANIM_EFFECTS_PRIZE_PINATA_EGYPT",
+                "PinataResGroup": "EgyptLootPinatas",
+                "PinataOffsets": {
+                    "x": -5,
+                    "y": -210
+                },
+                "Thumbnail": "IMAGE_UI_STORE_STORE_PINATA_ICONS_EGYPT",
+                "ThumbnailResGroup": "UI_StorePinataPSD",
+                "QuestIcon": "IMAGE_UI_THUMBS_PINATA_TINY_PRIZE_PINATA_EGYPT_TINY",
+                "#comment": "Add art offsets for the animations (if any) here as well"
+            }
+        },
+        {
+            "objclass": "PinataType",
+            "aliases": [
+                "egypt"
+            ],
+            "objdata": {
+                "TypeName": "egypt",
+                "PinataPopAnim": "POPANIM_EFFECTS_PRIZE_PINATA_EGYPT",
+                "PinataResGroup": "EgyptLootPinatas",
+                "PinataOffsets": {
+                    "x": -5,
+                    "y": -210
+                },
+                "Thumbnail": "IMAGE_UI_STORE_STORE_PINATA_ICONS_EGYPT",
+                "ThumbnailResGroup": "UI_StorePinataPSD",
+                "HuntIcon": "IMAGE_UI_HUD_WORLDMAP_PINATA_HUNT_PRIZE_PINATA_EGYPT_SM",
+                "QuestIcon": "IMAGE_UI_THUMBS_PINATA_TINY_PRIZE_PINATA_EGYPT_TINY",
+                "SpineIcon": "IMAGE_WORLDMAP_SPINE_PINATAS_PINATA_EGYPT_SPINE",
+                "SpineOpenedIcon": "IMAGE_WORLDMAP_SPINE_PINATAS_PINATAS_DUST_SPINE_EGYPT",
+                "CollectableType": "pinata_egypt",
+                "#comment": "Add art offsets for the animations (if any) here as well"
+            }
+        },
+        {
+            "objclass": "PinataType",
+            "aliases": [
+                "pirate"
+            ],
+            "objdata": {
+                "TypeName": "pirate",
+                "PinataPopAnim": "POPANIM_EFFECTS_PRIZE_PINATA_PIRATE",
+                "PinataResGroup": "PirateLootPinatas",
+                "PinataOffsets": {
+                    "x": -5,
+                    "y": -210
+                },
+                "Thumbnail": "IMAGE_UI_STORE_STORE_PINATA_ICONS_PIRATE",
+                "ThumbnailResGroup": "UI_StorePinataPSD",
+                "HuntIcon": "IMAGE_UI_HUD_WORLDMAP_PINATA_HUNT_PRIZE_PINATA_PIRATE_SM",
+                "QuestIcon": "IMAGE_UI_THUMBS_PINATA_TINY_PRIZE_PINATA_PIRATE_TINY",
+                "SpineIcon": "IMAGE_WORLDMAP_SPINE_PINATAS_PINATA_PIRATE_SPINE",
+                "SpineOpenedIcon": "IMAGE_WORLDMAP_SPINE_PINATAS_PINATAS_DUST_SPINE_PIRATE",
+                "CollectableType": "pinata_pirate",
+                "#comment": "Add art offsets for the animations (if any) here as well"
+            }
+        },
+        {
+            "objclass": "PinataType",
+            "aliases": [
+                "cowboy"
+            ],
+            "objdata": {
+                "TypeName": "cowboy",
+                "PinataPopAnim": "POPANIM_EFFECTS_PRIZE_PINATA_COWBOY",
+                "PinataResGroup": "CowboyLootPinatas",
+                "PinataOffsets": {
+                    "x": -5,
+                    "y": -210
+                },
+                "Thumbnail": "IMAGE_UI_STORE_STORE_PINATA_ICONS_COWBOY",
+                "ThumbnailResGroup": "UI_StorePinataPSD",
+                "HuntIcon": "IMAGE_UI_HUD_WORLDMAP_PINATA_HUNT_PRIZE_PINATA_COWBOY_SM",
+                "QuestIcon": "IMAGE_UI_THUMBS_PINATA_TINY_PRIZE_PINATA_COWBOY_TINY",
+                "SpineIcon": "IMAGE_WORLDMAP_SPINE_PINATAS_PINATA_COWBOY_SPINE",
+                "SpineOpenedIcon": "IMAGE_WORLDMAP_SPINE_PINATAS_PINATAS_DUST_SPINE_COWBOY",
+                "CollectableType": "pinata_cowboy",
+                "#comment": "Add art offsets for the animations (if any) here as well"
+            }
+        },
+        {
+            "objclass": "PinataType",
+            "aliases": [
+                "beach"
+            ],
+            "objdata": {
+                "TypeName": "beach",
+                "PinataPopAnim": "POPANIM_EFFECTS_PRIZE_PINATA_BEACH",
+                "PinataResGroup": "BeachLootPinatas",
+                "PinataOffsets": {
+                    "x": -5,
+                    "y": -210
+                },
+                "Thumbnail": "IMAGE_UI_STORE_STORE_PINATA_ICONS_BEACH",
+                "ThumbnailResGroup": "UI_StorePinataPSD",
+                "HuntIcon": "IMAGE_UI_HUD_WORLDMAP_PINATA_HUNT_PRIZE_PINATA_BEACH_SM",
+                "QuestIcon": "IMAGE_UI_THUMBS_PINATA_TINY_PRIZE_PINATA_BEACH_TINY",
+                "SpineIcon": "IMAGE_WORLDMAP_SPINE_PINATAS_PINATA_BEACH_SPINE",
+                "SpineOpenedIcon": "IMAGE_WORLDMAP_SPINE_PINATAS_PINATAS_DUST_SPINE_BEACH",
+                "CollectableType": "pinata_beach",
+                "#comment": "Add art offsets for the animations (if any) here as well"
+            }
+        },
+        {
+            "objclass": "PinataType",
+            "aliases": [
+                "dark"
+            ],
+            "objdata": {
+                "TypeName": "dark",
+                "PinataPopAnim": "POPANIM_EFFECTS_PRIZE_PINATA_DARK",
+                "PinataResGroup": "DarkLootPinatas",
+                "PinataOffsets": {
+                    "x": -5,
+                    "y": -210
+                },
+                "Thumbnail": "IMAGE_UI_STORE_STORE_PINATA_ICONS_DARK",
+                "ThumbnailResGroup": "UI_StorePinataPSD",
+                "HuntIcon": "IMAGE_UI_HUD_WORLDMAP_PINATA_HUNT_PRIZE_PINATA_DARK_SM",
+                "QuestIcon": "IMAGE_UI_THUMBS_PINATA_TINY_PRIZE_PINATA_DARK_TINY",
+                "SpineIcon": "IMAGE_WORLDMAP_SPINE_PINATAS_PINATA_DARK_SPINE",
+                "SpineOpenedIcon": "IMAGE_WORLDMAP_SPINE_PINATAS_PINATAS_DUST_SPINE_DARK",
+                "CollectableType": "pinata_dark",
+                "#comment": "Add art offsets for the animations (if any) here as well"
+            }
+        },
+        {
+            "objclass": "PinataType",
+            "aliases": [
+                "dino"
+            ],
+            "objdata": {
+                "TypeName": "dino",
+                "PinataPopAnim": "POPANIM_EFFECTS_PRIZE_PINATA_DINO",
+                "PinataResGroup": "DinoLootPinatas",
+                "PinataOffsets": {
+                    "x": -5,
+                    "y": -210
+                },
+                "Thumbnail": "IMAGE_UI_STORE_STORE_PINATA_ICONS_DINO",
+                "ThumbnailResGroup": "UI_StorePinataPSD",
+                "HuntIcon": "IMAGE_UI_HUD_WORLDMAP_PINATA_HUNT_PRIZE_PINATA_DINO_SM",
+                "QuestIcon": "IMAGE_UI_THUMBS_PINATA_TINY_PRIZE_PINATA_DINO_TINY",
+                "SpineIcon": "IMAGE_WORLDMAP_SPINE_PINATAS_PINATA_DINO_SPINE",
+                "SpineOpenedIcon": "IMAGE_WORLDMAP_SPINE_PINATAS_PINATAS_DUST_SPINE_DINO",
+                "CollectableType": "pinata_dino",
+                "#comment": "Add art offsets for the animations (if any) here as well"
+            }
+        },
+        {
+            "objclass": "PinataType",
+            "aliases": [
+                "future"
+            ],
+            "objdata": {
+                "TypeName": "future",
+                "PinataPopAnim": "POPANIM_EFFECTS_PRIZE_PINATA_FUTURE",
+                "PinataResGroup": "FutureLootPinatas",
+                "PinataOffsets": {
+                    "x": -5,
+                    "y": -210
+                },
+                "Thumbnail": "IMAGE_UI_STORE_STORE_PINATA_ICONS_FUTURE",
+                "ThumbnailResGroup": "UI_StorePinataPSD",
+                "HuntIcon": "IMAGE_UI_HUD_WORLDMAP_PINATA_HUNT_PRIZE_PINATA_FUTURE_SM",
+                "QuestIcon": "IMAGE_UI_THUMBS_PINATA_TINY_PRIZE_PINATA_FUTURE_TINY",
+                "SpineIcon": "IMAGE_WORLDMAP_SPINE_PINATAS_PINATA_FUTURE_SPINE",
+                "SpineOpenedIcon": "IMAGE_WORLDMAP_SPINE_PINATAS_PINATAS_DUST_SPINE_FUTURE",
+                "CollectableType": "pinata_future",
+                "#comment": "Add art offsets for the animations (if any) here as well"
+            }
+        },
+        {
+            "objclass": "PinataType",
+            "aliases": [
+                "iceage"
+            ],
+            "objdata": {
+                "TypeName": "iceage",
+                "PinataPopAnim": "POPANIM_EFFECTS_PRIZE_PINATA_ICEAGE",
+                "PinataResGroup": "IceageLootPinatas",
+                "PinataOffsets": {
+                    "x": -5,
+                    "y": -210
+                },
+                "Thumbnail": "IMAGE_UI_STORE_STORE_PINATA_ICONS_ICEAGE",
+                "ThumbnailResGroup": "UI_StorePinataPSD",
+                "HuntIcon": "IMAGE_UI_HUD_WORLDMAP_PINATA_HUNT_PRIZE_PINATA_ICEAGE_SM",
+                "QuestIcon": "IMAGE_UI_THUMBS_PINATA_TINY_PRIZE_PINATA_ICEAGE_TINY",
+                "SpineIcon": "IMAGE_WORLDMAP_SPINE_PINATAS_PINATA_ICEAGE_SPINE",
+                "SpineOpenedIcon": "IMAGE_WORLDMAP_SPINE_PINATAS_PINATAS_DUST_SPINE_ICEAGE",
+                "CollectableType": "pinata_iceage",
+                "#comment": "Add art offsets for the animations (if any) here as well"
+            }
+        },
+        {
+            "objclass": "PinataType",
+            "aliases": [
+                "eighties"
+            ],
+            "objdata": {
+                "TypeName": "eighties",
+                "PinataPopAnim": "POPANIM_EFFECTS_PRIZE_PINATA_80S",
+                "PinataResGroup": "EightiesLootPinatas",
+                "PinataOffsets": {
+                    "x": -5,
+                    "y": -210
+                },
+                "Thumbnail": "IMAGE_UI_STORE_STORE_PINATA_ICONS_EIGHTIES",
+                "ThumbnailResGroup": "UI_StorePinataPSD",
+                "HuntIcon": "IMAGE_UI_HUD_WORLDMAP_PINATA_HUNT_PRIZE_PINATA_80S_SM",
+                "QuestIcon": "IMAGE_UI_THUMBS_PINATA_TINY_PRIZE_PINATA_80S_TINY",
+                "SpineIcon": "IMAGE_WORLDMAP_SPINE_PINATAS_PINATA_80S_SPINE",
+                "SpineOpenedIcon": "IMAGE_WORLDMAP_SPINE_PINATAS_PINATAS_DUST_SPINE_80S",
+                "CollectableType": "pinata_eighties",
+                "#comment": "Add art offsets for the animations (if any) here as well"
+            }
+        },
+        {
+            "objclass": "PinataType",
+            "aliases": [
+                "modern"
+            ],
+            "objdata": {
+                "TypeName": "modern",
+                "PinataPopAnim": "POPANIM_EFFECTS_PRIZE_PINATA_MODERN",
+                "PinataResGroup": "ModernLootPinatas",
+                "PinataOffsets": {
+                    "x": -5,
+                    "y": -210
+                },
+                "Thumbnail": "IMAGE_UI_STORE_STORE_PINATA_ICONS_MODERN",
+                "ThumbnailResGroup": "UI_StorePinataPSD",
+                "HuntIcon": "IMAGE_UI_HUD_WORLDMAP_PINATA_HUNT_PRIZE_PINATA_MODERN_SM",
+                "QuestIcon": "IMAGE_UI_THUMBS_PINATA_TINY_PRIZE_PINATA_MODERN_TINY",
+                "SpineIcon": "IMAGE_WORLDMAP_SPINE_PINATAS_PINATA_MODERN_SPINE",
+                "SpineOpenedIcon": "IMAGE_WORLDMAP_SPINE_PINATAS_PINATAS_DUST_SPINE_MODERN",
+                "CollectableType": "pinata_modern",
+                "#comment": "Add art offsets for the animations (if any) here as well"
+            }
+        },
+        {
+            "objclass": "PinataType",
+            "aliases": [
+                "lostcity"
+            ],
+            "objdata": {
+                "TypeName": "lostcity",
+                "PinataPopAnim": "POPANIM_EFFECTS_PRIZE_PINATA_LOST",
+                "PinataResGroup": "LostcityLootPinatas",
+                "PinataOffsets": {
+                    "x": -5,
+                    "y": -210
+                },
+                "Thumbnail": "IMAGE_UI_STORE_STORE_PINATA_ICONS_LOSTCITY",
+                "ThumbnailResGroup": "UI_StorePinataPSD",
+                "HuntIcon": "IMAGE_UI_HUD_WORLDMAP_PINATA_HUNT_PRIZE_PINATA_LOSTCITY_SM",
+                "QuestIcon": "IMAGE_UI_THUMBS_PINATA_TINY_PRIZE_PINATA_LOSTCITY_TINY",
+                "SpineIcon": "IMAGE_WORLDMAP_SPINE_PINATAS_PINATA_LOSTCITY_SPINE",
+                "SpineOpenedIcon": "IMAGE_WORLDMAP_SPINE_PINATAS_PINATAS_DUST_SPINE_LOSTCITY",
+                "CollectableType": "pinata_lostcity",
+                "#comment": "Add art offsets for the animations (if any) here as well"
+            }
+        },
+        {
+            "objclass": "PinataType",
+            "aliases": [
+                "sun"
+            ],
+            "objdata": {
+                "TypeName": "sun",
+                "PinataPopAnim": "POPANIM_EFFECTS_PRIZE_PINATA_SUN",
+                "PinataResGroup": "PrizePinataSun",
+                "PinataOffsets": {
+                    "x": -5,
+                    "y": -210
+                },
+                "Thumbnail": "IMAGE_UI_STORE_STORE_PINATA_ICONS_SUN",
+                "ThumbnailResGroup": "UI_StorePinataPSD",
+                "QuestIcon": "IMAGE_UI_THUMBS_PINATA_TINY_PRIZE_PINATA_SUN_TINY",
+                "#comment": "Add art offsets for the animations (if any) here as well"
+            }
+        },
+        {
+            "objclass": "PinataType",
+            "aliases": [
+                "fire"
+            ],
+            "objdata": {
+                "TypeName": "fire",
+                "PinataPopAnim": "POPANIM_EFFECTS_PRIZE_PINATA_FIRE",
+                "PinataResGroup": "PrizePinataFire",
+                "PinataOffsets": {
+                    "x": -5,
+                    "y": -210
+                },
+                "Thumbnail": "IMAGE_UI_STORE_STORE_PINATA_ICONS_FIRE",
+                "ThumbnailResGroup": "UI_StorePinataPSD",
+                "QuestIcon": "IMAGE_UI_THUMBS_PINATA_TINY_PRIZE_PINATA_FIRE_TINY",
+                "#comment": "Add art offsets for the animations (if any) here as well"
+            }
+        },
+        {
+            "objclass": "PinataType",
+            "aliases": [
+                "cold"
+            ],
+            "objdata": {
+                "TypeName": "cold",
+                "PinataPopAnim": "POPANIM_EFFECTS_PRIZE_PINATA_ICE",
+                "PinataResGroup": "PrizePinataIce",
+                "PinataOffsets": {
+                    "x": -5,
+                    "y": -210
+                },
+                "Thumbnail": "IMAGE_UI_STORE_STORE_PINATA_ICONS_ICE",
+                "ThumbnailResGroup": "UI_StorePinataPSD",
+                "QuestIcon": "IMAGE_UI_THUMBS_PINATA_TINY_PRIZE_PINATA_ICE_TINY",
+                "#comment": "Add art offsets for the animations (if any) here as well"
+            }
+        },
+        {
+            "objclass": "PinataType",
+            "aliases": [
+                "electricity"
+            ],
+            "objdata": {
+                "TypeName": "electricity",
+                "PinataPopAnim": "POPANIM_EFFECTS_PRIZE_PINATA_ELECTRICITY",
+                "PinataResGroup": "PrizePinataElectricity",
+                "PinataOffsets": {
+                    "x": -5,
+                    "y": -210
+                },
+                "Thumbnail": "IMAGE_UI_STORE_STORE_PINATA_ICONS_ELECTRICITY",
+                "ThumbnailResGroup": "UI_StorePinataPSD",
+                "QuestIcon": "IMAGE_UI_THUMBS_PINATA_TINY_PRIZE_PINATA_ELECTRICITY_TINY",
+                "#comment": "Add art offsets for the animations (if any) here as well"
+            }
+        },
+        {
+            "objclass": "PinataType",
+            "aliases": [
+                "explosive"
+            ],
+            "objdata": {
+                "TypeName": "explosive",
+                "PinataPopAnim": "POPANIM_EFFECTS_PRIZE_PINATA_EXPLOSIVES",
+                "PinataResGroup": "PrizePinataExplosives",
+                "PinataOffsets": {
+                    "x": -5,
+                    "y": -210
+                },
+                "Thumbnail": "IMAGE_UI_STORE_STORE_PINATA_ICONS_EXPLOSIVES",
+                "ThumbnailResGroup": "UI_StorePinataPSD",
+                "QuestIcon": "IMAGE_UI_THUMBS_PINATA_TINY_PRIZE_PINATA_EXPLOSIVES_TINY",
+                "#comment": "Add art offsets for the animations (if any) here as well"
+            }
+        },
+        {
+            "objclass": "PinataType",
+            "aliases": [
+                "mushroom"
+            ],
+            "objdata": {
+                "TypeName": "mushroom",
+                "PinataPopAnim": "POPANIM_EFFECTS_PRIZE_PINATA_MUSHROOMS",
+                "PinataResGroup": "PrizePinataMushrooms",
+                "PinataOffsets": {
+                    "x": -5,
+                    "y": -210
+                },
+                "Thumbnail": "IMAGE_UI_STORE_STORE_PINATA_ICONS_MUSHROOMS",
+                "ThumbnailResGroup": "UI_StorePinataPSD",
+                "QuestIcon": "IMAGE_UI_THUMBS_PINATA_TINY_PRIZE_PINATA_MUSHROOMS_TINY",
+                "#comment": "Add art offsets for the animations (if any) here as well"
+            }
+        },
+        {
+            "objclass": "PinataType",
+            "aliases": [
+                "nuts"
+            ],
+            "objdata": {
+                "TypeName": "nuts",
+                "PinataPopAnim": "POPANIM_EFFECTS_PRIZE_PINATA_NUTS",
+                "PinataResGroup": "PrizePinataNuts",
+                "PinataOffsets": {
+                    "x": -5,
+                    "y": -210
+                },
+                "Thumbnail": "IMAGE_UI_STORE_STORE_PINATA_ICONS_NUTS",
+                "ThumbnailResGroup": "UI_StorePinataPSD",
+                "QuestIcon": "IMAGE_UI_THUMBS_PINATA_TINY_PRIZE_PINATA_NUTS_TINY",
+                "#comment": "Add art offsets for the animations (if any) here as well"
+            }
+        },
+        {
+            "objclass": "PinataType",
+            "aliases": [
+                "fruit"
+            ],
+            "objdata": {
+                "TypeName": "fruit",
+                "PinataPopAnim": "POPANIM_EFFECTS_PRIZE_PINATA_FRUIT",
+                "PinataResGroup": "PrizePinataFruit",
+                "PinataOffsets": {
+                    "x": -5,
+                    "y": -210
+                },
+                "Thumbnail": "IMAGE_UI_STORE_STORE_PINATA_ICONS_FRUIT",
+                "ThumbnailResGroup": "UI_StorePinataPSD",
+                "QuestIcon": "IMAGE_UI_THUMBS_PINATA_TINY_PRIZE_PINATA_FRUIT_TINY",
+                "#comment": "Add art offsets for the animations (if any) here as well"
+            }
+        },
+        {
+            "objclass": "PinataType",
+            "aliases": [
+                "greens"
+            ],
+            "objdata": {
+                "TypeName": "greens",
+                "PinataPopAnim": "POPANIM_EFFECTS_PRIZE_PINATA_GREENS",
+                "PinataResGroup": "PrizePinataGreens",
+                "PinataOffsets": {
+                    "x": -5,
+                    "y": -210
+                },
+                "Thumbnail": "IMAGE_UI_STORE_STORE_PINATA_ICONS_GREENS",
+                "ThumbnailResGroup": "UI_StorePinataPSD",
+                "QuestIcon": "IMAGE_UI_THUMBS_PINATA_TINY_PRIZE_PINATA_GREENS_TINY",
+                "#comment": "Add art offsets for the animations (if any) here as well"
+            }
+        },
+        {
+            "objclass": "PinataType",
+            "aliases": [
+                "free"
+            ],
+            "objdata": {
+                "TypeName": "free",
+                "PinataPopAnim": "POPANIM_EFFECTS_PRIZE_PINATA_FREE",
+                "PinataResGroup": "PrizePinataFree",
+                "PinataOffsets": {
+                    "x": -5,
+                    "y": -210
+                },
+                "Thumbnail": "IMAGE_UI_STORE_STORE_PINATA_ICONS_FREE",
+                "ThumbnailResGroup": "UI_StorePinataPSD",
+                "QuestIcon": "IMAGE_UI_THUMBS_PINATA_TINY_PRIZE_PINATA_FREE_TINY",
+                "#comment": "Add art offsets for the animations (if any) here as well"
+            }
+        }
+    ]
+}

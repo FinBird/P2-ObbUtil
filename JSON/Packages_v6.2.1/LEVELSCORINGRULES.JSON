@@ -1,0 +1,93 @@
+{
+    "#comment": "Make new grid item types here!",
+    "version": 1,
+    "objects": [
+        {
+            "aliases": [
+                "LevelScoringRules"
+            ],
+            "objclass": "LevelScoringRules",
+            "objdata": {
+                "TypeName": "Classic",
+                "MultiplierBaseDelayToDecay": 6,
+                "MultiplierBaseReductionByMultiple": 0.1,
+                "MultiplierNextDelayToDecay": 3,
+                "MultiplierNextReductionByMultiple": 0.1,
+                "MultiplierVisibleDecayPeriod": 1.5,
+                "MultiplierDelayToDecayMinimum": 2,
+                "MultiplierAddWeightZombieLostHelm": 6,
+                "ScoreValueZombieLostHelmBase": 50,
+                "MultiplierAddWeightGravestoneDestroyed": 1,
+                "GravestoneDestroyed": 200,
+                "MultiplierAddWeightZombieKill": 1,
+                "ScoreValueZombieKillBase": 100,
+                "ScoreValueZombieKillPer300Health": 100,
+                "MultiplierPlantDiedPenaltyFraction": 0.34,
+                "MultiplierPlantDiedPenaltyMinimum": 1,
+                "MultiplierMaximum": 200,
+                "ScoreAwardDisplayTime": 2,
+                "ScoreFadeOutTime": 0.5,
+                "ScoreScale": 1,
+                "ScoreEndScale": 1.2
+            }
+        },
+        {
+            "aliases": [
+                "LevelScoringRules"
+            ],
+            "objclass": "LevelScoringRules",
+            "objdata": {
+                "TypeName": "Amac",
+                "MultiplierBaseDelayToDecay": 5,
+                "MultiplierBaseReductionByMultiple": 0.15,
+                "MultiplierNextDelayToDecay": 3,
+                "MultiplierNextReductionByMultiple": 0.15,
+                "MultiplierVisibleDecayPeriod": 1.5,
+                "MultiplierDelayToDecayMinimum": 1.55,
+                "MultiplierAddWeightZombieLostHelm": 1,
+                "MultiplierAddWeightGravestoneDestroyed": 0.25,
+                "MultiplierAddWeightZombieKill": 1,
+                "MultiplierPlantDiedPenaltyFraction": 0.5,
+                "MultiplierPlantDiedPenaltyMinimum": 1,
+                "MultiplierMaximum": 100,
+                "GravestoneDestroyed": 25,
+                "ScoreValueZombieLostHelmBase": 50,
+                "ScoreValueZombieKillBase": 100,
+                "ScoreValueZombieKillPer300Health": 100,
+                "ScoreAwardDisplayTime": 2.5,
+                "ScoreFadeOutTime": 1.5,
+                "ScoreScale": 1,
+                "ScoreEndScale": 1.2
+            }
+        },
+        {
+            "aliases": [
+                "LevelScoringRules"
+            ],
+            "objclass": "LevelScoringRules",
+            "objdata": {
+                "TypeName": "Amac2",
+                "MultiplierBaseDelayToDecay": 5,
+                "MultiplierBaseReductionByMultiple": 0.25,
+                "MultiplierNextDelayToDecay": 3,
+                "MultiplierNextReductionByMultiple": 0.25,
+                "MultiplierVisibleDecayPeriod": 1,
+                "MultiplierDelayToDecayMinimum": 1.05,
+                "MultiplierAddWeightZombieLostHelm": 0.5,
+                "MultiplierAddWeightGravestoneDestroyed": 0.25,
+                "MultiplierAddWeightZombieKill": 0.5,
+                "MultiplierPlantDiedPenaltyFraction": 1,
+                "MultiplierPlantDiedPenaltyMinimum": 1,
+                "MultiplierMaximum": 10,
+                "GravestoneDestroyed": 100,
+                "ScoreValueZombieLostHelmBase": 250,
+                "ScoreValueZombieKillBase": 500,
+                "ScoreValueZombieKillPer300Health": 500,
+                "ScoreAwardDisplayTime": 2.5,
+                "ScoreFadeOutTime": 1.5,
+                "ScoreScale": 1,
+                "ScoreEndScale": 1.2
+            }
+        }
+    ]
+}

@@ -1,0 +1,1254 @@
+{
+    "#comment": "Make new grid item types here!",
+    "version": 1,
+    "objects": [
+        {
+            "####### ... ########": 0
+        },
+        {
+            "objclass": "GridItemType",
+            "aliases": [
+                "gravestone_egypt"
+            ],
+            "objdata": {
+                "TypeName": "gravestone_egypt",
+                "GridItemClass": "GridItemGravestone",
+                "ResourceGroups": [
+                    "Egypt_Gravestone"
+                ],
+                "Properties": "RTID(GridItemGravestoneDefault@PropertySheets)"
+            }
+        },
+        {
+            "objclass": "GridItemType",
+            "aliases": [
+                "gravestone_tutorial"
+            ],
+            "objdata": {
+                "TypeName": "gravestone_tutorial",
+                "GridItemClass": "GridItemGravestone",
+                "ResourceGroups": [
+                    "Tutorial_Gravestone"
+                ],
+                "Properties": "RTID(GridItemGravestoneTutorial@PropertySheets)"
+            }
+        },
+        {
+            "objclass": "GridItemType",
+            "aliases": [
+                "gravestone_pirate"
+            ],
+            "objdata": {
+                "TypeName": "gravestone_pirate",
+                "GridItemClass": "GridItemGravestone",
+                "ResourceGroups": [
+                    "Pirate_Gravestone"
+                ],
+                "Properties": "RTID(GridItemGravestonePirate@PropertySheets)"
+            }
+        },
+        {
+            "objclass": "GridItemType",
+            "aliases": [
+                "gravestone_cowboy"
+            ],
+            "objdata": {
+                "TypeName": "gravestone_cowboy",
+                "GridItemClass": "GridItemGravestone",
+                "ResourceGroups": [
+                    "Cowboy_Gravestone"
+                ],
+                "Properties": "RTID(GridItemGravestoneCowboy@PropertySheets)"
+            }
+        },
+        {
+            "objclass": "GridItemType",
+            "aliases": [
+                "gravestone_future"
+            ],
+            "objdata": {
+                "TypeName": "gravestone_future",
+                "GridItemClass": "GridItemGravestone",
+                "ResourceGroups": [
+                    "Future_Gravestone"
+                ],
+                "Properties": "RTID(GridItemGravestoneFuture@PropertySheets)"
+            }
+        },
+        {
+            "objclass": "GridItemType",
+            "aliases": [
+                "gravestone_dark"
+            ],
+            "objdata": {
+                "TypeName": "gravestone_dark",
+                "GridItemClass": "GridItemGravestone",
+                "ResourceGroups": [
+                    "Tombstone_Dark_Base",
+                    "Tombstone_Dark_Effects"
+                ],
+                "Properties": "RTID(GridItemGravestoneDarkDefault@PropertySheets)"
+            }
+        },
+        {
+            "objclass": "GridItemType",
+            "aliases": [
+                "gravestoneSunOnDestruction"
+            ],
+            "objdata": {
+                "TypeName": "gravestoneSunOnDestruction",
+                "GridItemClass": "GridItemGravestoneSunOnDestruction",
+                "ResourceGroups": [
+                    "Tombstone_Dark_Sun",
+                    "Tombstone_Dark_Effects"
+                ],
+                "Properties": "RTID(GridItemGravestoneSunOnDestruction@PropertySheets)"
+            }
+        },
+        {
+            "objclass": "GridItemType",
+            "aliases": [
+                "gravestoneZombieOnDestruction"
+            ],
+            "objdata": {
+                "#Comment": "unused",
+                "TypeName": "gravestoneZombieOnDestruction",
+                "GridItemClass": "GridItemGravestoneZombieOnDestruction",
+                "ResourceGroups": [
+                    "Tombstone_Dark_Special",
+                    "Tombstone_Dark_Effects"
+                ],
+                "Properties": "RTID(GridItemGravestoneZombieOnDestruction@PropertySheets)"
+            }
+        },
+        {
+            "objclass": "GridItemType",
+            "aliases": [
+                "gravestoneZombieTimeSpawner"
+            ],
+            "objdata": {
+                "#Comment": "unused",
+                "TypeName": "gravestoneZombieTimeSpawner",
+                "GridItemClass": "GridItemGravestoneZombieTimeSpawner",
+                "ResourceGroups": [
+                    "Tombstone_Dark_Special",
+                    "Tombstone_Dark_Effects"
+                ],
+                "Properties": "RTID(GridItemGravestoneZombieTimeSpawner@PropertySheets)"
+            }
+        },
+        {
+            "objclass": "GridItemType",
+            "aliases": [
+                "gravestoneZombieTimeSpawner_cone"
+            ],
+            "objdata": {
+                "#Comment": "unused",
+                "TypeName": "gravestoneZombieTimeSpawner_cone",
+                "GridItemClass": "GridItemGravestoneZombieTimeSpawner",
+                "ResourceGroups": [
+                    "Tombstone_Dark_Special",
+                    "Tombstone_Dark_Effects"
+                ],
+                "Properties": "RTID(GridItemGravestoneZombieTimeSpawner_Cone@PropertySheets)"
+            }
+        },
+        {
+            "objclass": "GridItemType",
+            "aliases": [
+                "gravestoneZombieTimeSpawner_bucket"
+            ],
+            "objdata": {
+                "#Comment": "unused",
+                "TypeName": "gravestoneZombieTimeSpawner_bucket",
+                "GridItemClass": "GridItemGravestoneZombieTimeSpawner",
+                "ResourceGroups": [
+                    "Tombstone_Dark_Special",
+                    "Tombstone_Dark_Effects"
+                ],
+                "Properties": "RTID(GridItemGravestoneZombieTimeSpawner_Bucket@PropertySheets)"
+            }
+        },
+        {
+            "objclass": "GridItemType",
+            "aliases": [
+                "gravestoneShortcut"
+            ],
+            "objdata": {
+                "#Comment": "unused",
+                "TypeName": "gravestoneShortcut",
+                "GridItemClass": "GridItemGravestoneShortcut",
+                "ResourceGroups": [
+                    "Tombstone_Dark_Special",
+                    "Tombstone_Dark_Effects"
+                ],
+                "Properties": "RTID(GridItemGravestoneShortcut@PropertySheets)"
+            }
+        },
+        {
+            "objclass": "GridItemType",
+            "aliases": [
+                "gravestonePlantfoodOnDestruction"
+            ],
+            "objdata": {
+                "TypeName": "gravestonePlantfoodOnDestruction",
+                "GridItemClass": "GridItemGravestonePlantfoodOnDestruction",
+                "ResourceGroups": [
+                    "Tombstone_Dark_Plantfood"
+                ],
+                "Properties": "RTID(GridItemGravestonePlantfoodOnDestruction@PropertySheets)"
+            }
+        },
+        {
+            "objclass": "GridItemType",
+            "aliases": [
+                "gravestone_beach"
+            ],
+            "objdata": {
+                "TypeName": "gravestone_beach",
+                "GridItemClass": "GridItemGravestone",
+                "ResourceGroups": [
+                    "Beach_Gravestone"
+                ],
+                "Properties": "RTID(GridItemGravestoneBeach@PropertySheets)"
+            }
+        },
+        {
+            "objclass": "GridItemType",
+            "aliases": [
+                "gravestone_dino"
+            ],
+            "objdata": {
+                "TypeName": "gravestone_dino",
+                "GridItemClass": "GridItemGravestone",
+                "ResourceGroups": [
+                    "Dino_Gravestone"
+                ],
+                "Properties": "RTID(GridItemGravestoneDino@PropertySheets)"
+            }
+        },
+        {
+            "objclass": "GridItemType",
+            "aliases": [
+                "gravestone_iceage"
+            ],
+            "objdata": {
+                "TypeName": "gravestone_iceage",
+                "GridItemClass": "GridItemGravestone",
+                "ResourceGroups": [
+                    "Iceage_Gravestone"
+                ],
+                "Properties": "RTID(GridItemGravestoneIceage@PropertySheets)"
+            }
+        },
+        {
+            "objclass": "GridItemType",
+            "aliases": [
+                "gravestone_eighties"
+            ],
+            "objdata": {
+                "TypeName": "gravestone_eighties",
+                "GridItemClass": "GridItemGravestone",
+                "ResourceGroups": [
+                    "Eighties_Gravestone"
+                ],
+                "Properties": "RTID(GridItemGravestoneEighties@PropertySheets)"
+            }
+        },
+        {
+            "objclass": "GridItemType",
+            "aliases": [
+                "gravestone_lostcity"
+            ],
+            "objdata": {
+                "TypeName": "gravestone_lostcity",
+                "GridItemClass": "GridItemGravestone",
+                "ResourceGroups": [
+                    "Lostcity_Gravestone"
+                ],
+                "Properties": "RTID(GridItemGravestoneLostcity@PropertySheets)"
+            }
+        },
+        {
+            "objclass": "GridItemType",
+            "aliases": [
+                "railcart_tutorial"
+            ],
+            "objdata": {
+                "TypeName": "railcart_tutorial",
+                "GridItemClass": "GridItemRailcart",
+                "ResourceGroups": [
+                    "Railcart_Tutorial_Group"
+                ],
+                "Properties": "RTID(GridItemRailcartTutorial@PropertySheets)"
+            }
+        },
+        {
+            "objclass": "GridItemType",
+            "aliases": [
+                "railcart_egypt"
+            ],
+            "objdata": {
+                "TypeName": "railcart_egypt",
+                "GridItemClass": "GridItemRailcart",
+                "ResourceGroups": [
+                    "Railcart_Egypt_Group"
+                ],
+                "AudioGroups": [
+                    "CowboyRailcartAudio"
+                ],
+                "Properties": "RTID(GridItemRailcartEgyptDefault@PropertySheets)"
+            }
+        },
+        {
+            "objclass": "GridItemType",
+            "aliases": [
+                "railcart_pirate"
+            ],
+            "objdata": {
+                "TypeName": "railcart_pirate",
+                "GridItemClass": "GridItemRailcart",
+                "ResourceGroups": [
+                    "Railcart_Pirate_Group"
+                ],
+                "AudioGroups": [
+                    "CowboyRailcartAudio"
+                ],
+                "Properties": "RTID(GridItemRailcartPirateDefault@PropertySheets)"
+            }
+        },
+        {
+            "objclass": "GridItemType",
+            "aliases": [
+                "railcart_cowboy"
+            ],
+            "objdata": {
+                "TypeName": "railcart_cowboy",
+                "GridItemClass": "GridItemRailcart",
+                "ResourceGroups": [
+                    "Railcart_Cowboy_Group"
+                ],
+                "AudioGroups": [
+                    "CowboyRailcartAudio"
+                ],
+                "Properties": "RTID(GridItemRailcartCowboyDefault@PropertySheets)"
+            }
+        },
+        {
+            "objclass": "GridItemType",
+            "aliases": [
+                "railcart_future"
+            ],
+            "objdata": {
+                "TypeName": "railcart_future",
+                "GridItemClass": "GridItemRailcart",
+                "ResourceGroups": [
+                    "Railcart_Future_Group"
+                ],
+                "AudioGroups": [
+                    "CowboyRailcartAudio"
+                ],
+                "Properties": "RTID(GridItemRailcartFutureDefault@PropertySheets)"
+            }
+        },
+        {
+            "objclass": "GridItemType",
+            "objdata": {
+                "TypeName": "plank",
+                "GridItemClass": "GridItemPlank",
+                "Properties": "RTID(GridItemDefault@PropertySheets)"
+            }
+        },
+        {
+            "objclass": "GridItemType",
+            "objdata": {
+                "TypeName": "futureshift",
+                "GridItemClass": "GridItemFutureShift",
+                "Properties": "RTID(GridItemDefault@PropertySheets)"
+            }
+        },
+        {
+            "objclass": "GridItemType",
+            "objdata": {
+                "TypeName": "futureclone",
+                "GridItemClass": "GridItemFutureClone",
+                "Properties": "RTID(GridItemDefault@PropertySheets)"
+            }
+        },
+        {
+            "objclass": "GridItemType",
+            "objdata": {
+                "TypeName": "holoshield",
+                "GridItemClass": "GridItemInfinutShieldSegment",
+                "Properties": "RTID(HoloShieldDefault@PropertySheets)"
+            }
+        },
+        {
+            "objclass": "GridItemType",
+            "objdata": {
+                "TypeName": "moonflowershield",
+                "GridItemClass": "GridItemInfinutShieldSegment",
+                "Properties": "RTID(MoonFlowerShieldDefault@PropertySheets)"
+            }
+        },
+        {
+            "objclass": "GridItemType",
+            "objdata": {
+                "TypeName": "protectorshield",
+                "GridItemClass": "GridItemProtectorShield",
+                "Properties": "RTID(ProtectorShieldDefault@PropertySheets)"
+            }
+        },
+        {
+            "objclass": "GridItemType",
+            "objdata": {
+                "TypeName": "protectorshieldsegment",
+                "GridItemClass": "GridItemProtectorShieldSegment",
+                "Properties": "RTID(GridItemDefault@PropertySheets)"
+            }
+        },
+        {
+            "objclass": "GridItemType",
+            "objdata": {
+                "TypeName": "goldtile",
+                "GridItemClass": "GridItemGoldTile",
+                "Properties": "RTID(GoldTile@PropertySheets)",
+                "ResourceGroups": [
+                    "GoldTileModule"
+                ]
+            }
+        },
+        {
+            "objclass": "GridItemType",
+            "objdata": {
+                "TypeName": "powertile_alpha",
+                "GridItemClass": "GridItemPowerTile",
+                "Properties": "RTID(PowerTileAlpha@PropertySheets)"
+            }
+        },
+        {
+            "objclass": "GridItemType",
+            "objdata": {
+                "TypeName": "powertile_beta",
+                "GridItemClass": "GridItemPowerTile",
+                "Properties": "RTID(PowerTileBeta@PropertySheets)"
+            }
+        },
+        {
+            "objclass": "GridItemType",
+            "objdata": {
+                "TypeName": "powertile_gamma",
+                "GridItemClass": "GridItemPowerTile",
+                "Properties": "RTID(PowerTileGamma@PropertySheets)"
+            }
+        },
+        {
+            "objclass": "GridItemType",
+            "objdata": {
+                "TypeName": "powertile_delta",
+                "GridItemClass": "GridItemPowerTile",
+                "Properties": "RTID(PowerTileDelta@PropertySheets)"
+            }
+        },
+        {
+            "objclass": "GridItemType",
+            "objdata": {
+                "TypeName": "powertile_epsilon",
+                "GridItemClass": "GridItemPowerTile",
+                "Properties": "RTID(PowerTileEpsilon@PropertySheets)"
+            }
+        },
+        {
+            "objclass": "GridItemType",
+            "aliases": [
+                "zombiepotion_speed"
+            ],
+            "objdata": {
+                "TypeName": "zombiepotion_speed",
+                "GridItemClass": "GridItemZombiePotion",
+                "Properties": "RTID(ZombiePotionSpeedDefault@PropertySheets)",
+                "ResourceGroups": [
+                    "GridItemZombiePotion"
+                ],
+                "AudioGroups": [
+                    "GridItemZombiePotionAudio"
+                ]
+            }
+        },
+        {
+            "objclass": "GridItemType",
+            "aliases": [
+                "zombiepotion_toughness"
+            ],
+            "objdata": {
+                "TypeName": "zombiepotion_toughness",
+                "GridItemClass": "GridItemZombiePotion",
+                "Properties": "RTID(ZombiePotionToughnessDefault@PropertySheets)",
+                "ResourceGroups": [
+                    "GridItemZombiePotion"
+                ],
+                "AudioGroups": [
+                    "GridItemZombiePotionAudio"
+                ]
+            }
+        },
+        {
+            "objclass": "GridItemType",
+            "aliases": [
+                "lilypad"
+            ],
+            "objdata": {
+                "TypeName": "lilypad",
+                "GridItemClass": "GridItemLilyPad",
+                "Properties": "RTID(GridItemLilyPadDefault@PropertySheets)",
+                "ResourceGroups": [
+                    "PlantLilyPad"
+                ]
+            }
+        },
+        {
+            "objclass": "GridItemType",
+            "aliases": [
+                "vase"
+            ],
+            "objdata": {
+                "TypeName": "vase",
+                "GridItemClass": "GridItemVase",
+                "Properties": "RTID(GridItemVaseDefault@PropertySheets)",
+                "ResourceGroups": [
+                    "VaseBreakerGroup"
+                ],
+                "AudioGroups": [
+                    "VaseBreakerAudio"
+                ]
+            }
+        },
+        {
+            "objclass": "GridItemType",
+            "aliases": [
+                "vase_egg"
+            ],
+            "objdata": {
+                "TypeName": "vase_egg",
+                "GridItemClass": "GridItemVase",
+                "Properties": "RTID(GridItemVaseEgg@PropertySheets)",
+                "ResourceGroups": [
+                    "EggBreakerGroup"
+                ],
+                "AudioGroups": [
+                    "VaseBreakerAudio"
+                ]
+            }
+        },
+        {
+            "objclass": "GridItemType",
+            "aliases": [
+                "vase_firework"
+            ],
+            "objdata": {
+                "TypeName": "vase_firework",
+                "GridItemClass": "GridItemVase",
+                "Properties": "RTID(GridItemVaseFirework@PropertySheets)",
+                "ResourceGroups": [
+                    "FireBreakerGroup"
+                ],
+                "AudioGroups": [
+                    "VaseBreakerAudio"
+                ]
+            }
+        },
+        {
+            "objclass": "GridItemType",
+            "aliases": [
+                "surfboard"
+            ],
+            "objdata": {
+                "TypeName": "surfboard",
+                "GridItemClass": "GridItemSurfboard",
+                "Properties": "RTID(GridItemSurfboardDefault@PropertySheets)",
+                "ResourceGroups": [
+                    "ZombieBeachSurferGroup"
+                ],
+                "AudioGroups": [
+                    "ZombieBeachSurferAudio"
+                ]
+            }
+        },
+        {
+            "objclass": "GridItemType",
+            "aliases": [
+                "tent"
+            ],
+            "objdata": {
+                "TypeName": "tent",
+                "GridItemClass": "GridItemTent",
+                "Properties": "RTID(GridItemTentDefault@PropertySheets)",
+                "ResourceGroups": [
+                    "ZombieImpPorterGroup"
+                ],
+                "AudioGroups": [
+                    "ZombieBeachSurferAudio"
+                ]
+            }
+        },
+        {
+            "objclass": "GridItemType",
+            "aliases": [
+                "backpack"
+            ],
+            "objdata": {
+                "TypeName": "backpack",
+                "GridItemClass": "GridItemBackpack",
+                "Properties": "RTID(GridItemBackpackDefault@PropertySheets)",
+                "ResourceGroups": [
+                    "ZombieImpPorterGroup"
+                ],
+                "AudioGroups": [
+                    "ZombieBeachSurferAudio"
+                ]
+            }
+        },
+        {
+            "objclass": "GridItemType",
+            "aliases": [
+                "planttarget_squid"
+            ],
+            "objdata": {
+                "TypeName": "planttarget_squid",
+                "GridItemClass": "GridItemPlantConditionTarget",
+                "Properties": "RTID(GridItemPlantConditionTarget_Squid@PropertySheets)",
+                "ResourceGroups": [
+                    "ZombieBeachOctopusGroup"
+                ]
+            }
+        },
+        {
+            "objclass": "GridItemType",
+            "aliases": [
+                "planttarget_iceblock"
+            ],
+            "objdata": {
+                "TypeName": "planttarget_iceblock",
+                "GridItemClass": "GridItemPlantConditionTarget",
+                "Properties": "RTID(GridItemPlantConditionTarget_Icecube@PropertySheets)",
+                "ResourceGroups": []
+            }
+        },
+        {
+            "objclass": "GridItemType",
+            "aliases": [
+                "zombietarget_iceblock"
+            ],
+            "objdata": {
+                "TypeName": "zombietarget_iceblock",
+                "GridItemClass": "GridItemZombieConditionTarget",
+                "Properties": "RTID(GridItemZombieConditionTarget_Icecube@PropertySheets)",
+                "ResourceGroups": []
+            }
+        },
+        {
+            "objclass": "GridItemType",
+            "aliases": [
+                "zombietarget_birthday_present"
+            ],
+            "objdata": {
+                "TypeName": "zombietarget_birthday_present",
+                "GridItemClass": "GridItemZombieConditionTarget",
+                "Properties": "RTID(GridItemZombieConditionTarget_Birthday_Present@PropertySheets)",
+                "ResourceGroups": []
+            }
+        },
+        {
+            "objclass": "GridItemType",
+            "aliases": [
+                "slider_up"
+            ],
+            "objdata": {
+                "TypeName": "slider_up",
+                "GridItemClass": "GridItemSliderTile",
+                "Properties": "RTID(GridItemSliderTile_Up@PropertySheets)",
+                "ResourceGroups": [
+                    "Slider_IceAge"
+                ]
+            }
+        },
+        {
+            "objclass": "GridItemType",
+            "aliases": [
+                "slider_down"
+            ],
+            "objdata": {
+                "TypeName": "slider_down",
+                "GridItemClass": "GridItemSliderTile",
+                "Properties": "RTID(GridItemSliderTile_Down@PropertySheets)",
+                "ResourceGroups": [
+                    "Slider_IceAge"
+                ]
+            }
+        },
+        {
+            "objclass": "GridItemType",
+            "aliases": [
+                "slider_up_modern"
+            ],
+            "objdata": {
+                "TypeName": "slider_up_modern",
+                "GridItemClass": "GridItemSliderTile",
+                "Properties": "RTID(GridItemSliderTile_Up_Modern@PropertySheets)",
+                "ResourceGroups": [
+                    "Slider_Modern"
+                ]
+            }
+        },
+        {
+            "objclass": "GridItemType",
+            "aliases": [
+                "slider_down_modern"
+            ],
+            "objdata": {
+                "TypeName": "slider_down_modern",
+                "GridItemClass": "GridItemSliderTile",
+                "Properties": "RTID(GridItemSliderTile_Down_Modern@PropertySheets)",
+                "ResourceGroups": [
+                    "Slider_Modern"
+                ]
+            }
+        },
+        {
+            "objclass": "GridItemType",
+            "aliases": [
+                "sap"
+            ],
+            "objdata": {
+                "TypeName": "sap",
+                "GridItemClass": "GridItemSap",
+                "Properties": "RTID(GridItemSapDefault@PropertySheets)",
+                "ResourceGroups": [
+                    "PlantSapfling"
+                ]
+            }
+        },
+        {
+            "objclass": "GridItemType",
+            "aliases": [
+                "plantfoodsap"
+            ],
+            "objdata": {
+                "TypeName": "plantfoodsap",
+                "GridItemClass": "GridItemSap",
+                "Properties": "RTID(GridItemSapPlantfood@PropertySheets)",
+                "ResourceGroups": [
+                    "PlantSapfling"
+                ]
+            }
+        },
+        {
+            "objclass": "GridItemType",
+            "aliases": [
+                "lava"
+            ],
+            "objdata": {
+                "TypeName": "lava",
+                "GridItemClass": "GridItemLava",
+                "Properties": "RTID(GridItemLavaDefault@PropertySheets)",
+                "ResourceGroups": [
+                    "PlantLavaGuava"
+                ]
+            }
+        },
+        {
+            "objclass": "GridItemType",
+            "aliases": [
+                "wisp"
+            ],
+            "objdata": {
+                "TypeName": "wisp",
+                "GridItemClass": "GridItemWisp",
+                "Properties": "RTID(GridItemWispDefault@PropertySheets)",
+                "ResourceGroups": [
+                    "PlantJackOLantern"
+                ]
+            }
+        },
+        {
+            "objclass": "GridItemType",
+            "aliases": [
+                "whack_puddle"
+            ],
+            "objdata": {
+                "TypeName": "whack_puddle",
+                "GridItemClass": "GridItemWhackPuddle",
+                "Properties": "RTID(GridItemWhackPuddle@PropertySheets)",
+                "ResourceGroups": [
+                    "Slider_IceAge"
+                ]
+            }
+        },
+        {
+            "objclass": "GridItemType",
+            "aliases": [
+                "zomboss_iceage_glacier_block"
+            ],
+            "objdata": {
+                "TypeName": "zomboss_iceage_glacier_block",
+                "GridItemClass": "ZombossIceAgeGlacierBlock",
+                "Properties": "RTID(ZombossIceAgeGlacierBlock@PropertySheets)",
+                "ResourceGroups": [
+                    "ZombieIceAgeZombossGroup"
+                ]
+            }
+        },
+        {
+            "objclass": "GridItemType",
+            "aliases": [
+                "boulder_trap_falling_forward"
+            ],
+            "objdata": {
+                "TypeName": "boulder_trap_falling_forward",
+                "GridItemClass": "GridItemProjectileTrap",
+                "Properties": "RTID(BoulderFallingForwardTrapProps@PropertySheets)",
+                "ResourceGroups": [
+                    "ZombieLostCityZombossGroup",
+                    "BoulderTrapTileGroup"
+                ]
+            }
+        },
+        {
+            "objclass": "GridItemType",
+            "aliases": [
+                "zomboss_boulder_trap_falling_forward"
+            ],
+            "objdata": {
+                "TypeName": "zomboss_boulder_trap_falling_forward",
+                "GridItemClass": "GridItemProjectileTrap",
+                "Properties": "RTID(ZombossBoulderFallingForwardTrapProps@PropertySheets)",
+                "ResourceGroups": [
+                    "ZombieLostCityZombossGroup",
+                    "BoulderTrapTileGroup"
+                ]
+            }
+        },
+        {
+            "objclass": "GridItemType",
+            "aliases": [
+                "flame_spreader_trap"
+            ],
+            "objdata": {
+                "TypeName": "flame_spreader_trap",
+                "GridItemClass": "GridItemGridRegionAreaOfEffectTrap",
+                "Properties": "RTID(FlameSpreaderTrapProps@PropertySheets)",
+                "ResourceGroups": [
+                    "LevelCommon",
+                    "FireTrapTileGroup",
+                    "ZombieLostCityZombossGroup"
+                ]
+            }
+        },
+        {
+            "objclass": "GridItemType",
+            "aliases": [
+                "crater"
+            ],
+            "objdata": {
+                "TypeName": "crater",
+                "GridItemClass": "GridItemCrater",
+                "Properties": "RTID(GridItemCraterDefault@PropertySheets)",
+                "ResourceGroups": [
+                    "BeghouledGroup"
+                ]
+            }
+        },
+        {
+            "objclass": "GridItemType",
+            "aliases": [
+                "crater_timed"
+            ],
+            "objdata": {
+                "TypeName": "crater_timed",
+                "GridItemClass": "GridItemCraterTimed",
+                "Properties": "RTID(GridItemCraterTimed@PropertySheets)",
+                "ResourceGroups": [
+                    "BeghouledGroup"
+                ]
+            }
+        },
+        {
+            "objclass": "GridItemType",
+            "aliases": [
+                "speaker"
+            ],
+            "objdata": {
+                "TypeName": "speaker",
+                "GridItemClass": "GridItemSpeaker",
+                "Properties": "RTID(GridItemSpeakerDefault@PropertySheets)",
+                "ResourceGroups": [
+                    "Eighties_Speaker"
+                ]
+            }
+        },
+        {
+            "objclass": "GridItemType",
+            "aliases": [
+                "speaker_zomboss"
+            ],
+            "objdata": {
+                "TypeName": "speaker_zomboss",
+                "GridItemClass": "GridItemSpeakerZomboss",
+                "Properties": "RTID(GridItemSpeakerZombossDefault@PropertySheets)",
+                "ResourceGroups": [
+                    "Eighties_Speaker"
+                ]
+            }
+        },
+        {
+            "objclass": "GridItemType",
+            "aliases": [
+                "eightiesarcadecabinet"
+            ],
+            "objdata": {
+                "TypeName": "eightiesarcadecabinet",
+                "GridItemClass": "GridItemEightiesArcadeCabinet",
+                "Properties": "RTID(GridItemEightiesArcadeCabinet@PropertySheets)",
+                "ResourceGroups": [
+                    "ZombieImpPorterGroup"
+                ]
+            }
+        },
+        {
+            "objclass": "GridItemType",
+            "aliases": [
+                "dusklobberflower"
+            ],
+            "objdata": {
+                "TypeName": "dusklobberflower",
+                "GridItemClass": "GridItemDusklobberFlower",
+                "Properties": "RTID(GridItemDusklobberFlowerDefault@PropertySheets)",
+                "ResourceGroups": [
+                    "PlantDusklobber"
+                ]
+            }
+        },
+        {
+            "objclass": "GridItemType",
+            "aliases": [
+                "bombegranateseeds"
+            ],
+            "objdata": {
+                "TypeName": "bombegranateseeds",
+                "GridItemClass": "GridItemBombegranateSeeds",
+                "Properties": "RTID(GridItemBombegranateSeedsDefault@PropertySheets)",
+                "ResourceGroups": [
+                    "PlantBombegranate"
+                ]
+            }
+        },
+        {
+            "objclass": "GridItemType",
+            "aliases": [
+                "zombieportal_eighties"
+            ],
+            "objdata": {
+                "TypeName": "zombieportal_eighties",
+                "GridItemClass": "GridItemZombiePortal",
+                "Properties": "RTID(GridItemZombiePortal_Eighties@PropertySheets)",
+                "ResourceGroups": [
+                    "ModernPortalGroup"
+                ]
+            }
+        },
+        {
+            "objclass": "GridItemType",
+            "aliases": [
+                "zombieportal_dino"
+            ],
+            "objdata": {
+                "TypeName": "zombieportal_dino",
+                "GridItemClass": "GridItemZombiePortal",
+                "Properties": "RTID(GridItemZombiePortal_Dino@PropertySheets)",
+                "ResourceGroups": [
+                    "ModernPortalGroup"
+                ]
+            }
+        },
+        {
+            "objclass": "GridItemType",
+            "aliases": [
+                "zombieportal_lostcity"
+            ],
+            "objdata": {
+                "TypeName": "zombieportal_lostcity",
+                "GridItemClass": "GridItemZombiePortal",
+                "Properties": "RTID(GridItemZombiePortal_LostCity@PropertySheets)",
+                "ResourceGroups": [
+                    "ModernPortalGroup"
+                ]
+            }
+        },
+        {
+            "objclass": "GridItemType",
+            "aliases": [
+                "zombieportal_iceage"
+            ],
+            "objdata": {
+                "TypeName": "zombieportal_iceage",
+                "GridItemClass": "GridItemZombiePortal",
+                "Properties": "RTID(GridItemZombiePortal_IceAge@PropertySheets)",
+                "ResourceGroups": [
+                    "ModernPortalGroup"
+                ]
+            }
+        },
+        {
+            "objclass": "GridItemType",
+            "aliases": [
+                "zombieportal_beach"
+            ],
+            "objdata": {
+                "TypeName": "zombieportal_beach",
+                "GridItemClass": "GridItemZombiePortal",
+                "Properties": "RTID(GridItemZombiePortal_Beach@PropertySheets)",
+                "ResourceGroups": [
+                    "ModernPortalGroup"
+                ]
+            }
+        },
+        {
+            "objclass": "GridItemType",
+            "aliases": [
+                "zombieportal_dark"
+            ],
+            "objdata": {
+                "TypeName": "zombieportal_dark",
+                "GridItemClass": "GridItemZombiePortal",
+                "Properties": "RTID(GridItemZombiePortal_Dark@PropertySheets)",
+                "ResourceGroups": [
+                    "ModernPortalGroup"
+                ]
+            }
+        },
+        {
+            "objclass": "GridItemType",
+            "aliases": [
+                "zombieportal_future"
+            ],
+            "objdata": {
+                "TypeName": "zombieportal_future",
+                "GridItemClass": "GridItemZombiePortal",
+                "Properties": "RTID(GridItemZombiePortal_Future@PropertySheets)",
+                "ResourceGroups": [
+                    "ModernPortalGroup"
+                ]
+            }
+        },
+        {
+            "objclass": "GridItemType",
+            "aliases": [
+                "zombieportal_future_2"
+            ],
+            "objdata": {
+                "TypeName": "zombieportal_future_2",
+                "GridItemClass": "GridItemZombiePortal",
+                "Properties": "RTID(GridItemZombiePortal_Future_2@PropertySheets)",
+                "ResourceGroups": [
+                    "ModernPortalGroup"
+                ]
+            }
+        },
+        {
+            "objclass": "GridItemType",
+            "aliases": [
+                "zombieportal_west"
+            ],
+            "objdata": {
+                "TypeName": "zombieportal_west",
+                "GridItemClass": "GridItemZombiePortal",
+                "Properties": "RTID(GridItemZombiePortal_West@PropertySheets)",
+                "ResourceGroups": [
+                    "ModernPortalGroup"
+                ]
+            }
+        },
+        {
+            "objclass": "GridItemType",
+            "aliases": [
+                "zombieportal_pirate"
+            ],
+            "objdata": {
+                "TypeName": "zombieportal_pirate",
+                "GridItemClass": "GridItemZombiePortal",
+                "Properties": "RTID(GridItemZombiePortal_Pirate@PropertySheets)",
+                "ResourceGroups": [
+                    "ModernPortalGroup"
+                ]
+            }
+        },
+        {
+            "objclass": "GridItemType",
+            "aliases": [
+                "zombieportal_egypt"
+            ],
+            "objdata": {
+                "TypeName": "zombieportal_egypt",
+                "GridItemClass": "GridItemZombiePortal",
+                "Properties": "RTID(GridItemZombiePortal_Egypt@PropertySheets)",
+                "ResourceGroups": [
+                    "ModernPortalGroup"
+                ]
+            }
+        },
+        {
+            "objclass": "GridItemType",
+            "aliases": [
+                "zombieportal_egypt_2"
+            ],
+            "objdata": {
+                "TypeName": "zombieportal_egypt_2",
+                "GridItemClass": "GridItemZombiePortal",
+                "Properties": "RTID(GridItemZombiePortal_Egypt_2@PropertySheets)",
+                "ResourceGroups": [
+                    "ModernPortalGroup"
+                ]
+            }
+        },
+        {
+            "objclass": "GridItemType",
+            "aliases": [
+                "zombieportal_dangerroom_egypt"
+            ],
+            "objdata": {
+                "TypeName": "zombieportal_dangerroom_egypt",
+                "GridItemClass": "GridItemZombiePortal",
+                "Properties": "RTID(GridItemZombiePortal_DangerRoom_Egypt@PropertySheets)",
+                "ResourceGroups": [
+                    "ModernPortalGroup"
+                ]
+            }
+        },
+        {
+            "objclass": "GridItemType",
+            "aliases": [
+                "zombieportal_dangerroom_pirate"
+            ],
+            "objdata": {
+                "TypeName": "zombieportal_dangerroom_pirate",
+                "GridItemClass": "GridItemZombiePortal",
+                "Properties": "RTID(GridItemZombiePortal_DangerRoom_Pirate@PropertySheets)",
+                "ResourceGroups": [
+                    "ModernPortalGroup"
+                ]
+            }
+        },
+        {
+            "objclass": "GridItemType",
+            "aliases": [
+                "zombieportal_dangerroom_west"
+            ],
+            "objdata": {
+                "TypeName": "zombieportal_dangerroom_west",
+                "GridItemClass": "GridItemZombiePortal",
+                "Properties": "RTID(GridItemZombiePortal_DangerRoom_West@PropertySheets)",
+                "ResourceGroups": [
+                    "ModernPortalGroup"
+                ]
+            }
+        },
+        {
+            "objclass": "GridItemType",
+            "aliases": [
+                "zombieportal_dangerroom_future"
+            ],
+            "objdata": {
+                "TypeName": "zombieportal_dangerroom_future",
+                "GridItemClass": "GridItemZombiePortal",
+                "Properties": "RTID(GridItemZombiePortal_DangerRoom_Future@PropertySheets)",
+                "ResourceGroups": [
+                    "ModernPortalGroup"
+                ]
+            }
+        },
+        {
+            "objclass": "GridItemType",
+            "aliases": [
+                "zombieportal_dangerroom_dark"
+            ],
+            "objdata": {
+                "TypeName": "zombieportal_dangerroom_dark",
+                "GridItemClass": "GridItemZombiePortal",
+                "Properties": "RTID(GridItemZombiePortal_DangerRoom_Dark@PropertySheets)",
+                "ResourceGroups": [
+                    "ModernPortalGroup"
+                ]
+            }
+        },
+        {
+            "objclass": "GridItemType",
+            "aliases": [
+                "zombieportal_dangerroom_beach"
+            ],
+            "objdata": {
+                "TypeName": "zombieportal_dangerroom_beach",
+                "GridItemClass": "GridItemZombiePortal",
+                "Properties": "RTID(GridItemZombiePortal_DangerRoom_Beach@PropertySheets)",
+                "ResourceGroups": [
+                    "ModernPortalGroup"
+                ]
+            }
+        },
+        {
+            "objclass": "GridItemType",
+            "aliases": [
+                "zombieportal_dangerroom_iceage"
+            ],
+            "objdata": {
+                "TypeName": "zombieportal_dangerroom_iceage",
+                "GridItemClass": "GridItemZombiePortal",
+                "Properties": "RTID(GridItemZombiePortal_DangerRoom_IceAge@PropertySheets)",
+                "ResourceGroups": [
+                    "ModernPortalGroup"
+                ]
+            }
+        },
+        {
+            "objclass": "GridItemType",
+            "aliases": [
+                "zombieportal_dangerroom_lostcity"
+            ],
+            "objdata": {
+                "TypeName": "zombieportal_dangerroom_lostcity",
+                "GridItemClass": "GridItemZombiePortal",
+                "Properties": "RTID(GridItemZombiePortal_DangerRoom_LostCity@PropertySheets)",
+                "ResourceGroups": [
+                    "ModernPortalGroup"
+                ]
+            }
+        },
+        {
+            "objclass": "GridItemType",
+            "aliases": [
+                "zombieportal_dangerroom_eighties"
+            ],
+            "objdata": {
+                "TypeName": "zombieportal_dangerroom_eighties",
+                "GridItemClass": "GridItemZombiePortal",
+                "Properties": "RTID(GridItemZombiePortal_DangerRoom_Eighties@PropertySheets)",
+                "ResourceGroups": [
+                    "ModernPortalGroup"
+                ]
+            }
+        },
+        {
+            "objclass": "GridItemType",
+            "aliases": [
+                "zombieportal_dangerroom_dino"
+            ],
+            "objdata": {
+                "TypeName": "zombieportal_dangerroom_dino",
+                "GridItemClass": "GridItemZombiePortal",
+                "Properties": "RTID(GridItemZombiePortal_DangerRoom_Dino@PropertySheets)",
+                "ResourceGroups": [
+                    "ModernPortalGroup"
+                ]
+            }
+        }
+    ]
+}

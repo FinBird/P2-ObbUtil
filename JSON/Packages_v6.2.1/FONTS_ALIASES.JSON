@@ -1,0 +1,104 @@
+{
+    "#comment": "Make new font aliases here!",
+    "version": 1,
+    "objects": [
+        {
+            "objclass": "PrimeText_PotentialTypeface_Alias",
+            "objdata": {
+                "TypeName": "FONT_WORLDMAP_NAME",
+                "Font": "BLACK_40_THICKOUTLINE"
+            }
+        },
+        {
+            "objclass": "PrimeText_PotentialTypeface_Alias",
+            "objdata": {
+                "TypeName": "Dialog_Button_Label_Font_24",
+                "Font": "BLACK_24"
+            }
+        },
+        {
+            "objclass": "PrimeText_PotentialTypeface_Alias",
+            "objdata": {
+                "TypeName": "Dialog_Button_Label_Font_26",
+                "Font": "BLACK_26_SHADED"
+            }
+        },
+        {
+            "objclass": "PrimeText_PotentialTypeface_Alias",
+            "objdata": {
+                "TypeName": "Dialog_Header_Font_36",
+                "Font": "BLACK_36_THICKOUTLINE"
+            }
+        },
+        {
+            "objclass": "PrimeText_PotentialTypeface_Alias",
+            "objdata": {
+                "TypeName": "Dialog_Contents_Font_32",
+                "Font": "BLACK_32_THICKOUTLINE"
+            }
+        },
+        {
+            "objclass": "PrimeText_PotentialTypeface_Alias",
+            "objdata": {
+                "TypeName": "Dialog_Contents_Font_24",
+                "Font": "BLACK_24"
+            }
+        },
+        {
+            "objclass": "PrimeText_PotentialTypeface_Alias",
+            "objdata": {
+                "TypeName": "Floating_Label_Font_24",
+                "Font": "BLACK_24_OUTLINE"
+            }
+        },
+        {
+            "objclass": "PrimeText_PotentialTypeface_Alias",
+            "objdata": {
+                "TypeName": "Dialog_Contents_Font_28",
+                "Font": "BLACK_28"
+            }
+        },
+        {
+            "objclass": "PrimeText_PotentialTypeface_Alias",
+            "objdata": {
+                "TypeName": "Zen_Garden_Chooser_Packet_Count_Font_22",
+                "Font": "BLACK_22_HARDSHADOW"
+            }
+        },
+        {
+            "objclass": "PrimeText_PotentialTypeface_Alias",
+            "objdata": {
+                "TypeName": "Zen_Garden_Chooser_Plant_Name_Font_19",
+                "Font": "BLACK_19_HARDSHADOW"
+            }
+        },
+        {
+            "objclass": "PrimeText_PotentialTypeface_Alias",
+            "objdata": {
+                "TypeName": "Zen_Garden_Speedup_Cost",
+                "Font": "BLACK_19_HARDSHADOW"
+            }
+        },
+        {
+            "objclass": "PrimeText_PotentialTypeface_Alias",
+            "objdata": {
+                "TypeName": "Main_Menu_Legal",
+                "Font": "BLACK_19_HARDSHADOW"
+            }
+        },
+        {
+            "objclass": "PrimeText_PotentialTypeface_Alias",
+            "objdata": {
+                "TypeName": "Main_Menu_Legal_Small",
+                "Font": "BLACK_16_BROWN"
+            }
+        },
+        {
+            "objclass": "PrimeText_PotentialTypeface_Alias",
+            "objdata": {
+                "TypeName": "HUD_Bank_Counter",
+                "Font": "BLACK_26_SHADED"
+            }
+        }
+    ]
+}

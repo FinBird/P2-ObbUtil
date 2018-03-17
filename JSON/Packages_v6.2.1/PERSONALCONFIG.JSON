@@ -1,0 +1,13 @@
+{
+    "#comment": "Your own personal configuration file. Make changes here, do not check in to p4.",
+    "version": 1,
+    "objects": [
+        {
+            "objclass": "PersonalConfig",
+            "objdata": {
+                "StartingConfig": "",
+                "SpringBeanURL": "http://localhost:8000"
+            }
+        }
+    ]
+}

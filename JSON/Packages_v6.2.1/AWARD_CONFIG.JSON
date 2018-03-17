@@ -1,0 +1,255 @@
+{
+    "#comment": "All PropertySheet objects should go here",
+    "version": 1,
+    "objects": [
+        {
+            "objclass": "AwardConfigPropertySheet",
+            "aliases": [
+                "AwardConfig"
+            ],
+            "objdata": {
+                "GiftBoxRewards": [
+                    {
+                        "Category": "GiftBox",
+                        "Award": "costumegroup_lod",
+                        "AwardQuantity": 1,
+                        "Probability": 2
+                    },
+                    {
+                        "Category": "GiftBox",
+                        "AwardParam": "powerupflickzombie",
+                        "Probability": 2,
+                        "Award": "powerupuse",
+                        "AwardQuantity": 1
+                    },
+                    {
+                        "Category": "GiftBox",
+                        "AwardParam": "powerupwizardfinger",
+                        "Probability": 2,
+                        "Award": "powerupuse",
+                        "AwardQuantity": 1
+                    },
+                    {
+                        "Category": "GiftBox",
+                        "AwardParam": "powerupsnowball",
+                        "Probability": 2,
+                        "Award": "powerupuse",
+                        "AwardQuantity": 1
+                    },
+                    {
+                        "Category": "GiftBox",
+                        "AwardParam": "powerupflamethrower",
+                        "Probability": 2,
+                        "Award": "powerupuse",
+                        "AwardQuantity": 1
+                    },
+                    {
+                        "Category": "GiftBox",
+                        "AwardParam": "",
+                        "Probability": 1,
+                        "Award": "gems",
+                        "AwardQuantity": 10
+                    },
+                    {
+                        "Category": "VasebreakerGiftBox",
+                        "Award": "costumegroup_lod",
+                        "AwardQuantity": 1,
+                        "Probability": 4
+                    },
+                    {
+                        "Category": "VasebreakerGiftBox",
+                        "AwardParam": "powerupvasebreakerbutter",
+                        "Probability": 5,
+                        "Award": "powerupuse",
+                        "AwardQuantity": 1
+                    },
+                    {
+                        "Category": "VasebreakerGiftBox",
+                        "AwardParam": "powerupvasebreakermove",
+                        "Probability": 5,
+                        "Award": "powerupuse",
+                        "AwardQuantity": 1
+                    },
+                    {
+                        "Category": "VasebreakerGiftBox",
+                        "AwardParam": "powerupvasebreakerreveal",
+                        "Probability": 5,
+                        "Award": "powerupuse",
+                        "AwardQuantity": 1
+                    },
+                    {
+                        "Category": "VasebreakerGiftBox",
+                        "AwardParam": "",
+                        "Probability": 3,
+                        "Award": "gems",
+                        "AwardQuantity": 20
+                    },
+                    {
+                        "Category": "FirstGiftBox",
+                        "Award": "costumegroup_lod",
+                        "AwardQuantity": 1,
+                        "Probability": 1
+                    }
+                ]
+            }
+        },
+        {
+            "objclass": "ZenGardenPlantRewardsPropertySheet",
+            "aliases": [
+                "ZenGardenMarigoldPlantRewards"
+            ],
+            "objdata": {
+                "LootCategories": [
+                    {
+                        "Award": "coins",
+                        "Probability": 1
+                    }
+                ],
+                "CoinRewards": [
+                    {
+                        "Award": "coins",
+                        "AwardQuantity": 0,
+                        "Probability": 1
+                    }
+                ]
+            }
+        },
+        {
+            "objclass": "ZenGardenPlantRewardsPropertySheet",
+            "aliases": [
+                "ZenGardenMarigoldFinalRewards"
+            ],
+            "objdata": {
+                "LootCategories": [
+                    {
+                        "Award": "coins",
+                        "Probability": 1
+                    }
+                ],
+                "CoinRewards": [
+                    {
+                        "Award": "coins",
+                        "AwardQuantity": 500,
+                        "Probability": 1
+                    }
+                ]
+            }
+        },
+        {
+            "objclass": "ZenGardenPlantRewardsPropertySheet",
+            "aliases": [
+                "ZenGardenNormalPlantRewards"
+            ],
+            "objdata": {
+                "LootCategories": [
+                    {
+                        "Award": "plant_boost",
+                        "Probability": 1
+                    }
+                ]
+            }
+        },
+        {
+            "objclass": "StackImageProps",
+            "aliases": [
+                "StackImageCoins"
+            ],
+            "objdata": {
+                "Image": [
+                    "IMAGE_UI_COINS_STACK_0",
+                    "IMAGE_UI_COINS_STACK_1",
+                    "IMAGE_UI_COINS_STACK_2",
+                    "IMAGE_UI_COINS_STACK_3",
+                    "IMAGE_UI_COINS_STACK_4",
+                    "IMAGE_UI_COINS_STACK_5",
+                    "IMAGE_UI_COINS_STACK_6",
+                    "IMAGE_UI_COINS_STACK_7"
+                ],
+                "Threshold": [
+                    5000,
+                    10000,
+                    20000,
+                    40000,
+                    100000,
+                    150000,
+                    200000,
+                    -1
+                ]
+            }
+        },
+        {
+            "objclass": "StackImageProps",
+            "aliases": [
+                "StackImageCoinsPrize"
+            ],
+            "objdata": {
+                "Image": [
+                    "IMAGE_UI_COINS_STACK_0",
+                    "IMAGE_UI_COINS_STACK_1",
+                    "IMAGE_UI_COINS_STACK_2",
+                    "IMAGE_UI_COINS_STACK_3",
+                    "IMAGE_UI_COINS_STACK_4",
+                    "IMAGE_UI_COINS_STACK_5",
+                    "IMAGE_UI_COINS_STACK_6",
+                    "IMAGE_UI_COINS_STACK_7"
+                ],
+                "Threshold": [
+                    100,
+                    250,
+                    500,
+                    1000,
+                    2500,
+                    5000,
+                    10000,
+                    -1
+                ]
+            }
+        },
+        {
+            "objclass": "StackImageProps",
+            "aliases": [
+                "StackImageGems"
+            ],
+            "objdata": {
+                "Image": [
+                    "IMAGE_UI_GEMS_STACK_1",
+                    "IMAGE_UI_GEMS_STACK_2",
+                    "IMAGE_UI_GEMS_STACK_3",
+                    "IMAGE_UI_GEMS_STACK_4",
+                    "IMAGE_UI_GEMS_STACK_5"
+                ],
+                "Threshold": [
+                    25,
+                    75,
+                    200,
+                    500,
+                    -1
+                ]
+            }
+        },
+        {
+            "objclass": "StackImageProps",
+            "aliases": [
+                "StackImageSprouts"
+            ],
+            "objdata": {
+                "Image": [
+                    "IMAGE_UI_SPROUTS_STACK_1",
+                    "IMAGE_UI_SPROUTS_STACK_2",
+                    "IMAGE_UI_SPROUTS_STACK_3",
+                    "IMAGE_UI_SPROUTS_STACK_4",
+                    "IMAGE_UI_SPROUTS_STACK_5",
+                    "IMAGE_UI_SPROUTS_STACK_6"
+                ],
+                "Threshold": [
+                    2,
+                    3,
+                    5,
+                    10,
+                    25,
+                    -1
+                ]
+            }
+        }
+    ]
+}

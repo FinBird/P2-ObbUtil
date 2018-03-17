@@ -1,0 +1,258 @@
+{
+    "#comment": "All NPC loading data goes here",
+    "version": 1,
+    "objects": [
+        {
+            "objclass": "NPCDataSheet",
+            "aliases": [
+                "CrazyDave"
+            ],
+            "objdata": {
+                "PopAnim": "POPANIM_CRAZYDAVE_CRAZYDAVE",
+                "SoundBankPrefix": "CrazyDave",
+                "Name": "crazydave",
+                "ArtCornerPosition": {
+                    "mX": 35,
+                    "mY": 400
+                },
+                "ArtIsMirrored": false,
+                "FontType": "Brianne",
+                "EnterAudioEvent": "Play_CrazyDave_Enter",
+                "ExitAudioEvent": "Play_CrazyDave_Leave",
+                "LoadResourceGroups": [
+                    "NPC_CrazyDave",
+                    "AudioCrazyDave",
+                    "NPC_Common"
+                ]
+            }
+        },
+        {
+            "objclass": "NPCDataSheet",
+            "aliases": [
+                "Winnie"
+            ],
+            "objdata": {
+                "PopAnim": "POPANIM_WINNIE_WINNIE",
+                "SoundBankPrefix": "TimeMachine",
+                "Name": "winnie",
+                "ArtCornerPosition": {
+                    "mX": 170,
+                    "mY": 325
+                },
+                "ArtIsMirrored": true,
+                "FontType": "Pico",
+                "EnterAudioEvent": "Play_VO_TimeMachine_Arrive",
+                "ExitAudioEvent": "Play_VO_TimeMachine_Away",
+                "LoadResourceGroups": [
+                    "NPC_Winnie",
+                    "AudioTimeMachine",
+                    "NPC_Common"
+                ]
+            }
+        },
+        {
+            "objclass": "NPCDataSheet",
+            "aliases": [
+                "GreenShadow"
+            ],
+            "objdata": {
+                "PopAnim": "POPANIM_HEROES_LOD_CONVERSATIONS_HEROES_GREENSHADOW_NARRATION",
+                "SoundBankPrefix": "GreenShadow",
+                "Name": "greenshadow",
+                "ArtCornerPosition": {
+                    "mX": -10,
+                    "mY": 400
+                },
+                "ArtIsMirrored": false,
+                "FontType": "Pico",
+                "EnterAudioEvent": "Play_NPC_GreenShadow_Arrive",
+                "ExitAudioEvent": "Play_NPC_GreenShadow_Away",
+                "LoadResourceGroups": [
+                    "NPC_Heroes",
+                    "AudioNPCGreenShadow",
+                    "NPC_Common"
+                ]
+            }
+        },
+        {
+            "objclass": "NPCDataSheet",
+            "aliases": [
+                "SolarFlare"
+            ],
+            "objdata": {
+                "PopAnim": "POPANIM_HEROES_LOD_CONVERSATIONS_HEROES_SOLARFLARE_NARRATION",
+                "SoundBankPrefix": "SolarFlare",
+                "Name": "solarflare",
+                "ArtCornerPosition": {
+                    "mX": -15,
+                    "mY": 410
+                },
+                "ArtIsMirrored": false,
+                "FontType": "Pico",
+                "EnterAudioEvent": "Play_NPC_SolarFlare_Arrive",
+                "ExitAudioEvent": "Play_NPC_SolarFlare_Away",
+                "LoadResourceGroups": [
+                    "NPC_Heroes",
+                    "AudioNPCSolarFlare",
+                    "NPC_Common"
+                ]
+            }
+        },
+        {
+            "objclass": "NPCDataSheet",
+            "aliases": [
+                "WallKnight"
+            ],
+            "objdata": {
+                "PopAnim": "POPANIM_HEROES_LOD_CONVERSATIONS_HEROES_WALLKNIGHT_NARRATION",
+                "SoundBankPrefix": "WallKnight",
+                "Name": "wallknight",
+                "ArtCornerPosition": {
+                    "mX": -25,
+                    "mY": 400
+                },
+                "ArtIsMirrored": false,
+                "FontType": "Pico",
+                "EnterAudioEvent": "Play_NPC_WallKnight_Arrive",
+                "ExitAudioEvent": "Play_NPC_WallKnight_Away",
+                "LoadResourceGroups": [
+                    "NPC_Heroes",
+                    "AudioNPCWallKnight",
+                    "NPC_Common"
+                ]
+            }
+        },
+        {
+            "objclass": "NPCDataSheet",
+            "aliases": [
+                "SuperBrainz"
+            ],
+            "objdata": {
+                "PopAnim": "POPANIM_HEROES_LOD_CONVERSATIONS_HEROES_SUPERBRAINZ_NARRATION",
+                "SoundBankPrefix": "SuperBrainz",
+                "Name": "superbrainz",
+                "ArtCornerPosition": {
+                    "mX": 295,
+                    "mY": 345
+                },
+                "ArtIsMirrored": true,
+                "FontType": "Pico",
+                "EnterAudioEvent": "Play_NPC_SuperBrainz_Arrive",
+                "ExitAudioEvent": "Play_NPC_SuperBrainz_Away",
+                "LoadResourceGroups": [
+                    "NPC_Heroes",
+                    "AudioNPCSuperBrainz",
+                    "NPC_Common"
+                ]
+            }
+        },
+        {
+            "objclass": "NPCDataSheet",
+            "aliases": [
+                "Impfinity"
+            ],
+            "objdata": {
+                "PopAnim": "POPANIM_HEROES_LOD_CONVERSATIONS_HEROES_IMPFINITY_NARRATION",
+                "SoundBankPrefix": "Impfinity",
+                "Name": "impfinity",
+                "ArtCornerPosition": {
+                    "mX": 320,
+                    "mY": 360
+                },
+                "ArtIsMirrored": true,
+                "FontType": "Pico",
+                "EnterAudioEvent": "Play_NPC_Impfinity_Arrive",
+                "ExitAudioEvent": "Play_NPC_Impfinity_Away",
+                "LoadResourceGroups": [
+                    "NPC_Heroes",
+                    "AudioNPCImpfinity",
+                    "NPC_Common"
+                ]
+            }
+        },
+        {
+            "objclass": "NPCDataSheet",
+            "aliases": [
+                "ElectricBoogaloo"
+            ],
+            "objdata": {
+                "PopAnim": "POPANIM_HEROES_LOD_CONVERSATIONS_HEROES_BOOGALOO_NARRATION",
+                "SoundBankPrefix": "ElectricBoogaloo",
+                "Name": "electricboogaloo",
+                "ArtCornerPosition": {
+                    "mX": 300,
+                    "mY": 350
+                },
+                "ArtIsMirrored": true,
+                "FontType": "Pico",
+                "EnterAudioEvent": "Play_NPC_ElectricBoogaloo_Arrive",
+                "ExitAudioEvent": "Play_NPC_ElectricBoogaloo_Away",
+                "LoadResourceGroups": [
+                    "NPC_Heroes",
+                    "AudioNPCElectricBoogaloo",
+                    "NPC_Common"
+                ]
+            }
+        },
+        {
+            "objclass": "NPCDataSheet",
+            "aliases": [
+                "CrazyDaveIcon"
+            ],
+            "objdata": {
+                "PopAnim": "POPANIM_CRAZYDAVE_DAVEWINNIE_NARRATIONICONS",
+                "SoundBankPrefix": "CrazyDave",
+                "Name": "crazydaveicon",
+                "DialogStyle": "Banner",
+                "FontType": "Brianne",
+                "IdleAnim": "dave",
+                "LoadResourceGroups": [
+                    "NPC_WorldMapIcons",
+                    "AudioCrazyDave",
+                    "NPC_Common"
+                ]
+            }
+        },
+        {
+            "objclass": "NPCDataSheet",
+            "aliases": [
+                "WinnieIcon"
+            ],
+            "objdata": {
+                "PopAnim": "POPANIM_CRAZYDAVE_DAVEWINNIE_NARRATIONICONS",
+                "SoundBankPrefix": "TimeMachine",
+                "Name": "winnieicon",
+                "DialogStyle": "Banner",
+                "ArtIsMirrored": true,
+                "FontType": "Pico",
+                "IdleAnim": "winnie",
+                "LoadResourceGroups": [
+                    "NPC_WorldMapIcons",
+                    "AudioTimeMachine",
+                    "NPC_Common"
+                ]
+            }
+        },
+        {
+            "objclass": "NPCDataSheet",
+            "aliases": [
+                "ZombossIcon"
+            ],
+            "objdata": {
+                "PopAnim": "POPANIM_NPC_NARRATIONICONS_ZOMBOSS",
+                "SoundBankPrefix": "Zomboss_Scrawl",
+                "Name": "zombossicon",
+                "DialogStyle": "TopBanner",
+                "ArtIsMirrored": false,
+                "FontType": "AshleyScript",
+                "EnterAudioEvent": "Play_Zomb_WildWest_Zomboss_Enter",
+                "ExitAudioEvent": "Play_Zomb_WildWest_Zomboss_Exit",
+                "LoadResourceGroups": [
+                    "NPC_Zomboss_WorldMapIcons",
+                    "AudioZomboss",
+                    "NPC_Common"
+                ]
+            }
+        }
+    ]
+}

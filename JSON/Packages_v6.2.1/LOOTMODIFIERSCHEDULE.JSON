@@ -1,0 +1,11 @@
+{
+    "version": 1,
+    "objects": [
+        {
+            "objclass": "ScheduledLootModifierTable",
+            "objdata": {
+                "Schedule": []
+            }
+        }
+    ]
+}

@@ -1,0 +1,450 @@
+{
+    "#comment": "Make new game features here!",
+    "version": 1,
+    "objects": [
+        {
+            "objclass": "GameFeatureType",
+            "objdata": {
+                "TypeName": "worldtrophy_modern",
+                "LocalizedName": "[AWARD_SCREEN_WORLDTROPHY_MODERN_TITLE]",
+                "LocalizedInfo": "[AWARD_SCREEN_WORLDTROPHY_MODERN]",
+                "UpgradeImage": "IMAGE_WORLDMAP_TROPHY_MODERN",
+                "Feature": "world_trophy_modern",
+                "HomeWorld": "modern"
+            }
+        },
+        {
+            "objclass": "GameFeatureType",
+            "objdata": {
+                "TypeName": "worldtrophy_dino",
+                "LocalizedName": "[AWARD_SCREEN_WORLDTROPHY_DINO_TITLE]",
+                "LocalizedInfo": "[AWARD_SCREEN_WORLDTROPHY_DINO]",
+                "UpgradeImage": "IMAGE_WORLDMAP_TROPHY_DINO",
+                "Feature": "world_trophy_dino",
+                "HomeWorld": "dino"
+            }
+        },
+        {
+            "objclass": "GameFeatureType",
+            "objdata": {
+                "TypeName": "worldtrophy_eighties",
+                "LocalizedName": "[AWARD_SCREEN_WORLDTROPHY_EIGHTIES_TITLE]",
+                "LocalizedInfo": "[AWARD_SCREEN_WORLDTROPHY_EIGHTIES]",
+                "UpgradeImage": "IMAGE_WORLDMAP_TROPHY_EIGHTIES",
+                "Feature": "world_trophy_eighties",
+                "HomeWorld": "eighties"
+            }
+        },
+        {
+            "objclass": "GameFeatureType",
+            "objdata": {
+                "TypeName": "worldtrophy_lostcity",
+                "LocalizedName": "[AWARD_SCREEN_WORLDTROPHY_LOSTCITY_TITLE]",
+                "LocalizedInfo": "[AWARD_SCREEN_WORLDTROPHY_LOSTCITY]",
+                "UpgradeImage": "IMAGE_WORLDMAP_TROPHY_LOSTCITY",
+                "Feature": "world_trophy_lostcity",
+                "HomeWorld": "lostcity"
+            }
+        },
+        {
+            "objclass": "GameFeatureType",
+            "objdata": {
+                "TypeName": "worldtrophy_iceage",
+                "LocalizedName": "[AWARD_SCREEN_WORLDTROPHY_ICEAGE_TITLE]",
+                "LocalizedInfo": "[AWARD_SCREEN_WORLDTROPHY_ICEAGE]",
+                "UpgradeImage": "IMAGE_WORLDMAP_TROPHY_ICEAGE",
+                "Feature": "world_trophy_iceage",
+                "HomeWorld": "iceage"
+            }
+        },
+        {
+            "objclass": "GameFeatureType",
+            "objdata": {
+                "TypeName": "worldtrophy_beach",
+                "LocalizedName": "[AWARD_SCREEN_WORLDTROPHY_BEACH_TITLE]",
+                "LocalizedInfo": "[AWARD_SCREEN_WORLDTROPHY_BEACH]",
+                "UpgradeImage": "IMAGE_WORLDMAP_TROPHY_BEACH",
+                "Feature": "world_trophy_beach",
+                "HomeWorld": "beach"
+            }
+        },
+        {
+            "objclass": "GameFeatureType",
+            "objdata": {
+                "TypeName": "worldtrophy_dark",
+                "LocalizedName": "[AWARD_SCREEN_WORLDTROPHY_DARK_TITLE]",
+                "LocalizedInfo": "[AWARD_SCREEN_WORLDTROPHY_DARK]",
+                "UpgradeImage": "IMAGE_WORLDMAP_TROPHY_DARK",
+                "Feature": "world_trophy_dark",
+                "HomeWorld": "dark"
+            }
+        },
+        {
+            "objclass": "GameFeatureType",
+            "objdata": {
+                "TypeName": "worldtrophy_future",
+                "LocalizedName": "[AWARD_SCREEN_WORLDTROPHY_FUTURE_TITLE]",
+                "LocalizedInfo": "[AWARD_SCREEN_WORLDTROPHY_FUTURE]",
+                "UpgradeImage": "IMAGE_WORLDMAP_TROPHY_FUTURE",
+                "Feature": "world_trophy_future",
+                "HomeWorld": "future"
+            }
+        },
+        {
+            "objclass": "GameFeatureType",
+            "objdata": {
+                "TypeName": "worldtrophy_cowboy",
+                "LocalizedName": "[AWARD_SCREEN_WORLDTROPHY_COWBOY_TITLE]",
+                "LocalizedInfo": "[AWARD_SCREEN_WORLDTROPHY_COWBOY]",
+                "UpgradeImage": "IMAGE_WORLDMAP_TROPHY_COWBOY",
+                "Feature": "world_trophy_cowboy",
+                "HomeWorld": "cowboy"
+            }
+        },
+        {
+            "objclass": "GameFeatureType",
+            "objdata": {
+                "TypeName": "worldtrophy_pirate",
+                "LocalizedName": "[AWARD_SCREEN_WORLDTROPHY_PIRATE_TITLE]",
+                "LocalizedInfo": "[AWARD_SCREEN_WORLDTROPHY_PIRATE]",
+                "UpgradeImage": "IMAGE_WORLDMAP_TROPHY_PIRATE",
+                "Feature": "world_trophy_pirate",
+                "HomeWorld": "pirate"
+            }
+        },
+        {
+            "objclass": "GameFeatureType",
+            "objdata": {
+                "TypeName": "worldtrophy_egypt",
+                "LocalizedName": "[AWARD_SCREEN_WORLDTROPHY_EGYPT_TITLE]",
+                "LocalizedInfo": "[AWARD_SCREEN_WORLDTROPHY_EGYPT]",
+                "UpgradeImage": "IMAGE_WORLDMAP_TROPHY_EGYPT",
+                "Feature": "world_trophy_egypt",
+                "HomeWorld": "egypt"
+            }
+        },
+        {
+            "objclass": "GameFeatureType",
+            "objdata": {
+                "TypeName": "manual_mowers_1",
+                "LocalizedName": "[UPGRADE_MANUAL_MOWERS_1]",
+                "LocalizedInfo": "[UPGRADE_MANUAL_MOWERS_DESCRIPTION_1]",
+                "UpgradeImage": "IMAGE_WORLDMAP_COMMON_UPGRADE_MANUAL_MOWERS",
+                "Feature": "manual_mowers_1",
+                "HomeWorld": "future"
+            }
+        },
+        {
+            "objclass": "GameFeatureType",
+            "objdata": {
+                "TypeName": "upgrade_7_slots",
+                "LocalizedName": "[UPGRADE_7_SLOTS]",
+                "LocalizedInfo": "[UPGRADE_SEEDSLOT_DESCRIPTION]",
+                "UpgradeImage": "IMAGE_WORLDMAP_COMMON_UPGRADE_SEEDBANK_SLOT",
+                "Feature": "7_slots",
+                "HomeWorld": "pirate"
+            }
+        },
+        {
+            "objclass": "GameFeatureType",
+            "objdata": {
+                "TypeName": "upgrade_8_slots",
+                "LocalizedName": "[UPGRADE_8_SLOTS]",
+                "LocalizedInfo": "[UPGRADE_SEEDSLOT_DESCRIPTION]",
+                "UpgradeImage": "IMAGE_WORLDMAP_COMMON_UPGRADE_SEEDBANK_SLOT",
+                "Feature": "seedslot2"
+            }
+        },
+        {
+            "objclass": "GameFeatureType",
+            "objdata": {
+                "TypeName": "upgrade_shovel_2",
+                "LocalizedName": "[UPGRADE_SHOVEL_3]",
+                "LocalizedInfo": "[UPGRADE_SHOVEL_DESCRIPTION]",
+                "UpgradeImage": "IMAGE_WORLDMAP_COMMON_UPGRADE_SUN_SHOVEL",
+                "Feature": "sunshovel_lvl2",
+                "HomeWorld": "cowboy"
+            }
+        },
+        {
+            "objclass": "GameFeatureType",
+            "objdata": {
+                "TypeName": "upgrade_shovel_1",
+                "LocalizedName": "[UPGRADE_SHOVEL_2]",
+                "LocalizedInfo": "[UPGRADE_SHOVEL_DESCRIPTION]",
+                "UpgradeImage": "IMAGE_WORLDMAP_COMMON_UPGRADE_SUN_SHOVEL",
+                "Feature": "sunshovel_lvl1",
+                "HomeWorld": "pirate"
+            }
+        },
+        {
+            "objclass": "GameFeatureType",
+            "objdata": {
+                "TypeName": "upgrade_shovel_3",
+                "LocalizedName": "[UPGRADE_SHOVEL_1]",
+                "LocalizedInfo": "[UPGRADE_SHOVEL_DESCRIPTION]",
+                "UpgradeImage": "IMAGE_WORLDMAP_COMMON_UPGRADE_SUN_SHOVEL",
+                "Feature": "sunshovel3"
+            }
+        },
+        {
+            "objclass": "GameFeatureType",
+            "objdata": {
+                "TypeName": "upgrade_pf_refresh",
+                "LocalizedName": "[UPGRADE_PF_REFRESH]",
+                "LocalizedInfo": "[UPGRADE_PF_REFRESH_INFO]",
+                "UpgradeImage": "IMAGE_WORLDMAP_COMMON_UPGRADE_PLANTFOOD_REFRESH",
+                "Feature": "pf_refresh",
+                "HomeWorld": "cowboy"
+            }
+        },
+        {
+            "objclass": "GameFeatureType",
+            "objdata": {
+                "TypeName": "wallnut_firstaid",
+                "LocalizedName": "[UPGRADE_WALLNUT_FIRSTAID]",
+                "LocalizedInfo": "[UPGRADE_WALLNUT_FIRSTAID_INFO]",
+                "UpgradeImage": "IMAGE_WORLDMAP_COMMON_UPGRADE_WALLNUT_FIRSTAID",
+                "Feature": "wallnut_firstaid",
+                "HomeWorld": "cowboy"
+            }
+        },
+        {
+            "objclass": "GameFeatureType",
+            "objdata": {
+                "TypeName": "plantfood_extra_slot_1",
+                "LocalizedName": "[UPGRADE_PLANTFOOD_EXTRA_SLOT_2]",
+                "LocalizedInfo": "[UPGRADE_PF_SLOT_DESCRIPTION]",
+                "UpgradeImage": "IMAGE_WORLDMAP_COMMON_UPGRADE_PLANTFOOD_SLOT",
+                "Feature": "pf_slots_lvl1",
+                "HomeWorld": "egypt"
+            }
+        },
+        {
+            "objclass": "GameFeatureType",
+            "objdata": {
+                "TypeName": "plantfood_extra_slot_2",
+                "LocalizedName": "[UPGRADE_PLANTFOOD_EXTRA_SLOT_1]",
+                "LocalizedInfo": "[UPGRADE_PF_SLOT_DESCRIPTION]",
+                "UpgradeImage": "IMAGE_WORLDMAP_COMMON_UPGRADE_PLANTFOOD_SLOT",
+                "Feature": "pf_slots_lvl2"
+            }
+        },
+        {
+            "objclass": "GameFeatureType",
+            "objdata": {
+                "TypeName": "starting_sun_1",
+                "LocalizedName": "[UPGRADE_STARTING_SUN_2]",
+                "LocalizedInfo": "[UPGRADE_STARTING_SUN_DESCRIPTION]",
+                "UpgradeImage": "IMAGE_WORLDMAP_COMMON_UPGRADE_STARTING_SUN",
+                "Feature": "starting_sun_lvl1",
+                "HomeWorld": "egypt"
+            }
+        },
+        {
+            "objclass": "GameFeatureType",
+            "objdata": {
+                "TypeName": "starting_sun_2",
+                "LocalizedName": "[UPGRADE_STARTING_SUN_1]",
+                "LocalizedInfo": "[UPGRADE_STARTING_SUN_DESCRIPTION]",
+                "UpgradeImage": "IMAGE_WORLDMAP_COMMON_UPGRADE_STARTING_SUN",
+                "Feature": "startingsun2"
+            }
+        },
+        {
+            "objclass": "GameFeatureType",
+            "objdata": {
+                "TypeName": "powerupwizardfinger",
+                "LocalizedName": "[POWERUP_WIZARDFINGER]",
+                "LocalizedInfo": "[POWERUP_WIZARDFINGER_DESCRIPTION]",
+                "UpgradeImage": "IMAGE_UI_POWERUPS_POWER_SHOCK",
+                "Feature": "feature_powerup_wizardfinger",
+                "HomeWorld": "egypt",
+                "IsAPowerup": true
+            }
+        },
+        {
+            "objclass": "GameFeatureType",
+            "objdata": {
+                "TypeName": "powerupflickzombie",
+                "LocalizedName": "[POWERUP_FLICK]",
+                "LocalizedInfo": "[POWERUP_FLICK_DESCRIPTION]",
+                "UpgradeImage": "IMAGE_UI_POWERUPS_POWER_SWEEP",
+                "Feature": "feature_powerup_flick_zombie",
+                "HomeWorld": "egypt",
+                "IsAPowerup": true
+            }
+        },
+        {
+            "objclass": "GameFeatureType",
+            "objdata": {
+                "TypeName": "poweruppinchzombie",
+                "LocalizedName": "[POWERUP_PINCH]",
+                "LocalizedInfo": "[POWERUP_PINCH_DESCRIPTION]",
+                "UpgradeImage": "IMAGE_UI_POWERUPS_POWERUP_BORDER",
+                "Feature": "feature_powerup_pinch",
+                "HomeWorld": "egypt",
+                "IsAPowerup": true
+            }
+        },
+        {
+            "objclass": "GameFeatureType",
+            "objdata": {
+                "TypeName": "powerupsnowball",
+                "LocalizedName": "[POWERUP_SNOWBALL]",
+                "LocalizedInfo": "[POWERUP_SNOWBALL_DESCRIPTION]",
+                "UpgradeImage": "IMAGE_UI_POWERUPS_POWER_ICE",
+                "Feature": "feature_powerup_snowball",
+                "HomeWorld": "egypt",
+                "IsAPowerup": true
+            }
+        },
+        {
+            "objclass": "GameFeatureType",
+            "objdata": {
+                "TypeName": "valuable_mowers",
+                "LocalizedName": "Valuable Mowers",
+                "LocalizedInfo": "Drops more money for each lawnmower at the end of a level",
+                "UpgradeImage": "IMAGE_WORLDMAP_COMMON_UPGRADE_MANUAL_MOWERS",
+                "Feature": "valuable_mowers",
+                "HomeWorld": "future"
+            }
+        },
+        {
+            "objclass": "GameFeatureType",
+            "objdata": {
+                "TypeName": "powerupflamethrower",
+                "LocalizedName": "[POWERUP_FLAMETHROWER]",
+                "LocalizedInfo": "[POWERUP_FLAMETHROWER_DESCRIPTION]",
+                "UpgradeImage": "IMAGE_UI_POWERUPS_POWER_FLAMETHROWER",
+                "Feature": "feature_powerup_flamethrower",
+                "HomeWorld": "iceage",
+                "IsAPowerup": true
+            }
+        },
+        {
+            "objclass": "GameFeatureType",
+            "objdata": {
+                "TypeName": "powerupvasebreakermove",
+                "LocalizedName": "[POWERUP_VASEBREAKER_MOVE]",
+                "LocalizedInfo": "[POWERUP_VASEBREAKER_MOVE_DESCRIPTION]",
+                "UpgradeImage": "IMAGE_UI_POWERUPS_POWER_VASEBREAKERMOVE",
+                "Feature": "feature_powerup_vasebreaker_move",
+                "HomeWorld": "modern",
+                "IsAPowerup": true
+            }
+        },
+        {
+            "objclass": "GameFeatureType",
+            "objdata": {
+                "TypeName": "powerupvasebreakerbutter",
+                "LocalizedName": "[POWERUP_VASEBREAKER_BUTTER]",
+                "LocalizedInfo": "[POWERUP_VASEBREAKER_BUTTER_DESCRIPTION]",
+                "UpgradeImage": "IMAGE_UI_POWERUPS_POWER_VASEBREAKERBUTTER",
+                "Feature": "feature_powerup_vasebreaker_butter",
+                "HomeWorld": "modern",
+                "IsAPowerup": true
+            }
+        },
+        {
+            "objclass": "GameFeatureType",
+            "objdata": {
+                "TypeName": "powerupvasebreakerreveal",
+                "LocalizedName": "[POWERUP_VASEBREAKER_REVEAL]",
+                "LocalizedInfo": "[POWERUP_VASEBREAKER_REVEAL_DESCRIPTION]",
+                "UpgradeImage": "IMAGE_UI_POWERUPS_POWER_VASEBREAKERREVEAL",
+                "Feature": "feature_powerup_vasebreaker_reveal",
+                "HomeWorld": "modern",
+                "IsAPowerup": true
+            }
+        },
+        {
+            "objclass": "GameFeatureType",
+            "objdata": {
+                "TypeName": "powerupbeghouledshuffle",
+                "LocalizedName": "[POWERUP_BEGHOULED_SHUFFLE]",
+                "LocalizedInfo": "[POWERUP_BEGHOULED_SHUFFLE_DESCRIPTION]",
+                "UpgradeImage": "IMAGE_UI_POWERUPS_POWER_BEGHOULEDSHUFFLE",
+                "Feature": "feature_powerup_beghouled_shuffle",
+                "HomeWorld": "eighties",
+                "IsAPowerup": true
+            }
+        },
+        {
+            "objclass": "GameFeatureType",
+            "objdata": {
+                "TypeName": "powerupbeghouledshovel",
+                "LocalizedName": "[POWERUP_BEGHOULED_SHOVEL]",
+                "LocalizedInfo": "[POWERUP_BEGHOULED_SHOVEL_DESCRIPTION]",
+                "UpgradeImage": "IMAGE_UI_POWERUPS_POWER_BEGHOULEDSHOVEL",
+                "Feature": "feature_powerup_beghouled_shovel",
+                "HomeWorld": "eighties",
+                "IsAPowerup": true
+            }
+        },
+        {
+            "objclass": "GameFeatureType",
+            "objdata": {
+                "TypeName": "powerupbeghouledwizardfinger",
+                "LocalizedName": "[POWERUP_WIZARDFINGER]",
+                "LocalizedInfo": "[POWERUP_WIZARDFINGER_DESCRIPTION]",
+                "UpgradeImage": "IMAGE_UI_POWERUPS_POWERUP_BEGHOULED_SHOCK",
+                "Feature": "feature_powerup_beghouled_wizardfinger",
+                "HomeWorld": "eighties",
+                "IsAPowerup": true
+            }
+        },
+        {
+            "objclass": "GameFeatureType",
+            "objdata": {
+                "TypeName": "upgrade_powerup_duration_1",
+                "LocalizedName": "UPGRADE_POWERUP_DURATION_1",
+                "LocalizedInfo": "Increase the duration that your powerups are active.",
+                "UpgradeImage": "IMAGE_WORLDMAP_COMMON_UPGRADE_MANUAL_MOWERS",
+                "Feature": "upgrade_powerup_duration_1",
+                "HomeWorld": "future"
+            }
+        },
+        {
+            "objclass": "GameFeatureType",
+            "objdata": {
+                "TypeName": "upgrade_powerup_duration_2",
+                "LocalizedName": "UPGRADE_POWERUP_DURATION_2",
+                "LocalizedInfo": "Increase the duration that your powerups are active.",
+                "UpgradeImage": "IMAGE_WORLDMAP_COMMON_UPGRADE_MANUAL_MOWERS",
+                "Feature": "upgrade_powerup_duration_2",
+                "HomeWorld": "future"
+            }
+        },
+        {
+            "objclass": "GameFeatureType",
+            "objdata": {
+                "TypeName": "bacon_collection",
+                "LocalizedName": "BACON",
+                "LocalizedInfo": "Collect bacon. Because Bacon.",
+                "UpgradeImage": "IMAGE_WORLDMAP_BACON",
+                "Feature": "feature_collectable_bacon"
+            }
+        },
+        {
+            "objclass": "GameFeatureType",
+            "objdata": {
+                "TypeName": "pinata_hunt_slot_1",
+                "LocalizedName": "[FEATURE_PINATA_HUNT_SLOT1]",
+                "LocalizedInfo": "[FEATURE_PINATA_HUNT_SLOT1_DESCRIPTION]",
+                "UpgradeImage": "IMAGE_WORLDMAP_COMMON_UPGRADE_PINATAHUNT_SLOT",
+                "Feature": "feature_quest_pinata_hunt_slot_1"
+            }
+        },
+        {
+            "objclass": "GameFeatureType",
+            "objdata": {
+                "TypeName": "pinata_hunt_slot_2",
+                "LocalizedName": "[FEATURE_PINATA_HUNT_SLOT2]",
+                "LocalizedInfo": "[FEATURE_PINATA_HUNT_SLOT2_DESCRIPTION]",
+                "UpgradeImage": "IMAGE_WORLDMAP_COMMON_UPGRADE_PINATAHUNT_SLOT",
+                "Feature": "feature_quest_pinata_hunt_slot_2"
+            }
+        }
+    ]
+}

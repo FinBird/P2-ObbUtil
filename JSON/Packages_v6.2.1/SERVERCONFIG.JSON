@@ -1,0 +1,182 @@
+{
+    "#comment": "Configuration for server connection",
+    "version": 1,
+    "objects": [
+        {
+            "objclass": "ServerConfig",
+            "aliases": [
+                "ServerConfig"
+            ],
+            "objdata": {
+                "#comment": "web frontend ip",
+                "ip": "https://pvz2-prd.popcap.com/PvZ2Web",
+                "fb_app_id": "126593634205650",
+                "fb_permissions": "email,publish_actions",
+                "franklin_url": "https://ebs.popcap.com/pvz2/request"
+            }
+        },
+        {
+            "objclass": "CDNConfig",
+            "aliases": [
+                "CDNConfig"
+            ],
+            "objdata": {
+                "#comment": "CDN ip",
+                "ip": "https://pvz2-live.ecs.popcap.com"
+            }
+        },
+        {
+            "objclass": "MetricsServerConfig",
+            "aliases": [
+                "MetricsServerConfig"
+            ],
+            "objdata": {
+                "CopernicusURL": "http://stats.popcap.com",
+                "Environment": "LIVE",
+                "GATSEnvironment": "",
+                "GATSConditions": []
+            }
+        },
+        {
+            "objclass": "SwrveServerConfig",
+            "aliases": [
+                "SwrveServerConfigIOS"
+            ],
+            "objdata": {
+                "APIKey": "GhlWuHhw178AxkOL7U4p",
+                "EventsServer": "http://638.api.swrve.com/",
+                "ABServer": "http://638.abtest.swrve.com/",
+                "GameID": 638
+            }
+        },
+        {
+            "objclass": "SwrveServerConfig",
+            "aliases": [
+                "SwrveServerConfigAndroid"
+            ],
+            "objdata": {
+                "APIKey": "y1YqN4iXBLUeDXHm8KN",
+                "EventsServer": "http://api.swrve.com/",
+                "GameID": 804
+            }
+        },
+        {
+            "objclass": "SwrveServerConfig",
+            "aliases": [
+                "SwrveServerConfigIOSDev"
+            ],
+            "objdata": {
+                "APIKey": "3loBa749z28yVqmeyb9",
+                "EventsServer": "http://api.swrve.com/",
+                "ABServer": "http://abtest.swrve.com/",
+                "GameID": 324
+            }
+        },
+        {
+            "objclass": "SwrveServerConfig",
+            "aliases": [
+                "SwrveServerConfigAndroidDev"
+            ],
+            "objdata": {
+                "APIKey": "42DLidierKq8Z0R2kPm",
+                "EventsServer": "http://api.swrve.com/",
+                "GameID": 805
+            }
+        },
+        {
+            "objclass": "SwrveServerConfig",
+            "aliases": [
+                "SwrveServerConfigIOSLive"
+            ],
+            "objdata": {
+                "APIKey": "GhlWuHhw178AxkOL7U4p",
+                "EventsServer": "http://638.api.swrve.com/",
+                "ABServer": "http://638.abtest.swrve.com/",
+                "GameID": 638
+            }
+        },
+        {
+            "objclass": "SwrveServerConfig",
+            "aliases": [
+                "SwrveServerConfigAndroidLive"
+            ],
+            "objdata": {
+                "APIKey": "y1YqN4iXBLUeDXHm8KN",
+                "EventsServer": "http://api.swrve.com/",
+                "GameID": 804
+            }
+        },
+        {
+            "objclass": "MagentoServerConfig",
+            "aliases": [
+                "MagentoServerConfigIOS"
+            ],
+            "objdata": {
+                "ReceiptValidationURL": "https://buy.itunes.apple.com/verifyReceipt",
+                "RVSURL": "https://rvs.popcap.com/ios/pvz2",
+                "IsSandbox": false
+            }
+        },
+        {
+            "objclass": "MagentoServerConfig",
+            "aliases": [
+                "MagentoServerConfigDev"
+            ],
+            "objdata": {
+                "RVSURL": "http://rvs.popcap.com/android/pvz2_dev",
+                "IsSandbox": false
+            }
+        },
+        {
+            "objclass": "MagentoServerConfig",
+            "aliases": [
+                "MagentoServerConfigNa"
+            ],
+            "objdata": {
+                "RVSURL": "http://rvs.popcap.com/android/pvz2_na",
+                "IsSandbox": false
+            }
+        },
+        {
+            "objclass": "MagentoServerConfig",
+            "aliases": [
+                "MagentoServerConfigRow"
+            ],
+            "objdata": {
+                "RVSURL": "http://rvs.popcap.com/android/pvz2_row",
+                "IsSandbox": false
+            }
+        },
+        {
+            "objclass": "ForceUpdateConfig",
+            "aliases": [
+                "ForceUpdateConfig"
+            ],
+            "objdata": {
+                "ForceUpdateURL": "https://itunes.apple.com/us/app/plants-vs-zombies-2/id597986893?ls=1&mt=8"
+            }
+        },
+        {
+            "objclass": "DraperConfig",
+            "aliases": [
+                "DraperConfig"
+            ],
+            "objdata": {
+                "DraperURL": "https://draper.popcap.com"
+            }
+        },
+        {
+            "objclass": "FBOpenGraphConfig",
+            "aliases": [
+                "FBOpenGraphConfig"
+            ],
+            "objdata": {
+                "#comment": "fog parameters",
+                "fog_url": "https://pvz.service.easports.com:443",
+                "fog_path": "/fog_consumer/v1/action",
+                "fog_sku": "PVZ02IOS",
+                "fog_auth": "v6s6mv450p0c54h29h0sen8s7pyv6qeyvauvo13o"
+            }
+        }
+    ]
+}
