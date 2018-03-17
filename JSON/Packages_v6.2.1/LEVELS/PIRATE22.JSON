@@ -1,0 +1,535 @@
+{
+    "#comment": "Pirate Challenge Laststand C",
+    "objects": [
+        {
+            "objclass": "LevelDefinition",
+            "objdata": {
+                "Description": "[PLAYERS_TRIP_TO_PIRATE_SHIP]",
+                "LevelNumber": 22,
+                "Loot": "RTID(DefaultLoot@LevelModules)",
+                "Modules": [
+                    "RTID(ChallengeModule@CurrentLevel)",
+                    "RTID(ZombiesDeadWinCon@LevelModules)",
+                    "RTID(PirateMowers@LevelModules)",
+                    "RTID(PiratePlanks@CurrentLevel)",
+                    "RTID(LastStandSeedBank@CurrentLevel)",
+                    "RTID(LastStand@CurrentLevel)",
+                    "RTID(DefaultZombieWinCondition@LevelModules)",
+                    "RTID(NewWaves@CurrentLevel)"
+                ],
+                "MusicType": "MiniGame_A",
+                "Name": "[PIRATE_LEVEL_NAME]",
+                "StageModule": "RTID(PirateStage@LevelModules)"
+            }
+        },
+        {
+            "aliases": [
+                "ChallengeModule"
+            ],
+            "objclass": "StarChallengeModuleProperties",
+            "objdata": {
+                "Challenges": [
+                    [
+                        "RTID(BeatTheLevel@CurrentLevel)"
+                    ]
+                ],
+                "ChallengesAlwaysAvailable": true
+            }
+        },
+        {
+            "aliases": [
+                "BeatTheLevel"
+            ],
+            "objclass": "StarChallengeBeatTheLevelProps",
+            "objdata": {
+                "Description": "[STARCHALLENGE_LASTSTAND_MINIGAME]",
+                "DescriptiveName": "[STARCHALLENGE_LASTSTAND_MINIGAME_NAME]"
+            }
+        },
+        {
+            "aliases": [
+                "LastStand"
+            ],
+            "objclass": "LastStandMinigameProperties",
+            "objdata": {
+                "StartingPlantfood": 2,
+                "StartingSun": 2750
+            }
+        },
+        {
+            "aliases": [
+                "LastStandSeedBank"
+            ],
+            "objclass": "SeedBankProperties",
+            "objdata": {
+                "PlantBlackList": [
+                    "sunflower",
+                    "twinsunflower",
+                    "iceburg",
+                    "sunshroom",
+                    "sunbean",
+                    "puffshroom",
+                    "melonpult",
+                    "toadstool",
+                    "goldleaf",
+                    "stallia",
+                    "primalsunflower",
+                    "moonflower",
+                    "goldbloom"
+                ],
+                "SuggestPlantList": [
+                    [
+                        "bonkchoy",
+                        "springbean"
+                    ],
+                    [
+                        "wallnut"
+                    ],
+                    [
+                        "spikeweed",
+                        "potatomine"
+                    ],
+                    [
+                        "kernelpult",
+                        "cabbagepult"
+                    ],
+                    [
+                        "primalpeashooter",
+                        "repeater"
+                    ],
+                    [
+                        "snapdragon",
+                        "bloomerang"
+                    ],
+                    [
+                        "sporeshroom",
+                        "xshot"
+                    ],
+                    [
+                        "electricblueberry",
+                        "lightningreed"
+                    ]
+                ],
+                "SelectionMethod": "chooser"
+            }
+        },
+        {
+            "aliases": [
+                "PiratePlanks"
+            ],
+            "objclass": "PiratePlankProperties",
+            "objdata": {
+                "PlankRows": []
+            }
+        },
+        {
+            "aliases": [
+                "NewWaves"
+            ],
+            "objclass": "WaveManagerModuleProperties",
+            "objdata": {
+                "ManualStartup": true,
+                "WaveManagerProps": "RTID(WaveManagerProps@CurrentLevel)"
+            }
+        },
+        {
+            "aliases": [
+                "WaveManagerProps"
+            ],
+            "objclass": "WaveManagerProperties",
+            "objdata": {
+                "SuppressFlagZombie": true,
+                "FlagWaveInterval": 10,
+                "IgnoreFlagCarriers": true,
+                "WaveCount": 10,
+                "WaveSpendingPointIncrement": 50,
+                "WaveSpendingPoints": 600,
+                "Waves": [
+                    [
+                        "RTID(Wave1@CurrentLevel)"
+                    ],
+                    [
+                        "RTID(Wave2@CurrentLevel)"
+                    ],
+                    [
+                        "RTID(Wave3@CurrentLevel)"
+                    ],
+                    [
+                        "RTID(Wave4@CurrentLevel)"
+                    ],
+                    [
+                        "RTID(Wave5@CurrentLevel)"
+                    ],
+                    [
+                        "RTID(Wave6@CurrentLevel)",
+                        "RTID(Wave6Event@CurrentLevel)"
+                    ],
+                    [
+                        "RTID(Wave7@CurrentLevel)"
+                    ],
+                    [
+                        "RTID(Wave8@CurrentLevel)"
+                    ],
+                    [
+                        "RTID(Wave9@CurrentLevel)"
+                    ],
+                    [
+                        "RTID(Wave10@CurrentLevel)",
+                        "RTID(Wave10Event@CurrentLevel)"
+                    ]
+                ]
+            }
+        },
+        {
+            "aliases": [
+                "Wave1"
+            ],
+            "objclass": "SpawnZombiesJitteredWaveActionProps",
+            "objdata": {
+                "Zombies": [
+                    {
+                        "Row": "3",
+                        "Type": "RTID(cannon@ZombieTypes)"
+                    }
+                ]
+            }
+        },
+        {
+            "aliases": [
+                "Wave2"
+            ],
+            "objclass": "SpawnZombiesJitteredWaveActionProps",
+            "objdata": {
+                "Zombies": [
+                    {
+                        "Row": "5",
+                        "Type": "RTID(swashbuckler@ZombieTypes)"
+                    },
+                    {
+                        "Row": "4",
+                        "Type": "RTID(swashbuckler@ZombieTypes)"
+                    },
+                    {
+                        "Row": "2",
+                        "Type": "RTID(swashbuckler@ZombieTypes)"
+                    },
+                    {
+                        "Row": "1",
+                        "Type": "RTID(swashbuckler@ZombieTypes)"
+                    }
+                ]
+            }
+        },
+        {
+            "aliases": [
+                "Wave3"
+            ],
+            "objclass": "SpawnZombiesJitteredWaveActionProps",
+            "objdata": {
+                "Zombies": [
+                    {
+                        "Row": "2",
+                        "Type": "RTID(cannon@ZombieTypes)"
+                    },
+                    {
+                        "Row": "4",
+                        "Type": "RTID(cannon@ZombieTypes)"
+                    }
+                ]
+            }
+        },
+        {
+            "aliases": [
+                "Wave4"
+            ],
+            "objclass": "SpawnZombiesJitteredWaveActionProps",
+            "objdata": {
+                "Zombies": [
+                    {
+                        "Row": "1",
+                        "Type": "RTID(cannon@ZombieTypes)"
+                    },
+                    {
+                        "Row": "3",
+                        "Type": "RTID(cannon@ZombieTypes)"
+                    },
+                    {
+                        "Row": "5",
+                        "Type": "RTID(cannon@ZombieTypes)"
+                    },
+                    {
+                        "Row": "2",
+                        "Type": "RTID(swashbuckler@ZombieTypes)"
+                    },
+                    {
+                        "Row": "5",
+                        "Type": "RTID(swashbuckler@ZombieTypes)"
+                    }
+                ]
+            }
+        },
+        {
+            "aliases": [
+                "Wave5"
+            ],
+            "objclass": "SpawnZombiesJitteredWaveActionProps",
+            "objdata": {
+                "Zombies": [
+                    {
+                        "Row": "1",
+                        "Type": "RTID(cannon@ZombieTypes)"
+                    },
+                    {
+                        "Row": "2",
+                        "Type": "RTID(cannon@ZombieTypes)"
+                    },
+                    {
+                        "Row": "3",
+                        "Type": "RTID(cannon@ZombieTypes)"
+                    },
+                    {
+                        "Row": "4",
+                        "Type": "RTID(cannon@ZombieTypes)"
+                    },
+                    {
+                        "Row": "5",
+                        "Type": "RTID(cannon@ZombieTypes)"
+                    }
+                ]
+            }
+        },
+        {
+            "aliases": [
+                "Wave6"
+            ],
+            "objclass": "SpawnZombiesJitteredWaveActionProps",
+            "objdata": {
+                "Zombies": [
+                    {
+                        "Row": "1",
+                        "Type": "RTID(cannon@ZombieTypes)"
+                    },
+                    {
+                        "Row": "2",
+                        "Type": "RTID(cannon@ZombieTypes)"
+                    },
+                    {
+                        "Row": "3",
+                        "Type": "RTID(cannon@ZombieTypes)"
+                    },
+                    {
+                        "Row": "4",
+                        "Type": "RTID(cannon@ZombieTypes)"
+                    },
+                    {
+                        "Row": "5",
+                        "Type": "RTID(cannon@ZombieTypes)"
+                    }
+                ]
+            }
+        },
+        {
+            "aliases": [
+                "Wave6Event"
+            ],
+            "objclass": "RaidingPartyZombieSpawnerProps",
+            "objdata": {
+                "GroupSize": 1,
+                "SwashbucklerCount": 5,
+                "TimeBetweenGroups": 1.0
+            }
+        },
+        {
+            "aliases": [
+                "Wave7"
+            ],
+            "objclass": "SpawnZombiesJitteredWaveActionProps",
+            "objdata": {
+                "Zombies": [
+                    {
+                        "Row": "1",
+                        "Type": "RTID(cannon@ZombieTypes)"
+                    },
+                    {
+                        "Row": "2",
+                        "Type": "RTID(cannon@ZombieTypes)"
+                    },
+                    {
+                        "Row": "3",
+                        "Type": "RTID(cannon@ZombieTypes)"
+                    },
+                    {
+                        "Row": "4",
+                        "Type": "RTID(cannon@ZombieTypes)"
+                    },
+                    {
+                        "Row": "5",
+                        "Type": "RTID(cannon@ZombieTypes)"
+                    },
+                    {
+                        "Row": "1",
+                        "Type": "RTID(swashbuckler@ZombieTypes)"
+                    },
+                    {
+                        "Row": "3",
+                        "Type": "RTID(swashbuckler@ZombieTypes)"
+                    },
+                    {
+                        "Row": "5",
+                        "Type": "RTID(swashbuckler@ZombieTypes)"
+                    }
+                ]
+            }
+        },
+        {
+            "aliases": [
+                "Wave8"
+            ],
+            "objclass": "SpawnZombiesJitteredWaveActionProps",
+            "objdata": {
+                "Zombies": [
+                    {
+                        "Row": "1",
+                        "Type": "RTID(cannon@ZombieTypes)"
+                    },
+                    {
+                        "Row": "2",
+                        "Type": "RTID(cannon@ZombieTypes)"
+                    },
+                    {
+                        "Row": "3",
+                        "Type": "RTID(cannon@ZombieTypes)"
+                    },
+                    {
+                        "Row": "4",
+                        "Type": "RTID(cannon@ZombieTypes)"
+                    },
+                    {
+                        "Row": "5",
+                        "Type": "RTID(cannon@ZombieTypes)"
+                    },
+                    {
+                        "Row": "2",
+                        "Type": "RTID(swashbuckler@ZombieTypes)"
+                    },
+                    {
+                        "Row": "4",
+                        "Type": "RTID(swashbuckler@ZombieTypes)"
+                    }
+                ]
+            }
+        },
+        {
+            "aliases": [
+                "Wave9"
+            ],
+            "objclass": "SpawnZombiesJitteredWaveActionProps",
+            "objdata": {
+                "Zombies": [
+                    {
+                        "Row": "1",
+                        "Type": "RTID(cannon@ZombieTypes)"
+                    },
+                    {
+                        "Row": "2",
+                        "Type": "RTID(cannon@ZombieTypes)"
+                    },
+                    {
+                        "Row": "3",
+                        "Type": "RTID(cannon@ZombieTypes)"
+                    },
+                    {
+                        "Row": "4",
+                        "Type": "RTID(cannon@ZombieTypes)"
+                    },
+                    {
+                        "Row": "5",
+                        "Type": "RTID(cannon@ZombieTypes)"
+                    },
+                    {
+                        "Row": "1",
+                        "Type": "RTID(swashbuckler@ZombieTypes)"
+                    },
+                    {
+                        "Row": "2",
+                        "Type": "RTID(swashbuckler@ZombieTypes)"
+                    },
+                    {
+                        "Row": "3",
+                        "Type": "RTID(swashbuckler@ZombieTypes)"
+                    },
+                    {
+                        "Row": "4",
+                        "Type": "RTID(swashbuckler@ZombieTypes)"
+                    },
+                    {
+                        "Row": "5",
+                        "Type": "RTID(swashbuckler@ZombieTypes)"
+                    }
+                ]
+            }
+        },
+        {
+            "aliases": [
+                "Wave10"
+            ],
+            "objclass": "SpawnZombiesJitteredWaveActionProps",
+            "objdata": {
+                "Zombies": [
+                    {
+                        "Row": "1",
+                        "Type": "RTID(cannon@ZombieTypes)"
+                    },
+                    {
+                        "Row": "2",
+                        "Type": "RTID(cannon@ZombieTypes)"
+                    },
+                    {
+                        "Row": "3",
+                        "Type": "RTID(cannon@ZombieTypes)"
+                    },
+                    {
+                        "Row": "4",
+                        "Type": "RTID(cannon@ZombieTypes)"
+                    },
+                    {
+                        "Row": "5",
+                        "Type": "RTID(cannon@ZombieTypes)"
+                    },
+                    {
+                        "Row": "1",
+                        "Type": "RTID(cannon@ZombieTypes)"
+                    },
+                    {
+                        "Row": "2",
+                        "Type": "RTID(cannon@ZombieTypes)"
+                    },
+                    {
+                        "Row": "3",
+                        "Type": "RTID(cannon@ZombieTypes)"
+                    },
+                    {
+                        "Row": "4",
+                        "Type": "RTID(cannon@ZombieTypes)"
+                    },
+                    {
+                        "Row": "5",
+                        "Type": "RTID(cannon@ZombieTypes)"
+                    }
+                ]
+            }
+        },
+        {
+            "aliases": [
+                "Wave10Event"
+            ],
+            "objclass": "RaidingPartyZombieSpawnerProps",
+            "objdata": {
+                "GroupSize": 1,
+                "SwashbucklerCount": 5,
+                "TimeBetweenGroups": 1.0
+            }
+        }
+    ],
+    "version": 1
+}

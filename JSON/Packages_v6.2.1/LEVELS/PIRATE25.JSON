@@ -1,0 +1,166 @@
+{
+    "#comment": "Pirate Zomboss",
+    "objects": [
+        {
+            "objclass": "LevelDefinition",
+            "objdata": {
+                "Description": "[PLAYERS_TRIP_TO_PIRATE_SHIP]",
+                "FirstIntroNarrative": "PIRATE_INTRO_ZOMBOSS",
+                "FirstOutroNarrative": "PIRATE_OUTRO_ZOMBOSS",
+                "FirstRewardParam": "worldtrophy_pirate",
+                "FirstRewardType": "worldtrophy",
+                "ForceToWorldMap": true,
+                "LevelNumber": 25,
+                "Loot": "RTID(DefaultLoot@LevelModules)",
+                "Modules": [
+                    "RTID(ZombossIntro@LevelModules)",
+                    "RTID(PirateMowers@LevelModules)",
+                    "RTID(ConveyorBelt@CurrentLevel)",
+                    "RTID(ZombossBattle@CurrentLevel)",
+                    "RTID(PiratePlanks@CurrentLevel)",
+                    "RTID(DefaultZombieWinCondition@LevelModules)",
+                    "RTID(NewWaves@CurrentLevel)"
+                ],
+                "MusicType": "MiniGame_A",
+                "Name": "[PIRATE_LEVEL_NAME]",
+                "RepeatPlayForceToWorldMap": true,
+                "NormalPresentTable": "pirate_normal_01",
+                "ShinyPresentTable": "pirate_shiny_01",
+                "StageModule": "RTID(PirateStage@LevelModules)",
+                "VictoryModule": "RTID(ZombossVictoryOutro@LevelModules)",
+                "GameFeaturesToUnlock": [
+                    "world_trophy_pirate"
+                ],
+                "LoadDefaultMusic": false
+            }
+        },
+        {
+            "aliases": [
+                "PiratePlanks"
+            ],
+            "objclass": "PiratePlankProperties",
+            "objdata": {
+                "PlankRows": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        },
+        {
+            "aliases": [
+                "ConveyorBelt"
+            ],
+            "objclass": "ConveyorSeedBankProperties",
+            "objdata": {
+                "DropDelayConditions": [
+                    {
+                        "Delay": 2,
+                        "MaxPackets": 0
+                    },
+                    {
+                        "Delay": 3,
+                        "MaxPackets": 2
+                    },
+                    {
+                        "Delay": 5,
+                        "MaxPackets": 4
+                    },
+                    {
+                        "Delay": 8,
+                        "MaxPackets": 8
+                    }
+                ],
+                "InitialPlantList": [
+                    {
+                        "MaxCount": 15,
+                        "MaxWeightFactor": 0.2,
+                        "PlantType": "kernelpult",
+                        "Weight": 15
+                    },
+                    {
+                        "MaxCount": 10,
+                        "MaxWeightFactor": 0.1,
+                        "PlantType": "spikeweed",
+                        "Weight": 15
+                    },
+                    {
+                        "MaxCount": 0,
+                        "MaxWeightFactor": 0,
+                        "PlantType": "spikerock",
+                        "Weight": 0
+                    },
+                    {
+                        "MaxCount": 5,
+                        "MaxWeightFactor": 0,
+                        "MinCount": 3,
+                        "MinWeightFactor": 1.5,
+                        "PlantType": "coconutcannon",
+                        "Weight": 15
+                    },
+                    {
+                        "MaxCount": 2,
+                        "MaxWeightFactor": 0.0,
+                        "PlantType": "snapdragon",
+                        "Weight": 20
+                    },
+                    {
+                        "MaxCount": 5,
+                        "MaxWeightFactor": 0,
+                        "PlantType": "threepeater",
+                        "Weight": 15
+                    },
+                    {
+                        "MaxCount": 1,
+                        "MaxWeightFactor": 0,
+                        "PlantType": "cherry_bomb",
+                        "Weight": 2
+                    }
+                ],
+                "SpeedConditions": [
+                    {
+                        "MaxPackets": 0,
+                        "Speed": 100
+                    }
+                ]
+            }
+        },
+        {
+            "aliases": [
+                "ZombossBattle"
+            ],
+            "objclass": "ZombossBattleModuleProperties",
+            "objdata": {
+                "ReservedColumnCount": 2,
+                "ZombossMechType": "zombossmech_pirate",
+                "ZombossDeathRow": 3,
+                "ZombossDeathColumn": 5,
+                "ZombossSpawnGridPosition": {
+                    "mX": 6,
+                    "mY": 3
+                }
+            }
+        },
+        {
+            "aliases": [
+                "NewWaves"
+            ],
+            "objclass": "WaveManagerModuleProperties",
+            "objdata": {
+                "WaveManagerProps": "RTID(WaveManagerProps@CurrentLevel)"
+            }
+        },
+        {
+            "aliases": [
+                "WaveManagerProps"
+            ],
+            "objclass": "WaveManagerProperties",
+            "objdata": {
+                "Waves": []
+            }
+        }
+    ],
+    "version": 1
+}

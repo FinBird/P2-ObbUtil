@@ -1,0 +1,16 @@
+{
+    "#comment": "Modern 32",
+    "objects": [
+        {
+            "objclass": "LevelDefinition",
+            "objdata": {
+                "RandomLevelSet": [
+                    "modern_zomboss_01_egypt",
+                    "modern_zomboss_02_pirate",
+                    "modern_zomboss_03_cowboy"
+                ]
+            }
+        }
+    ],
+    "version": 1
+}

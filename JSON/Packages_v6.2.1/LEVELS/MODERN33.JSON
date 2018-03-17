@@ -1,0 +1,16 @@
+{
+    "#comment": "Modern 33",
+    "objects": [
+        {
+            "objclass": "LevelDefinition",
+            "objdata": {
+                "RandomLevelSet": [
+                    "modern_zomboss_04_future",
+                    "modern_zomboss_05_dark",
+                    "modern_zomboss_06_beach"
+                ]
+            }
+        }
+    ],
+    "version": 1
+}

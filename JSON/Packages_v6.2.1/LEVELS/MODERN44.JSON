@@ -1,0 +1,153 @@
+{
+    "#comment": "Modern 44",
+    "objects": [
+        {
+            "objclass": "LevelDefinition",
+            "objdata": {
+                "Description": "[PLAYERS_TRIP_TO_MODERN]",
+                "FirstIntroNarrative": "MODERN_44_INTRO",
+                "FirstOutroNarrative": "MODERN_44_OUTRO",
+                "ForceToWorldMap": true,
+                "LevelNumber": 44,
+                "LoadDefaultMusic": false,
+                "Loot": "RTID(DefaultLoot@LevelModules)",
+                "Modules": [
+                    "RTID(ZombossIntro@LevelModules)",
+                    "RTID(ConveyorBelt@CurrentLevel)",
+                    "RTID(ZombossBattle@CurrentLevel)",
+                    "RTID(DefaultZombieWinCondition@LevelModules)",
+                    "RTID(NewWaves@CurrentLevel)"
+                ],
+                "MusicType": "MiniGame_A",
+                "Name": "[MODERN_LEVEL_NAME]",
+                "NormalPresentTable": "egypt_normal_01",
+                "RepeatPlayForceToWorldMap": true,
+                "ShinyPresentTable": "egypt_shiny_01",
+                "StageModule": "RTID(ModernStage@LevelModules)",
+                "SuppressSunSpawn": true,
+                "VictoryModule": "RTID(ZombossVictoryOutro@LevelModules)"
+            }
+        },
+        {
+            "aliases": [
+                "ConveyorBelt"
+            ],
+            "objclass": "ConveyorSeedBankProperties",
+            "objdata": {
+                "DropDelayConditions": [
+                    {
+                        "Delay": 3,
+                        "MaxPackets": 0
+                    },
+                    {
+                        "Delay": 4,
+                        "MaxPackets": 2
+                    },
+                    {
+                        "Delay": 6,
+                        "MaxPackets": 4
+                    },
+                    {
+                        "Delay": 9,
+                        "MaxPackets": 8
+                    }
+                ],
+                "InitialPlantList": [
+                    {
+                        "MaxCount": 10,
+                        "MaxWeightFactor": 0.1,
+                        "MinCount": 2,
+                        "MinWeightFactor": 2,
+                        "PlantType": "chomper",
+                        "Weight": 10
+                    },
+                    {
+                        "MaxCount": 10,
+                        "MaxWeightFactor": 0.1,
+                        "MinCount": 2,
+                        "MinWeightFactor": 2,
+                        "PlantType": "dusklobber",
+                        "Weight": 10
+                    },
+                    {
+                        "MaxCount": 10,
+                        "MaxWeightFactor": 0.1,
+                        "MinCount": 2,
+                        "MinWeightFactor": 2,
+                        "PlantType": "fumeshroom",
+                        "Weight": 10
+                    },
+                    {
+                        "MaxCount": 3,
+                        "PlantType": "moonflower",
+                        "Weight": 5
+                    },
+                    {
+                        "PlantType": "nightshade",
+                        "Weight": 10
+                    },
+                    {
+                        "MaxCount": 2,
+                        "PlantType": "shadowshroom",
+                        "Weight": 10
+                    },
+                    {
+                        "MaxCount": 15,
+                        "MaxWeightFactor": 0.1,
+                        "MinCount": 3,
+                        "MinWeightFactor": 2,
+                        "PlantType": "spikeweed",
+                        "Weight": 10
+                    },
+                    {
+                        "MaxCount": 2,
+                        "PlantType": "stallia",
+                        "Weight": 5
+                    }
+                ],
+                "SpeedConditions": [
+                    {
+                        "MaxPackets": 0,
+                        "Speed": 100
+                    }
+                ]
+            }
+        },
+        {
+            "aliases": [
+                "ZombossBattle"
+            ],
+            "objclass": "ZombossBattleModuleProperties",
+            "objdata": {
+                "ReservedColumnCount": 3,
+                "ZombossDeathColumn": 5,
+                "ZombossDeathRow": 3,
+                "ZombossMechType": "zombossmech_modern1",
+                "ZombossSpawnGridPosition": {
+                    "mX": 6,
+                    "mY": 4
+                }
+            }
+        },
+        {
+            "aliases": [
+                "NewWaves"
+            ],
+            "objclass": "WaveManagerModuleProperties",
+            "objdata": {
+                "WaveManagerProps": "RTID(WaveManagerProps@CurrentLevel)"
+            }
+        },
+        {
+            "aliases": [
+                "WaveManagerProps"
+            ],
+            "objclass": "WaveManagerProperties",
+            "objdata": {
+                "LevelJam": "jam_pop",
+                "Waves": []
+            }
+        }
+    ],
+    "version": 1
+}

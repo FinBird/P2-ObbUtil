@@ -1,0 +1,871 @@
+{
+    "objects": [
+        {
+            "objclass": "LevelDefinition",
+            "objdata": {
+                "Description": "[PLAYERS_TRIP_TO_PIRATE_SHIP]",
+                "FirstRewardParam": "snapdragon",
+                "FirstRewardType": "unlock_plant",
+                "GameOverDialogShowBrain": false,
+                "LevelNumber": 3,
+                "Loot": "RTID(NoLoot@LevelModules)",
+                "MainObjective": "[SURVIVE_ZOMBIE_ATTACK]",
+                "Modules": [
+                    "RTID(PirateCannonTutorial@CurrentLevel)",
+                    "RTID(CannonMinigame@CurrentLevel)",
+                    "RTID(ChallengeModule@CurrentLevel)",
+                    "RTID(ZombiesDeadWinCon@LevelModules)",
+                    "RTID(NewWaves@CurrentLevel)"
+                ],
+                "MusicType": "MiniGame_B",
+                "Name": "[PIRATE_LEVEL_NAME]",
+                "NormalPresentTable": "pirate_normal_01",
+                "ReplayRewardParam": "none",
+                "ReplayRewardType": "none",
+                "ShinyPresentTable": "pirate_shiny_01",
+                "StageModule": "RTID(PirateStage@LevelModules)",
+                "UseTutorialOutro": false,
+                "SuppressDynamicTutorial": true
+            }
+        },
+        {
+            "aliases": [
+                "PirateCannonTutorial"
+            ],
+            "objclass": "PirateCannonTutorialProperties",
+            "objdata": {
+                "ResourceGroupNames": [],
+                "ShowTutorial": true
+            }
+        },
+        {
+            "aliases": [
+                "ChallengeModule"
+            ],
+            "objclass": "StarChallengeModuleProperties",
+            "objdata": {
+                "Challenges": [
+                    [
+                        "RTID(BeatTheLevel@CurrentLevel)"
+                    ]
+                ],
+                "ChallengesAlwaysAvailable": true
+            }
+        },
+        {
+            "aliases": [
+                "BeatTheLevel"
+            ],
+            "objclass": "StarChallengeBeatTheLevelProps",
+            "objdata": {
+                "Description": "[STARCHALLENGE_CANNON_MINIGAME]",
+                "DescriptiveName": "[STARCHALLENGE_CANNON_MINIGAME_NAME]"
+            }
+        },
+        {
+            "aliases": [
+                "CannonMinigame"
+            ],
+            "objclass": "CannonMinigameProperties",
+            "objdata": {
+                "BaseMovementRate": 80,
+                "BaseZombieKillScore": 100,
+                "BufferDistance": 50,
+                "ComboBrackets": [
+                    {
+                        "AudioCue": "Play_CrazyDave_Short",
+                        "Exclamations": [
+                            "[DAVE_CANNONMINIGAME_3_KILLED_1]",
+                            "[DAVE_CANNONMINIGAME_3_KILLED_2]",
+                            "[DAVE_CANNONMINIGAME_3_KILLED_3]"
+                        ],
+                        "MessageColor": {
+                            "mAlpha": 255,
+                            "mBlue": 220,
+                            "mGreen": 255,
+                            "mRed": 220
+                        },
+                        "ScoreMultiplier": 2,
+                        "ZombiesKilled": 3
+                    },
+                    {
+                        "AudioCue": "Play_CrazyDave_Scream",
+                        "Exclamations": [
+                            "[DAVE_CANNONMINIGAME_5_KILLED_1]",
+                            "[DAVE_CANNONMINIGAME_5_KILLED_2]",
+                            "[DAVE_CANNONMINIGAME_5_KILLED_3]"
+                        ],
+                        "MessageColor": {
+                            "mAlpha": 255,
+                            "mBlue": 255,
+                            "mGreen": 220,
+                            "mRed": 220
+                        },
+                        "ScoreMultiplier": 3,
+                        "ZombiesKilled": 5
+                    },
+                    {
+                        "AudioCue": "Play_CrazyDave_Scream2",
+                        "Exclamations": [
+                            "[DAVE_CANNONMINIGAME_8_KILLED_1]",
+                            "[DAVE_CANNONMINIGAME_8_KILLED_2]",
+                            "[DAVE_CANNONMINIGAME_8_KILLED_3]"
+                        ],
+                        "MessageColor": {
+                            "mAlpha": 255,
+                            "mBlue": 220,
+                            "mGreen": 240,
+                            "mRed": 255
+                        },
+                        "ScoreMultiplier": 4,
+                        "ZombiesKilled": 8
+                    },
+                    {
+                        "AudioCue": "Play_CrazyDave_Crazy",
+                        "Exclamations": [
+                            "[DAVE_CANNONMINIGAME_12_KILLED_1]",
+                            "[DAVE_CANNONMINIGAME_12_KILLED_2]",
+                            "[DAVE_CANNONMINIGAME_12_KILLED_3]"
+                        ],
+                        "MessageColor": {
+                            "mAlpha": 255,
+                            "mBlue": 200,
+                            "mGreen": 200,
+                            "mRed": 255
+                        },
+                        "ScoreMultiplier": 5,
+                        "ZombiesKilled": 12
+                    }
+                ],
+                "Lanes": [
+                    {
+                        "SplinePoints": [
+                            {
+                                "x": 792,
+                                "y": 228
+                            },
+                            {
+                                "x": 514,
+                                "y": 314
+                            },
+                            {
+                                "x": 517,
+                                "y": 539
+                            },
+                            {
+                                "x": 695,
+                                "y": 545
+                            },
+                            {
+                                "x": 742,
+                                "y": 309
+                            },
+                            {
+                                "x": 625,
+                                "y": 109
+                            },
+                            {
+                                "x": 453,
+                                "y": 239
+                            },
+                            {
+                                "x": 389,
+                                "y": 532
+                            }
+                        ]
+                    },
+                    {
+                        "SplinePoints": [
+                            {
+                                "x": 799,
+                                "y": 528
+                            },
+                            {
+                                "x": 527,
+                                "y": 449
+                            },
+                            {
+                                "x": 518,
+                                "y": 232
+                            },
+                            {
+                                "x": 693,
+                                "y": 226
+                            },
+                            {
+                                "x": 753,
+                                "y": 460
+                            },
+                            {
+                                "x": 643,
+                                "y": 595
+                            },
+                            {
+                                "x": 451,
+                                "y": 527
+                            },
+                            {
+                                "x": 375,
+                                "y": 89
+                            }
+                        ]
+                    },
+                    {
+                        "SplinePoints": [
+                            {
+                                "x": 799,
+                                "y": 298
+                            },
+                            {
+                                "x": 534,
+                                "y": 245
+                            },
+                            {
+                                "x": 389,
+                                "y": 390
+                            },
+                            {
+                                "x": 452,
+                                "y": 538
+                            },
+                            {
+                                "x": 592,
+                                "y": 532
+                            },
+                            {
+                                "x": 644,
+                                "y": 317
+                            },
+                            {
+                                "x": 523,
+                                "y": 156
+                            },
+                            {
+                                "x": 386,
+                                "y": 310
+                            },
+                            {
+                                "x": 399,
+                                "y": 582
+                            }
+                        ]
+                    },
+                    {
+                        "SplinePoints": [
+                            {
+                                "x": 799,
+                                "y": 450
+                            },
+                            {
+                                "x": 524,
+                                "y": 538
+                            },
+                            {
+                                "x": 388,
+                                "y": 383
+                            },
+                            {
+                                "x": 449,
+                                "y": 232
+                            },
+                            {
+                                "x": 590,
+                                "y": 235
+                            },
+                            {
+                                "x": 639,
+                                "y": 446
+                            },
+                            {
+                                "x": 517,
+                                "y": 595
+                            },
+                            {
+                                "x": 391,
+                                "y": 462
+                            },
+                            {
+                                "x": 403,
+                                "y": 124
+                            },
+                            {
+                                "x": 421,
+                                "y": 7
+                            }
+                        ]
+                    },
+                    {
+                        "SplinePoints": [
+                            {
+                                "x": 797,
+                                "y": 389
+                            },
+                            {
+                                "x": 563,
+                                "y": 371
+                            },
+                            {
+                                "x": 516,
+                                "y": 232
+                            },
+                            {
+                                "x": 689,
+                                "y": 303
+                            },
+                            {
+                                "x": 682,
+                                "y": 473
+                            },
+                            {
+                                "x": 509,
+                                "y": 521
+                            },
+                            {
+                                "x": 534,
+                                "y": 372
+                            },
+                            {
+                                "x": 731,
+                                "y": 445
+                            },
+                            {
+                                "x": 735,
+                                "y": 593
+                            }
+                        ]
+                    }
+                ],
+                "MaxRewardGold": 50,
+                "MinRewardGold": 0,
+                "MinScore": 5000,
+                "ResourceGroupNames": [],
+                "RowHasCannon": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "SlowdownMovementRate": 45
+            }
+        },
+        {
+            "aliases": [
+                "NewWaves"
+            ],
+            "objclass": "WaveManagerModuleProperties",
+            "objdata": {
+                "WaveManagerProps": "RTID(WaveManagerProps@CurrentLevel)"
+            }
+        },
+        {
+            "aliases": [
+                "WaveManagerProps"
+            ],
+            "objclass": "WaveManagerProperties",
+            "objdata": {
+                "FlagWaveInterval": 13,
+                "SuppressFlagZombie": true,
+                "WaveCount": 12,
+                "WaveSpendingPointIncrement": 60,
+                "WaveSpendingPoints": 600,
+                "Waves": [
+                    [
+                        "RTID(Wave1@CurrentLevel)"
+                    ],
+                    [
+                        "RTID(Wave2@CurrentLevel)"
+                    ],
+                    [
+                        "RTID(Wave3@CurrentLevel)"
+                    ],
+                    [
+                        "RTID(Wave4@CurrentLevel)"
+                    ],
+                    [
+                        "RTID(Wave5@CurrentLevel)"
+                    ],
+                    [
+                        "RTID(Wave6@CurrentLevel)"
+                    ],
+                    [
+                        "RTID(Wave7@CurrentLevel)"
+                    ],
+                    [
+                        "RTID(Wave8@CurrentLevel)"
+                    ],
+                    [
+                        "RTID(Wave9@CurrentLevel)"
+                    ],
+                    [
+                        "RTID(Wave10@CurrentLevel)"
+                    ],
+                    [
+                        "RTID(Wave11@CurrentLevel)"
+                    ],
+                    [
+                        "RTID(Wave12@CurrentLevel)"
+                    ]
+                ]
+            }
+        },
+        {
+            "aliases": [
+                "Wave1"
+            ],
+            "objclass": "SpawnZombiesJitteredWaveActionProps",
+            "objdata": {
+                "AddToZombiePool": [
+                    {
+                        "Type": "RTID(seagull@ZombieTypes)"
+                    }
+                ],
+                "Zombies": [
+                    {
+                        "Row": "1",
+                        "Type": "RTID(seagull@ZombieTypes)"
+                    },
+                    {
+                        "Row": "1",
+                        "Type": "RTID(seagull@ZombieTypes)"
+                    },
+                    {
+                        "Row": "1",
+                        "Type": "RTID(seagull@ZombieTypes)"
+                    }
+                ]
+            }
+        },
+        {
+            "aliases": [
+                "Wave2"
+            ],
+            "objclass": "SpawnZombiesJitteredWaveActionProps",
+            "objdata": {
+                "Zombies": [
+                    {
+                        "Row": "2",
+                        "Type": "RTID(seagull@ZombieTypes)"
+                    },
+                    {
+                        "Row": "2",
+                        "Type": "RTID(seagull@ZombieTypes)"
+                    },
+                    {
+                        "Row": "2",
+                        "Type": "RTID(seagull@ZombieTypes)"
+                    }
+                ]
+            }
+        },
+        {
+            "aliases": [
+                "Wave3"
+            ],
+            "objclass": "SpawnZombiesJitteredWaveActionProps",
+            "objdata": {
+                "Zombies": [
+                    {
+                        "Row": "1",
+                        "Type": "RTID(seagull@ZombieTypes)"
+                    },
+                    {
+                        "Row": "1",
+                        "Type": "RTID(seagull@ZombieTypes)"
+                    },
+                    {
+                        "Row": "1",
+                        "Type": "RTID(seagull@ZombieTypes)"
+                    },
+                    {
+                        "Row": "2",
+                        "Type": "RTID(seagull@ZombieTypes)"
+                    },
+                    {
+                        "Row": "2",
+                        "Type": "RTID(seagull@ZombieTypes)"
+                    },
+                    {
+                        "Row": "2",
+                        "Type": "RTID(seagull@ZombieTypes)"
+                    }
+                ]
+            }
+        },
+        {
+            "aliases": [
+                "Wave4"
+            ],
+            "objclass": "SpawnZombiesJitteredWaveActionProps",
+            "objdata": {
+                "Zombies": [
+                    {
+                        "Row": "3",
+                        "Type": "RTID(seagull@ZombieTypes)"
+                    },
+                    {
+                        "Row": "3",
+                        "Type": "RTID(seagull@ZombieTypes)"
+                    },
+                    {
+                        "Row": "3",
+                        "Type": "RTID(seagull@ZombieTypes)"
+                    }
+                ]
+            }
+        },
+        {
+            "aliases": [
+                "Wave5"
+            ],
+            "objclass": "SpawnZombiesJitteredWaveActionProps",
+            "objdata": {
+                "Zombies": [
+                    {
+                        "Row": "4",
+                        "Type": "RTID(seagull@ZombieTypes)"
+                    },
+                    {
+                        "Row": "4",
+                        "Type": "RTID(seagull@ZombieTypes)"
+                    },
+                    {
+                        "Row": "4",
+                        "Type": "RTID(seagull@ZombieTypes)"
+                    }
+                ]
+            }
+        },
+        {
+            "aliases": [
+                "Wave6"
+            ],
+            "objclass": "SpawnZombiesJitteredWaveActionProps",
+            "objdata": {
+                "Zombies": [
+                    {
+                        "Row": "3",
+                        "Type": "RTID(seagull@ZombieTypes)"
+                    },
+                    {
+                        "Row": "3",
+                        "Type": "RTID(seagull@ZombieTypes)"
+                    },
+                    {
+                        "Row": "3",
+                        "Type": "RTID(seagull@ZombieTypes)"
+                    },
+                    {
+                        "Row": "4",
+                        "Type": "RTID(seagull@ZombieTypes)"
+                    },
+                    {
+                        "Row": "4",
+                        "Type": "RTID(seagull@ZombieTypes)"
+                    },
+                    {
+                        "Row": "4",
+                        "Type": "RTID(seagull@ZombieTypes)"
+                    }
+                ]
+            }
+        },
+        {
+            "aliases": [
+                "Wave7"
+            ],
+            "objclass": "SpawnZombiesJitteredWaveActionProps",
+            "objdata": {
+                "Zombies": [
+                    {
+                        "Row": "5",
+                        "Type": "RTID(seagull@ZombieTypes)"
+                    },
+                    {
+                        "Row": "5",
+                        "Type": "RTID(seagull@ZombieTypes)"
+                    },
+                    {
+                        "Row": "5",
+                        "Type": "RTID(seagull@ZombieTypes)"
+                    }
+                ]
+            }
+        },
+        {
+            "aliases": [
+                "Wave8"
+            ],
+            "objclass": "SpawnZombiesJitteredWaveActionProps",
+            "objdata": {
+                "Zombies": [
+                    {
+                        "Row": "5",
+                        "Type": "RTID(seagull@ZombieTypes)"
+                    },
+                    {
+                        "Row": "5",
+                        "Type": "RTID(seagull@ZombieTypes)"
+                    },
+                    {
+                        "Row": "5",
+                        "Type": "RTID(seagull@ZombieTypes)"
+                    },
+                    {
+                        "Row": "5",
+                        "Type": "RTID(seagull@ZombieTypes)"
+                    },
+                    {
+                        "Row": "1",
+                        "Type": "RTID(seagull@ZombieTypes)"
+                    },
+                    {
+                        "Row": "1",
+                        "Type": "RTID(seagull@ZombieTypes)"
+                    },
+                    {
+                        "Row": "1",
+                        "Type": "RTID(seagull@ZombieTypes)"
+                    },
+                    {
+                        "Row": "1",
+                        "Type": "RTID(seagull@ZombieTypes)"
+                    }
+                ]
+            }
+        },
+        {
+            "aliases": [
+                "Wave9"
+            ],
+            "objclass": "SpawnZombiesJitteredWaveActionProps",
+            "objdata": {
+                "Zombies": [
+                    {
+                        "Row": "5",
+                        "Type": "RTID(seagull@ZombieTypes)"
+                    },
+                    {
+                        "Row": "5",
+                        "Type": "RTID(seagull@ZombieTypes)"
+                    },
+                    {
+                        "Row": "5",
+                        "Type": "RTID(seagull@ZombieTypes)"
+                    },
+                    {
+                        "Row": "5",
+                        "Type": "RTID(seagull@ZombieTypes)"
+                    },
+                    {
+                        "Row": "3",
+                        "Type": "RTID(seagull@ZombieTypes)"
+                    },
+                    {
+                        "Row": "3",
+                        "Type": "RTID(seagull@ZombieTypes)"
+                    },
+                    {
+                        "Row": "3",
+                        "Type": "RTID(seagull@ZombieTypes)"
+                    },
+                    {
+                        "Row": "3",
+                        "Type": "RTID(seagull@ZombieTypes)"
+                    }
+                ]
+            }
+        },
+        {
+            "aliases": [
+                "Wave10"
+            ],
+            "objclass": "SpawnZombiesJitteredWaveActionProps",
+            "objdata": {
+                "Zombies": [
+                    {
+                        "Row": "4",
+                        "Type": "RTID(seagull@ZombieTypes)"
+                    },
+                    {
+                        "Row": "4",
+                        "Type": "RTID(seagull@ZombieTypes)"
+                    },
+                    {
+                        "Row": "4",
+                        "Type": "RTID(seagull@ZombieTypes)"
+                    },
+                    {
+                        "Row": "4",
+                        "Type": "RTID(seagull@ZombieTypes)"
+                    },
+                    {
+                        "Row": "4",
+                        "Type": "RTID(seagull@ZombieTypes)"
+                    },
+                    {
+                        "Row": "2",
+                        "Type": "RTID(seagull@ZombieTypes)"
+                    },
+                    {
+                        "Row": "2",
+                        "Type": "RTID(seagull@ZombieTypes)"
+                    },
+                    {
+                        "Row": "2",
+                        "Type": "RTID(seagull@ZombieTypes)"
+                    },
+                    {
+                        "Row": "2",
+                        "Type": "RTID(seagull@ZombieTypes)"
+                    },
+                    {
+                        "Row": "2",
+                        "Type": "RTID(seagull@ZombieTypes)"
+                    }
+                ]
+            }
+        },
+        {
+            "aliases": [
+                "Wave11"
+            ],
+            "objclass": "SpawnZombiesJitteredWaveActionProps",
+            "objdata": {
+                "Zombies": [
+                    {
+                        "Row": "4",
+                        "Type": "RTID(seagull@ZombieTypes)"
+                    },
+                    {
+                        "Row": "4",
+                        "Type": "RTID(seagull@ZombieTypes)"
+                    },
+                    {
+                        "Row": "4",
+                        "Type": "RTID(seagull@ZombieTypes)"
+                    },
+                    {
+                        "Row": "4",
+                        "Type": "RTID(seagull@ZombieTypes)"
+                    },
+                    {
+                        "Row": "4",
+                        "Type": "RTID(seagull@ZombieTypes)"
+                    },
+                    {
+                        "Row": "3",
+                        "Type": "RTID(seagull@ZombieTypes)"
+                    },
+                    {
+                        "Row": "3",
+                        "Type": "RTID(seagull@ZombieTypes)"
+                    },
+                    {
+                        "Row": "3",
+                        "Type": "RTID(seagull@ZombieTypes)"
+                    },
+                    {
+                        "Row": "3",
+                        "Type": "RTID(seagull@ZombieTypes)"
+                    },
+                    {
+                        "Row": "3",
+                        "Type": "RTID(seagull@ZombieTypes)"
+                    }
+                ]
+            }
+        },
+        {
+            "aliases": [
+                "Wave12"
+            ],
+            "objclass": "SpawnZombiesJitteredWaveActionProps",
+            "objdata": {
+                "Zombies": [
+                    {
+                        "Row": "1",
+                        "Type": "RTID(seagull@ZombieTypes)"
+                    },
+                    {
+                        "Row": "2",
+                        "Type": "RTID(seagull@ZombieTypes)"
+                    },
+                    {
+                        "Row": "3",
+                        "Type": "RTID(seagull@ZombieTypes)"
+                    },
+                    {
+                        "Row": "4",
+                        "Type": "RTID(seagull@ZombieTypes)"
+                    },
+                    {
+                        "Row": "5",
+                        "Type": "RTID(seagull@ZombieTypes)"
+                    },
+                    {
+                        "Row": "5",
+                        "Type": "RTID(seagull@ZombieTypes)"
+                    },
+                    {
+                        "Row": "5",
+                        "Type": "RTID(seagull@ZombieTypes)"
+                    },
+                    {
+                        "Row": "5",
+                        "Type": "RTID(seagull@ZombieTypes)"
+                    },
+                    {
+                        "Row": "4",
+                        "Type": "RTID(seagull@ZombieTypes)"
+                    },
+                    {
+                        "Row": "4",
+                        "Type": "RTID(seagull@ZombieTypes)"
+                    },
+                    {
+                        "Row": "4",
+                        "Type": "RTID(seagull@ZombieTypes)"
+                    },
+                    {
+                        "Row": "3",
+                        "Type": "RTID(seagull@ZombieTypes)"
+                    },
+                    {
+                        "Row": "3",
+                        "Type": "RTID(seagull@ZombieTypes)"
+                    },
+                    {
+                        "Row": "3",
+                        "Type": "RTID(seagull@ZombieTypes)"
+                    },
+                    {
+                        "Row": "2",
+                        "Type": "RTID(seagull@ZombieTypes)"
+                    },
+                    {
+                        "Row": "2",
+                        "Type": "RTID(seagull@ZombieTypes)"
+                    },
+                    {
+                        "Row": "2",
+                        "Type": "RTID(seagull@ZombieTypes)"
+                    },
+                    {
+                        "Row": "1",
+                        "Type": "RTID(seagull@ZombieTypes)"
+                    },
+                    {
+                        "Row": "1",
+                        "Type": "RTID(seagull@ZombieTypes)"
+                    },
+                    {
+                        "Row": "1",
+                        "Type": "RTID(seagull@ZombieTypes)"
+                    }
+                ]
+            }
+        }
+    ],
+    "version": 1
+}

@@ -1,0 +1,207 @@
+{
+    "#comment": "Modern 13",
+    "objects": [
+        {
+            "objclass": "LevelDefinition",
+            "objdata": {
+                "Description": "[PLAYERS_TRIP_TO_MODERN]",
+                "Loot": "RTID(DefaultLoot@LevelModules)",
+                "LevelNumber": 13,
+                "LevelPowerupSet": "LevelPowerupsBeghouled",
+                "Modules": [
+                    "RTID(BeghouledIntro@LevelModules)",
+                    "RTID(DefaultZombieWinCondition@LevelModules)",
+                    "RTID(RandomSpawner@CurrentLevel)",
+                    "RTID(BeghouledSeedBank@CurrentLevel)",
+                    "RTID(BeghouledArcade@LevelModules)",
+                    "RTID(BeghouledProps@.)"
+                ],
+                "MusicType": "MiniGame_B",
+                "Name": "[MODERN_LEVEL_NAME]",
+                "NormalPresentTable": "egypt_normal_01",
+                "ShinyPresentTable": "egypt_shiny_01",
+                "StageModule": "RTID(ModernStage@LevelModules)"
+            }
+        },
+        {
+            "objclass": "BeghouledSeedBankProperties",
+            "aliases": [
+                "BeghouledSeedBank"
+            ],
+            "objdata": {
+                "PresetPlantList": [
+                    {
+                        "PlantType": "firepeashooter",
+                        "Level": -1
+                    },
+                    {
+                        "PlantType": "repeater",
+                        "Level": -1
+                    },
+                    {
+                        "PlantType": "tallnut",
+                        "Level": -1
+                    },
+                    {
+                        "PlantType": "endurian",
+                        "Level": -1
+                    },
+                    {
+                        "PlantType": "melonpult",
+                        "Level": -1
+                    },
+                    {
+                        "PlantType": "fumeshroom",
+                        "Level": -1
+                    },
+                    {
+                        "PlantType": "laser_bean",
+                        "Level": -1
+                    }
+                ],
+                "BeghouledUpgradeList": [
+                    "threepeater",
+                    "primalpeashooter",
+                    "electricblueberry",
+                    "wintermelon"
+                ],
+                "SelectionMethod": "beghouled"
+            }
+        },
+        {
+            "objclass": "BeghouledZombieSpawnerProperties",
+            "aliases": [
+                "RandomSpawner"
+            ],
+            "objdata": {
+                "MatchCountsToStageAdvance": [
+                    {
+                        "MatchCount": 25,
+                        "StageNumber": 1
+                    },
+                    {
+                        "MatchCount": 100,
+                        "StageNumber": 2
+                    }
+                ],
+                "Stages": [
+                    {
+                        "#comment": "Stage 0",
+                        "Types": [
+                            {
+                                "ZombieType": "beghouled"
+                            },
+                            {
+                                "ZombieType": "beghouled_armor1"
+                            },
+                            {
+                                "ZombieType": "beghouled_armor2"
+                            }
+                        ],
+                        "SpawnDelay": 2.0
+                    },
+                    {
+                        "#comment": "Stage 1",
+                        "Types": [
+                            {
+                                "ZombieType": "tutorial"
+                            },
+                            {
+                                "ZombieType": "tutorial_armor1"
+                            },
+                            {
+                                "ZombieType": "tutorial_armor2"
+                            }
+                        ],
+                        "SpawnDelay": 2.0
+                    },
+                    {
+                        "#comment": "Stage 2",
+                        "Types": [
+                            {
+                                "ZombieType": "tutorial"
+                            },
+                            {
+                                "ZombieType": "tutorial_armor1"
+                            },
+                            {
+                                "ZombieType": "tutorial_armor2"
+                            },
+                            {
+                                "ZombieType": "beghouled_newspaper"
+                            }
+                        ],
+                        "SpawnDelay": 2.0
+                    }
+                ]
+            }
+        },
+        {
+            "objclass": "BeghouledPresetProperties",
+            "aliases": [
+                "BeghouledProps"
+            ],
+            "objdata": {
+                "MatchesToWin": 150,
+                "InitialPlants": [
+                    "peashooter",
+                    "wallnut",
+                    "cabbagepult",
+                    "puffshroom",
+                    "lightningreed"
+                ],
+                "UpgradeMap": [
+                    {
+                        "BasePlant": "peashooter",
+                        "UpgradedPlant": "firepeashooter"
+                    },
+                    {
+                        "BasePlant": "peashooter",
+                        "UpgradedPlant": "repeater"
+                    },
+                    {
+                        "BasePlant": "repeater",
+                        "UpgradedPlant": "threepeater"
+                    },
+                    {
+                        "BasePlant": "firepeashooter",
+                        "UpgradedPlant": "primalpeashooter"
+                    },
+                    {
+                        "BasePlant": "wallnut",
+                        "UpgradedPlant": "tallnut"
+                    },
+                    {
+                        "BasePlant": "wallnut",
+                        "UpgradedPlant": "endurian"
+                    },
+                    {
+                        "BasePlant": "cabbagepult",
+                        "UpgradedPlant": "pepperpult"
+                    },
+                    {
+                        "BasePlant": "cabbagepult",
+                        "UpgradedPlant": "melonpult"
+                    },
+                    {
+                        "BasePlant": "melonpult",
+                        "UpgradedPlant": "wintermelon"
+                    },
+                    {
+                        "BasePlant": "puffshroom",
+                        "UpgradedPlant": "fumeshroom"
+                    },
+                    {
+                        "BasePlant": "lightningreed",
+                        "UpgradedPlant": "laser_bean"
+                    },
+                    {
+                        "BasePlant": "laser_bean",
+                        "UpgradedPlant": "electricblueberry"
+                    }
+                ]
+            }
+        }
+    ],
+    "version": 1
+}

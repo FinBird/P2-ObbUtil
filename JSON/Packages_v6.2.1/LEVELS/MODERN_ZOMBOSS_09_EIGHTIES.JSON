@@ -1,0 +1,166 @@
+{
+    "#comment": "Eighties Zomboss",
+    "objects": [
+        {
+            "objclass": "LevelDefinition",
+            "objdata": {
+                "CompletionAchievement": "its_waffle_time",
+                "Description": "[PLAYERS_TRIP_TO_MODERN]",
+                "FirstIntroNarrative": "MODERN_34_INTRO",
+                "FirstOutroNarrative": "MODERN_34_OUTRO",
+                "FirstRewardParam": "worldtrophy_modern",
+                "FirstRewardType": "worldtrophy",
+                "FlickPowerupRightEdgeOffset": -160,
+                "ForceToWorldMap": true,
+                "GameFeaturesToUnlock": [
+                    "world_trophy_eighties"
+                ],
+                "SuppressSunSpawn": true,
+                "LevelNumber": 34,
+                "LoadDefaultMusic": false,
+                "Loot": "RTID(DefaultLoot@LevelModules)",
+                "Modules": [
+                    "RTID(EightiesZombossIntro@LevelModules)",
+                    "RTID(EightiesZombossMowers@LevelModules)",
+                    "RTID(ConveyorBelt@CurrentLevel)",
+                    "RTID(Speakers@CurrentLevel)",
+                    "RTID(ZombossBattle@CurrentLevel)",
+                    "RTID(DefaultZombieWinCondition@LevelModules)",
+                    "RTID(NewWaves@CurrentLevel)"
+                ],
+                "MusicType": "MiniGame_A",
+                "Name": "[MODERN_LEVEL_NAME]",
+                "NormalPresentTable": "eighties_normal_01",
+                "RepeatPlayForceToWorldMap": true,
+                "ShinyPresentTable": "eighties_shiny_01",
+                "StageModule": "RTID(EightiesStage@LevelModules)",
+                "VictoryModule": "RTID(ZombossVictoryOutro@LevelModules)",
+                "ResourceGroupNames": [
+                    "ModernLootPinatas"
+                ]
+            }
+        },
+        {
+            "aliases": [
+                "ConveyorBelt"
+            ],
+            "objclass": "ConveyorSeedBankProperties",
+            "objdata": {
+                "DropDelayConditions": [
+                    {
+                        "Delay": 3,
+                        "MaxPackets": 0
+                    },
+                    {
+                        "Delay": 4,
+                        "MaxPackets": 2
+                    },
+                    {
+                        "Delay": 6,
+                        "MaxPackets": 4
+                    },
+                    {
+                        "Delay": 9,
+                        "MaxPackets": 8
+                    }
+                ],
+                "InitialPlantList": [
+                    {
+                        "PlantType": "cactus",
+                        "Weight": 10
+                    },
+                    {
+                        "PlantType": "primalpeashooter",
+                        "Weight": 10
+                    },
+                    {
+                        "PlantType": "primalpotatomine",
+                        "Weight": 5
+                    },
+                    {
+                        "MaxCount": 5,
+                        "MaxWeightFactor": 0.1,
+                        "PlantType": "primalwallnut",
+                        "Weight": 5
+                    }
+                ],
+                "SpeedConditions": [
+                    {
+                        "MaxPackets": 0,
+                        "Speed": 100
+                    }
+                ]
+            }
+        },
+        {
+            "aliases": [
+                "ZombossBattle"
+            ],
+            "objclass": "ZombossBattleModuleProperties",
+            "objdata": {
+                "ReservedColumnCount": 3,
+                "ZombossDeathColumn": 5,
+                "ZombossDeathRow": 3,
+                "ZombossMechType": "zombossmech_modern_eighties",
+                "ZombossSpawnGridPosition": {
+                    "mX": 6,
+                    "mY": 4
+                }
+            }
+        },
+        {
+            "aliases": [
+                "Speakers"
+            ],
+            "objclass": "InitialGridItemProperties",
+            "objdata": {
+                "InitialGridItemPlacements": [
+                    {
+                        "GridX": 6,
+                        "GridY": 0,
+                        "TypeName": "speaker_zomboss"
+                    },
+                    {
+                        "GridX": 6,
+                        "GridY": 1,
+                        "TypeName": "speaker_zomboss"
+                    },
+                    {
+                        "GridX": 6,
+                        "GridY": 2,
+                        "TypeName": "speaker_zomboss"
+                    },
+                    {
+                        "GridX": 6,
+                        "GridY": 3,
+                        "TypeName": "speaker_zomboss"
+                    },
+                    {
+                        "GridX": 6,
+                        "GridY": 4,
+                        "TypeName": "speaker_zomboss"
+                    }
+                ]
+            }
+        },
+        {
+            "aliases": [
+                "NewWaves"
+            ],
+            "objclass": "WaveManagerModuleProperties",
+            "objdata": {
+                "WaveManagerProps": "RTID(WaveManagerProps@CurrentLevel)"
+            }
+        },
+        {
+            "aliases": [
+                "WaveManagerProps"
+            ],
+            "objclass": "WaveManagerProperties",
+            "objdata": {
+                "Waves": []
+            }
+        }
+    ],
+    "version": 1
+}

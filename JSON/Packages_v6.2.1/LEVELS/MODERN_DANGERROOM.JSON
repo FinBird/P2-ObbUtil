@@ -1,0 +1,167 @@
+{
+    "#comment": "Modern Danger Room",
+    "objects": [
+        {
+            "objclass": "LevelDefinition",
+            "objdata": {
+                "Description": "[PLAYERS_TRIP_TO_DANGER_ROOM]",
+                "ForceNextLevel": "modern_dangerroom",
+                "IsDangerRoom": true,
+                "LevelNumber": 666,
+                "Loot": "RTID(DangerRoomLoot@LevelModules)",
+                "Modules": [
+                    "RTID(DangerRoomIntro@CurrentLevel)",
+                    "RTID(DangerRoomModule@CurrentLevel)",
+                    "RTID(ModernMowers@LevelModules)",
+                    "RTID(DefaultSunDropper@LevelModules)",
+                    "RTID(NewWaves@CurrentLevel)",
+                    "RTID(SeedBank@CurrentLevel)",
+                    "RTID(ZombiesDeadWinCon@LevelModules)",
+                    "RTID(DefaultZombieWinCondition@LevelModules)"
+                ],
+                "Name": "[DANGER_ROOM_MODERN_LEVEL_NAME]",
+                "NormalPresentTable": "egypt_normal_01",
+                "ShinyPresentTable": "egypt_shiny_01",
+                "SuppressAwardScreen": true,
+                "StageModule": "RTID(ModernStage@LevelModules)"
+            }
+        },
+        {
+            "objclass": "WaveManagerModuleProperties",
+            "aliases": [
+                "NewWaves"
+            ],
+            "objdata": {}
+        },
+        {
+            "objclass": "DangerRoomModuleProperties",
+            "aliases": [
+                "DangerRoomModule"
+            ],
+            "objdata": {
+                "WorldSpecificProperties": "RTID(ModernDangerRoomProps@PropertySheets)",
+                "LevelDesigners": [
+                    "RTID(ModernDangerRoomWaveGenerator@CurrentLevel)",
+                    "RTID(PortalDesigner@CurrentLevel)"
+                ]
+            }
+        },
+        {
+            "aliases": [
+                "DangerRoomIntro"
+            ],
+            "objclass": "DangerRoomLevelIntroProperties",
+            "objdata": {}
+        },
+        {
+            "aliases": [
+                "SeedBank"
+            ],
+            "objclass": "SeedBankProperties",
+            "objdata": {
+                "PlantBlackList": [],
+                "SelectionMethod": "chooser",
+                "AlwaysUseChooser": true
+            }
+        },
+        {
+            "aliases": [
+                "PortalDesigner"
+            ],
+            "objclass": "DangerRoomModernDesigner",
+            "objdata": {
+                "LevelRange": {
+                    "Min": 1,
+                    "Max": 30
+                },
+                "PortalTypesMin": {
+                    "Min": 1,
+                    "Max": 1
+                },
+                "PortalTypesMax": {
+                    "Min": 4,
+                    "Max": 4
+                },
+                "FirstPortalWavesMin": {
+                    "Min": 4,
+                    "Max": 4
+                },
+                "FirstPortalWavesMax": {
+                    "Min": 2,
+                    "Max": 3
+                },
+                "NextPortalWavesMin": {
+                    "Min": 4,
+                    "Max": 4
+                },
+                "NextPortalWavesMax": {
+                    "Min": 2,
+                    "Max": 2
+                },
+                "PortalCountInWaveMin": {
+                    "Min": 1,
+                    "Max": 1
+                },
+                "PortalCountInWaveMax": {
+                    "Min": 3,
+                    "Max": 4
+                },
+                "ColumnToSpawnMin": {
+                    "Min": 8,
+                    "Max": 8
+                },
+                "ColumnToSpawnMax": {
+                    "Min": 5,
+                    "Max": 6
+                },
+                "ZombiesToSpawnMin": {
+                    "Min": 1,
+                    "Max": 2
+                },
+                "ZombiesToSpawnMax": {
+                    "Min": 3,
+                    "Max": 4
+                },
+                "ZombieRandomListStartMin": {
+                    "Min": 0,
+                    "Max": 0
+                },
+                "ZombieRandomListStartMax": {
+                    "Min": 0,
+                    "Max": 0
+                },
+                "ZombieRandomListEndMin": {
+                    "Min": 0,
+                    "Max": 0
+                },
+                "ZombieRandomListEndMax": {
+                    "Min": 3,
+                    "Max": 3
+                }
+            }
+        },
+        {
+            "aliases": [
+                "ModernDangerRoomWaveGenerator"
+            ],
+            "objclass": "DangerRoomJitteredWaveGenerator",
+            "objdata": {
+                "StartingPoints": 100,
+                "BasePointIncrementPerWave": 20,
+                "BasePointIncrementPerLevel": 5,
+                "ZombiePool": [
+                    "RTID(tutorial@ZombieTypes)",
+                    "RTID(tutorial_armor1@ZombieTypes)",
+                    "RTID(tutorial_armor2@ZombieTypes)",
+                    "RTID(tutorial_imp@ZombieTypes)",
+                    "RTID(tutorial_gargantuar@ZombieTypes)",
+                    "RTID(modern_newspaper@ZombieTypes)",
+                    "RTID(modern_balloon@ZombieTypes)",
+                    "RTID(modern_allstar@ZombieTypes)",
+                    "RTID(modern_superfanimp@ZombieTypes)"
+                ]
+            }
+        }
+    ],
+    "version": 1
+}

@@ -1,0 +1,269 @@
+{
+    "#comment": "Tutorial 1",
+    "objects": [
+        {
+            "objclass": "LevelDefinition",
+            "objdata": {
+                "CompletionAchievement": "off_the_green",
+                "Description": "[PLAYERS_HOUSE]",
+                "FirstOutroNarrative": 1000450,
+                "FirstRewardParam": "taco",
+                "FirstRewardType": "collectable",
+                "ForceNextLevel": "egypt1",
+                "ForceWarpTunnel": true,
+                "GameFeaturesToUnlock": [
+                    "feature_coins"
+                ],
+                "LevelNumber": 4,
+                "Loot": "RTID(NoLoot@LevelModules)",
+                "Modules": [
+                    "RTID(TutorialIntro@CurrentLevel)",
+                    "RTID(FirstCoinTutorial@CurrentLevel)",
+                    "RTID(DefaultSunDropper@LevelModules)",
+                    "RTID(ZombiesDeadWinCon@LevelModules)",
+                    "RTID(TutorialPeashooterDeath@LevelModules)",
+                    "RTID(FrontLawnMowers@LevelModules)",
+                    "RTID(SeedBank@CurrentLevel)",
+                    "RTID(DefaultZombieWinCondition@LevelModules)",
+                    "RTID(NewWaves@CurrentLevel)"
+                ],
+                "Name": "[TUTORIAL_LEVEL_NAME]",
+                "ReplayOutroNarrative": 1000450,
+                "ReplayRewardParam": "taco",
+                "ReplayRewardType": "collectable",
+                "StageModule": "RTID(TutorialStage@LevelModules)",
+                "ResourceGroupNames": [
+                    "SodRollGroup"
+                ]
+            }
+        },
+        {
+            "aliases": [
+                "SeedBank"
+            ],
+            "objclass": "SeedBankProperties",
+            "objdata": {
+                "PresetPlantList": [
+                    {
+                        "PlantType": "peashooter",
+                        "Level": -1
+                    },
+                    {
+                        "PlantType": "sunflower",
+                        "Level": -1
+                    },
+                    {
+                        "PlantType": "wallnut",
+                        "Level": -1
+                    },
+                    {
+                        "PlantType": "potatomine",
+                        "Level": -1
+                    }
+                ],
+                "SelectionMethod": "preset"
+            }
+        },
+        {
+            "aliases": [
+                "TutorialIntro"
+            ],
+            "objclass": "TutorialLevel4Properties",
+            "objdata": {}
+        },
+        {
+            "aliases": [
+                "FirstCoinTutorial"
+            ],
+            "objclass": "PickupCollectableTutorialProperties",
+            "objdata": {
+                "DropperZombieType": "tutorial_armor2",
+                "LootType": "GoldCoin",
+                "PickupAdvice": "[ADVICE_CLICK_COIN]",
+                "PostPickupAdvice": "[ADVICE_COLLECT_COINS]"
+            }
+        },
+        {
+            "aliases": [
+                "NewWaves"
+            ],
+            "objclass": "WaveManagerModuleProperties",
+            "objdata": {
+                "WaveManagerProps": "RTID(WaveManagerProps@CurrentLevel)"
+            }
+        },
+        {
+            "aliases": [
+                "WaveManagerProps"
+            ],
+            "objclass": "WaveManagerProperties",
+            "objdata": {
+                "MinNextWaveHealthPercentage": 0.5,
+                "MaxNextWaveHealthPercentage": 0.65,
+                "FlagWaveInterval": 8,
+                "WaveCount": 8,
+                "WaveSpendingPointIncrement": 10,
+                "WaveSpendingPoints": 100,
+                "Waves": [
+                    [
+                        "RTID(Wave1@CurrentLevel)"
+                    ],
+                    [
+                        "RTID(Wave2@CurrentLevel)"
+                    ],
+                    [
+                        "RTID(Wave3@CurrentLevel)"
+                    ],
+                    [
+                        "RTID(Wave4@CurrentLevel)"
+                    ],
+                    [
+                        "RTID(Wave5@CurrentLevel)"
+                    ],
+                    [
+                        "RTID(Wave6@CurrentLevel)"
+                    ],
+                    [
+                        "RTID(Wave7@CurrentLevel)"
+                    ],
+                    [
+                        "RTID(Wave8@CurrentLevel)"
+                    ]
+                ]
+            }
+        },
+        {
+            "aliases": [
+                "Wave1"
+            ],
+            "objclass": "SpawnZombiesJitteredWaveActionProps",
+            "objdata": {
+                "Zombies": [
+                    {
+                        "Row": "3",
+                        "Type": "RTID(tutorial@ZombieTypes)"
+                    }
+                ]
+            }
+        },
+        {
+            "aliases": [
+                "Wave2"
+            ],
+            "objclass": "SpawnZombiesJitteredWaveActionProps",
+            "objdata": {
+                "Zombies": [
+                    {
+                        "Row": "4",
+                        "Type": "RTID(tutorial@ZombieTypes)"
+                    }
+                ]
+            }
+        },
+        {
+            "aliases": [
+                "Wave3"
+            ],
+            "objclass": "SpawnZombiesJitteredWaveActionProps",
+            "objdata": {
+                "Zombies": [
+                    {
+                        "Row": "2",
+                        "Type": "RTID(tutorial@ZombieTypes)"
+                    },
+                    {
+                        "Type": "RTID(tutorial@ZombieTypes)"
+                    }
+                ]
+            }
+        },
+        {
+            "aliases": [
+                "Wave4"
+            ],
+            "objclass": "SpawnZombiesJitteredWaveActionProps",
+            "objdata": {
+                "Zombies": [
+                    {
+                        "Type": "RTID(tutorial@ZombieTypes)"
+                    },
+                    {
+                        "Type": "RTID(tutorial@ZombieTypes)"
+                    }
+                ]
+            }
+        },
+        {
+            "aliases": [
+                "Wave5"
+            ],
+            "objclass": "SpawnZombiesJitteredWaveActionProps",
+            "objdata": {
+                "Zombies": [
+                    {
+                        "Type": "RTID(tutorial@ZombieTypes)"
+                    },
+                    {
+                        "Type": "RTID(tutorial_armor1@ZombieTypes)"
+                    }
+                ]
+            }
+        },
+        {
+            "aliases": [
+                "Wave6"
+            ],
+            "objclass": "SpawnZombiesJitteredWaveActionProps",
+            "objdata": {
+                "Zombies": [
+                    {
+                        "Type": "RTID(tutorial@ZombieTypes)"
+                    },
+                    {
+                        "Type": "RTID(tutorial@ZombieTypes)"
+                    },
+                    {
+                        "Type": "RTID(tutorial@ZombieTypes)"
+                    }
+                ]
+            }
+        },
+        {
+            "aliases": [
+                "Wave7"
+            ],
+            "objclass": "SpawnZombiesJitteredWaveActionProps",
+            "objdata": {
+                "Zombies": [
+                    {
+                        "Row": "3",
+                        "Type": "RTID(tutorial_armor2@ZombieTypes)"
+                    }
+                ]
+            }
+        },
+        {
+            "aliases": [
+                "Wave8"
+            ],
+            "objclass": "SpawnZombiesJitteredWaveActionProps",
+            "objdata": {
+                "Zombies": [
+                    {
+                        "Type": "RTID(tutorial@ZombieTypes)"
+                    },
+                    {
+                        "Type": "RTID(tutorial_armor1@ZombieTypes)"
+                    },
+                    {
+                        "Type": "RTID(tutorial@ZombieTypes)"
+                    },
+                    {
+                        "Type": "RTID(tutorial_armor1@ZombieTypes)"
+                    }
+                ]
+            }
+        }
+    ],
+    "version": 1
+}

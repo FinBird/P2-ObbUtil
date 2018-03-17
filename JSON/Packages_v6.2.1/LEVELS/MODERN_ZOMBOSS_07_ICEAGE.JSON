@@ -1,0 +1,256 @@
+{
+    "#comment": "Iceage Zomboss",
+    "objects": [
+        {
+            "objclass": "LevelDefinition",
+            "objdata": {
+                "Description": "[PLAYERS_TRIP_TO_MODERN]",
+                "FirstIntroNarrative": "MODERN_34_INTRO",
+                "FirstOutroNarrative": "MODERN_34_OUTRO",
+                "FirstRewardParam": "worldtrophy_modern",
+                "FirstRewardType": "worldtrophy",
+                "ForceToWorldMap": true,
+                "GameFeaturesToUnlock": [
+                    "world_trophy_iceage"
+                ],
+                "SuppressSunSpawn": true,
+                "LevelNumber": 34,
+                "LoadDefaultMusic": false,
+                "Loot": "RTID(DefaultLoot@LevelModules)",
+                "Modules": [
+                    "RTID(ZombossIntro@LevelModules)",
+                    "RTID(IceageMowers@LevelModules)",
+                    "RTID(ConveyorBelt@CurrentLevel)",
+                    "RTID(ZombossBattle@CurrentLevel)",
+                    "RTID(DefaultZombieWinCondition@LevelModules)",
+                    "RTID(NewWaves@CurrentLevel)",
+                    "RTID(GlacierModule@CurrentLevel)"
+                ],
+                "MusicType": "MiniGame_A",
+                "Name": "[MODERN_LEVEL_NAME]",
+                "NormalPresentTable": "egypt_normal_01",
+                "RepeatPlayForceToWorldMap": true,
+                "ShinyPresentTable": "egypt_shiny_01",
+                "StageModule": "RTID(IceageStage@LevelModules)",
+                "VictoryModule": "RTID(ZombossVictoryOutro@LevelModules)",
+                "ResourceGroupNames": [
+                    "ModernLootPinatas"
+                ]
+            }
+        },
+        {
+            "aliases": [
+                "ConveyorBelt"
+            ],
+            "objclass": "ConveyorSeedBankProperties",
+            "objdata": {
+                "DropDelayConditions": [
+                    {
+                        "Delay": 2,
+                        "MaxPackets": 0
+                    },
+                    {
+                        "Delay": 3,
+                        "MaxPackets": 2
+                    },
+                    {
+                        "Delay": 5,
+                        "MaxPackets": 4
+                    },
+                    {
+                        "Delay": 8,
+                        "MaxPackets": 8
+                    }
+                ],
+                "InitialPlantList": [
+                    {
+                        "PlantType": "akee",
+                        "Weight": 10
+                    },
+                    {
+                        "PlantType": "endurian",
+                        "Weight": 10
+                    },
+                    {
+                        "MaxCount": 2,
+                        "MaxWeightFactor": 0,
+                        "PlantType": "firepeashooter",
+                        "Weight": 2
+                    },
+                    {
+                        "PlantType": "hotpotato",
+                        "Weight": 20
+                    },
+                    {
+                        "PlantType": "redstinger",
+                        "Weight": 10
+                    },
+                    {
+                        "PlantType": "stallia",
+                        "Weight": 10
+                    }
+                ],
+                "SpeedConditions": [
+                    {
+                        "MaxPackets": 0,
+                        "Speed": 100
+                    }
+                ]
+            }
+        },
+        {
+            "aliases": [
+                "ZombossBattle"
+            ],
+            "objclass": "ZombossBattleModuleProperties",
+            "objdata": {
+                "ReservedColumnCount": 3,
+                "ZombossDeathColumn": 5,
+                "ZombossDeathRow": 3,
+                "ZombossMechType": "zombossmech_modern_iceage",
+                "ZombossSpawnGridPosition": {
+                    "mX": 6,
+                    "mY": 3
+                }
+            }
+        },
+        {
+            "#comment": "Zombie Spawn Weights by Row From Left",
+            "aliases": [
+                "GlacierModule"
+            ],
+            "objclass": "GlacierModuleProperties",
+            "objdata": {
+                "ZombieSpawnData": [
+                    {
+                        "Entries": [
+                            {
+                                "TypeName": "",
+                                "Weight": 3
+                            }
+                        ]
+                    },
+                    {
+                        "Entries": [
+                            {
+                                "TypeName": "",
+                                "Weight": 2
+                            },
+                            {
+                                "TypeName": "iceage_weasel",
+                                "Weight": 3
+                            },
+                            {
+                                "TypeName": "iceage_imp",
+                                "Weight": 5
+                            },
+                            {
+                                "TypeName": "iceage",
+                                "Weight": 1
+                            }
+                        ]
+                    },
+                    {
+                        "Entries": [
+                            {
+                                "TypeName": "",
+                                "Weight": 1
+                            },
+                            {
+                                "TypeName": "iceage_imp",
+                                "Weight": 3
+                            },
+                            {
+                                "TypeName": "iceage",
+                                "Weight": 3
+                            }
+                        ]
+                    },
+                    {
+                        "Entries": [
+                            {
+                                "TypeName": "",
+                                "Weight": 1
+                            },
+                            {
+                                "TypeName": "iceage_imp",
+                                "Weight": 2
+                            },
+                            {
+                                "TypeName": "iceage",
+                                "Weight": 5
+                            }
+                        ]
+                    },
+                    {
+                        "Entries": [
+                            {
+                                "TypeName": "",
+                                "Weight": 0
+                            },
+                            {
+                                "TypeName": "iceage_imp",
+                                "Weight": 0
+                            },
+                            {
+                                "TypeName": "iceage",
+                                "Weight": 1
+                            },
+                            {
+                                "TypeName": "iceage_armor3",
+                                "Weight": 3
+                            },
+                            {
+                                "TypeName": "iceage_hunter",
+                                "Weight": 3
+                            }
+                        ]
+                    },
+                    {
+                        "Entries": [
+                            {
+                                "TypeName": "",
+                                "Weight": 0
+                            },
+                            {
+                                "TypeName": "iceage",
+                                "Weight": 0
+                            },
+                            {
+                                "TypeName": "iceage_armor3",
+                                "Weight": 4
+                            },
+                            {
+                                "TypeName": "iceage_hunter",
+                                "Weight": 3
+                            },
+                            {
+                                "TypeName": "iceage_dodo",
+                                "Weight": 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "aliases": [
+                "NewWaves"
+            ],
+            "objclass": "WaveManagerModuleProperties",
+            "objdata": {
+                "WaveManagerProps": "RTID(WaveManagerProps@CurrentLevel)"
+            }
+        },
+        {
+            "aliases": [
+                "WaveManagerProps"
+            ],
+            "objclass": "WaveManagerProperties",
+            "objdata": {
+                "Waves": []
+            }
+        }
+    ],
+    "version": 1
+}
