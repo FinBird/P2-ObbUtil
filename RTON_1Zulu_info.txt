@@ -1,0 +1,138 @@
+This is a page with a collection of information about PvZ2 code, the OBBs, and more gained through reverse engin... I mean, code introspection.
+
+This content is targeted towards programmers who may want to expand upon my work. I'll open-source OBB Patcher and related tools when I feel it's more ready.
+
+Contents[show]
+OBB Format
+The OBB file is composed of resources laid down in blocks with the following format:
+
+<header> <data>
+The header consists of the string "pgsr" and metadata about the data to follow. This includes the filename(s), and the expected uncompressed size of the data, which comes exactly 16 bytes after the end of the filename(s) and is stored as a little-endian 32-bit integer. The offset within the uncompressed chunk at which the file starts is stored 12 bytes after the end of the filename.
+
+Data, when in compressed format, uses zlib with high compression settings (0x78da header). The Chinese version uses default compression (0x789c header).
+
+Both the headers and the data are aligned to 4096 offsets to allow for fast random access.
+
+Texture Formats
+Textures are "Image" type resources named *.PTX. In addition to the uncompressed size, the header also contains the dimensions of the texture. These are stored exactly 32 bytes after the name, and are also 32-bit ints in little endian order.
+
+As far as I can tell, PvZ2 uses three texture formats (all of them are header-less):
+
+Uncompressed
+These are simply uncompressed RGBA8888, ie: RGBA with 8-bit color depth.
+
+The iOS version for some reason inverts the blue and red channels.
+
+These textures require a size of width * height * 4 bytes.
+
+ETC1
+These are compressed textures used by the Android version.
+
+It's composed of ETC1 data followed by the uncompressed alpha channel. For example, in a 512x512 texture the first 131072 bytes are the ETC1 data, and the next 262144 bytes is the alpha channel.
+
+These textures require a size of (width * height) * 3/2 bytes.
+
+PVRTC
+These are compressed textures used in the iOS versions.
+
+They are simply PVRTC 4 bits per pixel RGBA textures stripped of their headers. Some versions also include an uncompressed alpha channel, laid out the ETC1 + Alpha textures above.
+
+These textures require a size of (width * height) / 2 bytes when it's pure PVR, or (width * height) * 3/2 bytes when it's PVR + Alpha.
+
+Sound Assets
+These "SoundBank" type assets stored in *.BNK files (Wwise SoundBank), which are thoroughly documented here:
+
+http://wiki.xentax.com/index.php?title=Wwise_SoundBank_(*.bnk)
+
+The sound files (*.wem) can be trivially extracted from the *.bnk files and converted to ogg vorbis using ww2ogg by hcs (use the --pcb packed_codebooks_aoTuV_603.bin switch). Some players won't play the .oggs correctly. In this case, you can use revorb to recompute the granule positions.
+
+Some of *.wem files are streamed and can be found elsewhere in the OBB (look for STREAMINGWAVES\*.WEM files). You can refer to streamingWaves.rton for more information about the *.WEM files.
+
+Other resources
+"Image" and "SoundBank" are two of the main types stored in the OBB. It also other assets, like animations, text, and more.
+
+.PAM: PopAnim type. Animations in a proprietary PopCap format; likely derived from Flash formats
+.POPFX: RenderEffect type; another proprietary PopCap format (fairly uncommon)
+.TTF: PrimeFont type. True-type fonts used by the game
+Additionally, there are other types stored under the "File" type:
+
+.RTON: RTON is a proprietary PopCap serialization format for binary data. Property sheets for game assets, plants, zombies, levels, and more are all stored in this format. See spec here: RTON Format
+.TXT: Unicode text files, like lawnstrings.txt, which contains localization data
+.WEM: Streaming waves for sound assets not present in SoundBanks.
+RT，可以把游戏包中文本的json数据转到rton文件（可以用来做做简单的自制关rton）。
+前几天在油管发的工具是v1.0英文的，现在我发的版本相对来说修复了一点问题，例如某86fd嵌套问题。
+一般的rton基本都能转，自己试了下Resource.rton也可以准确地转换。
+但要注意的目前在json里的字符串中不能出现空格，如果有的话会被省略，这个之后会想办法解决，可以先用"_"代替。其他注意事项在工具中有提到。
+现在这个软件可能只支持windows下的64位系统，之后可能会想办法构建支持其他版本系统的exe文件。
+二楼发链接（压缩包中会顺便附上rton转json的"rtor"工具）。
+另外，还有很重要的一点，转换完json需要通过按任意键来退出软件，不能直接关闭窗口。（否则导出的rton会不完整）
+http://pan.baidu.com/s/1mhY4Prq
+RTON Format
+August 5, 2015 by 1Zulu
+
+ID type Source
+00 false various
+01 true various
+08 int8 ppd
+09 0 ppd
+0a signed int8 ppd
+0b 0 ppd
+10 signed int16 ppd - dli
+11 0 ppd - dli
+12 signed int16 ppd - wmed.e
+13 0 ppd - wmed.e
+20 signed int32 various
+21 0 Colors.rton
+22 float various
+23 0.0 PropertySheets.rton
+24 varint various
+25 -varint ?
+26 signed int32 ppd
+27 0 ppd
+28 varint all NB lod_config
+42 double ?
+44 varint ppd / unlimited length
+45 -varint ppd / unlimited length (?)
+81 non-cached string various
+82 string w/ length marker aliases on NB files (all?)
+83 reference type various
+84 null (?) various
+85 map various / 0xff end marker
+86 list various / 0xfe end marker
+90 cached string various
+91 cached string reference various
+00	false	various
+01	true	various
+08	int8	ppd
+09	0	ppd
+0a	signed int8	ppd
+0b	0	ppd
+10	signed int16	ppd - dli
+11	0	ppd - dli
+12	signed int16	ppd - wmed.e
+13	0	ppd - wmed.e
+20	signed int32	various
+21	0	Colors.rton
+22	float	various
+23	0.0	PropertySheets.rton
+24	varint	various
+25	-varint	?
+26	signed int32	ppd
+27	0	ppd
+28	varint	all NB lod_config
+42	double	?
+44	varint	ppd / unlimited length
+45	-varint	ppd / unlimited length (?)
+81	non-cached string	various
+82	string w/ length marker	aliases on NB files (all?)
+83	reference type	various
+84	null (?)	various
+85	map	various / 0xff end marker
+86	list	various / 0xfe end marker
+90	cached string	various
+91	cached string reference	various
+Types:
+
+Packages: 20, 21, 22, 23, 24, 25, 42, 83, 84, 90, 91 (plus bool, list, and map)
+NoBackup: 26, 27, 28, 81, 82 - plus above
+NB Saves: 08, 09, 0a, 0b - plus above
