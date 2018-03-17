@@ -97,5 +97,5 @@ class java_ETC:
 		self.decode_subblock(pOut, r1, g1, b1, self.kModifierTable, tableA, low, False, flipped)
 		self.decode_subblock(pOut, r2, g2, b2, self.kModifierTable, tableB, low, True, flipped)
 	def decodeImage(self, data, decodedData, width, height, pixelSize, stride):
-		
+		# TODO	
 	
