@@ -1,0 +1,132 @@
+{
+    "version": 1,
+    "#comment": "FM0",
+    "objects": [
+        {
+            "objclass": "LevelDefinition",
+            "objdata": {
+                "Name": "[OYKUS_LEVEL_NAME_0]",
+                "Modules": [
+                    "RTID(StandardIntro@LevelModules)",
+                    "RTID(ZombiesDeadWinCon@LevelModules)",
+                    "RTID(SeedBank@CurrentLevel)",
+                    "RTID(FrozenPlantPlacement@CurrentLevel)",
+                    "RTID(DefaultZombieWinCondition@LevelModules)",
+                    "RTID(NewWaves@CurrentLevel)"
+                ],
+                "StageModule": "RTID(OyKusBirthdayStage@LevelModules)",
+                "Description": "[PLAYERS_TRIP_TO_OYKUS]",
+                "ReplayRewardType": "none",
+                "Loot": "RTID(NoLoot@LevelModules)",
+                "LevelNumber": 0
+            }
+        },
+        {
+            "aliases": [
+                "SeedBank"
+            ],
+            "objdata": {
+                "PresetPlantList": [
+                    "grapeshot"
+                ],
+                "SelectionMethod": "preset"
+            },
+            "objclass": "SeedBankProperties"
+        },
+        {
+            "aliases": [
+                "FrozenPlantPlacement"
+            ],
+            "objdata": {
+                "InitialPlantPlacements": [
+                    {
+                        "GridX": 4,
+                        "GridY": 0,
+                        "TypeName": "grimrose"
+                    },
+                    {
+                        "GridX": 4,
+                        "GridY": 2,
+                        "TypeName": "grimrose"
+                    },
+                    {
+                        "GridX": 4,
+                        "GridY": 4,
+                        "TypeName": "grimrose"
+                    }
+                ]
+            },
+            "objclass": "InitialPlantProperties"
+        },
+        {
+            "aliases": [
+                "NewWaves"
+            ],
+            "objdata": {
+                "WaveManagerProps": "RTID(WaveManagerProps@CurrentLevel)",
+                "DynamicZombies": [
+                    {},
+                    {},
+                    {},
+                    {},
+                    {},
+                    {},
+                    {}
+                ]
+            },
+            "objclass": "WaveManagerModuleProperties"
+        },
+        {
+            "aliases": [
+                "WaveManagerProps"
+            ],
+            "objdata": {
+                "ZombieCountdownFirstWaveSecs": 0,
+                "FlagWaveInterval": 1,
+                "ZombieCountdownFirstWaveConveyorSecs": 0,
+                "WaveCount": 1,
+                "IgnoreFlagCarriers": true,
+                "SuppressFlagZombie": true,
+                "ZombieCountdownHugeWaveDelay": 0,
+                "Waves": [
+                    [
+                        "RTID(Wave1@CurrentLevel)"
+                    ]
+                ]
+            },
+            "objclass": "WaveManagerProperties"
+        },
+        {
+            "aliases": [
+                "Wave1"
+            ],
+            "objdata": {
+                "DynamicPlantfood": [
+                    3,
+                    3,
+                    3,
+                    3,
+                    2,
+                    1,
+                    0
+                ],
+                "AdditionalPlantfood": 3,
+                "Zombies": [
+                    {
+                        "Row": "1",
+                        "Type": "RTID(birthday_juggler@ZombieTypes)"
+                    },
+                    {
+                        "Row": "3",
+                        "Type": "RTID(birthday_juggler@ZombieTypes)"
+                    },
+                    {
+                        "Row": "5",
+                        "Type": "RTID(birthday_juggler@ZombieTypes)"
+                    }
+                ]
+            },
+            "objclass": "SpawnZombiesJitteredWaveActionProps"
+        }
+    ]
+}

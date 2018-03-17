@@ -1,0 +1,988 @@
+{
+    "version": 1,
+    "#comment": "FM44",
+    "objects": [
+        {
+            "objclass": "LevelDefinition",
+            "objdata": {
+                "Name": "[OYKUS_LEVEL_NAME_MA]",
+                "Modules": [
+                    "RTID(StandardIntro@LevelModules)",
+                    "RTID(DefaultSunDropper@LevelModules)",
+                    "RTID(ZombiesDeadWinCon@LevelModules)",
+                    "RTID(DefaultZombieWinCondition@LevelModules)",
+                    "RTID(ModernMowers@LevelModules)",
+                    "RTID(SeedBank@CurrentLevel)",
+                    "RTID(NewWaves@CurrentLevel)"
+                ],
+                "StageModule": "RTID(ModernStage@LevelModules)",
+                "Description": "[PLAYERS_TRIP_TO_OYKUS]",
+                "Loot": "RTID(NoLoot@LevelModules)",
+                "LevelNumber": 44
+            }
+        },
+        {
+            "aliases": [
+                "SeedBank"
+            ],
+            "objdata": {
+                "SelectionMethod": "chooser"
+            },
+            "objclass": "SeedBankProperties"
+        },
+        {
+            "aliases": [
+                "NewWaves"
+            ],
+            "objdata": {
+                "WaveManagerProps": "RTID(WaveManagerProps@CurrentLevel)",
+                "DynamicZombies": [
+                    {
+                        "StartingWave": 3,
+                        "PointIncrementPerWave": -40,
+                        "StartingPoints": -100,
+                        "ZombiePool": [
+                            "RTID(tutorial@ZombieTypes)",
+                            "RTID(tutorial_armor1@ZombieTypes)",
+                            "RTID(tutorial_armor2@ZombieTypes)"
+                        ]
+                    },
+                    {
+                        "StartingWave": 4,
+                        "PointIncrementPerWave": -25,
+                        "StartingPoints": -100,
+                        "ZombiePool": [
+                            "RTID(tutorial@ZombieTypes)",
+                            "RTID(tutorial_armor1@ZombieTypes)",
+                            "RTID(tutorial_armor2@ZombieTypes)"
+                        ]
+                    },
+                    {
+                        "StartingWave": 5,
+                        "PointIncrementPerWave": -10,
+                        "StartingPoints": -100,
+                        "ZombiePool": [
+                            "RTID(tutorial@ZombieTypes)",
+                            "RTID(tutorial_armor1@ZombieTypes)",
+                            "RTID(tutorial_armor2@ZombieTypes)"
+                        ]
+                    },
+                    {},
+                    {
+                        "StartingWave": 5,
+                        "PointIncrementPerWave": 20,
+                        "StartingPoints": 100,
+                        "ZombiePool": [
+                            "RTID(tutorial@ZombieTypes)",
+                            "RTID(tutorial_armor1@ZombieTypes)",
+                            "RTID(tutorial_armor2@ZombieTypes)"
+                        ]
+                    },
+                    {
+                        "StartingWave": 4,
+                        "PointIncrementPerWave": 40,
+                        "StartingPoints": 200,
+                        "ZombiePool": [
+                            "RTID(tutorial@ZombieTypes)",
+                            "RTID(tutorial_armor1@ZombieTypes)",
+                            "RTID(tutorial_armor2@ZombieTypes)"
+                        ]
+                    },
+                    {
+                        "StartingWave": 3,
+                        "PointIncrementPerWave": 60,
+                        "StartingPoints": 400,
+                        "ZombiePool": [
+                            "RTID(tutorial_armor1@ZombieTypes)",
+                            "RTID(tutorial_armor2@ZombieTypes)"
+                        ]
+                    }
+                ]
+            },
+            "objclass": "WaveManagerModuleProperties"
+        },
+        {
+            "aliases": [
+                "WaveManagerProps"
+            ],
+            "objdata": {
+                "FlagWaveInterval": 3,
+                "Waves": [
+                    [
+                        "RTID(Wave1@CurrentLevel)"
+                    ],
+                    [
+                        "RTID(Wave2@CurrentLevel)",
+                        "RTID(aj45@CurrentLevel)"
+                    ],
+                    [
+                        "RTID(Wave3@CurrentLevel)",
+                        "RTID(ht24@CurrentLevel)"
+                    ],
+                    [
+                        "RTID(Wave4@CurrentLevel)",
+                        "RTID(ha12@CurrentLevel)",
+                        "RTID(ha43@CurrentLevel)"
+                    ],
+                    [
+                        "RTID(Wave5@CurrentLevel)",
+                        "RTID(xb36@CurrentLevel)",
+                        "RTID(xb33@CurrentLevel)"
+                    ],
+                    [
+                        "RTID(Wave6@CurrentLevel)",
+                        "RTID(nt22@CurrentLevel)",
+                        "RTID(nt45@CurrentLevel)",
+                        "RTID(gc56@CurrentLevel)"
+                    ],
+                    [
+                        "RTID(Wave7@CurrentLevel)",
+                        "RTID(ht14@CurrentLevel)",
+                        "RTID(ht54@CurrentLevel)",
+                        "RTID(xb15@CurrentLevel)",
+                        "RTID(bh55@CurrentLevel)"
+                    ],
+                    [
+                        "RTID(Wave8@CurrentLevel)",
+                        "RTID(wl34@CurrentLevel)",
+                        "RTID(wl27@CurrentLevel)",
+                        "RTID(bh44@CurrentLevel)",
+                        "RTID(bh24@CurrentLevel)"
+                    ],
+                    [
+                        "RTID(Wave9@CurrentLevel)",
+                        "RTID(wl46@CurrentLevel)",
+                        "RTID(my47@CurrentLevel)",
+                        "RTID(my13@CurrentLevel)",
+                        "RTID(hd53@CurrentLevel)"
+                    ],
+                    [
+                        "RTID(Wave10@CurrentLevel)",
+                        "RTID(ht32@CurrentLevel)",
+                        "RTID(gc22@CurrentLevel)",
+                        "RTID(gc14@CurrentLevel)",
+                        "RTID(nt56@CurrentLevel)"
+                    ],
+                    [
+                        "RTID(Wave11@CurrentLevel)",
+                        "RTID(aj24@CurrentLevel)",
+                        "RTID(hd43@CurrentLevel)"
+                    ],
+                    [
+                        "RTID(Wave12@CurrentLevel)",
+                        "RTID(aj19@CurrentLevel)",
+                        "RTID(hd38@CurrentLevel)",
+                        "RTID(xb59@CurrentLevel)",
+                        "RTID(wl48@CurrentLevel)",
+                        "RTID(ha39@CurrentLevel)",
+                        "RTID(ht29@CurrentLevel)",
+                        "RTID(bh28@CurrentLevel)",
+                        "RTID(gc58@CurrentLevel)",
+                        "RTID(my49@CurrentLevel)",
+                        "RTID(nt18@CurrentLevel)"
+                    ]
+                ],
+                "LevelJam": "jam_rap",
+                "WaveCount": 12
+            },
+            "objclass": "WaveManagerProperties"
+        },
+        {
+            "aliases": [
+                "Wave1"
+            ],
+            "objdata": {
+                "DynamicPlantfood": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AdditionalPlantfood": 1,
+                "Zombies": [
+                    {
+                        "Row": "3",
+                        "Type": "RTID(tutorial@ZombieTypes)"
+                    }
+                ]
+            },
+            "objclass": "SpawnZombiesJitteredWaveActionProps"
+        },
+        {
+            "aliases": [
+                "Wave2"
+            ],
+            "objdata": {
+                "Zombies": [
+                    {
+                        "Row": "3",
+                        "Type": "RTID(tutorial_armor1@ZombieTypes)"
+                    },
+                    {
+                        "Row": "4",
+                        "Type": "RTID(tutorial_armor1@ZombieTypes)"
+                    }
+                ]
+            },
+            "objclass": "SpawnZombiesJitteredWaveActionProps"
+        },
+        {
+            "aliases": [
+                "Wave3"
+            ],
+            "objdata": {
+                "Zombies": [
+                    {
+                        "Row": "1",
+                        "Type": "RTID(tutorial_armor1@ZombieTypes)"
+                    },
+                    {
+                        "Row": "2",
+                        "Type": "RTID(tutorial_armor1@ZombieTypes)"
+                    },
+                    {
+                        "Row": "4",
+                        "Type": "RTID(tutorial_armor1@ZombieTypes)"
+                    },
+                    {
+                        "Row": "5",
+                        "Type": "RTID(tutorial_armor1@ZombieTypes)"
+                    }
+                ],
+                "AdditionalPlantfood": 1
+            },
+            "objclass": "SpawnZombiesJitteredWaveActionProps"
+        },
+        {
+            "aliases": [
+                "Wave4"
+            ],
+            "objdata": {
+                "Zombies": [
+                    {
+                        "Row": "3",
+                        "Type": "RTID(tutorial_armor2@ZombieTypes)"
+                    },
+                    {
+                        "Row": "5",
+                        "Type": "RTID(tutorial_armor1@ZombieTypes)"
+                    }
+                ]
+            },
+            "objclass": "SpawnZombiesJitteredWaveActionProps"
+        },
+        {
+            "aliases": [
+                "Wave5"
+            ],
+            "objdata": {
+                "Zombies": [
+                    {
+                        "Row": "1",
+                        "Type": "RTID(tutorial@ZombieTypes)"
+                    },
+                    {
+                        "Row": "2",
+                        "Type": "RTID(tutorial@ZombieTypes)"
+                    },
+                    {
+                        "Row": "4",
+                        "Type": "RTID(tutorial_armor2@ZombieTypes)"
+                    },
+                    {
+                        "Row": "5",
+                        "Type": "RTID(tutorial_armor2@ZombieTypes)"
+                    }
+                ]
+            },
+            "objclass": "SpawnZombiesJitteredWaveActionProps"
+        },
+        {
+            "aliases": [
+                "Wave6"
+            ],
+            "objdata": {
+                "DynamicPlantfood": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0
+                ],
+                "AdditionalPlantfood": 1,
+                "Zombies": [
+                    {
+                        "Row": "1",
+                        "Type": "RTID(tutorial_armor1@ZombieTypes)"
+                    },
+                    {
+                        "Row": "1",
+                        "Type": "RTID(tutorial@ZombieTypes)"
+                    },
+                    {
+                        "Row": "2",
+                        "Type": "RTID(tutorial_armor1@ZombieTypes)"
+                    },
+                    {
+                        "Row": "2",
+                        "Type": "RTID(tutorial@ZombieTypes)"
+                    },
+                    {
+                        "Row": "3",
+                        "Type": "RTID(tutorial_armor1@ZombieTypes)"
+                    },
+                    {
+                        "Row": "3",
+                        "Type": "RTID(tutorial@ZombieTypes)"
+                    },
+                    {
+                        "Row": "4",
+                        "Type": "RTID(tutorial_armor1@ZombieTypes)"
+                    },
+                    {
+                        "Row": "4",
+                        "Type": "RTID(tutorial@ZombieTypes)"
+                    },
+                    {
+                        "Row": "5",
+                        "Type": "RTID(tutorial_armor1@ZombieTypes)"
+                    },
+                    {
+                        "Row": "5",
+                        "Type": "RTID(tutorial@ZombieTypes)"
+                    }
+                ]
+            },
+            "objclass": "SpawnZombiesJitteredWaveActionProps"
+        },
+        {
+            "aliases": [
+                "Wave7"
+            ],
+            "objdata": {
+                "Zombies": [
+                    {
+                        "Row": "1",
+                        "Type": "RTID(tutorial_armor2@ZombieTypes)"
+                    },
+                    {
+                        "Row": "3",
+                        "Type": "RTID(tutorial_armor2@ZombieTypes)"
+                    },
+                    {
+                        "Row": "5",
+                        "Type": "RTID(tutorial_armor2@ZombieTypes)"
+                    }
+                ]
+            },
+            "objclass": "SpawnZombiesJitteredWaveActionProps"
+        },
+        {
+            "aliases": [
+                "Wave8"
+            ],
+            "objdata": {
+                "Zombies": [
+                    {
+                        "Row": "5",
+                        "Type": "RTID(tutorial_armor2@ZombieTypes)"
+                    },
+                    {
+                        "Row": "5",
+                        "Type": "RTID(tutorial_armor2@ZombieTypes)"
+                    },
+                    {
+                        "Row": "5",
+                        "Type": "RTID(tutorial_armor1@ZombieTypes)"
+                    },
+                    {
+                        "Row": "5",
+                        "Type": "RTID(tutorial@ZombieTypes)"
+                    }
+                ]
+            },
+            "objclass": "SpawnZombiesJitteredWaveActionProps"
+        },
+        {
+            "aliases": [
+                "Wave9"
+            ],
+            "objdata": {
+                "NotificationEvents": [
+                    "jam_rap"
+                ],
+                "Zombies": [
+                    {
+                        "Row": "1",
+                        "Type": "RTID(tutorial_armor2@ZombieTypes)"
+                    },
+                    {
+                        "Row": "2",
+                        "Type": "RTID(tutorial_armor2@ZombieTypes)"
+                    },
+                    {
+                        "Row": "2",
+                        "Type": "RTID(tutorial_armor1@ZombieTypes)"
+                    },
+                    {
+                        "Row": "3",
+                        "Type": "RTID(tutorial_armor2@ZombieTypes)"
+                    },
+                    {
+                        "Row": "3",
+                        "Type": "RTID(tutorial_armor1@ZombieTypes)"
+                    },
+                    {
+                        "Row": "4",
+                        "Type": "RTID(tutorial_armor2@ZombieTypes)"
+                    },
+                    {
+                        "Row": "4",
+                        "Type": "RTID(tutorial_armor1@ZombieTypes)"
+                    },
+                    {
+                        "Row": "5",
+                        "Type": "RTID(tutorial_armor2@ZombieTypes)"
+                    }
+                ]
+            },
+            "objclass": "SpawnZombiesJitteredWaveActionProps"
+        },
+        {
+            "aliases": [
+                "Wave10"
+            ],
+            "objdata": {
+                "DynamicPlantfood": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0
+                ],
+                "AdditionalPlantfood": 1,
+                "Zombies": [
+                    {
+                        "Row": "1",
+                        "Type": "RTID(tutorial_armor2@ZombieTypes)"
+                    },
+                    {
+                        "Row": "2",
+                        "Type": "RTID(tutorial_armor2@ZombieTypes)"
+                    },
+                    {
+                        "Row": "3",
+                        "Type": "RTID(tutorial_armor2@ZombieTypes)"
+                    },
+                    {
+                        "Row": "4",
+                        "Type": "RTID(tutorial_armor2@ZombieTypes)"
+                    },
+                    {
+                        "Row": "5",
+                        "Type": "RTID(tutorial_armor2@ZombieTypes)"
+                    }
+                ]
+            },
+            "objclass": "SpawnZombiesJitteredWaveActionProps"
+        },
+        {
+            "aliases": [
+                "Wave11"
+            ],
+            "objdata": {
+                "Zombies": [
+                    {
+                        "Row": "1",
+                        "Type": "RTID(tutorial_armor2@ZombieTypes)"
+                    },
+                    {
+                        "Row": "1",
+                        "Type": "RTID(tutorial_armor2@ZombieTypes)"
+                    },
+                    {
+                        "Row": "1",
+                        "Type": "RTID(tutorial_armor1@ZombieTypes)"
+                    },
+                    {
+                        "Row": "4",
+                        "Type": "RTID(tutorial_armor2@ZombieTypes)"
+                    },
+                    {
+                        "Row": "4",
+                        "Type": "RTID(tutorial_armor2@ZombieTypes)"
+                    },
+                    {
+                        "Row": "4",
+                        "Type": "RTID(tutorial_armor1@ZombieTypes)"
+                    }
+                ]
+            },
+            "objclass": "SpawnZombiesJitteredWaveActionProps"
+        },
+        {
+            "aliases": [
+                "Wave12"
+            ],
+            "objdata": {
+                "Zombies": [
+                    {
+                        "Row": "1",
+                        "Type": "RTID(tutorial_armor2@ZombieTypes)"
+                    },
+                    {
+                        "Row": "1",
+                        "Type": "RTID(tutorial_armor2@ZombieTypes)"
+                    },
+                    {
+                        "Row": "2",
+                        "Type": "RTID(tutorial_armor2@ZombieTypes)"
+                    },
+                    {
+                        "Row": "2",
+                        "Type": "RTID(tutorial_armor2@ZombieTypes)"
+                    },
+                    {
+                        "Row": "3",
+                        "Type": "RTID(tutorial_armor2@ZombieTypes)"
+                    },
+                    {
+                        "Row": "3",
+                        "Type": "RTID(tutorial_armor2@ZombieTypes)"
+                    },
+                    {
+                        "Row": "4",
+                        "Type": "RTID(tutorial_armor2@ZombieTypes)"
+                    },
+                    {
+                        "Row": "4",
+                        "Type": "RTID(tutorial_armor2@ZombieTypes)"
+                    },
+                    {
+                        "Row": "5",
+                        "Type": "RTID(tutorial_armor2@ZombieTypes)"
+                    },
+                    {
+                        "Row": "5",
+                        "Type": "RTID(tutorial_armor2@ZombieTypes)"
+                    }
+                ]
+            },
+            "objclass": "SpawnZombiesJitteredWaveActionProps"
+        },
+        {
+            "aliases": [
+                "aj45"
+            ],
+            "objdata": {
+                "PortalRow": 3,
+                "PortalType": "egypt",
+                "PortalColumn": 4
+            },
+            "objclass": "SpawnModernPortalsWaveActionProps"
+        },
+        {
+            "aliases": [
+                "ht24"
+            ],
+            "objdata": {
+                "PortalRow": 1,
+                "PortalType": "beach",
+                "PortalColumn": 3
+            },
+            "objclass": "SpawnModernPortalsWaveActionProps"
+        },
+        {
+            "aliases": [
+                "ha12"
+            ],
+            "objdata": {
+                "PortalRow": 0,
+                "PortalType": "dark",
+                "PortalColumn": 1
+            },
+            "objclass": "SpawnModernPortalsWaveActionProps"
+        },
+        {
+            "aliases": [
+                "ha43"
+            ],
+            "objdata": {
+                "PortalRow": 3,
+                "PortalType": "dark",
+                "PortalColumn": 2
+            },
+            "objclass": "SpawnModernPortalsWaveActionProps"
+        },
+        {
+            "aliases": [
+                "xb36"
+            ],
+            "objdata": {
+                "PortalRow": 2,
+                "PortalType": "west",
+                "PortalColumn": 5
+            },
+            "objclass": "SpawnModernPortalsWaveActionProps"
+        },
+        {
+            "aliases": [
+                "xb33"
+            ],
+            "objdata": {
+                "PortalRow": 2,
+                "PortalType": "west",
+                "PortalColumn": 2
+            },
+            "objclass": "SpawnModernPortalsWaveActionProps"
+        },
+        {
+            "aliases": [
+                "nt22"
+            ],
+            "objdata": {
+                "PortalRow": 1,
+                "PortalType": "dino",
+                "PortalColumn": 1
+            },
+            "objclass": "SpawnModernPortalsWaveActionProps"
+        },
+        {
+            "aliases": [
+                "nt45"
+            ],
+            "objdata": {
+                "PortalRow": 3,
+                "PortalType": "dino",
+                "PortalColumn": 4
+            },
+            "objclass": "SpawnModernPortalsWaveActionProps"
+        },
+        {
+            "aliases": [
+                "gc56"
+            ],
+            "objdata": {
+                "PortalRow": 4,
+                "PortalType": "lostcity",
+                "PortalColumn": 5
+            },
+            "objclass": "SpawnModernPortalsWaveActionProps"
+        },
+        {
+            "aliases": [
+                "ht14"
+            ],
+            "objdata": {
+                "PortalRow": 0,
+                "PortalType": "beach",
+                "PortalColumn": 3
+            },
+            "objclass": "SpawnModernPortalsWaveActionProps"
+        },
+        {
+            "aliases": [
+                "ht54"
+            ],
+            "objdata": {
+                "PortalRow": 4,
+                "PortalType": "beach",
+                "PortalColumn": 3
+            },
+            "objclass": "SpawnModernPortalsWaveActionProps"
+        },
+        {
+            "aliases": [
+                "xb15"
+            ],
+            "objdata": {
+                "PortalRow": 0,
+                "PortalType": "west",
+                "PortalColumn": 4
+            },
+            "objclass": "SpawnModernPortalsWaveActionProps"
+        },
+        {
+            "aliases": [
+                "bh55"
+            ],
+            "objdata": {
+                "PortalRow": 4,
+                "PortalType": "iceage",
+                "PortalColumn": 4
+            },
+            "objclass": "SpawnModernPortalsWaveActionProps"
+        },
+        {
+            "aliases": [
+                "wl34"
+            ],
+            "objdata": {
+                "PortalRow": 2,
+                "PortalType": "future",
+                "PortalColumn": 3
+            },
+            "objclass": "SpawnModernPortalsWaveActionProps"
+        },
+        {
+            "aliases": [
+                "wl27"
+            ],
+            "objdata": {
+                "PortalRow": 1,
+                "PortalType": "future",
+                "PortalColumn": 6
+            },
+            "objclass": "SpawnModernPortalsWaveActionProps"
+        },
+        {
+            "aliases": [
+                "bh44"
+            ],
+            "objdata": {
+                "PortalRow": 3,
+                "PortalType": "iceage",
+                "PortalColumn": 3
+            },
+            "objclass": "SpawnModernPortalsWaveActionProps"
+        },
+        {
+            "aliases": [
+                "bh24"
+            ],
+            "objdata": {
+                "PortalRow": 1,
+                "PortalType": "iceage",
+                "PortalColumn": 3
+            },
+            "objclass": "SpawnModernPortalsWaveActionProps"
+        },
+        {
+            "aliases": [
+                "wl46"
+            ],
+            "objdata": {
+                "PortalRow": 3,
+                "PortalType": "future",
+                "PortalColumn": 5
+            },
+            "objclass": "SpawnModernPortalsWaveActionProps"
+        },
+        {
+            "aliases": [
+                "my47"
+            ],
+            "objdata": {
+                "PortalRow": 3,
+                "PortalType": "eighties",
+                "PortalColumn": 6
+            },
+            "objclass": "SpawnModernPortalsWaveActionProps"
+        },
+        {
+            "aliases": [
+                "my13"
+            ],
+            "objdata": {
+                "PortalRow": 0,
+                "PortalType": "eighties",
+                "PortalColumn": 2
+            },
+            "objclass": "SpawnModernPortalsWaveActionProps"
+        },
+        {
+            "aliases": [
+                "hd53"
+            ],
+            "objdata": {
+                "PortalRow": 4,
+                "PortalType": "pirate",
+                "PortalColumn": 2
+            },
+            "objclass": "SpawnModernPortalsWaveActionProps"
+        },
+        {
+            "aliases": [
+                "ht32"
+            ],
+            "objdata": {
+                "PortalRow": 2,
+                "PortalType": "beach",
+                "PortalColumn": 1
+            },
+            "objclass": "SpawnModernPortalsWaveActionProps"
+        },
+        {
+            "aliases": [
+                "gc22"
+            ],
+            "objdata": {
+                "PortalRow": 1,
+                "PortalType": "lostcity",
+                "PortalColumn": 1
+            },
+            "objclass": "SpawnModernPortalsWaveActionProps"
+        },
+        {
+            "aliases": [
+                "gc14"
+            ],
+            "objdata": {
+                "PortalRow": 0,
+                "PortalType": "lostcity",
+                "PortalColumn": 3
+            },
+            "objclass": "SpawnModernPortalsWaveActionProps"
+        },
+        {
+            "aliases": [
+                "nt56"
+            ],
+            "objdata": {
+                "PortalRow": 4,
+                "PortalType": "dino",
+                "PortalColumn": 5
+            },
+            "objclass": "SpawnModernPortalsWaveActionProps"
+        },
+        {
+            "aliases": [
+                "aj24"
+            ],
+            "objdata": {
+                "PortalRow": 1,
+                "PortalType": "egypt",
+                "PortalColumn": 3
+            },
+            "objclass": "SpawnModernPortalsWaveActionProps"
+        },
+        {
+            "aliases": [
+                "hd43"
+            ],
+            "objdata": {
+                "PortalRow": 3,
+                "PortalType": "pirate",
+                "PortalColumn": 2
+            },
+            "objclass": "SpawnModernPortalsWaveActionProps"
+        },
+        {
+            "aliases": [
+                "aj19"
+            ],
+            "objdata": {
+                "PortalRow": 0,
+                "PortalType": "egypt",
+                "PortalColumn": 8
+            },
+            "objclass": "SpawnModernPortalsWaveActionProps"
+        },
+        {
+            "aliases": [
+                "hd38"
+            ],
+            "objdata": {
+                "PortalRow": 2,
+                "PortalType": "pirate",
+                "PortalColumn": 7
+            },
+            "objclass": "SpawnModernPortalsWaveActionProps"
+        },
+        {
+            "aliases": [
+                "xb59"
+            ],
+            "objdata": {
+                "PortalRow": 4,
+                "PortalType": "west",
+                "PortalColumn": 8
+            },
+            "objclass": "SpawnModernPortalsWaveActionProps"
+        },
+        {
+            "aliases": [
+                "wl48"
+            ],
+            "objdata": {
+                "PortalRow": 3,
+                "PortalType": "future",
+                "PortalColumn": 7
+            },
+            "objclass": "SpawnModernPortalsWaveActionProps"
+        },
+        {
+            "aliases": [
+                "ha39"
+            ],
+            "objdata": {
+                "PortalRow": 2,
+                "PortalType": "dark",
+                "PortalColumn": 8
+            },
+            "objclass": "SpawnModernPortalsWaveActionProps"
+        },
+        {
+            "aliases": [
+                "ht29"
+            ],
+            "objdata": {
+                "PortalRow": 1,
+                "PortalType": "beach",
+                "PortalColumn": 8
+            },
+            "objclass": "SpawnModernPortalsWaveActionProps"
+        },
+        {
+            "aliases": [
+                "bh28"
+            ],
+            "objdata": {
+                "PortalRow": 1,
+                "PortalType": "iceage",
+                "PortalColumn": 7
+            },
+            "objclass": "SpawnModernPortalsWaveActionProps"
+        },
+        {
+            "aliases": [
+                "gc58"
+            ],
+            "objdata": {
+                "PortalRow": 4,
+                "PortalType": "lostcity",
+                "PortalColumn": 7
+            },
+            "objclass": "SpawnModernPortalsWaveActionProps"
+        },
+        {
+            "aliases": [
+                "my49"
+            ],
+            "objdata": {
+                "PortalRow": 3,
+                "PortalType": "eighties",
+                "PortalColumn": 8
+            },
+            "objclass": "SpawnModernPortalsWaveActionProps"
+        },
+        {
+            "aliases": [
+                "nt18"
+            ],
+            "objdata": {
+                "PortalRow": 0,
+                "PortalType": "dino",
+                "PortalColumn": 7
+            },
+            "objclass": "SpawnModernPortalsWaveActionProps"
+        }
+    ]
+}
